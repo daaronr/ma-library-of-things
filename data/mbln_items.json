@@ -1,0 +1,76 @@
+{
+  "network": {
+    "name": "Metro Boston Library Network",
+    "short_name": "MBLN",
+    "region": "Greater Boston",
+    "website": "https://www.mbln.org",
+    "catalog_url": "https://catalog.mbln.org",
+    "notes": "Includes Boston Public Library system"
+  },
+  "libraries": [
+    {
+      "name": "Boston Public Library",
+      "location": "Boston, MA",
+      "phone": "617-536-5400",
+      "website": "https://www.bpl.org",
+      "lot_url": "https://www.bpl.org/library-of-things/",
+      "notes": "Main branch at Copley Square; items available at various branches"
+    }
+  ],
+  "items": [
+    {
+      "library": "Boston Public Library",
+      "category": "Technology",
+      "name": "Oral History Backpack",
+      "description": "Recording equipment for collecting oral histories. Available at Central, Brighton, Codman Sq., Connolly, East Boston, Faneuil, Lower Mills, Roslindale, or Shaw-Roxbury branches. $100 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Boston Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope Bag Kit",
+      "description": "Orion StarBlast 4.5 Astro Reflector Telescope with accessories. $350 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Boston Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "description": "Binoculars and field guides for bird watching. Available at Adams St., Brighton, Connolly, East Boston, Egleston Square, Grove Hall, or South Boston branches. $100 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Boston Public Library",
+      "category": "Home Inspection",
+      "name": "Kill A Watt Electricity Monitor",
+      "description": "Power meter that measures electrical consumption of small to medium electrical devices in your home. $50 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Boston Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele for musical skill development. Available at Adams Street and Honan-Allston branches. $50 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Boston Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Smarter by Pfaff 140s Sewing Machine",
+      "description": "Sewing machine for DIY projects. $250 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-01-11",
+    "verified_items_count": 6,
+    "data_source": "https://www.bpl.org/library-of-things/",
+    "notes": "Boston Public Library has Library of Things items at various branches. Items cannot be returned to book drop; no renewals."
+  }
+}

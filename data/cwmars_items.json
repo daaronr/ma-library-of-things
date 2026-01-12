@@ -1,0 +1,100 @@
+{
+  "network": {
+    "name": "CWMARS",
+    "full_name": "Central/Western Massachusetts Automated Resource Sharing",
+    "region": "Central and Western Massachusetts",
+    "website": "https://www.cwmars.org",
+    "total_member_libraries": 150,
+    "phone": "(508) 755-3323",
+    "address": "67 Millbrook Street, Suite 201, Worcester, MA 01606"
+  },
+  "libraries": [
+    {
+      "name": "Worcester Public Library",
+      "location": "Worcester, MA",
+      "phone": "508-799-1655",
+      "website": "https://mywpl.org",
+      "lot_url": "https://mywpl.libguides.com/WPLlibraryofthings",
+      "contacts": [
+        {"name": "Jason Homer", "title": "Executive Director", "phone": "508-799-1655 ext. 35701"},
+        {"name": "Linnea Sheldon", "title": "Community Relations Manager", "phone": "508-799-1655 ext. 35704"}
+      ],
+      "notes": "Main branch has diagnostic/safety tools. NO power tools - focuses on home inspection equipment."
+    },
+    {
+      "name": "Forbes Library",
+      "location": "Northampton, MA",
+      "phone": "413-587-1011",
+      "website": "https://forbeslibrary.org",
+      "lot_url": "https://forbeslibrary.org/library-of-things/",
+      "contacts": [
+        {"name": "Lisa Downing", "title": "Director", "email": "director@forbeslibrary.org", "phone": "413-587-1016"}
+      ],
+      "notes": "Active Library of Things program with diverse collection."
+    },
+    {
+      "name": "Chicopee Public Library",
+      "location": "Chicopee, MA",
+      "phone": "413-594-1800",
+      "website": "https://chicopeepubliclibrary.org",
+      "contacts": [
+        {"name": "Laura Bovee", "title": "Director", "email": "lbovee@cwmars.org", "phone": "413-594-1800"}
+      ],
+      "notes": "Growing collection of non-traditional items."
+    },
+    {
+      "name": "Morse Institute Library",
+      "location": "Natick, MA",
+      "phone": "508-647-6520",
+      "website": "https://morseinstitute.org",
+      "lot_url": "https://morseinstitute.libguides.com/library-of-things",
+      "network_note": "Actually part of Minuteman Network, not CWMARS - included here for comparison",
+      "contacts": [
+        {"name": "Miki Wolfe", "title": "Director", "email": "mwolfe@minlib.net", "phone": "508-647-6523"},
+        {"name": "Jane Newman", "title": "Community Relations", "email": "communityrelations@morseinstitute.org", "phone": "508-647-6524"}
+      ],
+      "notes": "MOST EXTENSIVE tool collection in Massachusetts - 168+ items including actual power tools."
+    }
+  ],
+  "items": [
+    {"library": "Worcester Public Library", "category": "Home Inspection", "name": "Thermal Leak Detector", "description": "Black & Decker thermal leak detector for finding drafts"},
+    {"library": "Worcester Public Library", "category": "Home Inspection", "name": "Stud Finder", "description": "Electronic stud finder for locating wall studs"},
+    {"library": "Worcester Public Library", "category": "Home Inspection", "name": "Outlet Tester", "description": "GFCI outlet tester for electrical safety"},
+    {"library": "Worcester Public Library", "category": "Home Inspection", "name": "Kill-A-Watt Meter", "description": "Electricity usage monitor"},
+    {"library": "Worcester Public Library", "category": "Home Inspection", "name": "Infrared Thermometer", "description": "Non-contact temperature measurement"},
+    {"library": "Worcester Public Library", "category": "Home Inspection", "name": "Moisture Meter", "description": "Digital moisture detector for walls/wood"},
+    {"library": "Worcester Public Library", "category": "Home Inspection", "name": "Carbon Monoxide Detector", "description": "Portable CO detector"},
+    {"library": "Worcester Public Library", "category": "Technology", "name": "WiFi Hotspot", "description": "Mobile internet hotspot device"},
+    {"library": "Worcester Public Library", "category": "Technology", "name": "Roku Streaming Device", "description": "TV streaming device"},
+    {"library": "Worcester Public Library", "category": "Technology", "name": "Laptop Computer", "description": "Chromebook for checkout"},
+    {"library": "Worcester Public Library", "category": "Outdoor/Recreation", "name": "State Park Pass", "description": "Massachusetts State Parks pass"},
+    {"library": "Worcester Public Library", "category": "Outdoor/Recreation", "name": "Binoculars", "description": "Binoculars for birdwatching"},
+    {"library": "Worcester Public Library", "category": "Crafts", "name": "Sewing Machine", "description": "Portable sewing machine"},
+    {"library": "Worcester Public Library", "category": "Crafts", "name": "Button Maker", "description": "Button making machine"},
+    {"library": "Worcester Public Library", "category": "Games", "name": "Board Games Collection", "description": "Various board games"},
+    {"library": "Worcester Public Library", "category": "Games", "name": "Lawn Games", "description": "Outdoor game sets"},
+    {"library": "Worcester Public Library", "category": "Music", "name": "Ukulele", "description": "Beginner ukulele with case"},
+    {"library": "Worcester Public Library", "category": "Kitchen", "name": "Instant Pot", "description": "Multi-use pressure cooker"},
+    {"library": "Worcester Public Library", "category": "Kitchen", "name": "Cake Pans", "description": "Specialty baking pans"},
+    {"library": "Worcester Public Library", "category": "Wellness", "name": "Blood Pressure Monitor", "description": "Digital BP cuff"},
+    {"library": "Worcester Public Library", "category": "Wellness", "name": "Light Therapy Lamp", "description": "SAD therapy light"},
+    {"library": "Forbes Library", "category": "Technology", "name": "WiFi Hotspot", "description": "Mobile internet device"},
+    {"library": "Forbes Library", "category": "Technology", "name": "Kindle E-Reader", "description": "Kindle with preloaded books"},
+    {"library": "Forbes Library", "category": "Outdoor/Recreation", "name": "Telescope", "description": "Beginner telescope"},
+    {"library": "Forbes Library", "category": "Outdoor/Recreation", "name": "Snowshoes", "description": "Adult snowshoes"},
+    {"library": "Forbes Library", "category": "Outdoor/Recreation", "name": "Birding Kit", "description": "Binoculars with field guide"},
+    {"library": "Forbes Library", "category": "Music", "name": "Ukulele", "description": "Beginner ukulele"},
+    {"library": "Forbes Library", "category": "Games", "name": "Board Games", "description": "Various games"},
+    {"library": "Forbes Library", "category": "Crafts", "name": "Cricut Machine", "description": "Cutting machine"},
+    {"library": "Forbes Library", "category": "Home Inspection", "name": "Kill-A-Watt Meter", "description": "Electricity monitor"},
+    {"library": "Chicopee Public Library", "category": "Technology", "name": "WiFi Hotspot", "description": "Mobile internet device"},
+    {"library": "Chicopee Public Library", "category": "Games", "name": "Board Games", "description": "Game collection"},
+    {"library": "Chicopee Public Library", "category": "Outdoor/Recreation", "name": "State Park Pass", "description": "MA State Parks pass"}
+  ],
+  "metadata": {
+    "last_updated": "2026-01-11",
+    "verified_items_count": 33,
+    "data_source": "Library websites, verified January 2026",
+    "notes": "CWMARS has fewer documented Library of Things programs compared to Minuteman Network. Many libraries may have programs not well-documented online."
+  }
+}

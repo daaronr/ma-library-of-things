@@ -1,0 +1,128 @@
+{
+  "contacts": {
+    "minuteman_network": {
+      "central_office": {
+        "name": "Minuteman Library Network",
+        "contact_url": "https://www.minlib.net/contact",
+        "director": "Nicole Langley",
+        "location": "Natick, MA",
+        "notes": "Use web form to contact network staff"
+      },
+      "libraries": [
+        {
+          "library": "Morse Institute Library",
+          "location": "Natick, MA",
+          "director": "Miki Wolfe",
+          "email": "mwolfe@minlib.net",
+          "phone": "508-647-6523",
+          "community_relations": {
+            "name": "Jane Newman",
+            "email": "communityrelations@morseinstitute.org",
+            "phone": "508-647-6524"
+          },
+          "priority": "HIGH",
+          "reason": "Most extensive tool collection in MA, ideal primary contact"
+        },
+        {
+          "library": "Robbins Library",
+          "location": "Arlington, MA",
+          "director": "Anna Litten",
+          "email": "alitten@minlib.net",
+          "phone": "781-316-3201",
+          "general_email": "arlington@minlib.net",
+          "priority": "MEDIUM"
+        },
+        {
+          "library": "Watertown Free Public Library",
+          "location": "Watertown, MA",
+          "director": "Kim Hewitt",
+          "phone": "617-972-6431",
+          "email_format": "khewitt@watertown-ma.gov",
+          "priority": "HIGH",
+          "reason": "Director is MA Library Association president, frequently quoted about Library of Things, previously ran Needham program"
+        },
+        {
+          "library": "Needham Free Public Library",
+          "location": "Needham, MA",
+          "phone": "781-455-7559",
+          "website": "https://needhamlibrary.org",
+          "priority": "MEDIUM",
+          "reason": "Featured in NBC Boston story about Library of Things"
+        },
+        {
+          "library": "Brookline Public Library",
+          "location": "Brookline, MA",
+          "phone": "617-730-2370",
+          "website": "https://www.brooklinelibrary.org",
+          "priority": "MEDIUM"
+        },
+        {
+          "library": "Framingham Public Library",
+          "location": "Framingham, MA",
+          "phone": "508-532-5570",
+          "website": "https://framinghamlibrary.org",
+          "priority": "MEDIUM",
+          "reason": "Near David's location"
+        }
+      ]
+    },
+    "cwmars_network": {
+      "central_office": {
+        "name": "CWMARS",
+        "phone": "(508) 755-3323",
+        "email": "resume@cwmars.org",
+        "address": "67 Millbrook Street, Suite 201, Worcester, MA 01606"
+      },
+      "libraries": [
+        {
+          "library": "Worcester Public Library",
+          "location": "Worcester, MA",
+          "director": "Jason Homer",
+          "phone": "508-799-1655 ext. 35701",
+          "contact_form": "https://mywpl.org/staff-contacts",
+          "community_relations": {
+            "name": "Linnea Sheldon",
+            "phone": "508-799-1655 ext. 35704"
+          }
+        },
+        {
+          "library": "Forbes Library",
+          "location": "Northampton, MA",
+          "director": "Lisa Downing",
+          "email": "director@forbeslibrary.org",
+          "phone": "413-587-1016",
+          "general_email": "info@forbeslibrary.org"
+        },
+        {
+          "library": "Chicopee Public Library",
+          "location": "Chicopee, MA",
+          "director": "Laura Bovee",
+          "email": "lbovee@cwmars.org",
+          "phone": "413-594-1800"
+        }
+      ]
+    }
+  },
+  "outreach_status": {
+    "cwmars": {
+      "email_sent": true,
+      "date": "2026-01-10",
+      "recipients": ["CWMARS central"],
+      "response_received": false,
+      "links_shared": {
+        "app": "https://claude.ai/public/artifacts/0038ec8b-961d-416f-a134-dab32973ff8f",
+        "spreadsheet": "https://docs.google.com/spreadsheets/d/1OD59Et8DVJF-sgBYA-PG78I0t43dmzBs/edit"
+      }
+    },
+    "minuteman": {
+      "email_sent": false,
+      "draft_ready": true,
+      "suggested_recipients": ["mwolfe@minlib.net", "alitten@minlib.net"],
+      "cc_suggested": ["communityrelations@morseinstitute.org"]
+    }
+  },
+  "metadata": {
+    "last_updated": "2026-01-11",
+    "notes": "Contact information verified from library websites and public directories"
+  }
+}

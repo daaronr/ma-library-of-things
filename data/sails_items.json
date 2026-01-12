@@ -1,0 +1,269 @@
+{
+  "network": {
+    "name": "SAILS Library Network",
+    "short_name": "SAILS",
+    "region": "Southeastern Massachusetts",
+    "website": "https://sailsinc.org",
+    "catalog_url": "https://sails.ent.sirsi.net",
+    "total_member_libraries": 70,
+    "notes": "70 member libraries in 39 communities in Southeastern MA"
+  },
+  "libraries": [
+    {
+      "name": "Bridgewater Public Library",
+      "location": "Bridgewater, MA",
+      "phone": "508-697-3331",
+      "website": "https://www.bridgewaterpubliclibrary.org",
+      "lot_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "notes": "1-week checkout, $5/day late fee, liability waiver required"
+    },
+    {
+      "name": "West Bridgewater Public Library",
+      "location": "West Bridgewater, MA",
+      "phone": "508-894-1255",
+      "website": "https://westbpl.org",
+      "lot_url": "https://westbpl.org/library-of-things/",
+      "notes": "1-week checkout, 1 renewal, max 2 items at once"
+    }
+  ],
+  "items": [
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Technology",
+      "name": "Roku Streaming Device",
+      "description": "TV streaming device",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Entertainment",
+      "name": "Karaoke Machine",
+      "description": "Karaoke system with microphones",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "In-house use only",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Music",
+      "name": "Adult Guitar",
+      "description": "Full-size acoustic guitar",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Music",
+      "name": "Children's Guitar",
+      "description": "Child-sized acoustic guitar",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Technology",
+      "name": "Projector",
+      "description": "Video projector",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Auto/Vehicle",
+      "name": "Car Diagnostic Tool",
+      "description": "OBD2 scanner for car diagnostics",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Home Improvement",
+      "name": "Laser Level",
+      "description": "Self-leveling laser for construction and home projects",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "2 telescopes available for stargazing",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "WiFi hotspot device for mobile internet",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Metal Detector (Adult)",
+      "description": "2 adult-sized metal detectors available",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Metal Detector (Child)",
+      "description": "1 child-sized metal detector",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Giant Connect Four Game",
+      "description": "Oversized Connect Four for outdoor play",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Giant Jenga Game",
+      "description": "Oversized Jenga block game",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Cornhole Set",
+      "description": "Bean bag toss game set",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Pickleball paddles and balls",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Switch Lite",
+      "description": "2 portable gaming consoles available",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Technology",
+      "name": "Tonie Box",
+      "description": "2 Tonie Boxes with character audio figures for children",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Ladder Toss Game Set",
+      "description": "Ladder golf game",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Games",
+      "name": "Board Games (Adult)",
+      "description": "Collection of adult board games",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Games",
+      "name": "Board Games (Kids)",
+      "description": "Collection of children's board games",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Kitchen",
+      "name": "Home & Kitchen Items",
+      "description": "Various household and cooking items",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Technology",
+      "name": "Electronics Collection",
+      "description": "Electronic devices and audiovisual equipment",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Music",
+      "name": "Musical Instruments",
+      "description": "Various musical instruments available",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Outdoor Equipment",
+      "description": "Equipment for outdoor activities",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Yard Games",
+      "description": "Games for outdoor lawn use",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Switch Games",
+      "description": "Video games for Nintendo Switch console",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Home Improvement",
+      "name": "Tool Library",
+      "description": "Various tools and equipment for home projects",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-01-11",
+    "verified_items_count": 29,
+    "data_source": "Library websites, verified January 2026",
+    "notes": "SAILS network has many libraries with Library of Things programs. Items must be returned to home library, not other SAILS libraries."
+  }
+}

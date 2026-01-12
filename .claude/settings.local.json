@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:catalog.cwmars.org)",
+      "WebFetch(domain:catalog.minlib.net)",
+      "WebFetch(domain:sails.ent.sirsi.net)",
+      "WebFetch(domain:bpl.bibliocommons.com)",
+      "Bash(python3:*)",
+      "WebFetch(domain:www.bpl.org)",
+      "WebFetch(domain:sailsinc.org)",
+      "WebFetch(domain:www.bridgewaterpubliclibrary.org)",
+      "WebFetch(domain:westbpl.org)"
+    ]
+  }
+}

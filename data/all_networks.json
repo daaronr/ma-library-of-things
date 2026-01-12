@@ -1,0 +1,1464 @@
+{
+  "networks": {
+    "minuteman": {
+      "name": "Minuteman Library Network",
+      "short_name": "MLN",
+      "region": "MetroWest Boston",
+      "catalog_system": "aspen_discovery",
+      "catalog_base_url": "https://catalog.minlib.net",
+      "website": "https://www.minlib.net",
+      "color": "#1E88E5",
+      "total_member_libraries": 41,
+      "total_lot_items_estimated": 12000,
+      "contact_url": "https://www.minlib.net/contact",
+      "notes": "Largest Library of Things program in Massachusetts",
+      "id": "minuteman"
+    },
+    "cwmars": {
+      "name": "CWMARS",
+      "short_name": "CW",
+      "region": "Central and Western Massachusetts",
+      "catalog_system": "evergreen",
+      "catalog_base_url": "https://catalog.cwmars.org",
+      "website": "https://www.cwmars.org",
+      "color": "#43A047",
+      "full_name": "Central/Western Massachusetts Automated Resource Sharing",
+      "total_member_libraries": 150,
+      "phone": "(508) 755-3323",
+      "address": "67 Millbrook Street, Suite 201, Worcester, MA 01606",
+      "id": "cwmars"
+    },
+    "sails": {
+      "name": "SAILS Library Network",
+      "short_name": "SAILS",
+      "region": "Southeastern Massachusetts",
+      "catalog_system": "sirsidynix",
+      "catalog_base_url": "https://sails.ent.sirsi.net",
+      "website": "https://sailsinc.org",
+      "color": "#FB8C00",
+      "catalog_url": "https://sails.ent.sirsi.net",
+      "total_member_libraries": 70,
+      "notes": "70 member libraries in 39 communities in Southeastern MA",
+      "id": "sails"
+    },
+    "mbln": {
+      "name": "Metro Boston Library Network",
+      "short_name": "MBLN",
+      "region": "Greater Boston",
+      "catalog_system": "polaris",
+      "catalog_base_url": "https://catalog.mbln.org",
+      "website": "https://www.mbln.org",
+      "color": "#8E24AA",
+      "catalog_url": "https://catalog.mbln.org",
+      "notes": "Includes Boston Public Library system",
+      "id": "mbln"
+    }
+  },
+  "items": [
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "20V Drill Driver Kit",
+      "description": "Denali drill driver, 2.0 Ah lithium battery, charger, 32 screw bits, 3 drill bits, carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_20v_drill_driver_kit"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "Homeowner's Tool Kit (65-piece)",
+      "description": "Hammer, tape rule, snap-off knife, torpedo level, pliers, screwdrivers, hex keys, ratchet, sockets, bits",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_homeowners_tool_kit_(65_piece)"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "Socket Set (85-piece)",
+      "description": "1/4\" and 3/8\" drive sockets, ratchets, extension bars, spark plug socket in carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_socket_set_(85_piece)"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "Stanley Tool Set",
+      "description": "Sockets, ratchet, tape rule, knife, screwdrivers, hammer, hex keys, pliers, level in plastic case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_stanley_tool_set"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "Hammer Set",
+      "description": "Ball peen hammer, drywall hammer, 16 oz hammer, rubber mallet, crowbar, measuring tape, safety goggles",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_hammer_set"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "Woodworking Planes",
+      "description": "Bench plane (9.75\") and adjustable block plane (7\") with instruction sheet and carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_woodworking_planes"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "Bolt Cutters (18\")",
+      "description": "3/8 inch capacity for cutting rods, bolts, and chains",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_bolt_cutters_(18\")"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "Clamp Kit",
+      "description": "4 quick grip clamps (4-inch) in carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_clamp_kit"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "Drywall Kit",
+      "description": "6\" joint knife, 4\" joint knife, 2\" putty knife, 2 pairs safety goggles",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_drywall_kit"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "Plumbing Kit",
+      "description": "Lenox compact hacksaw, replacement blades, pipe wrench, aviation snips",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_plumbing_kit"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "Torque Wrench",
+      "description": "3/8 inch drive torque wrench with instruction sheet and carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_torque_wrench"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "description": "Karcher K1700, spray wand, 3 quick connect nozzles, 20ft high pressure hose, user manual",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_pressure_washer"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Measurer",
+      "description": "Bosch laser measure with instruction sheet and carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_laser_measurer"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Measurement & Detection",
+      "name": "Self-Leveling Cross-Line Laser",
+      "description": "Bosch GLL 30 with flexible mounting device MM 2 and carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_self_leveling_cross_line_laser"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Measurement & Detection",
+      "name": "Digital Level (24\")",
+      "description": "Digital level with user's guide and carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_digital_level_(24\")"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "description": "Electronic stud finder with instruction booklet in carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_stud_finder"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Garrett ACE 300 with 7\"x10\" search coil, carry bag, headphones, cover, batteries",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_metal_detector"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Measurement & Detection",
+      "name": "Thermal Imaging Camera",
+      "description": "HT19 thermal camera with USB cord, protection bag, carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_thermal_imaging_camera"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Measurement & Detection",
+      "name": "Infrared Thermometer",
+      "description": "Infrared thermometer with instruction booklet",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_infrared_thermometer"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Inspection",
+      "name": "Home Inspection Kit",
+      "description": "Comprehensive kit for home inspections",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_home_inspection_kit"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Inspection",
+      "name": "Electrical Test Kit",
+      "description": "Non-contact AC voltage tester with flashlight, AC/DC voltage tester in carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_electrical_test_kit"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Inspection",
+      "name": "Gas Leak Detector",
+      "description": "Gas leak detector with English manual and 3 AAA batteries",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_gas_leak_detector"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Inspection",
+      "name": "Carbon Monoxide Meter",
+      "description": "Handheld CO meter with electrochemical sensor, LCD display, alarm",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_carbon_monoxide_meter"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Inspection",
+      "name": "Digital Radon Detector",
+      "description": "Portable battery-operated radon detector for short/long term readings",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_digital_radon_detector"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Inspection",
+      "name": "Air Quality Detector",
+      "description": "Air quality detector with instruction sheet and USB charging cable",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_air_quality_detector"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Inspection",
+      "name": "Moisture Meter",
+      "description": "Povlen Pinless Wood Moisture Meter with instruction page and carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_moisture_meter"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Inspection",
+      "name": "Kill-A-Watt Electricity Meter",
+      "description": "Electricity meter with book in carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_kill_a_watt_electricity_meter"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Home Inspection",
+      "name": "Water Tester (5-in-1)",
+      "description": "Measures pH, TDS, EC, salinity, and temperature for aquariums/pools",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_water_tester_(5_in_1)"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Auto/Vehicle",
+      "name": "Car Battery Analyzer",
+      "description": "BT705 car battery analyzer with attached cable and user's guide",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_car_battery_analyzer"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Auto/Vehicle",
+      "name": "Car Code Scanner & Battery Tester",
+      "description": "Battery tester/car code scanner, USB cable, battery clamp cable, carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_car_code_scanner_&_battery_tester"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Auto/Vehicle",
+      "name": "Tire Pressure Gauge",
+      "description": "Digital tire pressure gauge with instruction booklet in carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_tire_pressure_gauge"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Auto/Vehicle",
+      "name": "Genius 5 Battery Charger",
+      "description": "Battery charger and maintainer with AC adapter, mounting bracket, clamps",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_genius_5_battery_charger"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Bicycle",
+      "name": "Bicycle Repair Kit (17-piece)",
+      "description": "Chain rivet extractor, screwdrivers, wrenches, tire levers, spoke wrench, patch kit",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_bicycle_repair_kit_(17_piece)"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Bicycle",
+      "name": "Bicycle Repair Stand",
+      "description": "Sportneer stand supports 60 lbs, adjustable height/angle, tool tray included",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_bicycle_repair_stand"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Bicycle",
+      "name": "Bicycle Lock",
+      "description": "Ottolock Sidekick compact U-lock with key",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_bicycle_lock"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Gardening",
+      "name": "Gardening Kit (8-piece)",
+      "description": "Canvas tote, folding seat, trowel, transplanter, weeder, pruning shears, cultivator, weeding fork",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_gardening_kit_(8_piece)"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Gardening",
+      "name": "Gardening Kit (11-piece)",
+      "description": "Tools bag, trowels, weeder, fork, rake, pruner, shears, gloves, spray bottle, kneeling pad",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_gardening_kit_(11_piece)"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Gardening",
+      "name": "Gardening Soil Tester",
+      "description": "3-in-1 soil moisture-light-pH tester with instruction booklet and carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_gardening_soil_tester"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Gardening",
+      "name": "Bulb Planter (36\")",
+      "description": "Long-handled bulb planter with 2 removable depth control panels",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_bulb_planter_(36\")"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Gardening",
+      "name": "Seeding Square",
+      "description": "12x12\" square with funnel, seeding wand, instruction sheet and planting guide",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_seeding_square"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Gardening",
+      "name": "Rotary Cultivator Tool",
+      "description": "Rotary cultivator with carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_rotary_cultivator_tool"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Gardening",
+      "name": "Lawn Aerator Shoes",
+      "description": "Lawn aerator shoes with 6 adjustable straps, 26 metal nails, nuts, wrench",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_lawn_aerator_shoes"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Gardening",
+      "name": "Lawn Thatching Rake",
+      "description": "Dethatching rake for healthy lawn growth",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_lawn_thatching_rake"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor/Camping",
+      "name": "Snowshoes 21\"",
+      "description": "1 pair of 21 inch snowshoes in carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_snowshoes_21\""
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor/Camping",
+      "name": "Snowshoes 25\"",
+      "description": "1 pair of 25 inch snowshoes in carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_snowshoes_25\""
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor/Camping",
+      "name": "Snowshoes 30\"",
+      "description": "1 pair of 30 inch snowshoes in carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_snowshoes_30\""
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor/Camping",
+      "name": "Hammock",
+      "description": "Parachute nylon hammock with 2 9ft talon straps and 2 steel carabiners",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_hammock"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor/Camping",
+      "name": "Quad Camp Chair",
+      "description": "Folding camp chair with mesh cup holder and carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_quad_camp_chair"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor/Camping",
+      "name": "Folding Camp Table",
+      "description": "Aluminum table (30x28\") with collapsible legs and carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_folding_camp_table"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor/Camping",
+      "name": "LED Camping Lantern",
+      "description": "Rechargeable LED lantern with charging cable and carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_led_camping_lantern"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor/Camping",
+      "name": "Night Vision Goggles",
+      "description": "Night vision goggles with 32GB SD card, USB cable, neck strap, hard case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_night_vision_goggles"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor/Camping",
+      "name": "Trail Camera",
+      "description": "4K trail camera with 32GB SD card, USB cable, belt, carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_trail_camera"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Carson 8x42mm binoculars with carrying case, neck strap, smartphone adapter",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_binoculars"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor/Camping",
+      "name": "Travel Scope (Telescope)",
+      "description": "80mm refractor telescope, 2 eyepieces, diagonal, finderscope, phone adapter, backpack",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_travel_scope_(telescope)"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor Games",
+      "name": "Cornhole Set",
+      "description": "2 boards (4'x2'), 8 bean bags, carrying cases, rules",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_cornhole_set"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "description": "8 bocce balls, white pallino, distance marker, rules, carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_bocce_ball_set"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor Games",
+      "name": "Croquet Set",
+      "description": "6 mallets, 6 balls, 9 wickets, 2 stakes, rules, carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_croquet_set"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor Games",
+      "name": "Giant Tumbling Timber",
+      "description": "56 pine blocks in carrying bag with instructions, score card, dry erase marker",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_giant_tumbling_timber"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor Games",
+      "name": "Giant Four-In-A-Row",
+      "description": "Stand up game board (2'x3') with legs, 42 chips, instruction sheet",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_giant_four_in_a_row"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "2 fiberglass paddles and 4 balls in carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_pickleball_set"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Heavy duty sewing machine with foot pedal, cover, accessory kit, instruction book, hard case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_sewing_machine"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Explore Air 2",
+      "description": "Cricut with 5-piece tool set, grip mats, USB/power cords, manual, carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_cricut_explore_air_2"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Crafts/Sewing",
+      "name": "Die Cut & Embossing Machine",
+      "description": "Sizzix Big Shot with basic shapes kit, cutting/embossing pads, instruction manual",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_die_cut_&_embossing_machine"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Crafts/Sewing",
+      "name": "Knitting Machine",
+      "description": "Knitting machine with tension lever, plastic needles, crochet hook, manual",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_knitting_machine"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Crafts/Sewing",
+      "name": "Button Making Machine",
+      "description": "2.25\" button maker with circle paper cutter, instruction sheet, cutting mat",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_button_making_machine"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Crafts/Sewing",
+      "name": "3D Pen",
+      "description": "Scrib3D 3D printing pen with power adapter, PLA filament, stencil guide, carry case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_3d_pen"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Technology",
+      "name": "Nintendo Switch",
+      "description": "Nintendo Switch console with 3 play modes (TV, tabletop, handheld) - games separate",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_nintendo_switch"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Technology",
+      "name": "Meta Quest 2 VR Headset",
+      "description": "VR headset (requires Facebook account and Meta Quest app)",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_meta_quest_2_vr_headset"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Technology",
+      "name": "GoPro HERO11 Black Mini",
+      "description": "GoPro camera with screws, mounts, selfie stick, chest/head/helmet straps, USB cable",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_gopro_hero11_black_mini"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Technology",
+      "name": "Mini Digital Projector",
+      "description": "Projector with tripod, HDMI cable, USB charging cable, AC charger, carrying case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_mini_digital_projector"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Technology",
+      "name": "Film & Slide Scanner",
+      "description": "Film/slide scanner with cleaning brush, holders, adapters, USB/HDMI cables, case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_film_&_slide_scanner"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Technology",
+      "name": "Ring Light Kit (18\")",
+      "description": "18\" LED ring light, 61\" stand, soft tube, color filters, ball head adapter, phone holder",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_ring_light_kit_(18\")"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Music",
+      "name": "Beginner Acoustic Guitar",
+      "description": "Full size 39\" guitar with tuner, wiping cloth, strings, carrying bag",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_beginner_acoustic_guitar"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Music",
+      "name": "Ukulele (Tenor)",
+      "description": "Tenor ukulele with shoulder strap, picks, cloth, replacement strings, tuner, chords, case",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_ukulele_(tenor)"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Music",
+      "name": "Electronic Keyboard (61-key)",
+      "description": "61-key teaching keyboard with AC adapter, microphone, music stand, manual",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_electronic_keyboard_(61_key)"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Music",
+      "name": "Karaoke Machine",
+      "description": "Karaoke machine with 10\" subwoofer, tablet holder, 2 wireless mics, remote, cables",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_karaoke_machine"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Dolls",
+      "name": "American Girl Doll - Claudie Wells",
+      "description": "Claudie Wells doll with outfit, hairbrush, extra outfit, carrying case with bed",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_american_girl_doll___claudie_wells"
+    },
+    {
+      "library": "Morse Institute Library",
+      "category": "Dolls",
+      "name": "American Girl Doll - Joss Kendrick",
+      "description": "Joss Kendrick doll with outfit, brush, mirror, extra outfit, 2 hearing aids, case/bed",
+      "network": "minuteman",
+      "id": "minuteman_morse_institute_library_american_girl_doll___joss_kendrick"
+    },
+    {
+      "library": "Robbins Library",
+      "category": "Kitchen",
+      "name": "Instant Pot",
+      "description": "Multi-use pressure cooker",
+      "network": "minuteman",
+      "id": "minuteman_robbins_library_instant_pot"
+    },
+    {
+      "library": "Robbins Library",
+      "category": "Kitchen",
+      "name": "Pasta Maker",
+      "description": "Manual pasta machine",
+      "network": "minuteman",
+      "id": "minuteman_robbins_library_pasta_maker"
+    },
+    {
+      "library": "Robbins Library",
+      "category": "Home Improvement",
+      "name": "Thermal Imaging Camera",
+      "description": "Heat detection camera",
+      "network": "minuteman",
+      "id": "minuteman_robbins_library_thermal_imaging_camera"
+    },
+    {
+      "library": "Robbins Library",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Joy",
+      "description": "Compact cutting machine",
+      "network": "minuteman",
+      "id": "minuteman_robbins_library_cricut_joy"
+    },
+    {
+      "library": "Robbins Library",
+      "category": "Party/Event",
+      "name": "PA System",
+      "description": "Portable speaker with microphone",
+      "network": "minuteman",
+      "id": "minuteman_robbins_library_pa_system"
+    },
+    {
+      "library": "Robbins Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "description": "Digital BP cuff",
+      "network": "minuteman",
+      "id": "minuteman_robbins_library_blood_pressure_monitor"
+    },
+    {
+      "library": "Robbins Library",
+      "category": "Wellness/Health",
+      "name": "Light Therapy Lamp",
+      "description": "SAD therapy lamp",
+      "network": "minuteman",
+      "id": "minuteman_robbins_library_light_therapy_lamp"
+    },
+    {
+      "library": "Watertown Free Public Library",
+      "category": "Kitchen",
+      "name": "Dumpling Maker",
+      "description": "Dumpling and ravioli making tools",
+      "network": "minuteman",
+      "id": "minuteman_watertown_free_public_library_dumpling_maker"
+    },
+    {
+      "library": "Watertown Free Public Library",
+      "category": "Kitchen",
+      "name": "Food Dehydrator",
+      "description": "Food dehydrating machine",
+      "network": "minuteman",
+      "id": "minuteman_watertown_free_public_library_food_dehydrator"
+    },
+    {
+      "library": "Watertown Free Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet device",
+      "network": "minuteman",
+      "id": "minuteman_watertown_free_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Dome Tent (6-person)",
+      "description": "Large family camping tent",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_dome_tent_(6_person)"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "description": "Binoculars with field guide",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_bird_watching_kit"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele with accessories",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_ukulele"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Brookline Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspots",
+      "description": "Mobile internet hotspot devices (most popular item)",
+      "network": "minuteman",
+      "id": "minuteman_brookline_public_library_wifi_hotspots"
+    },
+    {
+      "library": "Brookline Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "High-end telescope (in high demand)",
+      "network": "minuteman",
+      "id": "minuteman_brookline_public_library_telescope"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "description": "Basic home improvement tools",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_tool_kit"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Cary Memorial Library",
+      "category": "Home Improvement",
+      "name": "Kill-A-Watt Meter",
+      "description": "Electricity usage monitor",
+      "network": "minuteman",
+      "id": "minuteman_cary_memorial_library_kill_a_watt_meter"
+    },
+    {
+      "library": "Cary Memorial Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet device",
+      "network": "minuteman",
+      "id": "minuteman_cary_memorial_library_wifi_hotspot"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Home Inspection",
+      "name": "Thermal Leak Detector",
+      "description": "Black & Decker thermal leak detector for finding drafts",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_thermal_leak_detector"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Home Inspection",
+      "name": "Stud Finder",
+      "description": "Electronic stud finder for locating wall studs",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_stud_finder"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Home Inspection",
+      "name": "Outlet Tester",
+      "description": "GFCI outlet tester for electrical safety",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_outlet_tester"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Home Inspection",
+      "name": "Kill-A-Watt Meter",
+      "description": "Electricity usage monitor",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_kill_a_watt_meter"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Home Inspection",
+      "name": "Infrared Thermometer",
+      "description": "Non-contact temperature measurement",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_infrared_thermometer"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Home Inspection",
+      "name": "Moisture Meter",
+      "description": "Digital moisture detector for walls/wood",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_moisture_meter"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Home Inspection",
+      "name": "Carbon Monoxide Detector",
+      "description": "Portable CO detector",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_carbon_monoxide_detector"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Technology",
+      "name": "Roku Streaming Device",
+      "description": "TV streaming device",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_roku_streaming_device"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Technology",
+      "name": "Laptop Computer",
+      "description": "Chromebook for checkout",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_laptop_computer"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Outdoor/Recreation",
+      "name": "State Park Pass",
+      "description": "Massachusetts State Parks pass",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_state_park_pass"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Outdoor/Recreation",
+      "name": "Binoculars",
+      "description": "Binoculars for birdwatching",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_binoculars"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Crafts",
+      "name": "Sewing Machine",
+      "description": "Portable sewing machine",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_sewing_machine"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Crafts",
+      "name": "Button Maker",
+      "description": "Button making machine",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_button_maker"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Games",
+      "name": "Board Games Collection",
+      "description": "Various board games",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_board_games_collection"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Games",
+      "name": "Lawn Games",
+      "description": "Outdoor game sets",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_lawn_games"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele with case",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_ukulele"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Kitchen",
+      "name": "Instant Pot",
+      "description": "Multi-use pressure cooker",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_instant_pot"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Kitchen",
+      "name": "Cake Pans",
+      "description": "Specialty baking pans",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_cake_pans"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Wellness",
+      "name": "Blood Pressure Monitor",
+      "description": "Digital BP cuff",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_blood_pressure_monitor"
+    },
+    {
+      "library": "Worcester Public Library",
+      "category": "Wellness",
+      "name": "Light Therapy Lamp",
+      "description": "SAD therapy light",
+      "network": "cwmars",
+      "id": "cwmars_worcester_public_library_light_therapy_lamp"
+    },
+    {
+      "library": "Forbes Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet device",
+      "network": "cwmars",
+      "id": "cwmars_forbes_library_wifi_hotspot"
+    },
+    {
+      "library": "Forbes Library",
+      "category": "Technology",
+      "name": "Kindle E-Reader",
+      "description": "Kindle with preloaded books",
+      "network": "cwmars",
+      "id": "cwmars_forbes_library_kindle_e_reader"
+    },
+    {
+      "library": "Forbes Library",
+      "category": "Outdoor/Recreation",
+      "name": "Telescope",
+      "description": "Beginner telescope",
+      "network": "cwmars",
+      "id": "cwmars_forbes_library_telescope"
+    },
+    {
+      "library": "Forbes Library",
+      "category": "Outdoor/Recreation",
+      "name": "Snowshoes",
+      "description": "Adult snowshoes",
+      "network": "cwmars",
+      "id": "cwmars_forbes_library_snowshoes"
+    },
+    {
+      "library": "Forbes Library",
+      "category": "Outdoor/Recreation",
+      "name": "Birding Kit",
+      "description": "Binoculars with field guide",
+      "network": "cwmars",
+      "id": "cwmars_forbes_library_birding_kit"
+    },
+    {
+      "library": "Forbes Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele",
+      "network": "cwmars",
+      "id": "cwmars_forbes_library_ukulele"
+    },
+    {
+      "library": "Forbes Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various games",
+      "network": "cwmars",
+      "id": "cwmars_forbes_library_board_games"
+    },
+    {
+      "library": "Forbes Library",
+      "category": "Crafts",
+      "name": "Cricut Machine",
+      "description": "Cutting machine",
+      "network": "cwmars",
+      "id": "cwmars_forbes_library_cricut_machine"
+    },
+    {
+      "library": "Forbes Library",
+      "category": "Home Inspection",
+      "name": "Kill-A-Watt Meter",
+      "description": "Electricity monitor",
+      "network": "cwmars",
+      "id": "cwmars_forbes_library_kill_a_watt_meter"
+    },
+    {
+      "library": "Chicopee Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet device",
+      "network": "cwmars",
+      "id": "cwmars_chicopee_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Chicopee Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Game collection",
+      "network": "cwmars",
+      "id": "cwmars_chicopee_public_library_board_games"
+    },
+    {
+      "library": "Chicopee Public Library",
+      "category": "Outdoor/Recreation",
+      "name": "State Park Pass",
+      "description": "MA State Parks pass",
+      "network": "cwmars",
+      "id": "cwmars_chicopee_public_library_state_park_pass"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Technology",
+      "name": "Roku Streaming Device",
+      "description": "TV streaming device",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_roku_streaming_device"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Entertainment",
+      "name": "Karaoke Machine",
+      "description": "Karaoke system with microphones",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_karaoke_machine"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "In-house use only",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_sewing_machine"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_ukulele"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Music",
+      "name": "Adult Guitar",
+      "description": "Full-size acoustic guitar",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_adult_guitar"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Music",
+      "name": "Children's Guitar",
+      "description": "Child-sized acoustic guitar",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_childrens_guitar"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Technology",
+      "name": "Projector",
+      "description": "Video projector",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_projector"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Auto/Vehicle",
+      "name": "Car Diagnostic Tool",
+      "description": "OBD2 scanner for car diagnostics",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_car_diagnostic_tool"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Home Improvement",
+      "name": "Laser Level",
+      "description": "Self-leveling laser for construction and home projects",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_laser_level"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "2 telescopes available for stargazing",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_telescope"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "WiFi hotspot device for mobile internet",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_mobile_hotspot"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Metal Detector (Adult)",
+      "description": "2 adult-sized metal detectors available",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_metal_detector_(adult)"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Metal Detector (Child)",
+      "description": "1 child-sized metal detector",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_metal_detector_(child)"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Giant Connect Four Game",
+      "description": "Oversized Connect Four for outdoor play",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_giant_connect_four_game"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Giant Jenga Game",
+      "description": "Oversized Jenga block game",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_giant_jenga_game"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Cornhole Set",
+      "description": "Bean bag toss game set",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_cornhole_set"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Pickleball paddles and balls",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_pickleball_set"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Switch Lite",
+      "description": "2 portable gaming consoles available",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_nintendo_switch_lite"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Technology",
+      "name": "Tonie Box",
+      "description": "2 Tonie Boxes with character audio figures for children",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_tonie_box"
+    },
+    {
+      "library": "West Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Ladder Toss Game Set",
+      "description": "Ladder golf game",
+      "source_url": "https://westbpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_west_bridgewater_public_library_ladder_toss_game_set"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Games",
+      "name": "Board Games (Adult)",
+      "description": "Collection of adult board games",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_bridgewater_public_library_board_games_(adult)"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Games",
+      "name": "Board Games (Kids)",
+      "description": "Collection of children's board games",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_bridgewater_public_library_board_games_(kids)"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Kitchen",
+      "name": "Home & Kitchen Items",
+      "description": "Various household and cooking items",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_bridgewater_public_library_home_&_kitchen_items"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Technology",
+      "name": "Electronics Collection",
+      "description": "Electronic devices and audiovisual equipment",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_bridgewater_public_library_electronics_collection"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Music",
+      "name": "Musical Instruments",
+      "description": "Various musical instruments available",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_bridgewater_public_library_musical_instruments"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Outdoor Equipment",
+      "description": "Equipment for outdoor activities",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_bridgewater_public_library_outdoor_equipment"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Outdoor Games",
+      "name": "Yard Games",
+      "description": "Games for outdoor lawn use",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_bridgewater_public_library_yard_games"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Switch Games",
+      "description": "Video games for Nintendo Switch console",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_bridgewater_public_library_nintendo_switch_games"
+    },
+    {
+      "library": "Bridgewater Public Library",
+      "category": "Home Improvement",
+      "name": "Tool Library",
+      "description": "Various tools and equipment for home projects",
+      "source_url": "https://www.bridgewaterpubliclibrary.org/library-things",
+      "last_verified": "2026-01-11",
+      "network": "sails",
+      "id": "sails_bridgewater_public_library_tool_library"
+    },
+    {
+      "library": "Boston Public Library",
+      "category": "Technology",
+      "name": "Oral History Backpack",
+      "description": "Recording equipment for collecting oral histories. Available at Central, Brighton, Codman Sq., Connolly, East Boston, Faneuil, Lower Mills, Roslindale, or Shaw-Roxbury branches. $100 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "mbln",
+      "id": "mbln_boston_public_library_oral_history_backpack"
+    },
+    {
+      "library": "Boston Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope Bag Kit",
+      "description": "Orion StarBlast 4.5 Astro Reflector Telescope with accessories. $350 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "mbln",
+      "id": "mbln_boston_public_library_telescope_bag_kit"
+    },
+    {
+      "library": "Boston Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "description": "Binoculars and field guides for bird watching. Available at Adams St., Brighton, Connolly, East Boston, Egleston Square, Grove Hall, or South Boston branches. $100 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "mbln",
+      "id": "mbln_boston_public_library_bird_watching_kit"
+    },
+    {
+      "library": "Boston Public Library",
+      "category": "Home Inspection",
+      "name": "Kill A Watt Electricity Monitor",
+      "description": "Power meter that measures electrical consumption of small to medium electrical devices in your home. $50 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "mbln",
+      "id": "mbln_boston_public_library_kill_a_watt_electricity_monitor"
+    },
+    {
+      "library": "Boston Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele for musical skill development. Available at Adams Street and Honan-Allston branches. $50 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "mbln",
+      "id": "mbln_boston_public_library_ukulele"
+    },
+    {
+      "library": "Boston Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Smarter by Pfaff 140s Sewing Machine",
+      "description": "Sewing machine for DIY projects. $250 replacement cost.",
+      "source_url": "https://www.bpl.org/library-of-things/",
+      "last_verified": "2026-01-11",
+      "network": "mbln",
+      "id": "mbln_boston_public_library_smarter_by_pfaff_140s_sewing_machine"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-01-12",
+    "total_items": 166,
+    "total_libraries": 13,
+    "total_networks": 4,
+    "generated_by": "consolidate.py"
+  }
+}
