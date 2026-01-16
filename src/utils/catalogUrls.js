@@ -12,13 +12,13 @@ const catalogUrlGenerators = {
     return `${baseUrl}/Search/Results?lookfor=${encodeURIComponent(itemName)}&searchIndex=Keyword`;
   },
 
-  // CWMARS - Evergreen
+  // CWMARS - Evergreen (uses www.cwmars.org/search)
   evergreen: (baseUrl, catalogId, itemName) => {
     if (catalogId) {
       return `${baseUrl}/eg/opac/record/${catalogId}`;
     }
-    // Fallback to search
-    return `${baseUrl}/eg/opac/results?query=${encodeURIComponent(itemName)}&qtype=keyword`;
+    // Use the main CWMARS search page with query parameter
+    return `https://www.cwmars.org/search?query=${encodeURIComponent(itemName)}&qtype=keyword&locg=1`;
   },
 
   // SAILS - SirsiDynix Enterprise

@@ -175,7 +175,7 @@ This project is released under the MIT License. The underlying data is publicly 
 
 ## Acknowledgments
 
-- Built with assistance from [Claude AI](https://claude.ai)
+- Created by [David Reinstein](https://davidreinstein.org) with assistance from [Claude AI](https://claude.ai)
 - Data sourced from individual library websites
 - Inspired by the amazing work of Massachusetts public librarians
 

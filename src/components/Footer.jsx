@@ -34,10 +34,13 @@ export default function Footer({ lastUpdated }) {
           </a>
         </div>
 
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-gray-500 mb-2">
           This site is an independent community project. It is not affiliated with,
           endorsed by, or officially connected to any library network or individual library.
           For official information, please contact your local library directly.
+        </p>
+        <p className="text-xs text-gray-400">
+          Created by <a href="https://davidreinstein.org" target="_blank" rel="noopener noreferrer" className="text-indigo-500 hover:underline">David Reinstein</a> with assistance from Claude AI
         </p>
       </div>
     </footer>
