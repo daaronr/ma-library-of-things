@@ -282,6 +282,19 @@
     "lot_url": "https://www.simsburylibrary.info/library-of-things/",
     "catalog_system": "evergreen"
   },
+  "new_haven_free_public": {
+    "id": "new_haven_free_public",
+    "name": "New Haven Free Public Library",
+    "network": "bibliomation",
+    "state": "CT",
+    "location": "New Haven, CT",
+    "address": "133 Elm St, New Haven, CT 06510",
+    "coordinates": { "lat": 41.3065, "lng": -72.9280 },
+    "phone": "203-946-8130",
+    "website": "https://nhfpl.org",
+    "lot_url": "https://nhfpl.org/lot/",
+    "catalog_system": "evergreen"
+  },
 
   "middletown_public_ri": {
     "id": "middletown_public_ri",
@@ -318,6 +331,32 @@
     "coordinates": { "lat": 41.7568, "lng": -71.4768 },
     "phone": "401-943-9080",
     "website": "https://cranstonlibrary.org",
+    "catalog_system": "koha_aspen"
+  },
+  "barrington_public": {
+    "id": "barrington_public",
+    "name": "Barrington Public Library",
+    "network": "ocean_state",
+    "state": "RI",
+    "location": "Barrington, RI",
+    "address": "281 County Rd, Barrington, RI 02806",
+    "coordinates": { "lat": 41.7401, "lng": -71.3168 },
+    "phone": "401-247-1920",
+    "website": "https://www.barringtonlibrary.org",
+    "lot_url": "https://barringtonlibrary.org/library-things",
+    "catalog_system": "koha_aspen"
+  },
+  "cumberland_public": {
+    "id": "cumberland_public",
+    "name": "Cumberland Public Library",
+    "network": "ocean_state",
+    "state": "RI",
+    "location": "Cumberland, RI",
+    "address": "1464 Diamond Hill Rd, Cumberland, RI 02864",
+    "coordinates": { "lat": 41.9701, "lng": -71.4168 },
+    "phone": "401-333-2552",
+    "website": "https://www.cumberlandlibrary.org",
+    "lot_url": "https://www.cumberlandlibrary.org/lot-library-things",
     "catalog_system": "koha_aspen"
   },
 

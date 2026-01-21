@@ -27,12 +27,12 @@ Library of Things programs are incredible public resources, but discovery is fra
 ### Connecticut
 | Network | Region | Items | Status |
 |---------|--------|-------|--------|
-| **Bibliomation** | Connecticut | 12+ | Active |
+| **Bibliomation** | Connecticut | 19+ | Active |
 
 ### Rhode Island
 | Network | Region | Items | Status |
 |---------|--------|-------|--------|
-| **Ocean State Libraries** | Rhode Island | 10+ | Active |
+| **Ocean State Libraries** | Rhode Island | 68+ | Active |
 
 ### New York
 | Network | Region | Items | Status |
@@ -41,7 +41,7 @@ Library of Things programs are incredible public resources, but discovery is fra
 | **NYPL** | Manhattan/Bronx/SI | 5+ | Active |
 | **Brooklyn/Queens** | NYC | 7+ | Active |
 
-**Total:** 222+ verified items across 26 libraries in 7 networks (4 states)
+**Total:** 294+ verified items across 29 libraries in 7 networks (4 states)
 
 ## Key Finding: Morse Institute Library
 

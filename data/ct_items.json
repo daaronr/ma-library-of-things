@@ -32,6 +32,15 @@
       "lot_url": "https://www.simsburylibrary.info/library-of-things/",
       "network_id": "bibliomation",
       "notes": "Active Library of Things program"
+    },
+    {
+      "name": "New Haven Free Public Library",
+      "location": "New Haven, CT",
+      "phone": "203-946-8130",
+      "website": "https://nhfpl.org",
+      "lot_url": "https://nhfpl.org/lot/",
+      "network_id": "bibliomation",
+      "notes": "Library of Things at Ives Squared with equipment reservation system"
     }
   ],
   "items": [
@@ -130,11 +139,67 @@
       "description": "Outdoor lawn games collection",
       "source_url": "https://www.simsburylibrary.info/library-of-things/",
       "last_verified": "2026-01-20"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Technology",
+      "name": "Content Creation Equipment",
+      "description": "Equipment for producing media content",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Wellness/Health",
+      "name": "Health & Wellness Tools",
+      "description": "Wellness-related tools and devices",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Music",
+      "name": "Musical Instruments",
+      "description": "Various instruments for checkout",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Technology",
+      "name": "Record Player",
+      "description": "Vinyl record player for home entertainment",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Outdoor Games",
+      "name": "Cornhole Set",
+      "description": "Bean bag toss cornhole game",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Home Improvement",
+      "name": "Home Maintenance Tools",
+      "description": "Tools and equipment for household projects",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Science/Education",
+      "name": "Education & Exploration Kits",
+      "description": "Learning and discovery tools",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21"
     }
   ],
   "metadata": {
-    "last_updated": "2026-01-20",
-    "verified_items_count": 12,
+    "last_updated": "2026-01-21",
+    "verified_items_count": 19,
     "data_source": "Library websites, January 2026",
     "notes": "Connecticut Library of Things programs. Most CT libraries are part of Bibliomation (Evergreen) or LION (Aspen Discovery) consortia."
   }

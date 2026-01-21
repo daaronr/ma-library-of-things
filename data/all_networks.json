@@ -1679,6 +1679,76 @@
       "id": "bibliomation_simsbury_public_library_lawn_games_set"
     },
     {
+      "library": "New Haven Free Public Library",
+      "category": "Technology",
+      "name": "Content Creation Equipment",
+      "description": "Equipment for producing media content",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21",
+      "network": "bibliomation",
+      "id": "bibliomation_new_haven_free_public_library_content_creation_equipment"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Wellness/Health",
+      "name": "Health & Wellness Tools",
+      "description": "Wellness-related tools and devices",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21",
+      "network": "bibliomation",
+      "id": "bibliomation_new_haven_free_public_library_health_&_wellness_tools"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Music",
+      "name": "Musical Instruments",
+      "description": "Various instruments for checkout",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21",
+      "network": "bibliomation",
+      "id": "bibliomation_new_haven_free_public_library_musical_instruments"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Technology",
+      "name": "Record Player",
+      "description": "Vinyl record player for home entertainment",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21",
+      "network": "bibliomation",
+      "id": "bibliomation_new_haven_free_public_library_record_player"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Outdoor Games",
+      "name": "Cornhole Set",
+      "description": "Bean bag toss cornhole game",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21",
+      "network": "bibliomation",
+      "id": "bibliomation_new_haven_free_public_library_cornhole_set"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Home Improvement",
+      "name": "Home Maintenance Tools",
+      "description": "Tools and equipment for household projects",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21",
+      "network": "bibliomation",
+      "id": "bibliomation_new_haven_free_public_library_home_maintenance_tools"
+    },
+    {
+      "library": "New Haven Free Public Library",
+      "category": "Science/Education",
+      "name": "Education & Exploration Kits",
+      "description": "Learning and discovery tools",
+      "source_url": "https://nhfpl.org/lot/",
+      "last_verified": "2026-01-21",
+      "network": "bibliomation",
+      "id": "bibliomation_new_haven_free_public_library_education_&_exploration_kits"
+    },
+    {
       "library": "Middletown Public Library",
       "category": "Technology",
       "name": "Roku Streaming Device",
@@ -1720,33 +1790,133 @@
     },
     {
       "library": "Providence Public Library",
+      "category": "Home Improvement",
+      "name": "Cordless Drill 18V",
+      "description": "18-volt cordless power drill",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_cordless_drill_18v"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Home Improvement",
+      "name": "Cordless Drill 12V",
+      "description": "12-volt cordless power drill",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_cordless_drill_12v"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "description": "Laser level for construction and hanging",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_laser_level"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Measurement & Detection",
+      "name": "Multimeter",
+      "description": "Digital multimeter for electrical testing",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_multimeter"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "description": "Electronic stud finder for walls",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_stud_finder"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Measurement & Detection",
+      "name": "Combination Square",
+      "description": "Metal combination square for measuring",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_combination_square"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Measurement & Detection",
+      "name": "Tape Measure",
+      "description": "Standard tape measure",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_tape_measure"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Home Improvement",
+      "name": "Rubber Mallet",
+      "description": "Rubber mallet for gentle hammering",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_rubber_mallet"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Home Improvement",
+      "name": "Safety Goggles",
+      "description": "Protective safety goggles",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_safety_goggles"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Outdoor Games",
+      "name": "Tennis Racket",
+      "description": "Tennis racket for checkout",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_tennis_racket"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Bicycle",
+      "name": "Bike Pump",
+      "description": "Bicycle tire pump",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_bike_pump"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Kitchen",
+      "name": "Loaf Pan",
+      "description": "Baking loaf pan",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_loaf_pan"
+    },
+    {
+      "library": "Providence Public Library",
       "category": "Technology",
-      "name": "WiFi Hotspot",
-      "description": "Mobile internet hotspot device",
-      "source_url": "https://provlib.org",
-      "last_verified": "2026-01-20",
+      "name": "SD Card Reader",
+      "description": "SD/SDHC memory card reader",
+      "source_url": "https://provlib.org/using-the-library/tools/",
+      "last_verified": "2026-01-21",
       "network": "ocean_state",
-      "id": "ocean_state_providence_public_library_wifi_hotspot"
-    },
-    {
-      "library": "Providence Public Library",
-      "category": "Music",
-      "name": "Ukulele",
-      "description": "Beginner ukulele with instructional materials",
-      "source_url": "https://provlib.org",
-      "last_verified": "2026-01-20",
-      "network": "ocean_state",
-      "id": "ocean_state_providence_public_library_ukulele"
-    },
-    {
-      "library": "Providence Public Library",
-      "category": "Games",
-      "name": "Board Games",
-      "description": "Various board games for checkout",
-      "source_url": "https://provlib.org",
-      "last_verified": "2026-01-20",
-      "network": "ocean_state",
-      "id": "ocean_state_providence_public_library_board_games"
+      "id": "ocean_state_providence_public_library_sd_card_reader"
     },
     {
       "library": "Cranston Public Library",
@@ -1777,6 +1947,556 @@
       "last_verified": "2026-01-20",
       "network": "ocean_state",
       "id": "ocean_state_cranston_public_library_state_park_pass"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Easy Press Heat Press",
+      "description": "Heat press machine for crafting projects",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_cricut_easy_press_heat_press"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Crafts/Sewing",
+      "name": "LUCY Drawing Tool",
+      "description": "Drawing aid tool for tracing and sketching",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_lucy_drawing_tool"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Pom-Pom Maker Set",
+      "description": "Set for making yarn pom-poms",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_pom_pom_maker_set"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Singer M1000 Sewing Machine",
+      "description": "Beginner sewing machine",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_singer_m1000_sewing_machine"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Home Inspection",
+      "name": "Kill-A-Watt Electricity Monitor",
+      "description": "Monitor electricity usage of devices",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_kill_a_watt_electricity_monitor"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Kitchen",
+      "name": "Food Dehydrator",
+      "description": "Dehydrator for making dried foods",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_food_dehydrator"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "description": "Laser level for precise alignment",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_laser_level"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Technology",
+      "name": "Epson LCD Projector",
+      "description": "Epson PowerLite X49 LCD projector",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_epson_lcd_projector"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Technology",
+      "name": "Ruby Handheld Video Magnifier",
+      "description": "Portable video magnifier for low vision",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_ruby_handheld_video_magnifier"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Technology",
+      "name": "Streaming Device",
+      "description": "TV streaming device",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_streaming_device"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "description": "Electronic wall stud finder",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_stud_finder"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Technology",
+      "name": "VCR with HDMI Converter",
+      "description": "VCR player with HDMI output for modern TVs",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_vcr_with_hdmi_converter"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Technology",
+      "name": "Logitech StreamCam Webcam",
+      "description": "High-quality webcam for streaming",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_logitech_streamcam_webcam"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Technology",
+      "name": "Universal Power Plug Adapter",
+      "description": "Worldwide AC power plug adapter set",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_universal_power_plug_adapter"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Technology/Gaming",
+      "name": "SEGA Genesis Mini Console",
+      "description": "Retro SEGA Genesis mini video game console",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_sega_genesis_mini_console"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Technology/Gaming",
+      "name": "TurboGrafx-16 Mini Console",
+      "description": "Retro TurboGrafx-16 mini video game console",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_turbografx_16_mini_console"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Technology",
+      "name": "Playaway Launchpad Tablets",
+      "description": "Pre-loaded educational tablets for children",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_playaway_launchpad_tablets"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Music",
+      "name": "AKAI MPK Mini Keyboard Controller",
+      "description": "AKAI Professional MIDI keyboard controller",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_akai_mpk_mini_keyboard_controller"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Music",
+      "name": "Ranch Concert Ukulele",
+      "description": "Concert-size ukulele with case",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_ranch_concert_ukulele"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Chess & Checkers Set",
+      "description": "Classic chess and checkers board game",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_chess_&_checkers_set"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Chess Clock",
+      "description": "Tournament chess clock timer",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_chess_clock"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Cribbage Board",
+      "description": "Traditional cribbage board with pegs",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_cribbage_board"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Dominoes Set",
+      "description": "Complete dominoes game set",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_dominoes_set"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Hope Puzzles Collection",
+      "description": "Unique heirloom wood puzzles made in Rhode Island",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_hope_puzzles_collection"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Jigsaw Puzzle Collection",
+      "description": "500-2000 piece jigsaw puzzles in various designs",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_jigsaw_puzzle_collection"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Jumbo Wooden Blocks Game",
+      "description": "Giant tumbling timber blocks game (grows 2-4ft)",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_jumbo_wooden_blocks_game"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Mah Jongg Set",
+      "description": "American Mah Jongg set with 166 tiles, racks, chips",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_mah_jongg_set"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Monopoly",
+      "description": "Classic Monopoly board game",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_monopoly"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Murder Mystery Game",
+      "description": "Murder mystery party game",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_murder_mystery_game"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Scrabble",
+      "description": "Classic Scrabble word game",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_scrabble"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Games",
+      "name": "Tarot Cards",
+      "description": "Tarot card deck for divination or collecting",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_tarot_cards"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Birdwatching Kit",
+      "description": "Binoculars and field guide for birdwatching",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_birdwatching_kit"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "description": "Complete bocce ball game set",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_bocce_ball_set"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Outdoor Games",
+      "name": "Cornhole Game",
+      "description": "Bean bag toss cornhole set",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_cornhole_game"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Outdoor Games",
+      "name": "Croquet Set",
+      "description": "Lawn croquet game set",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_croquet_set"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Party/Event",
+      "name": "Giant Parachute",
+      "description": "Giant kids' parachute for group activities",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_giant_parachute"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Outdoor Games",
+      "name": "Giant Yard Dice",
+      "description": "Oversized wooden yard dice set",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_giant_yard_dice"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Technology",
+      "name": "GoPro HERO9 Camera",
+      "description": "GoPro HERO9 action camera",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_gopro_hero9_camera"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Technology",
+      "name": "GoPro Accessories Kit",
+      "description": "Accessories and mounts for GoPro cameras",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_gopro_accessories_kit"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Hiking/Walking Sticks",
+      "description": "Adjustable hiking and walking poles",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_hiking/walking_sticks"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Metal detector for treasure hunting",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_metal_detector"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Party/Event",
+      "name": "Outdoor Movie Screen Kit",
+      "description": "Portable movie screen with projector and speaker",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_outdoor_movie_screen_kit"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Night Vision Trail Camera",
+      "description": "Wildlife trail camera with night vision",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_night_vision_trail_camera"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Paddle Set",
+      "description": "Graphite pickleball paddles with balls and bag",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_pickleball_paddle_set"
+    },
+    {
+      "library": "Barrington Public Library",
+      "category": "Science/Education",
+      "name": "Telescope Kit",
+      "description": "Telescope with accessories for stargazing",
+      "source_url": "https://barringtonlibrary.org/library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_barrington_public_library_telescope_kit"
+    },
+    {
+      "library": "Cumberland Public Library",
+      "category": "Party/Event",
+      "name": "Bubble Machine",
+      "description": "Automatic bubble maker for parties and events",
+      "source_url": "https://www.cumberlandlibrary.org/lot-library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_cumberland_public_library_bubble_machine"
+    },
+    {
+      "library": "Cumberland Public Library",
+      "category": "Home Improvement",
+      "name": "Power Washer",
+      "description": "Electric pressure washer for cleaning",
+      "source_url": "https://www.cumberlandlibrary.org/lot-library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_cumberland_public_library_power_washer"
+    },
+    {
+      "library": "Cumberland Public Library",
+      "category": "Home Improvement",
+      "name": "Cordless Drill",
+      "description": "Cordless power drill for home projects",
+      "source_url": "https://www.cumberlandlibrary.org/lot-library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_cumberland_public_library_cordless_drill"
+    },
+    {
+      "library": "Cumberland Public Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Telescope for astronomy",
+      "source_url": "https://www.cumberlandlibrary.org/lot-library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_cumberland_public_library_telescope"
+    },
+    {
+      "library": "Cumberland Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Button Maker",
+      "description": "Button pin maker machine",
+      "source_url": "https://www.cumberlandlibrary.org/lot-library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_cumberland_public_library_button_maker"
+    },
+    {
+      "library": "Cumberland Public Library",
+      "category": "Outdoor Games",
+      "name": "Badminton Set",
+      "description": "Complete badminton game set",
+      "source_url": "https://www.cumberlandlibrary.org/lot-library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_cumberland_public_library_badminton_set"
+    },
+    {
+      "library": "Cumberland Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Pickleball net, paddles, and balls",
+      "source_url": "https://www.cumberlandlibrary.org/lot-library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_cumberland_public_library_pickleball_set"
+    },
+    {
+      "library": "Cumberland Public Library",
+      "category": "Games",
+      "name": "Giant Jenga",
+      "description": "Giant-sized Jenga tumbling blocks game",
+      "source_url": "https://www.cumberlandlibrary.org/lot-library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_cumberland_public_library_giant_jenga"
+    },
+    {
+      "library": "Cumberland Public Library",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Set",
+      "description": "Disc golf frisbee set",
+      "source_url": "https://www.cumberlandlibrary.org/lot-library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_cumberland_public_library_disc_golf_set"
+    },
+    {
+      "library": "Cumberland Public Library",
+      "category": "Party/Event",
+      "name": "Karaoke Machine",
+      "description": "Portable karaoke machine with microphones",
+      "source_url": "https://www.cumberlandlibrary.org/lot-library-things",
+      "last_verified": "2026-01-21",
+      "network": "ocean_state",
+      "id": "ocean_state_cumberland_public_library_karaoke_machine"
     },
     {
       "library": "Levittown Public Library",
@@ -2041,8 +2761,8 @@
   ],
   "metadata": {
     "last_updated": "2026-01-21",
-    "total_items": 222,
-    "total_libraries": 26,
+    "total_items": 294,
+    "total_libraries": 29,
     "total_networks": 7,
     "generated_by": "consolidate.py"
   }
