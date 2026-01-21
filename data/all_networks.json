@@ -81,6 +81,18 @@
       "catalog_url": "https://catalog.oslri.net",
       "notes": "All public libraries in Rhode Island are part of Ocean State Libraries",
       "id": "ocean_state"
+    },
+    "ny_libraries": {
+      "name": "New York Libraries",
+      "short_name": "NY",
+      "region": "New York State",
+      "state": "NY",
+      "catalog_system": "polaris",
+      "catalog_base_url": "https://catalog.nypl.org",
+      "website": "https://www.nypl.org",
+      "color": "#C62828",
+      "notes": "New York public libraries with Library of Things programs",
+      "id": "ny_libraries"
     }
   },
   "items": [
@@ -1765,13 +1777,273 @@
       "last_verified": "2026-01-20",
       "network": "ocean_state",
       "id": "ocean_state_cranston_public_library_state_park_pass"
+    },
+    {
+      "library": "Levittown Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device for borrowing",
+      "source_url": "https://www.levittownpl.org/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_levittown_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Levittown Public Library",
+      "category": "Home Inspection",
+      "name": "Kill-A-Watt Meter",
+      "description": "Electricity usage monitor",
+      "source_url": "https://www.levittownpl.org/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_levittown_public_library_kill_a_watt_meter"
+    },
+    {
+      "library": "Levittown Public Library",
+      "category": "Technology",
+      "name": "Roku Streaming Device",
+      "description": "TV streaming device",
+      "source_url": "https://www.levittownpl.org/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_levittown_public_library_roku_streaming_device"
+    },
+    {
+      "library": "Levittown Public Library",
+      "category": "Games",
+      "name": "Board Games Collection",
+      "description": "Various board games for checkout",
+      "source_url": "https://www.levittownpl.org/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_levittown_public_library_board_games_collection"
+    },
+    {
+      "library": "Levittown Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele with case and instructional materials",
+      "source_url": "https://www.levittownpl.org/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_levittown_public_library_ukulele"
+    },
+    {
+      "library": "Smithtown Library",
+      "category": "Outdoor/Camping",
+      "name": "Nature Investigation Backpack",
+      "description": "Backpack with binoculars, field guides, and nature exploration tools",
+      "source_url": "https://www.smithlib.org/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_smithtown_library_nature_investigation_backpack"
+    },
+    {
+      "library": "Smithtown Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot",
+      "source_url": "https://www.smithlib.org/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_smithtown_library_wifi_hotspot"
+    },
+    {
+      "library": "Smithtown Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Family board games collection",
+      "source_url": "https://www.smithlib.org/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_smithtown_library_board_games"
+    },
+    {
+      "library": "Smithtown Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele",
+      "source_url": "https://www.smithlib.org/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_smithtown_library_ukulele"
+    },
+    {
+      "library": "Middle Country Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "WiFi hotspot device for mobile internet access",
+      "source_url": "https://www.mcpl.lib.ny.us/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_middle_country_public_library_mobile_hotspot"
+    },
+    {
+      "library": "Middle Country Public Library",
+      "category": "Technology",
+      "name": "VHS to Digital Converter",
+      "description": "Convert VHS tapes to digital format",
+      "source_url": "https://www.mcpl.lib.ny.us/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_middle_country_public_library_vhs_to_digital_converter"
+    },
+    {
+      "library": "Middle Country Public Library",
+      "category": "Technology",
+      "name": "Projector",
+      "description": "Video projector for presentations and movies",
+      "source_url": "https://www.mcpl.lib.ny.us/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_middle_country_public_library_projector"
+    },
+    {
+      "library": "Middle Country Public Library",
+      "category": "Technology",
+      "name": "GoPro Camera",
+      "description": "Action camera for video recording",
+      "source_url": "https://www.mcpl.lib.ny.us/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_middle_country_public_library_gopro_camera"
+    },
+    {
+      "library": "Middle Country Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://www.mcpl.lib.ny.us/library-of-things",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_middle_country_public_library_telescope"
+    },
+    {
+      "library": "New York Public Library",
+      "category": "Science/Education",
+      "name": "STEAM Discovery Kit - Robotics",
+      "description": "Hands-on robotics kit for learning programming and engineering",
+      "source_url": "https://www.nypl.org/collections/articles-databases/steam-kits",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_new_york_public_library_steam_discovery_kit___robotics"
+    },
+    {
+      "library": "New York Public Library",
+      "category": "Science/Education",
+      "name": "STEAM Discovery Kit - Coding",
+      "description": "Learn to code with interactive projects and activities",
+      "source_url": "https://www.nypl.org/collections/articles-databases/steam-kits",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_new_york_public_library_steam_discovery_kit___coding"
+    },
+    {
+      "library": "New York Public Library",
+      "category": "Science/Education",
+      "name": "STEAM Discovery Kit - Electronics",
+      "description": "Explore electronics and circuits with hands-on components",
+      "source_url": "https://www.nypl.org/collections/articles-databases/steam-kits",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_new_york_public_library_steam_discovery_kit___electronics"
+    },
+    {
+      "library": "New York Public Library",
+      "category": "Science/Education",
+      "name": "STEAM Discovery Kit - Science",
+      "description": "Science experiments and activities kit",
+      "source_url": "https://www.nypl.org/collections/articles-databases/steam-kits",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_new_york_public_library_steam_discovery_kit___science"
+    },
+    {
+      "library": "New York Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot for connectivity",
+      "source_url": "https://www.nypl.org",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_new_york_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Queens Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Free WiFi hotspot lending program",
+      "source_url": "https://www.queenslibrary.org",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_queens_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Queens Public Library",
+      "category": "Technology",
+      "name": "Laptop Computer",
+      "description": "Chromebook for checkout",
+      "source_url": "https://www.queenslibrary.org",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_queens_public_library_laptop_computer"
+    },
+    {
+      "library": "Queens Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele with instructional materials",
+      "source_url": "https://www.queenslibrary.org",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_queens_public_library_ukulele"
+    },
+    {
+      "library": "Brooklyn Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://www.bklynlibrary.org",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_brooklyn_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Brooklyn Public Library",
+      "category": "Technology",
+      "name": "Laptop Computer",
+      "description": "Laptop for checkout",
+      "source_url": "https://www.bklynlibrary.org",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_brooklyn_public_library_laptop_computer"
+    },
+    {
+      "library": "Brooklyn Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele",
+      "source_url": "https://www.bklynlibrary.org",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_brooklyn_public_library_ukulele"
+    },
+    {
+      "library": "Brooklyn Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games for families",
+      "source_url": "https://www.bklynlibrary.org",
+      "last_verified": "2026-01-21",
+      "network": "ny_libraries",
+      "id": "ny_libraries_brooklyn_public_library_board_games"
     }
   ],
   "metadata": {
-    "last_updated": "2026-01-20",
-    "total_items": 196,
-    "total_libraries": 20,
-    "total_networks": 6,
+    "last_updated": "2026-01-21",
+    "total_items": 222,
+    "total_libraries": 26,
+    "total_networks": 7,
     "generated_by": "consolidate.py"
   }
 }

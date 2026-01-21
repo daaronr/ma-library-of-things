@@ -319,5 +319,82 @@
     "phone": "401-943-9080",
     "website": "https://cranstonlibrary.org",
     "catalog_system": "koha_aspen"
+  },
+
+  "levittown_public": {
+    "id": "levittown_public",
+    "name": "Levittown Public Library",
+    "network": "nassau",
+    "state": "NY",
+    "location": "Levittown, NY",
+    "address": "1 Bluegrass Ln, Levittown, NY 11756",
+    "coordinates": { "lat": 40.7243, "lng": -73.5143 },
+    "phone": "516-731-5728",
+    "website": "https://www.levittownpl.org",
+    "lot_url": "https://www.levittownpl.org/library-of-things",
+    "catalog_system": "polaris"
+  },
+  "smithtown_library": {
+    "id": "smithtown_library",
+    "name": "Smithtown Library",
+    "network": "suffolk",
+    "state": "NY",
+    "location": "Smithtown, NY",
+    "address": "1 N Country Rd, Smithtown, NY 11787",
+    "coordinates": { "lat": 40.8576, "lng": -73.2015 },
+    "phone": "631-360-2480",
+    "website": "https://www.smithlib.org",
+    "lot_url": "https://www.smithlib.org/library-of-things",
+    "catalog_system": "polaris"
+  },
+  "middle_country_public": {
+    "id": "middle_country_public",
+    "name": "Middle Country Public Library",
+    "network": "suffolk",
+    "state": "NY",
+    "location": "Centereach, NY",
+    "address": "101 Eastwood Blvd, Centereach, NY 11720",
+    "coordinates": { "lat": 40.8576, "lng": -73.0815 },
+    "phone": "631-585-9393",
+    "website": "https://www.mcpl.lib.ny.us",
+    "lot_url": "https://www.mcpl.lib.ny.us/library-of-things",
+    "catalog_system": "polaris"
+  },
+  "nypl_main": {
+    "id": "nypl_main",
+    "name": "New York Public Library",
+    "network": "nypl",
+    "state": "NY",
+    "location": "New York, NY",
+    "address": "476 Fifth Ave, New York, NY 10018",
+    "coordinates": { "lat": 40.7532, "lng": -73.9822 },
+    "phone": "917-275-6975",
+    "website": "https://www.nypl.org",
+    "lot_url": "https://www.nypl.org/collections/articles-databases/steam-kits",
+    "catalog_system": "nypl_encore"
+  },
+  "queens_public": {
+    "id": "queens_public",
+    "name": "Queens Public Library",
+    "network": "queens_pl",
+    "state": "NY",
+    "location": "Queens, NY",
+    "address": "89-11 Merrick Blvd, Jamaica, NY 11432",
+    "coordinates": { "lat": 40.7068, "lng": -73.7918 },
+    "phone": "718-990-0700",
+    "website": "https://www.queenslibrary.org",
+    "catalog_system": "sierra"
+  },
+  "brooklyn_public": {
+    "id": "brooklyn_public",
+    "name": "Brooklyn Public Library",
+    "network": "brooklyn_pl",
+    "state": "NY",
+    "location": "Brooklyn, NY",
+    "address": "10 Grand Army Plaza, Brooklyn, NY 11238",
+    "coordinates": { "lat": 40.6728, "lng": -73.9685 },
+    "phone": "718-230-2100",
+    "website": "https://www.bklynlibrary.org",
+    "catalog_system": "bibliocommons"
   }
 }

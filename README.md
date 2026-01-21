@@ -34,7 +34,14 @@ Library of Things programs are incredible public resources, but discovery is fra
 |---------|--------|-------|--------|
 | **Ocean State Libraries** | Rhode Island | 10+ | Active |
 
-**Total:** 196+ verified items across 20 libraries in 6 networks (3 states)
+### New York
+| Network | Region | Items | Status |
+|---------|--------|-------|--------|
+| **Nassau/Suffolk** | Long Island | 14+ | Active |
+| **NYPL** | Manhattan/Bronx/SI | 5+ | Active |
+| **Brooklyn/Queens** | NYC | 7+ | Active |
+
+**Total:** 222+ verified items across 26 libraries in 7 networks (4 states)
 
 ## Key Finding: Morse Institute Library
 

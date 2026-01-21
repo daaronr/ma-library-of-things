@@ -1,0 +1,278 @@
+{
+  "network": {
+    "name": "New York Libraries",
+    "short_name": "NY",
+    "region": "New York State",
+    "notes": "New York public libraries with Library of Things programs"
+  },
+  "libraries": [
+    {
+      "name": "Levittown Public Library",
+      "location": "Levittown, NY",
+      "phone": "516-731-5728",
+      "website": "https://www.levittownpl.org",
+      "lot_url": "https://www.levittownpl.org/library-of-things",
+      "network_id": "nassau",
+      "notes": "Nassau Library System member with active Library of Things"
+    },
+    {
+      "name": "Smithtown Library",
+      "location": "Smithtown, NY",
+      "phone": "631-360-2480",
+      "website": "https://www.smithlib.org",
+      "lot_url": "https://www.smithlib.org/library-of-things",
+      "network_id": "suffolk",
+      "notes": "Multiple branches including Kings Park and Commack"
+    },
+    {
+      "name": "Middle Country Public Library",
+      "location": "Centereach, NY",
+      "phone": "631-585-9393",
+      "website": "https://www.mcpl.lib.ny.us",
+      "lot_url": "https://www.mcpl.lib.ny.us/library-of-things",
+      "network_id": "suffolk",
+      "notes": "Centereach and Selden branches"
+    },
+    {
+      "name": "New York Public Library",
+      "location": "New York, NY",
+      "phone": "917-275-6975",
+      "website": "https://www.nypl.org",
+      "lot_url": "https://www.nypl.org/collections/articles-databases/steam-kits",
+      "network_id": "nypl",
+      "notes": "STEAM Discovery Kits available at Manhattan, Bronx, Staten Island branches"
+    },
+    {
+      "name": "Queens Public Library",
+      "location": "Queens, NY",
+      "phone": "718-990-0700",
+      "website": "https://www.queenslibrary.org",
+      "network_id": "queens_pl",
+      "notes": "Hotspot lending program and various non-traditional items"
+    },
+    {
+      "name": "Brooklyn Public Library",
+      "location": "Brooklyn, NY",
+      "phone": "718-230-2100",
+      "website": "https://www.bklynlibrary.org",
+      "network_id": "brooklyn_pl",
+      "notes": "Growing Library of Things collection"
+    }
+  ],
+  "items": [
+    {
+      "library": "Levittown Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device for borrowing",
+      "source_url": "https://www.levittownpl.org/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Levittown Public Library",
+      "category": "Home Inspection",
+      "name": "Kill-A-Watt Meter",
+      "description": "Electricity usage monitor",
+      "source_url": "https://www.levittownpl.org/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Levittown Public Library",
+      "category": "Technology",
+      "name": "Roku Streaming Device",
+      "description": "TV streaming device",
+      "source_url": "https://www.levittownpl.org/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Levittown Public Library",
+      "category": "Games",
+      "name": "Board Games Collection",
+      "description": "Various board games for checkout",
+      "source_url": "https://www.levittownpl.org/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Levittown Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele with case and instructional materials",
+      "source_url": "https://www.levittownpl.org/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Smithtown Library",
+      "category": "Outdoor/Camping",
+      "name": "Nature Investigation Backpack",
+      "description": "Backpack with binoculars, field guides, and nature exploration tools",
+      "source_url": "https://www.smithlib.org/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Smithtown Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot",
+      "source_url": "https://www.smithlib.org/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Smithtown Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Family board games collection",
+      "source_url": "https://www.smithlib.org/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Smithtown Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele",
+      "source_url": "https://www.smithlib.org/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Middle Country Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "WiFi hotspot device for mobile internet access",
+      "source_url": "https://www.mcpl.lib.ny.us/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Middle Country Public Library",
+      "category": "Technology",
+      "name": "VHS to Digital Converter",
+      "description": "Convert VHS tapes to digital format",
+      "source_url": "https://www.mcpl.lib.ny.us/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Middle Country Public Library",
+      "category": "Technology",
+      "name": "Projector",
+      "description": "Video projector for presentations and movies",
+      "source_url": "https://www.mcpl.lib.ny.us/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Middle Country Public Library",
+      "category": "Technology",
+      "name": "GoPro Camera",
+      "description": "Action camera for video recording",
+      "source_url": "https://www.mcpl.lib.ny.us/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Middle Country Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://www.mcpl.lib.ny.us/library-of-things",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "New York Public Library",
+      "category": "Science/Education",
+      "name": "STEAM Discovery Kit - Robotics",
+      "description": "Hands-on robotics kit for learning programming and engineering",
+      "source_url": "https://www.nypl.org/collections/articles-databases/steam-kits",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "New York Public Library",
+      "category": "Science/Education",
+      "name": "STEAM Discovery Kit - Coding",
+      "description": "Learn to code with interactive projects and activities",
+      "source_url": "https://www.nypl.org/collections/articles-databases/steam-kits",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "New York Public Library",
+      "category": "Science/Education",
+      "name": "STEAM Discovery Kit - Electronics",
+      "description": "Explore electronics and circuits with hands-on components",
+      "source_url": "https://www.nypl.org/collections/articles-databases/steam-kits",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "New York Public Library",
+      "category": "Science/Education",
+      "name": "STEAM Discovery Kit - Science",
+      "description": "Science experiments and activities kit",
+      "source_url": "https://www.nypl.org/collections/articles-databases/steam-kits",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "New York Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot for connectivity",
+      "source_url": "https://www.nypl.org",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Queens Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Free WiFi hotspot lending program",
+      "source_url": "https://www.queenslibrary.org",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Queens Public Library",
+      "category": "Technology",
+      "name": "Laptop Computer",
+      "description": "Chromebook for checkout",
+      "source_url": "https://www.queenslibrary.org",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Queens Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele with instructional materials",
+      "source_url": "https://www.queenslibrary.org",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Brooklyn Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://www.bklynlibrary.org",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Brooklyn Public Library",
+      "category": "Technology",
+      "name": "Laptop Computer",
+      "description": "Laptop for checkout",
+      "source_url": "https://www.bklynlibrary.org",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Brooklyn Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele",
+      "source_url": "https://www.bklynlibrary.org",
+      "last_verified": "2026-01-21"
+    },
+    {
+      "library": "Brooklyn Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games for families",
+      "source_url": "https://www.bklynlibrary.org",
+      "last_verified": "2026-01-21"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-01-21",
+    "verified_items_count": 26,
+    "data_source": "Library websites, January 2026",
+    "notes": "New York Library of Things programs. Includes Long Island (Nassau, Suffolk systems), NYC (NYPL, Brooklyn PL, Queens PL)."
+  }
+}

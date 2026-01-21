@@ -30,6 +30,8 @@ NETWORK_FILES = {
     "bibliomation": "ct_items.json",
     # Rhode Island
     "ocean_state": "ri_items.json",
+    # New York
+    "ny_libraries": "ny_items.json",
 }
 
 # Network metadata (used if not in JSON file)
@@ -106,6 +108,17 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://catalog.oslri.net",
         "website": "https://oslri.org",
         "color": "#AD1457",
+    },
+    # New York
+    "ny_libraries": {
+        "name": "New York Libraries",
+        "short_name": "NY",
+        "region": "New York State",
+        "state": "NY",
+        "catalog_system": "polaris",
+        "catalog_base_url": "https://catalog.nypl.org",
+        "website": "https://www.nypl.org",
+        "color": "#C62828",
     },
 }
 
