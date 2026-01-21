@@ -1104,6 +1104,70 @@
       "id": "cwmars_chicopee_public_library_state_park_pass"
     },
     {
+      "library": "Monson Free Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "Mobile internet device (Monson residents only)",
+      "network": "cwmars",
+      "id": "cwmars_monson_free_library_mobile_hotspot"
+    },
+    {
+      "library": "Monson Free Library",
+      "category": "Technology/STEM",
+      "name": "Dash & Dot Robots",
+      "description": "Coding robots for learning programming",
+      "network": "cwmars",
+      "id": "cwmars_monson_free_library_dash_&_dot_robots"
+    },
+    {
+      "library": "Monson Free Library",
+      "category": "Wellness/Health",
+      "name": "Happy Light Therapy Lamp",
+      "description": "SAD/seasonal therapy lamp",
+      "network": "cwmars",
+      "id": "cwmars_monson_free_library_happy_light_therapy_lamp"
+    },
+    {
+      "library": "Monson Free Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele (requires form)",
+      "network": "cwmars",
+      "id": "cwmars_monson_free_library_ukulele"
+    },
+    {
+      "library": "Monson Free Library",
+      "category": "Kitchen",
+      "name": "Cake Pans (Novelty)",
+      "description": "Various novelty cake pan designs",
+      "network": "cwmars",
+      "id": "cwmars_monson_free_library_cake_pans_(novelty)"
+    },
+    {
+      "library": "Monson Free Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games",
+      "network": "cwmars",
+      "id": "cwmars_monson_free_library_board_games"
+    },
+    {
+      "library": "Monson Free Library",
+      "category": "Games",
+      "name": "Puzzles",
+      "description": "Puzzles for all ages",
+      "network": "cwmars",
+      "id": "cwmars_monson_free_library_puzzles"
+    },
+    {
+      "library": "Monson Free Library",
+      "category": "Outdoor Games",
+      "name": "Lawn Games",
+      "description": "Various outdoor lawn games",
+      "network": "cwmars",
+      "id": "cwmars_monson_free_library_lawn_games"
+    },
+    {
       "library": "West Bridgewater Public Library",
       "category": "Technology",
       "name": "Roku Streaming Device",
@@ -1455,9 +1519,9 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-01-12",
-    "total_items": 166,
-    "total_libraries": 13,
+    "last_updated": "2026-01-20",
+    "total_items": 174,
+    "total_libraries": 14,
     "total_networks": 4,
     "generated_by": "consolidate.py"
   }

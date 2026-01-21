@@ -43,6 +43,13 @@
       "notes": "Growing collection of non-traditional items."
     },
     {
+      "name": "Monson Free Library",
+      "location": "Monson, MA",
+      "phone": "413-267-3866",
+      "website": "https://www.monsonfreelibrary.org",
+      "notes": "Library of Things items for Monson residents."
+    },
+    {
       "name": "Morse Institute Library",
       "location": "Natick, MA",
       "phone": "508-647-6520",
@@ -89,7 +96,15 @@
     {"library": "Forbes Library", "category": "Home Inspection", "name": "Kill-A-Watt Meter", "description": "Electricity monitor"},
     {"library": "Chicopee Public Library", "category": "Technology", "name": "WiFi Hotspot", "description": "Mobile internet device"},
     {"library": "Chicopee Public Library", "category": "Games", "name": "Board Games", "description": "Game collection"},
-    {"library": "Chicopee Public Library", "category": "Outdoor/Recreation", "name": "State Park Pass", "description": "MA State Parks pass"}
+    {"library": "Chicopee Public Library", "category": "Outdoor/Recreation", "name": "State Park Pass", "description": "MA State Parks pass"},
+    {"library": "Monson Free Library", "category": "Technology", "name": "Mobile Hotspot", "description": "Mobile internet device (Monson residents only)"},
+    {"library": "Monson Free Library", "category": "Technology/STEM", "name": "Dash & Dot Robots", "description": "Coding robots for learning programming"},
+    {"library": "Monson Free Library", "category": "Wellness/Health", "name": "Happy Light Therapy Lamp", "description": "SAD/seasonal therapy lamp"},
+    {"library": "Monson Free Library", "category": "Music", "name": "Ukulele", "description": "Beginner ukulele (requires form)"},
+    {"library": "Monson Free Library", "category": "Kitchen", "name": "Cake Pans (Novelty)", "description": "Various novelty cake pan designs"},
+    {"library": "Monson Free Library", "category": "Games", "name": "Board Games", "description": "Various board games"},
+    {"library": "Monson Free Library", "category": "Games", "name": "Puzzles", "description": "Puzzles for all ages"},
+    {"library": "Monson Free Library", "category": "Outdoor Games", "name": "Lawn Games", "description": "Various outdoor lawn games"}
   ],
   "metadata": {
     "last_updated": "2026-01-11",
