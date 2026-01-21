@@ -20,19 +20,26 @@ PUBLIC_DATA_DIR = SCRIPT_DIR.parent / "public" / "data"
 
 # Network file mapping
 NETWORK_FILES = {
+    # Massachusetts
     "minuteman": "minuteman_items.json",
     "cwmars": "cwmars_items.json",
     "sails": "sails_items.json",
     "mbln": "mbln_items.json",
     "bpl": "bpl_items.json",
+    # Connecticut
+    "bibliomation": "ct_items.json",
+    # Rhode Island
+    "ocean_state": "ri_items.json",
 }
 
 # Network metadata (used if not in JSON file)
 NETWORK_METADATA = {
+    # Massachusetts
     "minuteman": {
         "name": "Minuteman Library Network",
         "short_name": "MLN",
         "region": "MetroWest Boston",
+        "state": "MA",
         "catalog_system": "aspen_discovery",
         "catalog_base_url": "https://catalog.minlib.net",
         "website": "https://www.minlib.net",
@@ -42,6 +49,7 @@ NETWORK_METADATA = {
         "name": "CWMARS",
         "short_name": "CW",
         "region": "Central/Western MA",
+        "state": "MA",
         "catalog_system": "evergreen",
         "catalog_base_url": "https://catalog.cwmars.org",
         "website": "https://www.cwmars.org",
@@ -51,6 +59,7 @@ NETWORK_METADATA = {
         "name": "SAILS Library Network",
         "short_name": "SAILS",
         "region": "Southeastern MA",
+        "state": "MA",
         "catalog_system": "sirsidynix",
         "catalog_base_url": "https://sails.ent.sirsi.net",
         "website": "https://sailsinc.org",
@@ -60,6 +69,7 @@ NETWORK_METADATA = {
         "name": "Metro Boston Library Network",
         "short_name": "MBLN",
         "region": "Greater Boston",
+        "state": "MA",
         "catalog_system": "polaris",
         "catalog_base_url": "https://catalog.mbln.org",
         "website": "https://www.mbln.org",
@@ -69,10 +79,33 @@ NETWORK_METADATA = {
         "name": "Boston Public Library",
         "short_name": "BPL",
         "region": "Boston",
+        "state": "MA",
         "catalog_system": "bibliocommons",
         "catalog_base_url": "https://bpl.bibliocommons.com",
         "website": "https://www.bpl.org",
         "color": "#D81B60",
+    },
+    # Connecticut
+    "bibliomation": {
+        "name": "Bibliomation",
+        "short_name": "BIBLIO",
+        "region": "Connecticut",
+        "state": "CT",
+        "catalog_system": "evergreen",
+        "catalog_base_url": "https://biblio.org",
+        "website": "https://www.biblio.org",
+        "color": "#4527A0",
+    },
+    # Rhode Island
+    "ocean_state": {
+        "name": "Ocean State Libraries",
+        "short_name": "OSL",
+        "region": "Rhode Island",
+        "state": "RI",
+        "catalog_system": "koha_aspen",
+        "catalog_base_url": "https://catalog.oslri.net",
+        "website": "https://oslri.org",
+        "color": "#AD1457",
     },
 }
 

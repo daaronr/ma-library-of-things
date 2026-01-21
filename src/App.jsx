@@ -5,9 +5,11 @@ import FilterPanel from './components/FilterPanel';
 import ItemList from './components/ItemList';
 import Footer from './components/Footer';
 import { networkCatalogs } from './utils/catalogUrls';
+import { calculateDistance } from './utils/location';
 
 export default function App() {
   const [data, setData] = useState(null);
+  const [librariesData, setLibrariesData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -17,15 +19,25 @@ export default function App() {
   const [selectedLibrary, setSelectedLibrary] = useState('all');
   const [selectedCategory, setSelectedCategory] = useState('all');
 
+  // Location state
+  const [userLocation, setUserLocation] = useState(null);
+  const [radiusMiles, setRadiusMiles] = useState(null);
+
   // Load data
   useEffect(() => {
-    fetch('/data/all_networks.json')
-      .then(res => {
+    Promise.all([
+      fetch('/data/all_networks.json').then(res => {
         if (!res.ok) throw new Error('Failed to load data');
         return res.json();
-      })
-      .then(data => {
-        setData(data);
+      }),
+      fetch('/data/libraries.json').then(res => {
+        if (!res.ok) return {}; // Libraries file is optional
+        return res.json();
+      }).catch(() => ({}))
+    ])
+      .then(([itemsData, libData]) => {
+        setData(itemsData);
+        setLibrariesData(libData);
         setLoading(false);
       })
       .catch(err => {
@@ -50,11 +62,41 @@ export default function App() {
     return merged;
   }, [data]);
 
+  // Get coordinates for an item (from item or from libraries lookup)
+  const getItemCoordinates = (item) => {
+    if (item.coordinates) return item.coordinates;
+    // Look up from libraries data
+    if (librariesData) {
+      const libEntry = Object.values(librariesData).find(
+        lib => lib.name === item.library && lib.network === item.network
+      );
+      if (libEntry?.coordinates) return libEntry.coordinates;
+    }
+    return null;
+  };
+
   // Filter items
   const filteredItems = useMemo(() => {
     if (!data?.items) return [];
 
-    return data.items.filter(item => {
+    let items = data.items.map(item => {
+      // Attach coordinates and calculate distance if user location is set
+      const coords = getItemCoordinates(item);
+      const enrichedItem = { ...item, coordinates: coords };
+
+      if (userLocation && coords) {
+        enrichedItem._distance = calculateDistance(
+          userLocation.lat,
+          userLocation.lng,
+          coords.lat,
+          coords.lng
+        );
+      }
+      return enrichedItem;
+    });
+
+    // Apply filters
+    items = items.filter(item => {
       // Search filter
       if (searchTerm) {
         const term = searchTerm.toLowerCase();
@@ -81,13 +123,25 @@ export default function App() {
         if (item.category !== selectedCategory) return false;
       }
 
+      // Radius filter (only if user location and radius are set)
+      if (userLocation && radiusMiles !== null) {
+        if (!item._distance || item._distance > radiusMiles) return false;
+      }
+
       return true;
     });
-  }, [data, searchTerm, selectedNetworks, selectedLibrary, selectedCategory]);
 
-  // Derive libraries and categories from filtered data (respecting network filter)
-  const { libraries, categories } = useMemo(() => {
-    if (!data?.items) return { libraries: [], categories: [] };
+    // Sort by distance if location is set
+    if (userLocation) {
+      items.sort((a, b) => (a._distance || Infinity) - (b._distance || Infinity));
+    }
+
+    return items;
+  }, [data, librariesData, searchTerm, selectedNetworks, selectedLibrary, selectedCategory, userLocation, radiusMiles]);
+
+  // Derive library list and categories from filtered data (respecting network filter)
+  const { libraryList, categories } = useMemo(() => {
+    if (!data?.items) return { libraryList: [], categories: [] };
 
     // Filter items by network first for library list
     const networkFilteredItems = selectedNetworks.length > 0
@@ -97,7 +151,7 @@ export default function App() {
     const libs = [...new Set(networkFilteredItems.map(i => i.library))].sort();
     const cats = [...new Set(data.items.map(i => i.category))].filter(Boolean).sort();
 
-    return { libraries: libs, categories: cats };
+    return { libraryList: libs, categories: cats };
   }, [data, selectedNetworks]);
 
   // Stats
@@ -137,6 +191,13 @@ export default function App() {
     setSelectedNetworks([]);
     setSelectedLibrary('all');
     setSelectedCategory('all');
+    setUserLocation(null);
+    setRadiusMiles(null);
+  };
+
+  const clearLocation = () => {
+    setUserLocation(null);
+    setRadiusMiles(null);
   };
 
   if (loading) {
@@ -187,12 +248,17 @@ export default function App() {
           networks={availableNetworks}
           selectedNetworks={selectedNetworks}
           onNetworkChange={handleNetworkChange}
-          libraries={libraries}
+          libraryList={libraryList}
           selectedLibrary={selectedLibrary}
           onLibraryChange={setSelectedLibrary}
           categories={categories}
           selectedCategory={selectedCategory}
           onCategoryChange={setSelectedCategory}
+          userLocation={userLocation}
+          onLocationChange={setUserLocation}
+          onClearLocation={clearLocation}
+          radiusMiles={radiusMiles}
+          onRadiusChange={setRadiusMiles}
           onClearAll={clearAllFilters}
         />
 

@@ -1,24 +1,47 @@
 import React from 'react';
 import { getCategoryIcon } from '../utils/categories';
+import LocationInput from './LocationInput';
+import RadiusFilter from './RadiusFilter';
 
 export default function FilterPanel({
   networks,
   selectedNetworks,
   onNetworkChange,
-  libraries,
+  libraryList,
   selectedLibrary,
   onLibraryChange,
   categories,
   selectedCategory,
   onCategoryChange,
+  userLocation,
+  onLocationChange,
+  onClearLocation,
+  radiusMiles,
+  onRadiusChange,
   onClearAll,
 }) {
   const hasFilters = selectedNetworks.length > 0 ||
                      selectedLibrary !== 'all' ||
-                     selectedCategory !== 'all';
+                     selectedCategory !== 'all' ||
+                     userLocation !== null;
 
   return (
-    <div className="bg-white rounded-xl shadow-sm p-4 mb-6">
+    <div className="bg-white rounded-xl shadow-sm p-4 mb-6 space-y-4">
+      {/* Location and Radius filters */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pb-4 border-b border-gray-100">
+        <LocationInput
+          userLocation={userLocation}
+          onLocationChange={onLocationChange}
+          onClear={onClearLocation}
+        />
+        <RadiusFilter
+          radius={radiusMiles}
+          onRadiusChange={onRadiusChange}
+          disabled={!userLocation}
+        />
+      </div>
+
+      {/* Network, Library, Category filters */}
       <div className="flex flex-wrap items-center gap-3">
         {/* Network checkboxes */}
         <div className="flex flex-wrap gap-2">
@@ -52,8 +75,8 @@ export default function FilterPanel({
           onChange={(e) => onLibraryChange(e.target.value)}
           className="flex-1 min-w-[200px] p-2 border border-gray-200 rounded-lg text-sm"
         >
-          <option value="all">All Libraries ({libraries.length})</option>
-          {libraries.map(lib => (
+          <option value="all">All Libraries ({libraryList.length})</option>
+          {libraryList.map(lib => (
             <option key={lib} value={lib}>{lib}</option>
           ))}
         </select>

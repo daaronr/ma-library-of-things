@@ -1,6 +1,7 @@
 import React from 'react';
 import { getCategoryIcon } from '../utils/categories';
 import { getCatalogUrl, getNetworkInfo } from '../utils/catalogUrls';
+import { formatDistance } from '../utils/location';
 
 export default function ItemCard({ item }) {
   const networkInfo = getNetworkInfo(item.network);
@@ -34,6 +35,15 @@ export default function ItemCard({ item }) {
                 style={{ backgroundColor: networkInfo.color }}
               >
                 {networkInfo.shortName}
+              </span>
+            )}
+            {/* Distance badge */}
+            {item._distance !== undefined && item._distance !== Infinity && (
+              <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                </svg>
+                {formatDistance(item._distance)}
               </span>
             )}
           </div>

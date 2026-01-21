@@ -1,0 +1,122 @@
+{
+  "network": {
+    "name": "Ocean State Libraries",
+    "short_name": "OSL",
+    "region": "Rhode Island",
+    "website": "https://oslri.org",
+    "catalog_url": "https://catalog.oslri.net",
+    "notes": "All public libraries in Rhode Island are part of Ocean State Libraries"
+  },
+  "libraries": [
+    {
+      "name": "Middletown Public Library",
+      "location": "Middletown, RI",
+      "phone": "401-846-1573",
+      "website": "https://middletownpubliclibrary.org",
+      "lot_url": "https://middletownpubliclibrary.org/library-of-things/",
+      "notes": "7-day checkout for standard items, 21 days for select items. Ocean State Libraries card required."
+    },
+    {
+      "name": "Providence Public Library",
+      "location": "Providence, RI",
+      "phone": "401-455-8000",
+      "website": "https://provlib.org",
+      "notes": "Main library in Providence with growing collection"
+    },
+    {
+      "name": "Cranston Public Library",
+      "location": "Cranston, RI",
+      "phone": "401-943-9080",
+      "website": "https://cranstonlibrary.org",
+      "notes": "Multiple branches serving Cranston"
+    }
+  ],
+  "items": [
+    {
+      "library": "Middletown Public Library",
+      "category": "Technology",
+      "name": "Roku Streaming Device",
+      "description": "TV streaming device for checkout",
+      "source_url": "https://middletownpubliclibrary.org/library-of-things/",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Middletown Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "WiFi hotspot device for mobile internet",
+      "source_url": "https://middletownpubliclibrary.org/library-of-things/",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Middletown Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Equipment",
+      "description": "Basic fishing gear for beginners",
+      "source_url": "https://middletownpubliclibrary.org/library-of-things/",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Middletown Public Library",
+      "category": "Technology",
+      "name": "Launchpad Learning Tablet",
+      "description": "Educational tablet for children",
+      "source_url": "https://middletownpubliclibrary.org/library-of-things/",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://provlib.org",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele with instructional materials",
+      "source_url": "https://provlib.org",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games for checkout",
+      "source_url": "https://provlib.org",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Cranston Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot",
+      "source_url": "https://cranstonlibrary.org",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Cranston Public Library",
+      "category": "Home Inspection",
+      "name": "Kill-A-Watt Meter",
+      "description": "Electricity usage monitor",
+      "source_url": "https://cranstonlibrary.org",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Cranston Public Library",
+      "category": "Outdoor/Camping",
+      "name": "State Park Pass",
+      "description": "Rhode Island State Parks pass",
+      "source_url": "https://cranstonlibrary.org",
+      "last_verified": "2026-01-20"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-01-20",
+    "verified_items_count": 10,
+    "data_source": "Library websites, January 2026",
+    "notes": "Rhode Island public libraries are all part of Ocean State Libraries (OSL) consortium using Koha + Aspen Discovery."
+  }
+}

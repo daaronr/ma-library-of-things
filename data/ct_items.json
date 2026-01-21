@@ -1,0 +1,141 @@
+{
+  "network": {
+    "name": "Connecticut Libraries",
+    "short_name": "CT",
+    "region": "Connecticut",
+    "notes": "Connecticut public libraries with Library of Things programs"
+  },
+  "libraries": [
+    {
+      "name": "Rocky Hill Public Library",
+      "location": "Rocky Hill, CT",
+      "phone": "860-258-7621",
+      "website": "https://www.rockyhillct.gov/library",
+      "lot_url": "https://rhctlibrary.org/libraryofthings",
+      "network_id": "bibliomation",
+      "notes": "Library of Things program with diverse collection"
+    },
+    {
+      "name": "Hartford Public Library",
+      "location": "Hartford, CT",
+      "phone": "860-695-6300",
+      "website": "https://www.hplct.org",
+      "lot_url": "https://hplct.libguides.com/libraryofthings",
+      "network_id": "bibliomation",
+      "notes": "Emphasizes sustainability and sharing economy"
+    },
+    {
+      "name": "Simsbury Public Library",
+      "location": "Simsbury, CT",
+      "phone": "860-658-7663",
+      "website": "https://www.simsburylibrary.info",
+      "lot_url": "https://www.simsburylibrary.info/library-of-things/",
+      "network_id": "bibliomation",
+      "notes": "Active Library of Things program"
+    }
+  ],
+  "items": [
+    {
+      "library": "Rocky Hill Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://rhctlibrary.org/libraryofthings",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Rocky Hill Public Library",
+      "category": "Home Inspection",
+      "name": "Kill-A-Watt Meter",
+      "description": "Electricity usage monitor",
+      "source_url": "https://rhctlibrary.org/libraryofthings",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Rocky Hill Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Beginner telescope for stargazing",
+      "source_url": "https://rhctlibrary.org/libraryofthings",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Rocky Hill Public Library",
+      "category": "Games",
+      "name": "Board Games Collection",
+      "description": "Various board games for checkout",
+      "source_url": "https://rhctlibrary.org/libraryofthings",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Hartford Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot for connectivity",
+      "source_url": "https://hplct.libguides.com/libraryofthings",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Hartford Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Portable sewing machine",
+      "source_url": "https://hplct.libguides.com/libraryofthings",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Hartford Public Library",
+      "category": "Kitchen",
+      "name": "Instant Pot",
+      "description": "Multi-use pressure cooker",
+      "source_url": "https://hplct.libguides.com/libraryofthings",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Hartford Public Library",
+      "category": "Home Improvement",
+      "name": "Basic Tool Kit",
+      "description": "Essential home improvement tools",
+      "source_url": "https://hplct.libguides.com/libraryofthings",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Simsbury Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://www.simsburylibrary.info/library-of-things/",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Simsbury Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Binoculars for birdwatching",
+      "source_url": "https://www.simsburylibrary.info/library-of-things/",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Simsbury Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele with case",
+      "source_url": "https://www.simsburylibrary.info/library-of-things/",
+      "last_verified": "2026-01-20"
+    },
+    {
+      "library": "Simsbury Public Library",
+      "category": "Games",
+      "name": "Lawn Games Set",
+      "description": "Outdoor lawn games collection",
+      "source_url": "https://www.simsburylibrary.info/library-of-things/",
+      "last_verified": "2026-01-20"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-01-20",
+    "verified_items_count": 12,
+    "data_source": "Library websites, January 2026",
+    "notes": "Connecticut Library of Things programs. Most CT libraries are part of Bibliomation (Evergreen) or LION (Aspen Discovery) consortia."
+  }
+}

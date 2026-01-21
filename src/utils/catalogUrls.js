@@ -42,10 +42,59 @@ const catalogUrlGenerators = {
     }
     return `${baseUrl}/v2/search?query=${encodeURIComponent(itemName)}&searchType=smart`;
   },
+
+  // Rhode Island - Koha + Aspen Discovery (Ocean State Libraries)
+  koha: (baseUrl, catalogId, itemName) => {
+    if (catalogId) {
+      return `${baseUrl}/cgi-bin/koha/opac-detail.pl?biblionumber=${catalogId}`;
+    }
+    return `${baseUrl}/cgi-bin/koha/opac-search.pl?q=${encodeURIComponent(itemName)}`;
+  },
+
+  // Rhode Island Ocean State with Aspen Discovery layer
+  koha_aspen: (baseUrl, catalogId, itemName) => {
+    if (catalogId) {
+      return `${baseUrl}/GroupedWork/${catalogId}`;
+    }
+    return `${baseUrl}/Search/Results?lookfor=${encodeURIComponent(itemName)}&searchIndex=Keyword`;
+  },
+
+  // NYPL - Encore (Sierra-based)
+  nypl_encore: (baseUrl, catalogId, itemName) => {
+    if (catalogId) {
+      return `${baseUrl}/record=${catalogId}`;
+    }
+    return `${baseUrl}/search~S1?/X${encodeURIComponent(itemName)}&searchscope=1&SORT=D`;
+  },
+
+  // Queens Library - Sierra Web OPAC
+  sierra: (baseUrl, catalogId, itemName) => {
+    if (catalogId) {
+      return `${baseUrl}/record=b${catalogId}`;
+    }
+    return `${baseUrl}/search/?searchtype=X&searcharg=${encodeURIComponent(itemName)}`;
+  },
+
+  // Innovative Interfaces (various NY libraries)
+  innovative: (baseUrl, catalogId, itemName) => {
+    return `${baseUrl}/search~S1/?searchtype=X&searcharg=${encodeURIComponent(itemName)}`;
+  },
+
+  // Connecticut - Bibliomation uses Evergreen (same generator)
+  // Uses 'evergreen' generator
+
+  // Connecticut - LION uses Aspen Discovery
+  // Uses 'aspen_discovery' generator
+
+  // OCLC WorldShare (academic libraries)
+  oclc_wms: (baseUrl, catalogId, itemName) => {
+    return `${baseUrl}/discovery/search?queryString=${encodeURIComponent(itemName)}`;
+  },
 };
 
 // Network configuration with catalog details
 export const networkCatalogs = {
+  // MASSACHUSETTS
   minuteman: {
     name: 'Minuteman Library Network',
     shortName: 'MLN',
@@ -53,6 +102,7 @@ export const networkCatalogs = {
     baseUrl: 'https://catalog.minlib.net',
     color: '#1E88E5',
     region: 'MetroWest Boston',
+    state: 'MA',
   },
   cwmars: {
     name: 'CWMARS',
@@ -61,6 +111,7 @@ export const networkCatalogs = {
     baseUrl: 'https://catalog.cwmars.org',
     color: '#43A047',
     region: 'Central/Western MA',
+    state: 'MA',
   },
   sails: {
     name: 'SAILS Library Network',
@@ -69,6 +120,7 @@ export const networkCatalogs = {
     baseUrl: 'https://sails.ent.sirsi.net',
     color: '#FB8C00',
     region: 'Southeastern MA',
+    state: 'MA',
   },
   mbln: {
     name: 'Metro Boston Library Network',
@@ -77,6 +129,7 @@ export const networkCatalogs = {
     baseUrl: 'https://catalog.mbln.org',
     color: '#8E24AA',
     region: 'Greater Boston',
+    state: 'MA',
   },
   bpl: {
     name: 'Boston Public Library',
@@ -85,6 +138,103 @@ export const networkCatalogs = {
     baseUrl: 'https://bpl.bibliocommons.com',
     color: '#D81B60',
     region: 'Boston',
+    state: 'MA',
+  },
+
+  // NEW YORK
+  sals: {
+    name: 'Southern Adirondack Library System',
+    shortName: 'SALS',
+    system: 'polaris',
+    baseUrl: 'https://catalog.sals.edu',
+    color: '#2E7D32',
+    region: 'Upstate NY',
+    state: 'NY',
+  },
+  nassau: {
+    name: 'Nassau Library System',
+    shortName: 'NLS',
+    system: 'polaris',
+    baseUrl: 'https://catalog.nassaulibrary.org',
+    color: '#1565C0',
+    region: 'Long Island',
+    state: 'NY',
+  },
+  suffolk: {
+    name: 'Suffolk Cooperative Library System',
+    shortName: 'SCLS',
+    system: 'polaris',
+    baseUrl: 'https://catalog.suffolklibrarysystem.org',
+    color: '#6A1B9A',
+    region: 'Long Island',
+    state: 'NY',
+  },
+  nypl: {
+    name: 'New York Public Library',
+    shortName: 'NYPL',
+    system: 'nypl_encore',
+    baseUrl: 'https://catalog.nypl.org',
+    color: '#C62828',
+    region: 'Manhattan/Bronx/Staten Island',
+    state: 'NY',
+  },
+  brooklyn_pl: {
+    name: 'Brooklyn Public Library',
+    shortName: 'BPL-BK',
+    system: 'bibliocommons',
+    baseUrl: 'https://www.bklynlibrary.org/catalog',
+    color: '#00838F',
+    region: 'Brooklyn',
+    state: 'NY',
+  },
+  queens_pl: {
+    name: 'Queens Public Library',
+    shortName: 'QPL',
+    system: 'sierra',
+    baseUrl: 'https://queenslibrary.org',
+    color: '#EF6C00',
+    region: 'Queens',
+    state: 'NY',
+  },
+
+  // CONNECTICUT
+  bibliomation: {
+    name: 'Bibliomation',
+    shortName: 'BIBLIO',
+    system: 'evergreen',
+    baseUrl: 'https://biblio.org',
+    color: '#4527A0',
+    region: 'Connecticut',
+    state: 'CT',
+  },
+  lion: {
+    name: 'Libraries Online (LION)',
+    shortName: 'LION',
+    system: 'aspen_discovery',
+    baseUrl: 'https://catalog.lioninc.org',
+    color: '#F57C00',
+    region: 'Connecticut',
+    state: 'CT',
+  },
+  library_connection: {
+    name: 'Library Connection',
+    shortName: 'LC',
+    system: 'innovative',
+    baseUrl: 'https://www.libraryconnection.info',
+    color: '#00695C',
+    region: 'Connecticut',
+    state: 'CT',
+  },
+
+  // RHODE ISLAND
+  ocean_state: {
+    name: 'Ocean State Libraries',
+    shortName: 'OSL',
+    system: 'koha_aspen',
+    baseUrl: 'https://catalog.oslri.net',
+    color: '#AD1457',
+    region: 'Rhode Island',
+    state: 'RI',
   },
 };
 

@@ -4,6 +4,7 @@
       "name": "Minuteman Library Network",
       "short_name": "MLN",
       "region": "MetroWest Boston",
+      "state": "MA",
       "catalog_system": "aspen_discovery",
       "catalog_base_url": "https://catalog.minlib.net",
       "website": "https://www.minlib.net",
@@ -18,6 +19,7 @@
       "name": "CWMARS",
       "short_name": "CW",
       "region": "Central and Western Massachusetts",
+      "state": "MA",
       "catalog_system": "evergreen",
       "catalog_base_url": "https://catalog.cwmars.org",
       "website": "https://www.cwmars.org",
@@ -32,6 +34,7 @@
       "name": "SAILS Library Network",
       "short_name": "SAILS",
       "region": "Southeastern Massachusetts",
+      "state": "MA",
       "catalog_system": "sirsidynix",
       "catalog_base_url": "https://sails.ent.sirsi.net",
       "website": "https://sailsinc.org",
@@ -45,6 +48,7 @@
       "name": "Metro Boston Library Network",
       "short_name": "MBLN",
       "region": "Greater Boston",
+      "state": "MA",
       "catalog_system": "polaris",
       "catalog_base_url": "https://catalog.mbln.org",
       "website": "https://www.mbln.org",
@@ -52,6 +56,31 @@
       "catalog_url": "https://catalog.mbln.org",
       "notes": "Includes Boston Public Library system",
       "id": "mbln"
+    },
+    "bibliomation": {
+      "name": "Connecticut Libraries",
+      "short_name": "CT",
+      "region": "Connecticut",
+      "state": "CT",
+      "catalog_system": "evergreen",
+      "catalog_base_url": "https://biblio.org",
+      "website": "https://www.biblio.org",
+      "color": "#4527A0",
+      "notes": "Connecticut public libraries with Library of Things programs",
+      "id": "bibliomation"
+    },
+    "ocean_state": {
+      "name": "Ocean State Libraries",
+      "short_name": "OSL",
+      "region": "Rhode Island",
+      "state": "RI",
+      "catalog_system": "koha_aspen",
+      "catalog_base_url": "https://catalog.oslri.net",
+      "website": "https://oslri.org",
+      "color": "#AD1457",
+      "catalog_url": "https://catalog.oslri.net",
+      "notes": "All public libraries in Rhode Island are part of Ocean State Libraries",
+      "id": "ocean_state"
     }
   },
   "items": [
@@ -1516,13 +1545,233 @@
       "last_verified": "2026-01-11",
       "network": "mbln",
       "id": "mbln_boston_public_library_smarter_by_pfaff_140s_sewing_machine"
+    },
+    {
+      "library": "Rocky Hill Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://rhctlibrary.org/libraryofthings",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_rocky_hill_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Rocky Hill Public Library",
+      "category": "Home Inspection",
+      "name": "Kill-A-Watt Meter",
+      "description": "Electricity usage monitor",
+      "source_url": "https://rhctlibrary.org/libraryofthings",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_rocky_hill_public_library_kill_a_watt_meter"
+    },
+    {
+      "library": "Rocky Hill Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Beginner telescope for stargazing",
+      "source_url": "https://rhctlibrary.org/libraryofthings",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_rocky_hill_public_library_telescope"
+    },
+    {
+      "library": "Rocky Hill Public Library",
+      "category": "Games",
+      "name": "Board Games Collection",
+      "description": "Various board games for checkout",
+      "source_url": "https://rhctlibrary.org/libraryofthings",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_rocky_hill_public_library_board_games_collection"
+    },
+    {
+      "library": "Hartford Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot for connectivity",
+      "source_url": "https://hplct.libguides.com/libraryofthings",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_hartford_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Hartford Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Portable sewing machine",
+      "source_url": "https://hplct.libguides.com/libraryofthings",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_hartford_public_library_sewing_machine"
+    },
+    {
+      "library": "Hartford Public Library",
+      "category": "Kitchen",
+      "name": "Instant Pot",
+      "description": "Multi-use pressure cooker",
+      "source_url": "https://hplct.libguides.com/libraryofthings",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_hartford_public_library_instant_pot"
+    },
+    {
+      "library": "Hartford Public Library",
+      "category": "Home Improvement",
+      "name": "Basic Tool Kit",
+      "description": "Essential home improvement tools",
+      "source_url": "https://hplct.libguides.com/libraryofthings",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_hartford_public_library_basic_tool_kit"
+    },
+    {
+      "library": "Simsbury Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://www.simsburylibrary.info/library-of-things/",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_simsbury_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Simsbury Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Binoculars for birdwatching",
+      "source_url": "https://www.simsburylibrary.info/library-of-things/",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_simsbury_public_library_binoculars"
+    },
+    {
+      "library": "Simsbury Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele with case",
+      "source_url": "https://www.simsburylibrary.info/library-of-things/",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_simsbury_public_library_ukulele"
+    },
+    {
+      "library": "Simsbury Public Library",
+      "category": "Games",
+      "name": "Lawn Games Set",
+      "description": "Outdoor lawn games collection",
+      "source_url": "https://www.simsburylibrary.info/library-of-things/",
+      "last_verified": "2026-01-20",
+      "network": "bibliomation",
+      "id": "bibliomation_simsbury_public_library_lawn_games_set"
+    },
+    {
+      "library": "Middletown Public Library",
+      "category": "Technology",
+      "name": "Roku Streaming Device",
+      "description": "TV streaming device for checkout",
+      "source_url": "https://middletownpubliclibrary.org/library-of-things/",
+      "last_verified": "2026-01-20",
+      "network": "ocean_state",
+      "id": "ocean_state_middletown_public_library_roku_streaming_device"
+    },
+    {
+      "library": "Middletown Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "WiFi hotspot device for mobile internet",
+      "source_url": "https://middletownpubliclibrary.org/library-of-things/",
+      "last_verified": "2026-01-20",
+      "network": "ocean_state",
+      "id": "ocean_state_middletown_public_library_mobile_hotspot"
+    },
+    {
+      "library": "Middletown Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Equipment",
+      "description": "Basic fishing gear for beginners",
+      "source_url": "https://middletownpubliclibrary.org/library-of-things/",
+      "last_verified": "2026-01-20",
+      "network": "ocean_state",
+      "id": "ocean_state_middletown_public_library_fishing_equipment"
+    },
+    {
+      "library": "Middletown Public Library",
+      "category": "Technology",
+      "name": "Launchpad Learning Tablet",
+      "description": "Educational tablet for children",
+      "source_url": "https://middletownpubliclibrary.org/library-of-things/",
+      "last_verified": "2026-01-20",
+      "network": "ocean_state",
+      "id": "ocean_state_middletown_public_library_launchpad_learning_tablet"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://provlib.org",
+      "last_verified": "2026-01-20",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Beginner ukulele with instructional materials",
+      "source_url": "https://provlib.org",
+      "last_verified": "2026-01-20",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_ukulele"
+    },
+    {
+      "library": "Providence Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games for checkout",
+      "source_url": "https://provlib.org",
+      "last_verified": "2026-01-20",
+      "network": "ocean_state",
+      "id": "ocean_state_providence_public_library_board_games"
+    },
+    {
+      "library": "Cranston Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot",
+      "source_url": "https://cranstonlibrary.org",
+      "last_verified": "2026-01-20",
+      "network": "ocean_state",
+      "id": "ocean_state_cranston_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Cranston Public Library",
+      "category": "Home Inspection",
+      "name": "Kill-A-Watt Meter",
+      "description": "Electricity usage monitor",
+      "source_url": "https://cranstonlibrary.org",
+      "last_verified": "2026-01-20",
+      "network": "ocean_state",
+      "id": "ocean_state_cranston_public_library_kill_a_watt_meter"
+    },
+    {
+      "library": "Cranston Public Library",
+      "category": "Outdoor/Camping",
+      "name": "State Park Pass",
+      "description": "Rhode Island State Parks pass",
+      "source_url": "https://cranstonlibrary.org",
+      "last_verified": "2026-01-20",
+      "network": "ocean_state",
+      "id": "ocean_state_cranston_public_library_state_park_pass"
     }
   ],
   "metadata": {
     "last_updated": "2026-01-20",
-    "total_items": 174,
-    "total_libraries": 14,
-    "total_networks": 4,
+    "total_items": 196,
+    "total_libraries": 20,
+    "total_networks": 6,
     "generated_by": "consolidate.py"
   }
 }
