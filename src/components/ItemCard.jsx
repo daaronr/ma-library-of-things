@@ -5,8 +5,11 @@ import { formatDistance } from '../utils/location';
 
 export default function ItemCard({ item }) {
   const networkInfo = getNetworkInfo(item.network);
-  const catalogUrl = item.catalog_url ||
+  // Prefer source_url (Library of Things page) over catalog search
+  // Catalog searches often don't find LoT items which aren't in main catalog
+  const itemUrl = item.source_url || item.catalog_url ||
     getCatalogUrl(item.network, item.catalog_id, item.name);
+  const isSourceUrl = !!item.source_url;
 
   return (
     <div className="bg-white border border-gray-100 rounded-lg p-4 hover:shadow-md transition-shadow">
@@ -49,16 +52,16 @@ export default function ItemCard({ item }) {
           </div>
         </div>
 
-        {/* Catalog link */}
-        {catalogUrl && (
+        {/* Item link - prefer source URL (Library of Things page) over catalog search */}
+        {itemUrl && (
           <a
-            href={catalogUrl}
+            href={itemUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="flex-shrink-0 text-indigo-600 hover:text-indigo-800 text-sm font-medium flex items-center gap-1"
-            title="View in library catalog"
+            title={isSourceUrl ? "View Library of Things page" : "Search in library catalog"}
           >
-            <span className="hidden sm:inline">Catalog</span>
+            <span className="hidden sm:inline">{isSourceUrl ? "View" : "Search"}</span>
             <svg
               className="w-4 h-4"
               fill="none"
