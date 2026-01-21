@@ -1,23 +1,40 @@
-# Massachusetts Library of Things Database
+# Library of Things - Northeast US
 
-A consolidated, searchable database of "Library of Things" items available through Massachusetts library networks. These programs allow library cardholders to borrow tools, equipment, technology, and other non-traditional items for free.
+A consolidated, searchable database of "Library of Things" items available through public library networks in the Northeast United States. These programs allow library cardholders to borrow tools, equipment, technology, and other non-traditional items for free.
+
+**Features:**
+- Search by location (ZIP code or geolocation)
+- Filter by radius (5, 10, 25, 50 miles)
+- Browse by network, library, or category
+- Direct links to library catalogs
 
 > **DISCLAIMER:** This is an independent, community-maintained project. It is not affiliated with, endorsed by, or officially connected to any library network or individual library. For official information, please contact your local library directly.
 
 ## Project Goal
 
-Library of Things programs are incredible public resources, but discovery is fragmented. Each library maintains its own webpage, making it difficult for patrons to find what's available across networks. This project consolidates that information into a searchable unified app.
+Library of Things programs are incredible public resources, but discovery is fragmented. Each library maintains its own webpage, making it difficult for patrons to find what's available across networks. This project consolidates that information into a searchable unified app with location-based filtering.
 
 ## Networks Covered
 
-| Network | Region | Libraries | Items | Status |
-|---------|--------|-----------|-------|--------|
-| **Minuteman (MLN)** | MetroWest Boston | 41 | 98+ | Active |
-| **CWMARS** | Central/Western MA | 150+ | 33+ | Active |
-| **SAILS** | Southeastern MA | 70 | 29+ | Active |
-| **MBLN** | Greater Boston | 30+ | 6+ | Active |
+### Massachusetts
+| Network | Region | Items | Status |
+|---------|--------|-------|--------|
+| **Minuteman (MLN)** | MetroWest Boston | 98+ | Active |
+| **CWMARS** | Central/Western MA | 41+ | Active |
+| **SAILS** | Southeastern MA | 29+ | Active |
+| **MBLN** | Greater Boston | 6+ | Active |
 
-**Total:** 166+ verified items across 13 libraries in 4 networks
+### Connecticut
+| Network | Region | Items | Status |
+|---------|--------|-------|--------|
+| **Bibliomation** | Connecticut | 12+ | Active |
+
+### Rhode Island
+| Network | Region | Items | Status |
+|---------|--------|-------|--------|
+| **Ocean State Libraries** | Rhode Island | 10+ | Active |
+
+**Total:** 196+ verified items across 20 libraries in 6 networks (3 states)
 
 ## Key Finding: Morse Institute Library
 
@@ -152,7 +169,7 @@ Key ways to help:
 1. **Add data** from libraries not yet included
 2. **Verify accuracy** of existing entries
 3. **Improve scrapers** for better automation
-4. **Expand coverage** to other MA networks (NOBLE, OCLN, CLAMS, MVLC)
+4. **Expand coverage** to other states (NY, NJ, PA, etc.) and networks
 
 ### Adding a New Network
 
@@ -177,7 +194,7 @@ This project is released under the MIT License. The underlying data is publicly 
 
 - Created by [David Reinstein](https://davidreinstein.org) with assistance from [Claude AI](https://claude.ai)
 - Data sourced from individual library websites
-- Inspired by the amazing work of Massachusetts public librarians
+- Inspired by the amazing work of public librarians across the Northeast US
 
 ---
 

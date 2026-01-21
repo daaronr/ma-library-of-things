@@ -11,10 +11,10 @@ export default function Header({ stats }) {
           <span className="text-5xl">📚</span>
           <div>
             <h1 className="text-2xl md:text-3xl font-bold text-indigo-900">
-              Massachusetts Library of Things
+              Library of Things
             </h1>
             <p className="text-indigo-600">
-              Search borrowable items across library networks
+              Search borrowable items across Northeast US library networks
             </p>
           </div>
         </div>
