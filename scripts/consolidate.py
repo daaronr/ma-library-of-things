@@ -19,13 +19,14 @@ DATA_DIR = SCRIPT_DIR.parent / "data"
 PUBLIC_DATA_DIR = SCRIPT_DIR.parent / "public" / "data"
 
 # Network file mapping
+# NOTE: Some networks removed due to explicit Terms of Service prohibitions on automated access:
+#   - SAILS (sails_items.json) - robots.txt Disallow: / (blocks all crawling)
+#   - MBLN/BPL (mbln_items.json, bpl_items.json) - BiblioCommons ToS prohibits automated harvesting
+#   - Brooklyn PL - BiblioCommons ToS prohibits automated harvesting (removed from ny_items.json)
 NETWORK_FILES = {
     # Massachusetts
     "minuteman": "minuteman_items.json",
     "cwmars": "cwmars_items.json",
-    "sails": "sails_items.json",
-    "mbln": "mbln_items.json",
-    "bpl": "bpl_items.json",
     # Connecticut
     "bibliomation": "ct_items.json",
     # Rhode Island
@@ -57,36 +58,7 @@ NETWORK_METADATA = {
         "website": "https://www.cwmars.org",
         "color": "#43A047",
     },
-    "sails": {
-        "name": "SAILS Library Network",
-        "short_name": "SAILS",
-        "region": "Southeastern MA",
-        "state": "MA",
-        "catalog_system": "sirsidynix",
-        "catalog_base_url": "https://sails.ent.sirsi.net",
-        "website": "https://sailsinc.org",
-        "color": "#FB8C00",
-    },
-    "mbln": {
-        "name": "Metro Boston Library Network",
-        "short_name": "MBLN",
-        "region": "Greater Boston",
-        "state": "MA",
-        "catalog_system": "polaris",
-        "catalog_base_url": "https://catalog.mbln.org",
-        "website": "https://www.mbln.org",
-        "color": "#8E24AA",
-    },
-    "bpl": {
-        "name": "Boston Public Library",
-        "short_name": "BPL",
-        "region": "Boston",
-        "state": "MA",
-        "catalog_system": "bibliocommons",
-        "catalog_base_url": "https://bpl.bibliocommons.com",
-        "website": "https://www.bpl.org",
-        "color": "#D81B60",
-    },
+    # NOTE: sails, mbln, bpl removed - ToS prohibit automated access
     # Connecticut
     "bibliomation": {
         "name": "Bibliomation",

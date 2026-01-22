@@ -49,14 +49,6 @@
       "website": "https://www.queenslibrary.org",
       "network_id": "queens_pl",
       "notes": "Hotspot lending program and various non-traditional items"
-    },
-    {
-      "name": "Brooklyn Public Library",
-      "location": "Brooklyn, NY",
-      "phone": "718-230-2100",
-      "website": "https://www.bklynlibrary.org",
-      "network_id": "brooklyn_pl",
-      "notes": "Growing Library of Things collection"
     }
   ],
   "items": [
@@ -235,44 +227,12 @@
       "description": "Beginner ukulele with instructional materials",
       "source_url": "https://www.queenslibrary.org",
       "last_verified": "2026-01-21"
-    },
-    {
-      "library": "Brooklyn Public Library",
-      "category": "Technology",
-      "name": "WiFi Hotspot",
-      "description": "Mobile internet hotspot device",
-      "source_url": "https://www.bklynlibrary.org",
-      "last_verified": "2026-01-21"
-    },
-    {
-      "library": "Brooklyn Public Library",
-      "category": "Technology",
-      "name": "Laptop Computer",
-      "description": "Laptop for checkout",
-      "source_url": "https://www.bklynlibrary.org",
-      "last_verified": "2026-01-21"
-    },
-    {
-      "library": "Brooklyn Public Library",
-      "category": "Music",
-      "name": "Ukulele",
-      "description": "Beginner ukulele",
-      "source_url": "https://www.bklynlibrary.org",
-      "last_verified": "2026-01-21"
-    },
-    {
-      "library": "Brooklyn Public Library",
-      "category": "Games",
-      "name": "Board Games",
-      "description": "Various board games for families",
-      "source_url": "https://www.bklynlibrary.org",
-      "last_verified": "2026-01-21"
     }
   ],
   "metadata": {
     "last_updated": "2026-01-21",
-    "verified_items_count": 26,
+    "verified_items_count": 22,
     "data_source": "Library websites, January 2026",
-    "notes": "New York Library of Things programs. Includes Long Island (Nassau, Suffolk systems), NYC (NYPL, Brooklyn PL, Queens PL)."
+    "notes": "New York Library of Things programs. Includes Long Island (Nassau, Suffolk systems), NYC (NYPL, Queens PL)."
   }
 }

@@ -203,46 +203,6 @@
     "website": "https://www.monsonfreelibrary.org",
     "catalog_system": "evergreen"
   },
-  "bridgewater_public": {
-    "id": "bridgewater_public",
-    "name": "Bridgewater Public Library",
-    "network": "sails",
-    "state": "MA",
-    "location": "Bridgewater, MA",
-    "address": "15 South St, Bridgewater, MA 02324",
-    "coordinates": { "lat": 41.9904, "lng": -70.9756 },
-    "phone": "508-697-3331",
-    "website": "https://www.bridgewaterpubliclibrary.org",
-    "lot_url": "https://www.bridgewaterpubliclibrary.org/library-things",
-    "catalog_system": "sirsidynix"
-  },
-  "west_bridgewater_public": {
-    "id": "west_bridgewater_public",
-    "name": "West Bridgewater Public Library",
-    "network": "sails",
-    "state": "MA",
-    "location": "West Bridgewater, MA",
-    "address": "80 Howard St, West Bridgewater, MA 02379",
-    "coordinates": { "lat": 42.0168, "lng": -71.0076 },
-    "phone": "508-894-1255",
-    "website": "https://westbpl.org",
-    "lot_url": "https://westbpl.org/library-of-things/",
-    "catalog_system": "sirsidynix"
-  },
-  "boston_public": {
-    "id": "boston_public",
-    "name": "Boston Public Library",
-    "network": "mbln",
-    "state": "MA",
-    "location": "Boston, MA",
-    "address": "700 Boylston St, Boston, MA 02116",
-    "coordinates": { "lat": 42.3493, "lng": -71.0779 },
-    "phone": "617-536-5400",
-    "website": "https://www.bpl.org",
-    "lot_url": "https://www.bpl.org/library-of-things/",
-    "catalog_system": "bibliocommons"
-  },
-
   "rocky_hill_public": {
     "id": "rocky_hill_public",
     "name": "Rocky Hill Public Library",
@@ -423,17 +383,5 @@
     "phone": "718-990-0700",
     "website": "https://www.queenslibrary.org",
     "catalog_system": "sierra"
-  },
-  "brooklyn_public": {
-    "id": "brooklyn_public",
-    "name": "Brooklyn Public Library",
-    "network": "brooklyn_pl",
-    "state": "NY",
-    "location": "Brooklyn, NY",
-    "address": "10 Grand Army Plaza, Brooklyn, NY 11238",
-    "coordinates": { "lat": 40.6728, "lng": -73.9685 },
-    "phone": "718-230-2100",
-    "website": "https://www.bklynlibrary.org",
-    "catalog_system": "bibliocommons"
   }
 }

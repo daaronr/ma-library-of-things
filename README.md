@@ -21,8 +21,6 @@ Library of Things programs are incredible public resources, but discovery is fra
 |---------|--------|-------|--------|
 | **Minuteman (MLN)** | MetroWest Boston | 98+ | Active |
 | **CWMARS** | Central/Western MA | 41+ | Active |
-| **SAILS** | Southeastern MA | 29+ | Active |
-| **MBLN** | Greater Boston | 6+ | Active |
 
 ### Connecticut
 | Network | Region | Items | Status |
@@ -32,16 +30,27 @@ Library of Things programs are incredible public resources, but discovery is fra
 ### Rhode Island
 | Network | Region | Items | Status |
 |---------|--------|-------|--------|
-| **Ocean State Libraries** | Rhode Island | 68+ | Active |
+| **Ocean State Libraries** | Rhode Island | 75+ | Active |
 
 ### New York
 | Network | Region | Items | Status |
 |---------|--------|-------|--------|
 | **Nassau/Suffolk** | Long Island | 14+ | Active |
-| **NYPL** | Manhattan/Bronx/SI | 5+ | Active |
-| **Brooklyn/Queens** | NYC | 7+ | Active |
+| **NYPL/Queens** | NYC | 8+ | Active |
 
-**Total:** 294+ verified items across 29 libraries in 7 networks (4 states)
+**Total:** 255+ verified items across 25 libraries in 5 networks (4 states)
+
+### Excluded Libraries
+
+The following libraries have been excluded due to their Terms of Service explicitly prohibiting automated data collection:
+
+| Library | Reason |
+|---------|--------|
+| Boston Public Library | BiblioCommons ToS prohibits automated harvesting |
+| Brooklyn Public Library | BiblioCommons ToS prohibits automated harvesting |
+| SAILS Network (Bridgewater, W. Bridgewater) | robots.txt blocks all automated access |
+
+We respect library policies and encourage users to visit these libraries directly for their Library of Things offerings.
 
 ## Key Finding: Morse Institute Library
 
