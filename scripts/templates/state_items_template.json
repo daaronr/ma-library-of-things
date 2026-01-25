@@ -1,0 +1,31 @@
+{
+  "network": {
+    "name": "STATE_NAME Libraries",
+    "short_name": "STATE_CODE",
+    "region": "STATE_NAME",
+    "state": "STATE_CODE",
+    "notes": "Libraries in STATE_NAME with Library of Things programs."
+  },
+  "libraries": [
+    {
+      "name": "Example Public Library",
+      "location": "City, STATE_CODE",
+      "lot_url": "https://example.org/library-of-things",
+      "catalog_url": "https://catalog.example.org"
+    }
+  ],
+  "items": [
+    {
+      "library": "Example Public Library",
+      "category": "Home Improvement",
+      "name": "Item Name",
+      "description": "Item description",
+      "source_url": "https://example.org/library-of-things"
+    }
+  ],
+  "metadata": {
+    "last_updated": "YYYY-MM-DD",
+    "verified_items_count": 0,
+    "notes": "Initial data collection"
+  }
+}
