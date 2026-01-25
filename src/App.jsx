@@ -51,12 +51,19 @@ export default function App() {
   const availableNetworks = useMemo(() => {
     if (!data?.networks) return networkCatalogs;
     // Merge loaded network info with catalog info
+    // Convert snake_case keys from JSON to camelCase for JS
     const merged = { ...networkCatalogs };
     Object.entries(data.networks).forEach(([id, network]) => {
+      const normalized = {
+        ...network,
+        shortName: network.shortName || network.short_name,
+        catalogSystem: network.catalogSystem || network.catalog_system,
+        catalogBaseUrl: network.catalogBaseUrl || network.catalog_base_url,
+      };
       if (merged[id]) {
-        merged[id] = { ...merged[id], ...network };
+        merged[id] = { ...merged[id], ...normalized };
       } else {
-        merged[id] = network;
+        merged[id] = normalized;
       }
     });
     return merged;
