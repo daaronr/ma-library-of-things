@@ -383,5 +383,84 @@
     "phone": "718-990-0700",
     "website": "https://www.queenslibrary.org",
     "catalog_system": "sierra"
+  },
+
+  "ridgewood_public": {
+    "id": "ridgewood_public",
+    "name": "Ridgewood Public Library",
+    "network": "bccls",
+    "state": "NJ",
+    "location": "Ridgewood, NJ",
+    "address": "125 N Maple Ave, Ridgewood, NJ 07450",
+    "coordinates": { "lat": 40.9793, "lng": -74.1168 },
+    "phone": "201-670-5600",
+    "website": "https://ridgewoodlibrary.org",
+    "lot_url": "https://ridgewoodlibrary.org/library-services/library-of-things/",
+    "catalog_system": "polaris"
+  },
+  "montclair_public": {
+    "id": "montclair_public",
+    "name": "Montclair Public Library",
+    "network": "bccls",
+    "state": "NJ",
+    "location": "Montclair, NJ",
+    "address": "50 S Fullerton Ave, Montclair, NJ 07042",
+    "coordinates": { "lat": 40.8126, "lng": -74.2090 },
+    "phone": "973-744-0500",
+    "website": "https://montclairlibrary.org",
+    "lot_url": "https://montclairlibrary.org/borrow/things/",
+    "catalog_system": "polaris"
+  },
+  "plainsboro_public": {
+    "id": "plainsboro_public",
+    "name": "Plainsboro Public Library",
+    "network": "stella",
+    "state": "NJ",
+    "location": "Plainsboro, NJ",
+    "address": "9 Van Doren St, Plainsboro, NJ 08536",
+    "coordinates": { "lat": 40.3318, "lng": -74.5868 },
+    "phone": "609-275-2897",
+    "website": "https://plainsborolibrary.org",
+    "lot_url": "https://plainsborolibrary.org/plot/",
+    "catalog_system": "polaris"
+  },
+  "bernards_township": {
+    "id": "bernards_township",
+    "name": "Bernards Township Library",
+    "network": "main_nj",
+    "state": "NJ",
+    "location": "Basking Ridge, NJ",
+    "address": "32 S Maple Ave, Basking Ridge, NJ 07920",
+    "coordinates": { "lat": 40.7057, "lng": -74.5512 },
+    "phone": "908-204-3031",
+    "website": "https://www.bernardslibrary.org",
+    "lot_url": "https://www.bernardslibrary.org/libraryofthings",
+    "catalog_system": "polaris"
+  },
+  "parsippany_library": {
+    "id": "parsippany_library",
+    "name": "Parsippany Library",
+    "network": "main_nj",
+    "state": "NJ",
+    "location": "Parsippany, NJ",
+    "address": "449 Halsey Rd, Parsippany, NJ 07054",
+    "coordinates": { "lat": 40.8576, "lng": -74.4257 },
+    "phone": "973-887-5150",
+    "website": "https://parsippanylibrary.org",
+    "lot_url": "https://parsippanylibrary.org/borrow/things/",
+    "catalog_system": "polaris"
+  },
+  "rutherford_public": {
+    "id": "rutherford_public",
+    "name": "Rutherford Public Library",
+    "network": "bccls",
+    "state": "NJ",
+    "location": "Rutherford, NJ",
+    "address": "150 Park Ave, Rutherford, NJ 07070",
+    "coordinates": { "lat": 40.8262, "lng": -74.1057 },
+    "phone": "201-939-8600",
+    "website": "https://rutherfordlibrary.org",
+    "lot_url": "https://rutherfordlibrary.org/library-of-things/",
+    "catalog_system": "polaris"
   }
 }

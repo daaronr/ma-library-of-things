@@ -66,6 +66,18 @@
       "color": "#C62828",
       "notes": "New York public libraries with Library of Things programs",
       "id": "ny_libraries"
+    },
+    "nj_libraries": {
+      "name": "New Jersey Libraries",
+      "short_name": "NJ",
+      "region": "New Jersey",
+      "state": "NJ",
+      "catalog_system": "polaris",
+      "catalog_base_url": "https://catalog.bccls.org",
+      "website": "https://librarylinknj.org",
+      "color": "#FF6F00",
+      "notes": "New Jersey public libraries with Library of Things programs. Multiple consortiums: BCCLS (Bergen/Essex), MAIN (Morris/Somerset), STELLA (Middlesex/Monmouth).",
+      "id": "nj_libraries"
     }
   },
   "items": [
@@ -2340,13 +2352,483 @@
       "last_verified": "2026-01-21",
       "network": "ny_libraries",
       "id": "ny_libraries_queens_public_library_ukulele"
+    },
+    {
+      "library": "Ridgewood Public Library",
+      "category": "Science/Education",
+      "name": "STEM Kits",
+      "description": "Science, technology, engineering, and math learning kits",
+      "source_url": "https://ridgewoodlibrary.org/library-services/library-of-things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_ridgewood_public_library_stem_kits"
+    },
+    {
+      "library": "Ridgewood Public Library",
+      "category": "Outdoor Games",
+      "name": "Lawn Games",
+      "description": "Outdoor lawn games collection",
+      "source_url": "https://ridgewoodlibrary.org/library-services/library-of-things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_ridgewood_public_library_lawn_games"
+    },
+    {
+      "library": "Ridgewood Public Library",
+      "category": "Home Improvement",
+      "name": "Hand Tools",
+      "description": "Various hand tools for home projects",
+      "source_url": "https://ridgewoodlibrary.org/library-services/library-of-things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_ridgewood_public_library_hand_tools"
+    },
+    {
+      "library": "Ridgewood Public Library",
+      "category": "Technology",
+      "name": "Video Equipment",
+      "description": "Video recording and production equipment",
+      "source_url": "https://ridgewoodlibrary.org/library-services/library-of-things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_ridgewood_public_library_video_equipment"
+    },
+    {
+      "library": "Ridgewood Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://ridgewoodlibrary.org/library-services/library-of-things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_ridgewood_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Home Improvement",
+      "name": "Cordless Drill",
+      "description": "Cordless power drill for home projects",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_cordless_drill"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "description": "Electric pressure washer for cleaning",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_pressure_washer"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Technology",
+      "name": "Portable Scanner",
+      "description": "Portable document scanner",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_portable_scanner"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Kitchen",
+      "name": "Knife Sharpener",
+      "description": "Kitchen knife sharpener",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_knife_sharpener"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Technology",
+      "name": "Coin Counter",
+      "description": "Automatic coin counting machine",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_coin_counter"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Games",
+      "name": "Board Games Collection",
+      "description": "Various board games for checkout",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_board_games_collection"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Party/Event",
+      "name": "Speaker and Microphone",
+      "description": "Portable speaker with microphone for events",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_speaker_and_microphone"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Party/Event",
+      "name": "Inflatable Screen and Projector",
+      "description": "Outdoor movie screen with projector",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_inflatable_screen_and_projector"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Technology",
+      "name": "Cassette to CD Converter",
+      "description": "Convert audio cassettes to digital format",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_cassette_to_cd_converter"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Technology",
+      "name": "Video to Digital Converter",
+      "description": "Convert VHS tapes to digital format",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_video_to_digital_converter"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Bedazzler",
+      "description": "Rhinestone and stud setter for crafts",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_bedazzler"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machine for DIY projects",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_sewing_machine"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Music",
+      "name": "Ukulele Starter Kit",
+      "description": "Beginner ukulele with instructional materials",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_ukulele_starter_kit"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Science/Education",
+      "name": "Robot Kit",
+      "description": "Robotics learning kit",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_robot_kit"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_telescope"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Science/Education",
+      "name": "Microscope",
+      "description": "Microscope for science exploration",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_microscope"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Science/Education",
+      "name": "Mosquito Habitat Mapper Kit",
+      "description": "NASA citizen science kit for mapping mosquito habitats",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_mosquito_habitat_mapper_kit"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Science/Education",
+      "name": "Globe at Night Kit",
+      "description": "Light pollution observation science kit",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_globe_at_night_kit"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Science/Education",
+      "name": "Cloud Investigations Kit",
+      "description": "Weather and cloud observation science kit",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_cloud_investigations_kit"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Science/Education",
+      "name": "Exploring Biodiversity Kit",
+      "description": "Nature and biodiversity exploration kit",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_exploring_biodiversity_kit"
+    },
+    {
+      "library": "Montclair Public Library",
+      "category": "Science/Education",
+      "name": "Water Quality Monitoring Kit",
+      "description": "Water testing and quality monitoring kit",
+      "source_url": "https://montclairlibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_montclair_public_library_water_quality_monitoring_kit"
+    },
+    {
+      "library": "Plainsboro Public Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "description": "Electric pressure washer for outdoor cleaning",
+      "source_url": "https://plainsborolibrary.org/plot/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_plainsboro_public_library_pressure_washer"
+    },
+    {
+      "library": "Plainsboro Public Library",
+      "category": "Outdoor Games",
+      "name": "Tennis Racquets",
+      "description": "Tennis racquet set for outdoor play",
+      "source_url": "https://plainsborolibrary.org/plot/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_plainsboro_public_library_tennis_racquets"
+    },
+    {
+      "library": "Plainsboro Public Library",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "description": "Complete bocce ball game set",
+      "source_url": "https://plainsborolibrary.org/plot/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_plainsboro_public_library_bocce_ball_set"
+    },
+    {
+      "library": "Plainsboro Public Library",
+      "category": "Kitchen",
+      "name": "Baking Pan Molds Collection",
+      "description": "7 different baking pan molds for various recipes",
+      "source_url": "https://plainsborolibrary.org/plot/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_plainsboro_public_library_baking_pan_molds_collection"
+    },
+    {
+      "library": "Plainsboro Public Library",
+      "category": "Kitchen",
+      "name": "Baking Supplies Kit",
+      "description": "Spatulas, measuring spoons, cooling racks, and baking mats",
+      "source_url": "https://plainsborolibrary.org/plot/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_plainsboro_public_library_baking_supplies_kit"
+    },
+    {
+      "library": "Plainsboro Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machine for DIY projects",
+      "source_url": "https://plainsborolibrary.org/plot/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_plainsboro_public_library_sewing_machine"
+    },
+    {
+      "library": "Bernards Township Library",
+      "category": "Outdoor/Camping",
+      "name": "Adventure Gear",
+      "description": "Outdoor and exploration equipment",
+      "source_url": "https://www.bernardslibrary.org/libraryofthings",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_bernards_township_library_adventure_gear"
+    },
+    {
+      "library": "Bernards Township Library",
+      "category": "Home Improvement",
+      "name": "Tools Collection",
+      "description": "Hand tools and toolkit items",
+      "source_url": "https://www.bernardslibrary.org/libraryofthings",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_bernards_township_library_tools_collection"
+    },
+    {
+      "library": "Bernards Township Library",
+      "category": "Science/Education",
+      "name": "STEM Kits",
+      "description": "Science, technology, engineering, and math items",
+      "source_url": "https://www.bernardslibrary.org/libraryofthings",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_bernards_township_library_stem_kits"
+    },
+    {
+      "library": "Bernards Township Library",
+      "category": "Technology",
+      "name": "Electronics & Gadgets",
+      "description": "Technology devices and gadgets",
+      "source_url": "https://www.bernardslibrary.org/libraryofthings",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_bernards_township_library_electronics_&_gadgets"
+    },
+    {
+      "library": "Bernards Township Library",
+      "category": "Music",
+      "name": "Musical Instruments",
+      "description": "Musical instruments and audio equipment",
+      "source_url": "https://www.bernardslibrary.org/libraryofthings",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_bernards_township_library_musical_instruments"
+    },
+    {
+      "library": "Bernards Township Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Tabletop gaming collection",
+      "source_url": "https://www.bernardslibrary.org/libraryofthings",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_bernards_township_library_board_games"
+    },
+    {
+      "library": "Bernards Township Library",
+      "category": "Games",
+      "name": "Puzzles Collection",
+      "description": "Puzzle games and brain teasers",
+      "source_url": "https://www.bernardslibrary.org/libraryofthings",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_bernards_township_library_puzzles_collection"
+    },
+    {
+      "library": "Bernards Township Library",
+      "category": "Party/Event",
+      "name": "Celebration Supplies",
+      "description": "Party and event supplies",
+      "source_url": "https://www.bernardslibrary.org/libraryofthings",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_bernards_township_library_celebration_supplies"
+    },
+    {
+      "library": "Bernards Township Library",
+      "category": "Technology",
+      "name": "Assistive Technology",
+      "description": "Accessibility technology tools",
+      "source_url": "https://www.bernardslibrary.org/libraryofthings",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_bernards_township_library_assistive_technology"
+    },
+    {
+      "library": "Parsippany Library",
+      "category": "Science/Education",
+      "name": "STEAM Kits",
+      "description": "Science, technology, engineering, arts, and math kits",
+      "source_url": "https://parsippanylibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_parsippany_library_steam_kits"
+    },
+    {
+      "library": "Parsippany Library",
+      "category": "Technology",
+      "name": "Technology Items",
+      "description": "Electronic devices and gadgets for checkout",
+      "source_url": "https://parsippanylibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_parsippany_library_technology_items"
+    },
+    {
+      "library": "Parsippany Library",
+      "category": "Crafts/Sewing",
+      "name": "Crafting Supplies",
+      "description": "Craft-related equipment and materials",
+      "source_url": "https://parsippanylibrary.org/borrow/things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_parsippany_library_crafting_supplies"
+    },
+    {
+      "library": "Rutherford Public Library",
+      "category": "Home Improvement",
+      "name": "57-Piece Craftsman Tool Set",
+      "description": "Complete tool set including hammer, pliers, utility knife, sockets, ratchet, screwdrivers, tape measure, hex keys, and specialty bits",
+      "source_url": "https://rutherfordlibrary.org/library-of-things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_rutherford_public_library_57_piece_craftsman_tool_set"
+    },
+    {
+      "library": "Rutherford Public Library",
+      "category": "Home Improvement",
+      "name": "Dremel 4300",
+      "description": "Multi-tool for sanding, grinding, routing, and cutting with assorted attachments",
+      "source_url": "https://rutherfordlibrary.org/library-of-things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_rutherford_public_library_dremel_4300"
+    },
+    {
+      "library": "Rutherford Public Library",
+      "category": "Measurement & Detection",
+      "name": "Craftsman Magnetic Level",
+      "description": "24-inch magnetic box beam level for home improvement projects",
+      "source_url": "https://rutherfordlibrary.org/library-of-things/",
+      "last_verified": "2026-01-25",
+      "network": "nj_libraries",
+      "id": "nj_libraries_rutherford_public_library_craftsman_magnetic_level"
     }
   ],
   "metadata": {
-    "last_updated": "2026-01-21",
-    "total_items": 255,
-    "total_libraries": 25,
-    "total_networks": 5,
+    "last_updated": "2026-01-25",
+    "total_items": 302,
+    "total_libraries": 31,
+    "total_networks": 6,
     "generated_by": "consolidate.py"
   }
 }

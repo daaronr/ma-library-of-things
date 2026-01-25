@@ -236,6 +236,35 @@ export const networkCatalogs = {
     region: 'Rhode Island',
     state: 'RI',
   },
+
+  // NEW JERSEY
+  bccls: {
+    name: 'Bergen County Cooperative Library System',
+    shortName: 'BCCLS',
+    system: 'polaris',
+    baseUrl: 'https://catalog.bccls.org',
+    color: '#FF6F00',
+    region: 'Northern NJ',
+    state: 'NJ',
+  },
+  main_nj: {
+    name: 'MAIN Library Alliance',
+    shortName: 'MAIN',
+    system: 'polaris',
+    baseUrl: 'https://catalog.mainlib.org',
+    color: '#E65100',
+    region: 'Central NJ',
+    state: 'NJ',
+  },
+  stella: {
+    name: 'STELLA Consortium',
+    shortName: 'STELLA',
+    system: 'polaris',
+    baseUrl: 'https://catalog.lmxac.org',
+    color: '#BF360C',
+    region: 'Middlesex/Monmouth NJ',
+    state: 'NJ',
+  },
 };
 
 /**

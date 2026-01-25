@@ -38,7 +38,13 @@ Library of Things programs are incredible public resources, but discovery is fra
 | **Nassau/Suffolk** | Long Island | 14+ | Active |
 | **NYPL/Queens** | NYC | 8+ | Active |
 
-**Total:** 255+ verified items across 25 libraries in 5 networks (4 states)
+### New Jersey
+| Network | Region | Items | Status |
+|---------|--------|-------|--------|
+| **BCCLS** | Bergen/Essex County | 24+ | Active |
+| **MAIN/STELLA** | Morris/Somerset/Middlesex | 23+ | Active |
+
+**Total:** 302+ verified items across 31 libraries in 6 networks (5 states)
 
 ### Excluded Libraries
 
@@ -49,6 +55,8 @@ The following libraries have been excluded due to their Terms of Service explici
 | Boston Public Library | BiblioCommons ToS prohibits automated harvesting |
 | Brooklyn Public Library | BiblioCommons ToS prohibits automated harvesting |
 | SAILS Network (Bridgewater, W. Bridgewater) | robots.txt blocks all automated access |
+| Ramsey Free Public Library (NJ) | robots.txt blocks AI bots (ClaudeBot, GPTBot) |
+| Hunterdon County Library (NJ) | robots.txt blocks AI bots (ChatGPT, GPTBot) |
 
 We respect library policies and encourage users to visit these libraries directly for their Library of Things offerings.
 

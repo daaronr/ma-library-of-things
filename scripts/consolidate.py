@@ -23,6 +23,8 @@ PUBLIC_DATA_DIR = SCRIPT_DIR.parent / "public" / "data"
 #   - SAILS (sails_items.json) - robots.txt Disallow: / (blocks all crawling)
 #   - MBLN/BPL (mbln_items.json, bpl_items.json) - BiblioCommons ToS prohibits automated harvesting
 #   - Brooklyn PL - BiblioCommons ToS prohibits automated harvesting (removed from ny_items.json)
+#   - Ramsey Free PL (NJ) - robots.txt blocks ClaudeBot, GPTBot
+#   - Hunterdon County Library (NJ) - robots.txt blocks ChatGPT, GPTBot
 NETWORK_FILES = {
     # Massachusetts
     "minuteman": "minuteman_items.json",
@@ -33,6 +35,8 @@ NETWORK_FILES = {
     "ocean_state": "ri_items.json",
     # New York
     "ny_libraries": "ny_items.json",
+    # New Jersey
+    "nj_libraries": "nj_items.json",
 }
 
 # Network metadata (used if not in JSON file)
@@ -91,6 +95,17 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://catalog.nypl.org",
         "website": "https://www.nypl.org",
         "color": "#C62828",
+    },
+    # New Jersey
+    "nj_libraries": {
+        "name": "New Jersey Libraries",
+        "short_name": "NJ",
+        "region": "New Jersey",
+        "state": "NJ",
+        "catalog_system": "polaris",
+        "catalog_base_url": "https://catalog.bccls.org",
+        "website": "https://librarylinknj.org",
+        "color": "#FF6F00",
     },
 }
 

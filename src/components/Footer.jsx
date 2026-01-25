@@ -49,7 +49,9 @@ export default function Footer({ lastUpdated }) {
             <ul className="list-disc list-inside space-y-1">
               <li><strong>Boston Public Library</strong> - BiblioCommons ToS</li>
               <li><strong>Brooklyn Public Library</strong> - BiblioCommons ToS</li>
-              <li><strong>SAILS Network</strong> (Bridgewater, W. Bridgewater) - robots.txt restrictions</li>
+              <li><strong>SAILS Network</strong> (Bridgewater, W. Bridgewater) - robots.txt</li>
+              <li><strong>Ramsey Free PL</strong> (NJ) - robots.txt blocks AI bots</li>
+              <li><strong>Hunterdon County Library</strong> (NJ) - robots.txt blocks AI bots</li>
             </ul>
             <p className="mt-2">Please visit these libraries directly for their Library of Things offerings.</p>
           </div>
