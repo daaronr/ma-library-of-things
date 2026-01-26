@@ -1,0 +1,34 @@
+{
+  "network": {
+    "name": "Maryland Libraries",
+    "short_name": "MD",
+    "region": "Maryland",
+    "state": "MD",
+    "notes": "Maryland public libraries with Library of Things programs, including Enoch Pratt Free Library in Baltimore."
+  },
+  "libraries": [
+    {
+      "name": "Enoch Pratt Free Library",
+      "location": "Baltimore, MD",
+      "lot_url": "https://www.prattlibrary.org/books-and-more/library-of-things"
+    }
+  ],
+  "items": [
+    {"library": "Enoch Pratt Free Library", "category": "Technology", "name": "Chromebook", "description": "Laptop computer for checkout", "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things"},
+    {"library": "Enoch Pratt Free Library", "category": "Technology", "name": "Mobile Hotspot", "description": "WiFi device for home internet access", "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things"},
+    {"library": "Enoch Pratt Free Library", "category": "Science/Education", "name": "STEAM to Go Kits - Magnets", "description": "Hands-on learning kit about magnetism", "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things"},
+    {"library": "Enoch Pratt Free Library", "category": "Science/Education", "name": "STEAM to Go Kits", "description": "Various science and engineering educational kits", "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things"},
+    {"library": "Enoch Pratt Free Library", "category": "Games", "name": "Children's Toys & Games", "description": "Educational materials for ages 0-8", "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things"},
+    {"library": "Enoch Pratt Free Library", "category": "Science/Education", "name": "Coding Robots", "description": "Programmable robots for teens", "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things"},
+    {"library": "Enoch Pratt Free Library", "category": "Crafts/Sewing", "name": "Sewing Machine", "description": "For sewing projects (teens)", "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things"},
+    {"library": "Enoch Pratt Free Library", "category": "Crafts/Sewing", "name": "Knitting Loom", "description": "For knitting projects without needles", "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things"},
+    {"library": "Enoch Pratt Free Library", "category": "Technology", "name": "Graphing Calculator", "description": "Advanced calculator for math", "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things"},
+    {"library": "Enoch Pratt Free Library", "category": "Technology/Gaming", "name": "Nintendo Switch", "description": "Gaming console for teens", "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things"},
+    {"library": "Enoch Pratt Free Library", "category": "Technology", "name": "Digital Microscope", "description": "For scientific observation (teens)", "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things"}
+  ],
+  "metadata": {
+    "last_updated": "2026-01-25",
+    "verified_items_count": 11,
+    "notes": "Maryland libraries. Enoch Pratt Free Library serves Baltimore city and offers items at all branch locations."
+  }
+}

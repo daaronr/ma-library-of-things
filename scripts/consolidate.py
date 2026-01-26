@@ -37,6 +37,14 @@ NETWORK_FILES = {
     "ny_libraries": "ny_items.json",
     # New Jersey
     "nj_libraries": "nj_items.json",
+    # Maine
+    "me_libraries": "me_items.json",
+    # Pennsylvania
+    "pa_libraries": "pa_items.json",
+    # Delaware
+    "de_libraries": "de_items.json",
+    # Maryland
+    "md_libraries": "md_items.json",
 }
 
 # Network metadata (used if not in JSON file)
@@ -106,6 +114,50 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://catalog.bccls.org",
         "website": "https://librarylinknj.org",
         "color": "#FF6F00",
+    },
+    # Maine
+    "me_libraries": {
+        "name": "Maine Libraries",
+        "short_name": "ME",
+        "region": "Maine",
+        "state": "ME",
+        "catalog_system": "koha",
+        "catalog_base_url": "https://minerva.maine.edu",
+        "website": "https://www.maineinfonet.org",
+        "color": "#00695C",
+    },
+    # Pennsylvania
+    "pa_libraries": {
+        "name": "Pennsylvania Libraries",
+        "short_name": "PA",
+        "region": "Pennsylvania",
+        "state": "PA",
+        "catalog_system": "evergreen",
+        "catalog_base_url": "https://accesspa.powerlibrary.org",
+        "website": "https://powerlibrary.org",
+        "color": "#1565C0",
+    },
+    # Delaware
+    "de_libraries": {
+        "name": "Delaware Libraries",
+        "short_name": "DE",
+        "region": "Delaware",
+        "state": "DE",
+        "catalog_system": "koha",
+        "catalog_base_url": "https://delawarelibraries.org",
+        "website": "https://lib.de.us",
+        "color": "#6A1B9A",
+    },
+    # Maryland
+    "md_libraries": {
+        "name": "Maryland Libraries",
+        "short_name": "MD",
+        "region": "Maryland",
+        "state": "MD",
+        "catalog_system": "polaris",
+        "catalog_base_url": "https://catalog.prattlibrary.org",
+        "website": "https://www.prattlibrary.org",
+        "color": "#E65100",
     },
 }
 

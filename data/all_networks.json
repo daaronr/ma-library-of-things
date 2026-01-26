@@ -78,6 +78,54 @@
       "color": "#FF6F00",
       "notes": "New Jersey public libraries with Library of Things programs. Multiple consortiums: BCCLS (Bergen/Essex), MAIN (Morris/Somerset), STELLA (Middlesex/Monmouth).",
       "id": "nj_libraries"
+    },
+    "me_libraries": {
+      "name": "Maine Libraries",
+      "short_name": "ME",
+      "region": "Maine",
+      "state": "ME",
+      "catalog_system": "koha",
+      "catalog_base_url": "https://minerva.maine.edu",
+      "website": "https://www.maineinfonet.org",
+      "color": "#00695C",
+      "notes": "Maine public libraries with Library of Things programs. Part of Maine InfoNet consortium.",
+      "id": "me_libraries"
+    },
+    "pa_libraries": {
+      "name": "Pennsylvania Libraries",
+      "short_name": "PA",
+      "region": "Pennsylvania",
+      "state": "PA",
+      "catalog_system": "evergreen",
+      "catalog_base_url": "https://accesspa.powerlibrary.org",
+      "website": "https://powerlibrary.org",
+      "color": "#1565C0",
+      "notes": "Pennsylvania public libraries with Library of Things programs. Excludes Free Library of Philadelphia (blocks AI bots).",
+      "id": "pa_libraries"
+    },
+    "de_libraries": {
+      "name": "Delaware Libraries",
+      "short_name": "DE",
+      "region": "Delaware",
+      "state": "DE",
+      "catalog_system": "koha",
+      "catalog_base_url": "https://delawarelibraries.org",
+      "website": "https://lib.de.us",
+      "color": "#6A1B9A",
+      "notes": "Delaware public libraries with statewide Library of Things program coordinated through Delaware Libraries.",
+      "id": "de_libraries"
+    },
+    "md_libraries": {
+      "name": "Maryland Libraries",
+      "short_name": "MD",
+      "region": "Maryland",
+      "state": "MD",
+      "catalog_system": "polaris",
+      "catalog_base_url": "https://catalog.prattlibrary.org",
+      "website": "https://www.prattlibrary.org",
+      "color": "#E65100",
+      "notes": "Maryland public libraries with Library of Things programs, including Enoch Pratt Free Library in Baltimore.",
+      "id": "md_libraries"
     }
   },
   "items": [
@@ -2822,13 +2870,1678 @@
       "last_verified": "2026-01-25",
       "network": "nj_libraries",
       "id": "nj_libraries_rutherford_public_library_craftsman_magnetic_level"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Birdwatching Backpack",
+      "description": "10x42 Rivmount binoculars and bird identification materials",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_library_birdwatching_backpack"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Science/Education",
+      "name": "Night Sky Viewing Pack",
+      "description": "Stargazing kit with binoculars and educational materials for family astronomy",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_library_night_sky_viewing_pack"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Technology",
+      "name": "Digital Microscope",
+      "description": "Requires software installation for detailed specimen viewing",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_library_digital_microscope"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Science/Education",
+      "name": "Hominin Skull Kit",
+      "description": "Educational resource based on Smithsonian's Human Origins Project",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_library_hominin_skull_kit"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Measurement & Detection",
+      "name": "Kill-A-Watt Energy Meter",
+      "description": "Monitors device energy consumption to help reduce electricity costs",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_library_kill_a_watt_energy_meter"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Maine Audubon Nature Explorer Backpack: Birds",
+      "description": "Binoculars with kid-friendly bird identification books and activities",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_library_maine_audubon_nature_explorer_backpack:_birds"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Maine Audubon Nature Explorer Backpack: Wildlife",
+      "description": "Animal tracking guides and activities for local wildlife exploration",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_librar_b4e593a9"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Technology",
+      "name": "Memory Card Reader",
+      "description": "Transfer files between various memory card formats using USB",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_library_memory_card_reader"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Science/Education",
+      "name": "Orion Starblast Telescope",
+      "description": "4.5-inch reflective telescope with instructions and reference materials",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_library_orion_starblast_telescope"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Technology",
+      "name": "Rigol Digital Oscilloscope",
+      "description": "Displays signal voltage changes with advanced graphic readout",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_library_rigol_digital_oscilloscope"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Technology",
+      "name": "T-Mobile WiFi Hotspot",
+      "description": "Portable device providing cellular-based internet connectivity",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_library_t_mobile_wifi_hotspot"
+    },
+    {
+      "library": "Bangor Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Musical instrument available for checkout",
+      "source_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_bangor_public_library_ukulele"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Outdoor Games",
+      "name": "Bocce Set",
+      "description": "Lawn bowling game set",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_bocce_set"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Set",
+      "description": "Disc golf equipment",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_disc_golf_set"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Outdoor Games",
+      "name": "Giant 4-to-Score Game",
+      "description": "Oversized Connect Four style game",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_giant_4_to_score_game"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Pickleball paddles and equipment",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_pickleball_set"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Outdoor Games",
+      "name": "Yard Dice Set",
+      "description": "Giant dice for outdoor games",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_yard_dice_set"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "For birdwatching and nature observation",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_binoculars"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Outdoor/Camping",
+      "name": "Night Sky Binocular Backpack",
+      "description": "Stargazing kit",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_night_sky_binocular_backpack"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Outdoor/Camping",
+      "name": "Nature Explorer Backpacks",
+      "description": "Birds, plants, and wildlife exploration kits",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_nature_explorer_backpacks"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Outdoor/Camping",
+      "name": "Kids Snowshoes",
+      "description": "Snowshoes for children",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_kids_snowshoes"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Outdoor/Camping",
+      "name": "XL Snow Tube",
+      "description": "Large snow tube for sledding",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_xl_snow_tube"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Home Improvement",
+      "name": "Swedish Log Splitter",
+      "description": "Manual log splitting tool",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_swedish_log_splitter"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Measurement & Detection",
+      "name": "Radon Detector",
+      "description": "Digital radon detection device",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_radon_detector"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Measurement & Detection",
+      "name": "Thermal Camera",
+      "description": "Infrared thermal imaging camera",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_thermal_camera"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level & Tripod",
+      "description": "Precision leveling tool",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_laser_level_&_tripod"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Measurement & Detection",
+      "name": "Electricity Meter",
+      "description": "Monitors energy consumption",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_electricity_meter"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Home Improvement",
+      "name": "Cordless Dual Vacuum & Air Blower",
+      "description": "Portable cleaning device",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_cordless_dual_vacuum_&_air_blower"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Home Improvement",
+      "name": "Upholstery and Carpet Cleaner",
+      "description": "Deep cleaning equipment",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_upholstery_and_carpet_cleaner"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Home Improvement",
+      "name": "Fabric Steamer",
+      "description": "Garment and fabric steaming device",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_fabric_steamer"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Gardening",
+      "name": "Wheel Hoe",
+      "description": "Manual garden cultivator",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_wheel_hoe"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Gardening",
+      "name": "Broadfork",
+      "description": "Manual soil aerator for gardening",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_broadfork"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Kitchen",
+      "name": "Electric Knife Sharpener",
+      "description": "Knife sharpening device",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_electric_knife_sharpener"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Kitchen",
+      "name": "Mortar & Pestle",
+      "description": "For grinding spices and herbs",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_mortar_&_pestle"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Kitchen",
+      "name": "Popover Pan",
+      "description": "Specialty baking pan",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_popover_pan"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Kitchen",
+      "name": "Tortilla Press",
+      "description": "For making homemade tortillas",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_tortilla_press"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Musical instrument",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_ukulele"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Music",
+      "name": "Karaoke Machine",
+      "description": "Singing machine with microphone",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_karaoke_machine"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Yarn Winder and Swift Kit",
+      "description": "For winding yarn skeins into balls",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_yarn_winder_and_swift_kit"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Interchangeable Knitting Needles",
+      "description": "Set of various sized knitting needles",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_interchangeable_knitting_needles"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Spinning Wheel",
+      "description": "For spinning fiber into yarn",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_spinning_wheel"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Drop Spindle with Book",
+      "description": "Hand spinning tool with instruction book",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_drop_spindle_with_book"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Clay Conditioning Machine",
+      "description": "For conditioning polymer clay",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_clay_conditioning_machine"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Visible Mending Loom",
+      "description": "For decorative fabric repair",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_visible_mending_loom"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "description": "Digital blood pressure cuff",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_blood_pressure_monitor"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "For stargazing and astronomy",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_telescope"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "For finding buried metal objects",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_metal_detector"
+    },
+    {
+      "library": "Prince Memorial Library",
+      "category": "Science/Education",
+      "name": "Makey Makey STEM Kit",
+      "description": "Electronics and coding kit for kids",
+      "source_url": "https://www.princememorial.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_prince_memorial_library_makey_makey_stem_kit"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Crafts/Sewing",
+      "name": "Knitting Needles",
+      "description": "Various sizes for knitting projects",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_knitting_needles"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Crafts/Sewing",
+      "name": "Mending Kit",
+      "description": "Supplies for clothing repair",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_mending_kit"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Crafts/Sewing",
+      "name": "Pom Pom Maker Kit",
+      "description": "Tools for making pom poms",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_pom_pom_maker_kit"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Crafts/Sewing",
+      "name": "Rigid Heddle Loom",
+      "description": "Weaving loom for beginners",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_rigid_heddle_loom"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Crafts/Sewing",
+      "name": "Tracing Light Box",
+      "description": "LED light pad for tracing artwork",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_tracing_light_box"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Measurement & Detection",
+      "name": "Air Quality Monitor",
+      "description": "Indoor air quality testing device",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_air_quality_monitor"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Measurement & Detection",
+      "name": "Digital Radon Detector",
+      "description": "Radon gas detection device",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_digital_radon_detector"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Measurement & Detection",
+      "name": "Electricity Monitor",
+      "description": "Energy usage monitoring device",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_electricity_monitor"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Kitchen",
+      "name": "Seafood Steamer",
+      "description": "Large pot for steaming seafood",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_seafood_steamer"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "For birdwatching and nature observation",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_binoculars"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Outdoor Games",
+      "name": "Croquet Set",
+      "description": "Classic lawn game",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_croquet_set"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Gardening",
+      "name": "Soil Moisture Meter",
+      "description": "For testing soil moisture levels",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_soil_moisture_meter"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "For stargazing",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_telescope"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Gardening",
+      "name": "Vermicomposting Harvesting Kit",
+      "description": "Worm composting supplies",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_vermicomposting_harvesting_kit"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Technology",
+      "name": "Digital Camera",
+      "description": "Digital photography camera",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_digital_camera"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Technology",
+      "name": "External CD/DVD Drive",
+      "description": "USB optical drive",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_external_cd/dvd_drive"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Kitchen",
+      "name": "Food Dehydrator",
+      "description": "For drying fruits, vegetables, and jerky",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_food_dehydrator"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "Portable WiFi device",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_mobile_hotspot"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Switch",
+      "description": "Gaming console",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_nintendo_switch"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Science/Education",
+      "name": "Snap Circuits Beginner",
+      "description": "Electronics learning kit",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_snap_circuits_beginner"
+    },
+    {
+      "library": "Freeport Community Library",
+      "category": "Science/Education",
+      "name": "Snap Circuits Jr.",
+      "description": "Electronics learning kit for younger kids",
+      "source_url": "https://freeportlibrary.com/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_freeport_community_library_snap_circuits_jr."
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Wellness/Health",
+      "name": "Cane",
+      "description": "Walking cane for mobility assistance",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_cane"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Wellness/Health",
+      "name": "Crutches",
+      "description": "Mobility aid crutches",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_crutches"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Wellness/Health",
+      "name": "Wheelchair",
+      "description": "Mobility wheelchair",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_wheelchair"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Kitchen",
+      "name": "Cake Pans",
+      "description": "Various shaped cake pans",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_cake_pans"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Kitchen",
+      "name": "Knife Sharpener",
+      "description": "For sharpening kitchen knives",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_knife_sharpener"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Kitchen",
+      "name": "Lobster/Clam Steamer Pot",
+      "description": "Large seafood steaming pot",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_lobster/clam_steamer_pot"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Art Easel",
+      "description": "Painting and drawing easel",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_art_easel"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Crochet Kit",
+      "description": "Crochet supplies and instructions",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_crochet_kit"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Standard sewing machine",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_sewing_machine"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Yarn Ball Kit",
+      "description": "For winding yarn into balls",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_yarn_ball_kit"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Music",
+      "name": "Acoustic Guitar",
+      "description": "Musical instrument",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_acoustic_guitar"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Music",
+      "name": "Banjo",
+      "description": "Musical instrument",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_banjo"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Music",
+      "name": "Casio Keyboard",
+      "description": "Electronic keyboard",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_casio_keyboard"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Music",
+      "name": "Ukulele Kit",
+      "description": "Ukulele with learning materials",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_ukulele_kit"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Technology",
+      "name": "Electronic Typewriter",
+      "description": "Electric typewriter",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_electronic_typewriter"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Technology",
+      "name": "Graphing Calculator",
+      "description": "Advanced calculator for math",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_graphing_calculator"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Outdoor Games",
+      "name": "Cornhole",
+      "description": "Bean bag toss game",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_cornhole"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Outdoor Games",
+      "name": "Croquet Set",
+      "description": "Classic lawn game",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_croquet_set"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Outdoor Games",
+      "name": "Giant Connect 4",
+      "description": "Oversized Connect Four game",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_giant_connect_4"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Pickleball paddles and balls",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_pickleball_set"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Outdoor Games",
+      "name": "Volleyball/Badminton Set",
+      "description": "Net and equipment for both sports",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_volleyball/badminton_set"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Gardening",
+      "name": "Electric Tiller",
+      "description": "Powered garden tiller",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_electric_tiller"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Gardening",
+      "name": "Garden Tool Set",
+      "description": "Basic gardening tools",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_garden_tool_set"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "For finding buried metal objects",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_metal_detector"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Snowshoes",
+      "description": "Adult and youth sizes available",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_snowshoes"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Trekking Poles",
+      "description": "Hiking poles",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_trekking_poles"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Technology",
+      "name": "Amazon Fire Tablet",
+      "description": "Tablet computer",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_amazon_fire_tablet"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Technology",
+      "name": "GoPro Hero 7",
+      "description": "Action camera",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_gopro_hero_7"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Technology",
+      "name": "Sony a6000 Camera",
+      "description": "Mirrorless digital camera",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_sony_a6000_camera"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Technology",
+      "name": "Projector",
+      "description": "Video projector",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_projector"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Technology",
+      "name": "Karaoke Machine",
+      "description": "Singing machine",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_karaoke_machine"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Technology",
+      "name": "Film Digitizer",
+      "description": "For converting film to digital",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_film_digitizer"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Technology",
+      "name": "Verizon Mobile Hotspot",
+      "description": "Portable WiFi device",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_verizon_mobile_hotspot"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Auto/Vehicle",
+      "name": "Car Battery Charger",
+      "description": "For charging car batteries",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_car_battery_charger"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Auto/Vehicle",
+      "name": "Car Diagnostic Scanner",
+      "description": "OBD2 scanner for vehicle diagnostics",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_car_diagnostic_scanner"
+    },
+    {
+      "library": "Lithgow Public Library",
+      "category": "Measurement & Detection",
+      "name": "Electricity Monitor",
+      "description": "Energy usage monitoring",
+      "source_url": "https://www.lithgowlibrary.org/library-of-things/",
+      "network": "me_libraries",
+      "id": "me_libraries_lithgow_public_library_electricity_monitor"
+    },
+    {
+      "library": "Auburn Public Library",
+      "category": "Outdoor Games",
+      "name": "Badminton Set",
+      "description": "Rackets, net, and shuttlecocks",
+      "source_url": "https://www.auburnpubliclibrary.org/things",
+      "network": "me_libraries",
+      "id": "me_libraries_auburn_public_library_badminton_set"
+    },
+    {
+      "library": "Auburn Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Beading Kit",
+      "description": "Beads and supplies for jewelry making",
+      "source_url": "https://www.auburnpubliclibrary.org/things",
+      "network": "me_libraries",
+      "id": "me_libraries_auburn_public_library_beading_kit"
+    },
+    {
+      "library": "Auburn Public Library",
+      "category": "Outdoor Games",
+      "name": "Bocce Set",
+      "description": "Lawn bowling game",
+      "source_url": "https://www.auburnpubliclibrary.org/things",
+      "network": "me_libraries",
+      "id": "me_libraries_auburn_public_library_bocce_set"
+    },
+    {
+      "library": "Auburn Public Library",
+      "category": "Kitchen",
+      "name": "Cake Decorating Kit",
+      "description": "Pans and frosting tools for cake decoration",
+      "source_url": "https://www.auburnpubliclibrary.org/things",
+      "network": "me_libraries",
+      "id": "me_libraries_auburn_public_library_cake_decorating_kit"
+    },
+    {
+      "library": "Auburn Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Calligraphy Kit",
+      "description": "Pens and supplies for calligraphy",
+      "source_url": "https://www.auburnpubliclibrary.org/things",
+      "network": "me_libraries",
+      "id": "me_libraries_auburn_public_library_calligraphy_kit"
+    },
+    {
+      "library": "Auburn Public Library",
+      "category": "Science/Education",
+      "name": "Celestron PowerSeeker 60 Telescope",
+      "description": "Telescope for astronomy (appointment only)",
+      "source_url": "https://www.auburnpubliclibrary.org/things",
+      "network": "me_libraries",
+      "id": "me_libraries_auburn_public_library_celestron_powerseeker_60_telescope"
+    },
+    {
+      "library": "Auburn Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Coloring Kits",
+      "description": "Coloring books, markers, and pencils",
+      "source_url": "https://www.auburnpubliclibrary.org/things",
+      "network": "me_libraries",
+      "id": "me_libraries_auburn_public_library_coloring_kits"
+    },
+    {
+      "library": "Auburn Public Library",
+      "category": "Science/Education",
+      "name": "Craft with Kids Kit",
+      "description": "Children's craft supplies",
+      "source_url": "https://www.auburnpubliclibrary.org/things",
+      "network": "me_libraries",
+      "id": "me_libraries_auburn_public_library_craft_with_kids_kit"
+    },
+    {
+      "library": "Berks County Public Libraries",
+      "category": "Crafts/Sewing",
+      "name": "Arts & Crafts Supplies",
+      "description": "Various arts and crafts materials available at member libraries",
+      "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things",
+      "network": "pa_libraries",
+      "id": "pa_libraries_berks_county_public_libraries_arts_&_crafts_supplies"
+    },
+    {
+      "library": "Berks County Public Libraries",
+      "category": "Kitchen",
+      "name": "Cookware/Bakeware",
+      "description": "Kitchen equipment available at member libraries",
+      "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things",
+      "network": "pa_libraries",
+      "id": "pa_libraries_berks_county_public_libraries_cookware/bakeware"
+    },
+    {
+      "library": "Berks County Public Libraries",
+      "category": "Wellness/Health",
+      "name": "Health & Wellness Equipment",
+      "description": "Health monitoring and wellness items",
+      "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things",
+      "network": "pa_libraries",
+      "id": "pa_libraries_berks_county_public_libraries_health_&_wellness_equipment"
+    },
+    {
+      "library": "Berks County Public Libraries",
+      "category": "Home Improvement",
+      "name": "Home Equipment/Tools",
+      "description": "Tools and home equipment available at member libraries",
+      "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things",
+      "network": "pa_libraries",
+      "id": "pa_libraries_berks_county_public_libraries_home_equipment/tools"
+    },
+    {
+      "library": "Berks County Public Libraries",
+      "category": "Outdoor Games",
+      "name": "Recreation & Games",
+      "description": "Games and recreational equipment",
+      "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things",
+      "network": "pa_libraries",
+      "id": "pa_libraries_berks_county_public_libraries_recreation_&_games"
+    },
+    {
+      "library": "Berks County Public Libraries",
+      "category": "Party/Event",
+      "name": "Special Events Supplies",
+      "description": "Items for parties and special occasions",
+      "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things",
+      "network": "pa_libraries",
+      "id": "pa_libraries_berks_county_public_libraries_special_events_supplies"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Games",
+      "name": "Candy Land",
+      "description": "Classic children's board game",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_candy_land"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Games",
+      "name": "Cards Against Humanity",
+      "description": "Adult party card game",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_cards_against_humanity"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Games",
+      "name": "Clue",
+      "description": "Mystery board game",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_clue"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Games",
+      "name": "Dungeons & Dragons Starter Set",
+      "description": "Tabletop RPG starter kit",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_dungeons_&_dragons_starter_set"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Games",
+      "name": "Exploding Kittens",
+      "description": "Card game",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_exploding_kittens"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Games",
+      "name": "Pictionary",
+      "description": "Drawing and guessing game",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_pictionary"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Games",
+      "name": "Scrabble",
+      "description": "Word board game",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_scrabble"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Games",
+      "name": "Twister",
+      "description": "Physical party game",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_twister"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Games",
+      "name": "Yahtzee",
+      "description": "Dice game",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_yahtzee"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Games",
+      "name": "Puzzles - Adult",
+      "description": "300+ piece puzzles including Fishing Lures, Happy Camper, Moon, Sugar Skull",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_puzzles___adult"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Games",
+      "name": "Puzzles - Children",
+      "description": "Floor puzzles including Alphabet, Underwater World, USA Map",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_puzzles___children"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Outdoor Games",
+      "name": "Badminton/Volleyball Set",
+      "description": "Franklin set with net, rackets, and accessories",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_badminton/volleyball_set"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Outdoor Games",
+      "name": "Kan Jam",
+      "description": "Frisbee lawn game",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_kan_jam"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Science/Education",
+      "name": "Civics Flash Cards",
+      "description": "Educational civics learning cards",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_civics_flash_cards"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Science/Education",
+      "name": "Children's Microscope",
+      "description": "Microscope for young scientists",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_childrens_microscope"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Party/Event",
+      "name": "Everhart Museum Family Pass",
+      "description": "Free admission for 2 adults and children under 17",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_everhart_museum_family_pass"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Kitchen",
+      "name": "Halloween Cookie Cutters",
+      "description": "Bat, cat, coffin, ghost, pumpkin, skull, witch hat shapes",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_halloween_cookie_cutters"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Kitchen",
+      "name": "Winter Cookie Cutters",
+      "description": "Seasonal cookie cutter set",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_winter_cookie_cutters"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Music",
+      "name": "Acoustic Guitar",
+      "description": "Epiphone guitar with case, picks, tuner, and instruction book",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_acoustic_guitar"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Music",
+      "name": "Junior Acoustic Guitar",
+      "description": "Smaller guitar for younger players",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_junior_acoustic_guitar"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Outdoor/Camping",
+      "name": "Birding Backpack",
+      "description": "Backpack with binoculars for birdwatching",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_birding_backpack"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Technology",
+      "name": "T-Mobile Hotspot",
+      "description": "T9 Franklin mobile WiFi device",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_t_mobile_hotspot"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Music",
+      "name": "Karaoke Machine",
+      "description": "Singing machine with microphone",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_karaoke_machine"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "For finding buried metal objects",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_metal_detector"
+    },
+    {
+      "library": "Osterhout Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "For sewing projects",
+      "source_url": "https://osterhout.info/search-our-collection/library-of-things/",
+      "network": "pa_libraries",
+      "id": "pa_libraries_osterhout_free_library_sewing_machine"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Crafts/Sewing",
+      "name": "Stamp Kits",
+      "description": "Rubber stamp sets for arts and crafts",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_stamp_kits"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games for checkout",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_board_games"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Games",
+      "name": "Jigsaw Puzzles",
+      "description": "Puzzles of various sizes",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_jigsaw_puzzles"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Outdoor Games",
+      "name": "Croquet Set",
+      "description": "Classic lawn game",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_croquet_set"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "For birdwatching and nature observation",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_binoculars"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Cuff",
+      "description": "OMRON monitor with digital readout",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_blood_pressure_cuff"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Wellness/Health",
+      "name": "BiFolkal Kits",
+      "description": "Memory stimulation kits for seniors",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_bifolkal_kits"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Technology",
+      "name": "Calculator",
+      "description": "Basic and scientific calculators",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_calculator"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Measurement & Detection",
+      "name": "Digital Multimeter",
+      "description": "Electrical testing device",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_digital_multimeter"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Gardening",
+      "name": "Garden Tools",
+      "description": "Basic gardening equipment",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_garden_tools"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "description": "Wall stud detection device",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_stud_finder"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Kitchen",
+      "name": "Induction Cooktop",
+      "description": "Portable induction cooking surface",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_induction_cooktop"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Bicycle",
+      "name": "Bike Lock",
+      "description": "Bicycle security lock",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_bike_lock"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Science/Education",
+      "name": "Microscope",
+      "description": "For scientific observation",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_microscope"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Outdoor/Camping",
+      "name": "Litter Cleanup Kit",
+      "description": "Tools for community cleanup",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_litter_cleanup_kit"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "For stargazing and astronomy",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_telescope"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Technology",
+      "name": "Toniebox & Tonies",
+      "description": "Audio player with character figurines for kids",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_toniebox_&_tonies"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Technology",
+      "name": "Camera Tripod",
+      "description": "Tripod for cameras and phones",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_camera_tripod"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Music",
+      "name": "MIDI Keyboard",
+      "description": "Electronic music keyboard",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_midi_keyboard"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Music",
+      "name": "Recorder",
+      "description": "Musical wind instrument",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_recorder"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "String instrument",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_ukulele"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Science/Education",
+      "name": "LEGO Kits",
+      "description": "Building sets for STEM learning",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_lego_kits"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Science/Education",
+      "name": "NASA Backpacks",
+      "description": "Space-themed educational kits",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_nasa_backpacks"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Science/Education",
+      "name": "Robots & Coding Equipment",
+      "description": "Programmable robots for learning",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_robots_&_coding_equipment"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Technology",
+      "name": "Arduino Kit",
+      "description": "Electronics prototyping kit",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_arduino_kit"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Technology",
+      "name": "Camera Kit",
+      "description": "Digital photography equipment",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_camera_kit"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Technology",
+      "name": "Chromebook",
+      "description": "Laptop computer",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_chromebook"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Technology",
+      "name": "Digital Film Scanner",
+      "description": "For converting film to digital",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_digital_film_scanner"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Portable internet device",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_wifi_hotspot"
+    },
+    {
+      "library": "Delaware Libraries",
+      "category": "Technology",
+      "name": "Microphone Kit",
+      "description": "Recording microphone with accessories",
+      "source_url": "https://lib.de.us/things/",
+      "network": "de_libraries",
+      "id": "de_libraries_delaware_libraries_microphone_kit"
+    },
+    {
+      "library": "Enoch Pratt Free Library",
+      "category": "Technology",
+      "name": "Chromebook",
+      "description": "Laptop computer for checkout",
+      "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+      "network": "md_libraries",
+      "id": "md_libraries_enoch_pratt_free_library_chromebook"
+    },
+    {
+      "library": "Enoch Pratt Free Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "WiFi device for home internet access",
+      "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+      "network": "md_libraries",
+      "id": "md_libraries_enoch_pratt_free_library_mobile_hotspot"
+    },
+    {
+      "library": "Enoch Pratt Free Library",
+      "category": "Science/Education",
+      "name": "STEAM to Go Kits - Magnets",
+      "description": "Hands-on learning kit about magnetism",
+      "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+      "network": "md_libraries",
+      "id": "md_libraries_enoch_pratt_free_library_steam_to_go_kits___magnets"
+    },
+    {
+      "library": "Enoch Pratt Free Library",
+      "category": "Science/Education",
+      "name": "STEAM to Go Kits",
+      "description": "Various science and engineering educational kits",
+      "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+      "network": "md_libraries",
+      "id": "md_libraries_enoch_pratt_free_library_steam_to_go_kits"
+    },
+    {
+      "library": "Enoch Pratt Free Library",
+      "category": "Games",
+      "name": "Children's Toys & Games",
+      "description": "Educational materials for ages 0-8",
+      "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+      "network": "md_libraries",
+      "id": "md_libraries_enoch_pratt_free_library_childrens_toys_&_games"
+    },
+    {
+      "library": "Enoch Pratt Free Library",
+      "category": "Science/Education",
+      "name": "Coding Robots",
+      "description": "Programmable robots for teens",
+      "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+      "network": "md_libraries",
+      "id": "md_libraries_enoch_pratt_free_library_coding_robots"
+    },
+    {
+      "library": "Enoch Pratt Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "For sewing projects (teens)",
+      "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+      "network": "md_libraries",
+      "id": "md_libraries_enoch_pratt_free_library_sewing_machine"
+    },
+    {
+      "library": "Enoch Pratt Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Knitting Loom",
+      "description": "For knitting projects without needles",
+      "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+      "network": "md_libraries",
+      "id": "md_libraries_enoch_pratt_free_library_knitting_loom"
+    },
+    {
+      "library": "Enoch Pratt Free Library",
+      "category": "Technology",
+      "name": "Graphing Calculator",
+      "description": "Advanced calculator for math",
+      "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+      "network": "md_libraries",
+      "id": "md_libraries_enoch_pratt_free_library_graphing_calculator"
+    },
+    {
+      "library": "Enoch Pratt Free Library",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Switch",
+      "description": "Gaming console for teens",
+      "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+      "network": "md_libraries",
+      "id": "md_libraries_enoch_pratt_free_library_nintendo_switch"
+    },
+    {
+      "library": "Enoch Pratt Free Library",
+      "category": "Technology",
+      "name": "Digital Microscope",
+      "description": "For scientific observation (teens)",
+      "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+      "network": "md_libraries",
+      "id": "md_libraries_enoch_pratt_free_library_digital_microscope"
     }
   ],
   "metadata": {
     "last_updated": "2026-01-25",
-    "total_items": 302,
-    "total_libraries": 31,
-    "total_networks": 6,
+    "total_items": 487,
+    "total_libraries": 40,
+    "total_networks": 10,
     "generated_by": "consolidate.py"
   }
 }

@@ -1,0 +1,60 @@
+{
+  "network": {
+    "name": "Pennsylvania Libraries",
+    "short_name": "PA",
+    "region": "Pennsylvania",
+    "state": "PA",
+    "notes": "Pennsylvania public libraries with Library of Things programs. Excludes Free Library of Philadelphia (blocks AI bots)."
+  },
+  "libraries": [
+    {
+      "name": "Berks County Public Libraries",
+      "location": "Berks County, PA",
+      "lot_url": "https://www.berkslibraries.org/ebooks-more/library-of-things"
+    },
+    {
+      "name": "Osterhout Free Library",
+      "location": "Wilkes-Barre, PA",
+      "lot_url": "https://osterhout.info/search-our-collection/library-of-things/"
+    }
+  ],
+  "items": [
+    {"library": "Berks County Public Libraries", "category": "Crafts/Sewing", "name": "Arts & Crafts Supplies", "description": "Various arts and crafts materials available at member libraries", "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things"},
+    {"library": "Berks County Public Libraries", "category": "Kitchen", "name": "Cookware/Bakeware", "description": "Kitchen equipment available at member libraries", "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things"},
+    {"library": "Berks County Public Libraries", "category": "Wellness/Health", "name": "Health & Wellness Equipment", "description": "Health monitoring and wellness items", "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things"},
+    {"library": "Berks County Public Libraries", "category": "Home Improvement", "name": "Home Equipment/Tools", "description": "Tools and home equipment available at member libraries", "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things"},
+    {"library": "Berks County Public Libraries", "category": "Outdoor Games", "name": "Recreation & Games", "description": "Games and recreational equipment", "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things"},
+    {"library": "Berks County Public Libraries", "category": "Party/Event", "name": "Special Events Supplies", "description": "Items for parties and special occasions", "source_url": "https://www.berkslibraries.org/ebooks-more/library-of-things"},
+
+    {"library": "Osterhout Free Library", "category": "Games", "name": "Candy Land", "description": "Classic children's board game", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Games", "name": "Cards Against Humanity", "description": "Adult party card game", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Games", "name": "Clue", "description": "Mystery board game", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Games", "name": "Dungeons & Dragons Starter Set", "description": "Tabletop RPG starter kit", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Games", "name": "Exploding Kittens", "description": "Card game", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Games", "name": "Pictionary", "description": "Drawing and guessing game", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Games", "name": "Scrabble", "description": "Word board game", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Games", "name": "Twister", "description": "Physical party game", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Games", "name": "Yahtzee", "description": "Dice game", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Games", "name": "Puzzles - Adult", "description": "300+ piece puzzles including Fishing Lures, Happy Camper, Moon, Sugar Skull", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Games", "name": "Puzzles - Children", "description": "Floor puzzles including Alphabet, Underwater World, USA Map", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Outdoor Games", "name": "Badminton/Volleyball Set", "description": "Franklin set with net, rackets, and accessories", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Outdoor Games", "name": "Kan Jam", "description": "Frisbee lawn game", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Science/Education", "name": "Civics Flash Cards", "description": "Educational civics learning cards", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Science/Education", "name": "Children's Microscope", "description": "Microscope for young scientists", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Party/Event", "name": "Everhart Museum Family Pass", "description": "Free admission for 2 adults and children under 17", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Kitchen", "name": "Halloween Cookie Cutters", "description": "Bat, cat, coffin, ghost, pumpkin, skull, witch hat shapes", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Kitchen", "name": "Winter Cookie Cutters", "description": "Seasonal cookie cutter set", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Music", "name": "Acoustic Guitar", "description": "Epiphone guitar with case, picks, tuner, and instruction book", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Music", "name": "Junior Acoustic Guitar", "description": "Smaller guitar for younger players", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Outdoor/Camping", "name": "Birding Backpack", "description": "Backpack with binoculars for birdwatching", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Technology", "name": "T-Mobile Hotspot", "description": "T9 Franklin mobile WiFi device", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Music", "name": "Karaoke Machine", "description": "Singing machine with microphone", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Measurement & Detection", "name": "Metal Detector", "description": "For finding buried metal objects", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"},
+    {"library": "Osterhout Free Library", "category": "Crafts/Sewing", "name": "Sewing Machine", "description": "For sewing projects", "source_url": "https://osterhout.info/search-our-collection/library-of-things/"}
+  ],
+  "metadata": {
+    "last_updated": "2026-01-25",
+    "verified_items_count": 31,
+    "notes": "Pennsylvania libraries. Excludes Free Library of Philadelphia (robots.txt blocks AI bots). Berks County items are distributed across 19 member libraries."
+  }
+}

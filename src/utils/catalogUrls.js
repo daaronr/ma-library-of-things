@@ -265,6 +265,50 @@ export const networkCatalogs = {
     region: 'Middlesex/Monmouth NJ',
     state: 'NJ',
   },
+
+  // MAINE
+  me_libraries: {
+    name: 'Maine Libraries',
+    shortName: 'ME',
+    system: 'koha',
+    baseUrl: 'https://minerva.maine.edu',
+    color: '#00695C',
+    region: 'Maine',
+    state: 'ME',
+  },
+
+  // PENNSYLVANIA
+  pa_libraries: {
+    name: 'Pennsylvania Libraries',
+    shortName: 'PA',
+    system: 'evergreen',
+    baseUrl: 'https://accesspa.powerlibrary.org',
+    color: '#1565C0',
+    region: 'Pennsylvania',
+    state: 'PA',
+  },
+
+  // DELAWARE
+  de_libraries: {
+    name: 'Delaware Libraries',
+    shortName: 'DE',
+    system: 'koha',
+    baseUrl: 'https://delawarelibraries.org',
+    color: '#6A1B9A',
+    region: 'Delaware',
+    state: 'DE',
+  },
+
+  // MARYLAND
+  md_libraries: {
+    name: 'Maryland Libraries',
+    shortName: 'MD',
+    system: 'polaris',
+    baseUrl: 'https://catalog.prattlibrary.org',
+    color: '#E65100',
+    region: 'Maryland',
+    state: 'MD',
+  },
 };
 
 /**

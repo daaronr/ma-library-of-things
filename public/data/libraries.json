@@ -462,5 +462,117 @@
     "website": "https://rutherfordlibrary.org",
     "lot_url": "https://rutherfordlibrary.org/library-of-things/",
     "catalog_system": "polaris"
+  },
+
+  "bangor_public_me": {
+    "id": "bangor_public_me",
+    "name": "Bangor Public Library",
+    "network": "me_libraries",
+    "state": "ME",
+    "location": "Bangor, ME",
+    "address": "145 Harlow St, Bangor, ME 04401",
+    "coordinates": { "lat": 44.8012, "lng": -68.7778 },
+    "website": "https://bangorpubliclibrary.org",
+    "lot_url": "https://bangorpubliclibrary.org/services/library-of-things/",
+    "catalog_system": "koha"
+  },
+  "prince_memorial": {
+    "id": "prince_memorial",
+    "name": "Prince Memorial Library",
+    "network": "me_libraries",
+    "state": "ME",
+    "location": "Cumberland, ME",
+    "address": "266 Main St, Cumberland, ME 04021",
+    "coordinates": { "lat": 43.7962, "lng": -70.2568 },
+    "website": "https://www.princememorial.org",
+    "lot_url": "https://www.princememorial.org/library-of-things/",
+    "catalog_system": "koha"
+  },
+  "freeport_community": {
+    "id": "freeport_community",
+    "name": "Freeport Community Library",
+    "network": "me_libraries",
+    "state": "ME",
+    "location": "Freeport, ME",
+    "address": "10 Library Dr, Freeport, ME 04032",
+    "coordinates": { "lat": 43.8570, "lng": -70.1031 },
+    "website": "https://freeportlibrary.com",
+    "lot_url": "https://freeportlibrary.com/library-of-things/",
+    "catalog_system": "koha"
+  },
+  "lithgow_public": {
+    "id": "lithgow_public",
+    "name": "Lithgow Public Library",
+    "network": "me_libraries",
+    "state": "ME",
+    "location": "Augusta, ME",
+    "address": "45 Winthrop St, Augusta, ME 04330",
+    "coordinates": { "lat": 44.3106, "lng": -69.7795 },
+    "website": "https://www.lithgowlibrary.org",
+    "lot_url": "https://www.lithgowlibrary.org/library-of-things/",
+    "catalog_system": "koha"
+  },
+  "auburn_public_me": {
+    "id": "auburn_public_me",
+    "name": "Auburn Public Library",
+    "network": "me_libraries",
+    "state": "ME",
+    "location": "Auburn, ME",
+    "address": "49 Spring St, Auburn, ME 04210",
+    "coordinates": { "lat": 44.0851, "lng": -70.2314 },
+    "website": "https://www.auburnpubliclibrary.org",
+    "lot_url": "https://www.auburnpubliclibrary.org/things",
+    "catalog_system": "koha"
+  },
+
+  "berks_county_libraries": {
+    "id": "berks_county_libraries",
+    "name": "Berks County Public Libraries",
+    "network": "pa_libraries",
+    "state": "PA",
+    "location": "Berks County, PA",
+    "address": "1040 Berks Rd, Leesport, PA 19533",
+    "coordinates": { "lat": 40.4520, "lng": -75.9668 },
+    "website": "https://www.berkslibraries.org",
+    "lot_url": "https://www.berkslibraries.org/ebooks-more/library-of-things",
+    "catalog_system": "evergreen"
+  },
+  "osterhout_free": {
+    "id": "osterhout_free",
+    "name": "Osterhout Free Library",
+    "network": "pa_libraries",
+    "state": "PA",
+    "location": "Wilkes-Barre, PA",
+    "address": "71 S Franklin St, Wilkes-Barre, PA 18701",
+    "coordinates": { "lat": 41.2420, "lng": -75.8813 },
+    "website": "https://osterhout.info",
+    "lot_url": "https://osterhout.info/search-our-collection/library-of-things/",
+    "catalog_system": "evergreen"
+  },
+
+  "delaware_libraries": {
+    "id": "delaware_libraries",
+    "name": "Delaware Libraries",
+    "network": "de_libraries",
+    "state": "DE",
+    "location": "Statewide, DE",
+    "address": "121 Martin Luther King Jr Blvd, Dover, DE 19901",
+    "coordinates": { "lat": 39.1582, "lng": -75.5244 },
+    "website": "https://lib.de.us",
+    "lot_url": "https://lib.de.us/things/",
+    "catalog_system": "koha"
+  },
+
+  "enoch_pratt": {
+    "id": "enoch_pratt",
+    "name": "Enoch Pratt Free Library",
+    "network": "md_libraries",
+    "state": "MD",
+    "location": "Baltimore, MD",
+    "address": "400 Cathedral St, Baltimore, MD 21201",
+    "coordinates": { "lat": 39.2904, "lng": -76.6168 },
+    "website": "https://www.prattlibrary.org",
+    "lot_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
+    "catalog_system": "polaris"
   }
 }

@@ -1,0 +1,53 @@
+{
+  "network": {
+    "name": "Delaware Libraries",
+    "short_name": "DE",
+    "region": "Delaware",
+    "state": "DE",
+    "notes": "Delaware public libraries with statewide Library of Things program coordinated through Delaware Libraries."
+  },
+  "libraries": [
+    {
+      "name": "Delaware Libraries",
+      "location": "Statewide, DE",
+      "lot_url": "https://lib.de.us/things/"
+    }
+  ],
+  "items": [
+    {"library": "Delaware Libraries", "category": "Crafts/Sewing", "name": "Stamp Kits", "description": "Rubber stamp sets for arts and crafts", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Games", "name": "Board Games", "description": "Various board games for checkout", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Games", "name": "Jigsaw Puzzles", "description": "Puzzles of various sizes", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Outdoor Games", "name": "Croquet Set", "description": "Classic lawn game", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Outdoor/Camping", "name": "Binoculars", "description": "For birdwatching and nature observation", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Wellness/Health", "name": "Blood Pressure Cuff", "description": "OMRON monitor with digital readout", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Wellness/Health", "name": "BiFolkal Kits", "description": "Memory stimulation kits for seniors", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Technology", "name": "Calculator", "description": "Basic and scientific calculators", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Measurement & Detection", "name": "Digital Multimeter", "description": "Electrical testing device", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Gardening", "name": "Garden Tools", "description": "Basic gardening equipment", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Measurement & Detection", "name": "Stud Finder", "description": "Wall stud detection device", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Kitchen", "name": "Induction Cooktop", "description": "Portable induction cooking surface", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Bicycle", "name": "Bike Lock", "description": "Bicycle security lock", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Science/Education", "name": "Microscope", "description": "For scientific observation", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Outdoor/Camping", "name": "Litter Cleanup Kit", "description": "Tools for community cleanup", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Science/Education", "name": "Telescope", "description": "For stargazing and astronomy", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Technology", "name": "Toniebox & Tonies", "description": "Audio player with character figurines for kids", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Technology", "name": "Camera Tripod", "description": "Tripod for cameras and phones", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Music", "name": "MIDI Keyboard", "description": "Electronic music keyboard", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Music", "name": "Recorder", "description": "Musical wind instrument", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Music", "name": "Ukulele", "description": "String instrument", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Science/Education", "name": "LEGO Kits", "description": "Building sets for STEM learning", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Science/Education", "name": "NASA Backpacks", "description": "Space-themed educational kits", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Science/Education", "name": "Robots & Coding Equipment", "description": "Programmable robots for learning", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Technology", "name": "Arduino Kit", "description": "Electronics prototyping kit", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Technology", "name": "Camera Kit", "description": "Digital photography equipment", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Technology", "name": "Chromebook", "description": "Laptop computer", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Technology", "name": "Digital Film Scanner", "description": "For converting film to digital", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Technology", "name": "WiFi Hotspot", "description": "Portable internet device", "source_url": "https://lib.de.us/things/"},
+    {"library": "Delaware Libraries", "category": "Technology", "name": "Microphone Kit", "description": "Recording microphone with accessories", "source_url": "https://lib.de.us/things/"}
+  ],
+  "metadata": {
+    "last_updated": "2026-01-25",
+    "verified_items_count": 30,
+    "notes": "Delaware statewide Library of Things program. Items available across multiple Delaware library branches."
+  }
+}
