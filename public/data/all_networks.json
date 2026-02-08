@@ -9,25 +9,17 @@
       "catalog_base_url": "https://catalog.minlib.net",
       "website": "https://www.minlib.net",
       "color": "#1E88E5",
-      "total_member_libraries": 41,
-      "total_lot_items_estimated": 12000,
-      "contact_url": "https://www.minlib.net/contact",
-      "notes": "Largest Library of Things program in Massachusetts",
       "id": "minuteman"
     },
     "cwmars": {
       "name": "CWMARS",
       "short_name": "CW",
-      "region": "Central and Western Massachusetts",
+      "region": "Central/Western MA",
       "state": "MA",
       "catalog_system": "evergreen",
       "catalog_base_url": "https://catalog.cwmars.org",
       "website": "https://www.cwmars.org",
       "color": "#43A047",
-      "full_name": "Central/Western Massachusetts Automated Resource Sharing",
-      "total_member_libraries": 150,
-      "phone": "(508) 755-3323",
-      "address": "67 Millbrook Street, Suite 201, Worcester, MA 01606",
       "id": "cwmars"
     },
     "bibliomation": {
@@ -130,10 +122,396 @@
   },
   "items": [
     {
+      "library": "Needham Free Public Library",
+      "category": "Borrowing",
+      "name": "Borrowers must have a valid Minuteman Library Network card in good standing",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public__62a1b494"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Borrowing",
+      "name": "Borrowers of Library of Things items must be 18 years old or older",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public__c3b84832"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Borrowing",
+      "name": "Borrowers will receive a copy of the Library of Things Lending Agreement",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public__348b0349"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Borrowing",
+      "name": "Borrowers must pick up and return the Library of Things item at the Needham Free Public Library Circulation Desk",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public__97a1a3c3"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "About",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_about"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Contact Robert MacLean, Library Director",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_contact_robert_maclean,_library_director"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Events",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_events"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Genealogy and Local History Room",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_genealogy_and_local_history_room"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Just for Adults",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_just_for_adults"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Kids & Teens",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_kids_&_teens"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Library of Things",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_library_of_things"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Library Renovations",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_library_renovations"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Services",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_services"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Strategic Plan",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_strategic_plan"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Trustees of the Needham Free Public Library",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public__1f7b3126"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Trustees’ Commitment To Equity And Inclusion",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public__1ca7d3e7"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Policies",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_policies"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Latest News",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_needham_free_public_library_latest_news"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "To borrow a Thing, you must have a Minuteman Network Library card and sign the appropriate Library of Things agreement: Library of Things Lending Policy and Loan Agreement",
+      "description": "English Política de Préstamos de la Biblioteca de Objetos y Acuerdo de Préstamo - Español Política de Empréstimo e Contrato da Biblioteca de Coisas - Português",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_li_c259a65c"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "Library of Things Lending Policy and Loan Agreement",
+      "description": "English",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_li_f4ba9b43"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "Política de Préstamos de la Biblioteca de Objetos y Acuerdo de Préstamo",
+      "description": "Español",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_li_d4781723"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "Política de Empréstimo e Contrato da Biblioteca de Coisas",
+      "description": "Português",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_li_6bd4329f"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "Framingham residents may request items online or by phone",
+      "description": "Non-Framingham residents may request items only by phone",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_li_00f98bd7"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "Things cannot be sent to any other library, and must be picked up in person",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_li_837f8fb0"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "You will receive a notification when your item(s) are ready",
+      "description": "Things can be picked up at the circulation desk",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_li_ddcb35cb"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Framingham Public Library",
+      "name": "FPL Foundation",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_fpl_foundation"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Framingham Public Library",
+      "name": "FPL Friends",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_fpl_friends"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Framingham Public Library",
+      "name": "Framingham Reads Together",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_framingham_reads_together"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Main Library",
+      "name": "508-532-5570",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_508_532_5570"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Search Catalog",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_search_catalog"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Museum Passes",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_museum_passes"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Ask a Librarian",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_ask_a_librarian"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Monthly Newsletter",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_monthly_newsletter"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Get A Library Card",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_get_a_library_card"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "New Arrivals",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-08",
+      "network": "minuteman",
+      "id": "minuteman_framingham_public_library_new_arrivals"
+    },
+    {
       "library": "Morse Institute Library",
       "category": "Home Improvement",
       "name": "20V Drill Driver Kit",
       "description": "Denali drill driver, 2.0 Ah lithium battery, charger, 32 screw bits, 3 drill bits, carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_20v_drill_driver_kit"
     },
@@ -142,6 +520,7 @@
       "category": "Home Improvement",
       "name": "Homeowner's Tool Kit (65-piece)",
       "description": "Hammer, tape rule, snap-off knife, torpedo level, pliers, screwdrivers, hex keys, ratchet, sockets, bits",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_homeowners_tool_kit_(65_piece)"
     },
@@ -150,6 +529,7 @@
       "category": "Home Improvement",
       "name": "Socket Set (85-piece)",
       "description": "1/4\" and 3/8\" drive sockets, ratchets, extension bars, spark plug socket in carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_socket_set_(85_piece)"
     },
@@ -158,6 +538,7 @@
       "category": "Home Improvement",
       "name": "Stanley Tool Set",
       "description": "Sockets, ratchet, tape rule, knife, screwdrivers, hammer, hex keys, pliers, level in plastic case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_stanley_tool_set"
     },
@@ -166,6 +547,7 @@
       "category": "Home Improvement",
       "name": "Hammer Set",
       "description": "Ball peen hammer, drywall hammer, 16 oz hammer, rubber mallet, crowbar, measuring tape, safety goggles",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_hammer_set"
     },
@@ -174,6 +556,7 @@
       "category": "Home Improvement",
       "name": "Woodworking Planes",
       "description": "Bench plane (9.75\") and adjustable block plane (7\") with instruction sheet and carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_woodworking_planes"
     },
@@ -182,6 +565,7 @@
       "category": "Home Improvement",
       "name": "Bolt Cutters (18\")",
       "description": "3/8 inch capacity for cutting rods, bolts, and chains",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_bolt_cutters_(18\")"
     },
@@ -190,6 +574,7 @@
       "category": "Home Improvement",
       "name": "Clamp Kit",
       "description": "4 quick grip clamps (4-inch) in carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_clamp_kit"
     },
@@ -198,6 +583,7 @@
       "category": "Home Improvement",
       "name": "Drywall Kit",
       "description": "6\" joint knife, 4\" joint knife, 2\" putty knife, 2 pairs safety goggles",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_drywall_kit"
     },
@@ -206,6 +592,7 @@
       "category": "Home Improvement",
       "name": "Plumbing Kit",
       "description": "Lenox compact hacksaw, replacement blades, pipe wrench, aviation snips",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_plumbing_kit"
     },
@@ -214,6 +601,7 @@
       "category": "Home Improvement",
       "name": "Torque Wrench",
       "description": "3/8 inch drive torque wrench with instruction sheet and carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_torque_wrench"
     },
@@ -222,6 +610,7 @@
       "category": "Home Improvement",
       "name": "Pressure Washer",
       "description": "Karcher K1700, spray wand, 3 quick connect nozzles, 20ft high pressure hose, user manual",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_pressure_washer"
     },
@@ -230,6 +619,7 @@
       "category": "Measurement & Detection",
       "name": "Laser Measurer",
       "description": "Bosch laser measure with instruction sheet and carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_laser_measurer"
     },
@@ -238,6 +628,7 @@
       "category": "Measurement & Detection",
       "name": "Self-Leveling Cross-Line Laser",
       "description": "Bosch GLL 30 with flexible mounting device MM 2 and carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_self_leveling_cross_line_laser"
     },
@@ -246,6 +637,7 @@
       "category": "Measurement & Detection",
       "name": "Digital Level (24\")",
       "description": "Digital level with user's guide and carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_digital_level_(24\")"
     },
@@ -254,6 +646,7 @@
       "category": "Measurement & Detection",
       "name": "Stud Finder",
       "description": "Electronic stud finder with instruction booklet in carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_stud_finder"
     },
@@ -262,6 +655,7 @@
       "category": "Measurement & Detection",
       "name": "Metal Detector",
       "description": "Garrett ACE 300 with 7\"x10\" search coil, carry bag, headphones, cover, batteries",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_metal_detector"
     },
@@ -270,6 +664,7 @@
       "category": "Measurement & Detection",
       "name": "Thermal Imaging Camera",
       "description": "HT19 thermal camera with USB cord, protection bag, carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_thermal_imaging_camera"
     },
@@ -278,6 +673,7 @@
       "category": "Measurement & Detection",
       "name": "Infrared Thermometer",
       "description": "Infrared thermometer with instruction booklet",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_infrared_thermometer"
     },
@@ -286,6 +682,7 @@
       "category": "Home Inspection",
       "name": "Home Inspection Kit",
       "description": "Comprehensive kit for home inspections",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_home_inspection_kit"
     },
@@ -294,6 +691,7 @@
       "category": "Home Inspection",
       "name": "Electrical Test Kit",
       "description": "Non-contact AC voltage tester with flashlight, AC/DC voltage tester in carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_electrical_test_kit"
     },
@@ -302,6 +700,7 @@
       "category": "Home Inspection",
       "name": "Gas Leak Detector",
       "description": "Gas leak detector with English manual and 3 AAA batteries",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_gas_leak_detector"
     },
@@ -310,6 +709,7 @@
       "category": "Home Inspection",
       "name": "Carbon Monoxide Meter",
       "description": "Handheld CO meter with electrochemical sensor, LCD display, alarm",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_carbon_monoxide_meter"
     },
@@ -318,6 +718,7 @@
       "category": "Home Inspection",
       "name": "Digital Radon Detector",
       "description": "Portable battery-operated radon detector for short/long term readings",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_digital_radon_detector"
     },
@@ -326,6 +727,7 @@
       "category": "Home Inspection",
       "name": "Air Quality Detector",
       "description": "Air quality detector with instruction sheet and USB charging cable",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_air_quality_detector"
     },
@@ -334,6 +736,7 @@
       "category": "Home Inspection",
       "name": "Moisture Meter",
       "description": "Povlen Pinless Wood Moisture Meter with instruction page and carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_moisture_meter"
     },
@@ -342,6 +745,7 @@
       "category": "Home Inspection",
       "name": "Kill-A-Watt Electricity Meter",
       "description": "Electricity meter with book in carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_kill_a_watt_electricity_meter"
     },
@@ -350,6 +754,7 @@
       "category": "Home Inspection",
       "name": "Water Tester (5-in-1)",
       "description": "Measures pH, TDS, EC, salinity, and temperature for aquariums/pools",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_water_tester_(5_in_1)"
     },
@@ -358,6 +763,7 @@
       "category": "Auto/Vehicle",
       "name": "Car Battery Analyzer",
       "description": "BT705 car battery analyzer with attached cable and user's guide",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_car_battery_analyzer"
     },
@@ -366,6 +772,7 @@
       "category": "Auto/Vehicle",
       "name": "Car Code Scanner & Battery Tester",
       "description": "Battery tester/car code scanner, USB cable, battery clamp cable, carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_car_code_scanner_&_battery_tester"
     },
@@ -374,6 +781,7 @@
       "category": "Auto/Vehicle",
       "name": "Tire Pressure Gauge",
       "description": "Digital tire pressure gauge with instruction booklet in carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_tire_pressure_gauge"
     },
@@ -382,6 +790,7 @@
       "category": "Auto/Vehicle",
       "name": "Genius 5 Battery Charger",
       "description": "Battery charger and maintainer with AC adapter, mounting bracket, clamps",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_genius_5_battery_charger"
     },
@@ -390,6 +799,7 @@
       "category": "Bicycle",
       "name": "Bicycle Repair Kit (17-piece)",
       "description": "Chain rivet extractor, screwdrivers, wrenches, tire levers, spoke wrench, patch kit",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_bicycle_repair_kit_(17_piece)"
     },
@@ -398,6 +808,7 @@
       "category": "Bicycle",
       "name": "Bicycle Repair Stand",
       "description": "Sportneer stand supports 60 lbs, adjustable height/angle, tool tray included",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_bicycle_repair_stand"
     },
@@ -406,6 +817,7 @@
       "category": "Bicycle",
       "name": "Bicycle Lock",
       "description": "Ottolock Sidekick compact U-lock with key",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_bicycle_lock"
     },
@@ -414,6 +826,7 @@
       "category": "Gardening",
       "name": "Gardening Kit (8-piece)",
       "description": "Canvas tote, folding seat, trowel, transplanter, weeder, pruning shears, cultivator, weeding fork",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_gardening_kit_(8_piece)"
     },
@@ -422,6 +835,7 @@
       "category": "Gardening",
       "name": "Gardening Kit (11-piece)",
       "description": "Tools bag, trowels, weeder, fork, rake, pruner, shears, gloves, spray bottle, kneeling pad",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_gardening_kit_(11_piece)"
     },
@@ -430,6 +844,7 @@
       "category": "Gardening",
       "name": "Gardening Soil Tester",
       "description": "3-in-1 soil moisture-light-pH tester with instruction booklet and carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_gardening_soil_tester"
     },
@@ -438,6 +853,7 @@
       "category": "Gardening",
       "name": "Bulb Planter (36\")",
       "description": "Long-handled bulb planter with 2 removable depth control panels",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_bulb_planter_(36\")"
     },
@@ -446,6 +862,7 @@
       "category": "Gardening",
       "name": "Seeding Square",
       "description": "12x12\" square with funnel, seeding wand, instruction sheet and planting guide",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_seeding_square"
     },
@@ -454,6 +871,7 @@
       "category": "Gardening",
       "name": "Rotary Cultivator Tool",
       "description": "Rotary cultivator with carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_rotary_cultivator_tool"
     },
@@ -462,6 +880,7 @@
       "category": "Gardening",
       "name": "Lawn Aerator Shoes",
       "description": "Lawn aerator shoes with 6 adjustable straps, 26 metal nails, nuts, wrench",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_lawn_aerator_shoes"
     },
@@ -470,6 +889,7 @@
       "category": "Gardening",
       "name": "Lawn Thatching Rake",
       "description": "Dethatching rake for healthy lawn growth",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_lawn_thatching_rake"
     },
@@ -478,6 +898,7 @@
       "category": "Outdoor/Camping",
       "name": "Snowshoes 21\"",
       "description": "1 pair of 21 inch snowshoes in carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_snowshoes_21\""
     },
@@ -486,6 +907,7 @@
       "category": "Outdoor/Camping",
       "name": "Snowshoes 25\"",
       "description": "1 pair of 25 inch snowshoes in carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_snowshoes_25\""
     },
@@ -494,6 +916,7 @@
       "category": "Outdoor/Camping",
       "name": "Snowshoes 30\"",
       "description": "1 pair of 30 inch snowshoes in carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_snowshoes_30\""
     },
@@ -502,6 +925,7 @@
       "category": "Outdoor/Camping",
       "name": "Hammock",
       "description": "Parachute nylon hammock with 2 9ft talon straps and 2 steel carabiners",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_hammock"
     },
@@ -510,6 +934,7 @@
       "category": "Outdoor/Camping",
       "name": "Quad Camp Chair",
       "description": "Folding camp chair with mesh cup holder and carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_quad_camp_chair"
     },
@@ -518,6 +943,7 @@
       "category": "Outdoor/Camping",
       "name": "Folding Camp Table",
       "description": "Aluminum table (30x28\") with collapsible legs and carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_folding_camp_table"
     },
@@ -526,6 +952,7 @@
       "category": "Outdoor/Camping",
       "name": "LED Camping Lantern",
       "description": "Rechargeable LED lantern with charging cable and carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_led_camping_lantern"
     },
@@ -534,6 +961,7 @@
       "category": "Outdoor/Camping",
       "name": "Night Vision Goggles",
       "description": "Night vision goggles with 32GB SD card, USB cable, neck strap, hard case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_night_vision_goggles"
     },
@@ -542,6 +970,7 @@
       "category": "Outdoor/Camping",
       "name": "Trail Camera",
       "description": "4K trail camera with 32GB SD card, USB cable, belt, carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_trail_camera"
     },
@@ -550,6 +979,7 @@
       "category": "Outdoor/Camping",
       "name": "Binoculars",
       "description": "Carson 8x42mm binoculars with carrying case, neck strap, smartphone adapter",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_binoculars"
     },
@@ -558,6 +988,7 @@
       "category": "Outdoor/Camping",
       "name": "Travel Scope (Telescope)",
       "description": "80mm refractor telescope, 2 eyepieces, diagonal, finderscope, phone adapter, backpack",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_travel_scope_(telescope)"
     },
@@ -566,6 +997,7 @@
       "category": "Outdoor Games",
       "name": "Cornhole Set",
       "description": "2 boards (4'x2'), 8 bean bags, carrying cases, rules",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_cornhole_set"
     },
@@ -574,6 +1006,7 @@
       "category": "Outdoor Games",
       "name": "Bocce Ball Set",
       "description": "8 bocce balls, white pallino, distance marker, rules, carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_bocce_ball_set"
     },
@@ -582,6 +1015,7 @@
       "category": "Outdoor Games",
       "name": "Croquet Set",
       "description": "6 mallets, 6 balls, 9 wickets, 2 stakes, rules, carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_croquet_set"
     },
@@ -590,6 +1024,7 @@
       "category": "Outdoor Games",
       "name": "Giant Tumbling Timber",
       "description": "56 pine blocks in carrying bag with instructions, score card, dry erase marker",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_giant_tumbling_timber"
     },
@@ -598,6 +1033,7 @@
       "category": "Outdoor Games",
       "name": "Giant Four-In-A-Row",
       "description": "Stand up game board (2'x3') with legs, 42 chips, instruction sheet",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_giant_four_in_a_row"
     },
@@ -606,6 +1042,7 @@
       "category": "Outdoor Games",
       "name": "Pickleball Set",
       "description": "2 fiberglass paddles and 4 balls in carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_pickleball_set"
     },
@@ -614,6 +1051,7 @@
       "category": "Crafts/Sewing",
       "name": "Sewing Machine",
       "description": "Heavy duty sewing machine with foot pedal, cover, accessory kit, instruction book, hard case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_sewing_machine"
     },
@@ -622,6 +1060,7 @@
       "category": "Crafts/Sewing",
       "name": "Cricut Explore Air 2",
       "description": "Cricut with 5-piece tool set, grip mats, USB/power cords, manual, carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_cricut_explore_air_2"
     },
@@ -630,6 +1069,7 @@
       "category": "Crafts/Sewing",
       "name": "Die Cut & Embossing Machine",
       "description": "Sizzix Big Shot with basic shapes kit, cutting/embossing pads, instruction manual",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_die_cut_&_embossing_machine"
     },
@@ -638,6 +1078,7 @@
       "category": "Crafts/Sewing",
       "name": "Knitting Machine",
       "description": "Knitting machine with tension lever, plastic needles, crochet hook, manual",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_knitting_machine"
     },
@@ -646,6 +1087,7 @@
       "category": "Crafts/Sewing",
       "name": "Button Making Machine",
       "description": "2.25\" button maker with circle paper cutter, instruction sheet, cutting mat",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_button_making_machine"
     },
@@ -654,6 +1096,7 @@
       "category": "Crafts/Sewing",
       "name": "3D Pen",
       "description": "Scrib3D 3D printing pen with power adapter, PLA filament, stencil guide, carry case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_3d_pen"
     },
@@ -662,6 +1105,7 @@
       "category": "Technology",
       "name": "Nintendo Switch",
       "description": "Nintendo Switch console with 3 play modes (TV, tabletop, handheld) - games separate",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_nintendo_switch"
     },
@@ -670,6 +1114,7 @@
       "category": "Technology",
       "name": "Meta Quest 2 VR Headset",
       "description": "VR headset (requires Facebook account and Meta Quest app)",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_meta_quest_2_vr_headset"
     },
@@ -678,6 +1123,7 @@
       "category": "Technology",
       "name": "GoPro HERO11 Black Mini",
       "description": "GoPro camera with screws, mounts, selfie stick, chest/head/helmet straps, USB cable",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_gopro_hero11_black_mini"
     },
@@ -686,6 +1132,7 @@
       "category": "Technology",
       "name": "Mini Digital Projector",
       "description": "Projector with tripod, HDMI cable, USB charging cable, AC charger, carrying case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_mini_digital_projector"
     },
@@ -694,6 +1141,7 @@
       "category": "Technology",
       "name": "Film & Slide Scanner",
       "description": "Film/slide scanner with cleaning brush, holders, adapters, USB/HDMI cables, case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_film_&_slide_scanner"
     },
@@ -702,6 +1150,7 @@
       "category": "Technology",
       "name": "Ring Light Kit (18\")",
       "description": "18\" LED ring light, 61\" stand, soft tube, color filters, ball head adapter, phone holder",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_ring_light_kit_(18\")"
     },
@@ -710,6 +1159,7 @@
       "category": "Music",
       "name": "Beginner Acoustic Guitar",
       "description": "Full size 39\" guitar with tuner, wiping cloth, strings, carrying bag",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_beginner_acoustic_guitar"
     },
@@ -718,6 +1168,7 @@
       "category": "Music",
       "name": "Ukulele (Tenor)",
       "description": "Tenor ukulele with shoulder strap, picks, cloth, replacement strings, tuner, chords, case",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_ukulele_(tenor)"
     },
@@ -726,6 +1177,7 @@
       "category": "Music",
       "name": "Electronic Keyboard (61-key)",
       "description": "61-key teaching keyboard with AC adapter, microphone, music stand, manual",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_electronic_keyboard_(61_key)"
     },
@@ -734,6 +1186,7 @@
       "category": "Music",
       "name": "Karaoke Machine",
       "description": "Karaoke machine with 10\" subwoofer, tablet holder, 2 wireless mics, remote, cables",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_karaoke_machine"
     },
@@ -742,6 +1195,7 @@
       "category": "Dolls",
       "name": "American Girl Doll - Claudie Wells",
       "description": "Claudie Wells doll with outfit, hairbrush, extra outfit, carrying case with bed",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_american_girl_doll___claudie_wells"
     },
@@ -750,6 +1204,7 @@
       "category": "Dolls",
       "name": "American Girl Doll - Joss Kendrick",
       "description": "Joss Kendrick doll with outfit, brush, mirror, extra outfit, 2 hearing aids, case/bed",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_morse_institute_library_american_girl_doll___joss_kendrick"
     },
@@ -758,6 +1213,7 @@
       "category": "Kitchen",
       "name": "Instant Pot",
       "description": "Multi-use pressure cooker",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_robbins_library_instant_pot"
     },
@@ -766,6 +1222,7 @@
       "category": "Kitchen",
       "name": "Pasta Maker",
       "description": "Manual pasta machine",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_robbins_library_pasta_maker"
     },
@@ -774,6 +1231,7 @@
       "category": "Home Improvement",
       "name": "Thermal Imaging Camera",
       "description": "Heat detection camera",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_robbins_library_thermal_imaging_camera"
     },
@@ -782,6 +1240,7 @@
       "category": "Crafts/Sewing",
       "name": "Cricut Joy",
       "description": "Compact cutting machine",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_robbins_library_cricut_joy"
     },
@@ -790,6 +1249,7 @@
       "category": "Party/Event",
       "name": "PA System",
       "description": "Portable speaker with microphone",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_robbins_library_pa_system"
     },
@@ -798,6 +1258,7 @@
       "category": "Wellness/Health",
       "name": "Blood Pressure Monitor",
       "description": "Digital BP cuff",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_robbins_library_blood_pressure_monitor"
     },
@@ -806,6 +1267,7 @@
       "category": "Wellness/Health",
       "name": "Light Therapy Lamp",
       "description": "SAD therapy lamp",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_robbins_library_light_therapy_lamp"
     },
@@ -814,6 +1276,7 @@
       "category": "Kitchen",
       "name": "Dumpling Maker",
       "description": "Dumpling and ravioli making tools",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_watertown_free_public_library_dumpling_maker"
     },
@@ -822,6 +1285,7 @@
       "category": "Kitchen",
       "name": "Food Dehydrator",
       "description": "Food dehydrating machine",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_watertown_free_public_library_food_dehydrator"
     },
@@ -830,6 +1294,7 @@
       "category": "Technology",
       "name": "WiFi Hotspot",
       "description": "Mobile internet device",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_watertown_free_public_library_wifi_hotspot"
     },
@@ -838,6 +1303,7 @@
       "category": "Outdoor/Camping",
       "name": "Dome Tent (6-person)",
       "description": "Large family camping tent",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_dome_tent_(6_person)"
     },
@@ -846,6 +1312,7 @@
       "category": "Outdoor/Camping",
       "name": "Bird Watching Kit",
       "description": "Binoculars with field guide",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_bird_watching_kit"
     },
@@ -854,6 +1321,7 @@
       "category": "Music",
       "name": "Ukulele",
       "description": "Beginner ukulele with accessories",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_ukulele"
     },
@@ -862,6 +1330,7 @@
       "category": "Technology",
       "name": "WiFi Hotspot",
       "description": "Mobile internet hotspot device",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_wifi_hotspot"
     },
@@ -870,6 +1339,7 @@
       "category": "Technology",
       "name": "WiFi Hotspots",
       "description": "Mobile internet hotspot devices (most popular item)",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_brookline_public_library_wifi_hotspots"
     },
@@ -878,6 +1348,7 @@
       "category": "Outdoor/Camping",
       "name": "Telescope",
       "description": "High-end telescope (in high demand)",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_brookline_public_library_telescope"
     },
@@ -886,6 +1357,7 @@
       "category": "Home Improvement",
       "name": "Tool Kit",
       "description": "Basic home improvement tools",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_framingham_public_library_tool_kit"
     },
@@ -894,6 +1366,7 @@
       "category": "Technology",
       "name": "WiFi Hotspot",
       "description": "Mobile internet hotspot",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_framingham_public_library_wifi_hotspot"
     },
@@ -902,6 +1375,7 @@
       "category": "Home Improvement",
       "name": "Kill-A-Watt Meter",
       "description": "Electricity usage monitor",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_cary_memorial_library_kill_a_watt_meter"
     },
@@ -910,6 +1384,7 @@
       "category": "Technology",
       "name": "WiFi Hotspot",
       "description": "Mobile internet device",
+      "last_verified": "unknown",
       "network": "minuteman",
       "id": "minuteman_cary_memorial_library_wifi_hotspot"
     },
@@ -918,6 +1393,7 @@
       "category": "Home Inspection",
       "name": "Thermal Leak Detector",
       "description": "Black & Decker thermal leak detector for finding drafts",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_thermal_leak_detector"
     },
@@ -926,6 +1402,7 @@
       "category": "Home Inspection",
       "name": "Stud Finder",
       "description": "Electronic stud finder for locating wall studs",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_stud_finder"
     },
@@ -934,6 +1411,7 @@
       "category": "Home Inspection",
       "name": "Outlet Tester",
       "description": "GFCI outlet tester for electrical safety",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_outlet_tester"
     },
@@ -942,6 +1420,7 @@
       "category": "Home Inspection",
       "name": "Kill-A-Watt Meter",
       "description": "Electricity usage monitor",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_kill_a_watt_meter"
     },
@@ -950,6 +1429,7 @@
       "category": "Home Inspection",
       "name": "Infrared Thermometer",
       "description": "Non-contact temperature measurement",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_infrared_thermometer"
     },
@@ -958,6 +1438,7 @@
       "category": "Home Inspection",
       "name": "Moisture Meter",
       "description": "Digital moisture detector for walls/wood",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_moisture_meter"
     },
@@ -966,6 +1447,7 @@
       "category": "Home Inspection",
       "name": "Carbon Monoxide Detector",
       "description": "Portable CO detector",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_carbon_monoxide_detector"
     },
@@ -974,6 +1456,7 @@
       "category": "Technology",
       "name": "WiFi Hotspot",
       "description": "Mobile internet hotspot device",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_wifi_hotspot"
     },
@@ -982,6 +1465,7 @@
       "category": "Technology",
       "name": "Roku Streaming Device",
       "description": "TV streaming device",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_roku_streaming_device"
     },
@@ -990,6 +1474,7 @@
       "category": "Technology",
       "name": "Laptop Computer",
       "description": "Chromebook for checkout",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_laptop_computer"
     },
@@ -998,6 +1483,7 @@
       "category": "Outdoor/Recreation",
       "name": "State Park Pass",
       "description": "Massachusetts State Parks pass",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_state_park_pass"
     },
@@ -1006,6 +1492,7 @@
       "category": "Outdoor/Recreation",
       "name": "Binoculars",
       "description": "Binoculars for birdwatching",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_binoculars"
     },
@@ -1014,6 +1501,7 @@
       "category": "Crafts",
       "name": "Sewing Machine",
       "description": "Portable sewing machine",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_sewing_machine"
     },
@@ -1022,6 +1510,7 @@
       "category": "Crafts",
       "name": "Button Maker",
       "description": "Button making machine",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_button_maker"
     },
@@ -1030,6 +1519,7 @@
       "category": "Games",
       "name": "Board Games Collection",
       "description": "Various board games",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_board_games_collection"
     },
@@ -1038,6 +1528,7 @@
       "category": "Games",
       "name": "Lawn Games",
       "description": "Outdoor game sets",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_lawn_games"
     },
@@ -1046,6 +1537,7 @@
       "category": "Music",
       "name": "Ukulele",
       "description": "Beginner ukulele with case",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_ukulele"
     },
@@ -1054,6 +1546,7 @@
       "category": "Kitchen",
       "name": "Instant Pot",
       "description": "Multi-use pressure cooker",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_instant_pot"
     },
@@ -1062,6 +1555,7 @@
       "category": "Kitchen",
       "name": "Cake Pans",
       "description": "Specialty baking pans",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_cake_pans"
     },
@@ -1070,6 +1564,7 @@
       "category": "Wellness",
       "name": "Blood Pressure Monitor",
       "description": "Digital BP cuff",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_blood_pressure_monitor"
     },
@@ -1078,6 +1573,7 @@
       "category": "Wellness",
       "name": "Light Therapy Lamp",
       "description": "SAD therapy light",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_worcester_public_library_light_therapy_lamp"
     },
@@ -1086,6 +1582,7 @@
       "category": "Technology",
       "name": "WiFi Hotspot",
       "description": "Mobile internet device",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_forbes_library_wifi_hotspot"
     },
@@ -1094,6 +1591,7 @@
       "category": "Technology",
       "name": "Kindle E-Reader",
       "description": "Kindle with preloaded books",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_forbes_library_kindle_e_reader"
     },
@@ -1102,6 +1600,7 @@
       "category": "Outdoor/Recreation",
       "name": "Telescope",
       "description": "Beginner telescope",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_forbes_library_telescope"
     },
@@ -1110,6 +1609,7 @@
       "category": "Outdoor/Recreation",
       "name": "Snowshoes",
       "description": "Adult snowshoes",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_forbes_library_snowshoes"
     },
@@ -1118,6 +1618,7 @@
       "category": "Outdoor/Recreation",
       "name": "Birding Kit",
       "description": "Binoculars with field guide",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_forbes_library_birding_kit"
     },
@@ -1126,6 +1627,7 @@
       "category": "Music",
       "name": "Ukulele",
       "description": "Beginner ukulele",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_forbes_library_ukulele"
     },
@@ -1134,6 +1636,7 @@
       "category": "Games",
       "name": "Board Games",
       "description": "Various games",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_forbes_library_board_games"
     },
@@ -1142,6 +1645,7 @@
       "category": "Crafts",
       "name": "Cricut Machine",
       "description": "Cutting machine",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_forbes_library_cricut_machine"
     },
@@ -1150,6 +1654,7 @@
       "category": "Home Inspection",
       "name": "Kill-A-Watt Meter",
       "description": "Electricity monitor",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_forbes_library_kill_a_watt_meter"
     },
@@ -1158,6 +1663,7 @@
       "category": "Technology",
       "name": "WiFi Hotspot",
       "description": "Mobile internet device",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_chicopee_public_library_wifi_hotspot"
     },
@@ -1166,6 +1672,7 @@
       "category": "Games",
       "name": "Board Games",
       "description": "Game collection",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_chicopee_public_library_board_games"
     },
@@ -1174,6 +1681,7 @@
       "category": "Outdoor/Recreation",
       "name": "State Park Pass",
       "description": "MA State Parks pass",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_chicopee_public_library_state_park_pass"
     },
@@ -1182,6 +1690,7 @@
       "category": "Technology",
       "name": "Mobile Hotspot",
       "description": "Mobile internet device (Monson residents only)",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_monson_free_library_mobile_hotspot"
     },
@@ -1190,6 +1699,7 @@
       "category": "Technology/STEM",
       "name": "Dash & Dot Robots",
       "description": "Coding robots for learning programming",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_monson_free_library_dash_&_dot_robots"
     },
@@ -1198,6 +1708,7 @@
       "category": "Wellness/Health",
       "name": "Happy Light Therapy Lamp",
       "description": "SAD/seasonal therapy lamp",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_monson_free_library_happy_light_therapy_lamp"
     },
@@ -1206,6 +1717,7 @@
       "category": "Music",
       "name": "Ukulele",
       "description": "Beginner ukulele (requires form)",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_monson_free_library_ukulele"
     },
@@ -1214,6 +1726,7 @@
       "category": "Kitchen",
       "name": "Cake Pans (Novelty)",
       "description": "Various novelty cake pan designs",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_monson_free_library_cake_pans_(novelty)"
     },
@@ -1222,6 +1735,7 @@
       "category": "Games",
       "name": "Board Games",
       "description": "Various board games",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_monson_free_library_board_games"
     },
@@ -1230,6 +1744,7 @@
       "category": "Games",
       "name": "Puzzles",
       "description": "Puzzles for all ages",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_monson_free_library_puzzles"
     },
@@ -1238,6 +1753,7 @@
       "category": "Outdoor Games",
       "name": "Lawn Games",
       "description": "Various outdoor lawn games",
+      "last_verified": "unknown",
       "network": "cwmars",
       "id": "cwmars_monson_free_library_lawn_games"
     },
@@ -4538,8 +5054,8 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-01-25",
-    "total_items": 487,
+    "last_updated": "2026-02-08",
+    "total_items": 522,
     "total_libraries": 40,
     "total_networks": 10,
     "generated_by": "consolidate.py"
