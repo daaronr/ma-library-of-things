@@ -4,6 +4,7 @@ import SearchBar from './components/SearchBar';
 import FilterPanel from './components/FilterPanel';
 import ItemList from './components/ItemList';
 import Footer from './components/Footer';
+import SubmitLibrary from './components/SubmitLibrary';
 import { networkCatalogs } from './utils/catalogUrls';
 import { calculateDistance } from './utils/location';
 
@@ -290,6 +291,7 @@ export default function App() {
         )}
 
         <Footer lastUpdated={data?.metadata?.last_updated} />
+        <SubmitLibrary />
       </div>
     </div>
   );

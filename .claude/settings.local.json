@@ -1,6 +1,8 @@
 {
   "permissions": {
     "allow": [
+      "WebFetch(domain:*lib*)",
+      "WebFetch(domain:*library*)",
       "WebFetch(domain:catalog.cwmars.org)",
       "WebFetch(domain:catalog.minlib.net)",
       "WebFetch(domain:sails.ent.sirsi.net)",
@@ -10,7 +12,38 @@
       "WebFetch(domain:sailsinc.org)",
       "WebFetch(domain:www.bridgewaterpubliclibrary.org)",
       "WebFetch(domain:westbpl.org)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "WebFetch(domain:barringtonlibrary.org)",
+      "WebFetch(domain:www.cumberlandlibrary.org)",
+      "WebFetch(domain:nhfpl.org)",
+      "WebFetch(domain:www.lincolnlibrary.info)",
+      "WebFetch(domain:www.nypl.org)",
+      "WebFetch(domain:catalog.oslri.net)",
+      "WebFetch(domain:www.cwmars.org)",
+      "WebFetch(domain:www.biblio.org)",
+      "WebFetch(domain:catalog.bccls.org)",
+      "WebFetch(domain:www.ramseylibrary.org)",
+      "WebFetch(domain:ridgewoodlibrary.org)",
+      "WebFetch(domain:montclairlibrary.org)",
+      "WebFetch(domain:plainsborolibrary.org)",
+      "WebFetch(domain:www.bernardslibrary.org)",
+      "WebFetch(domain:parsippanylibrary.org)",
+      "WebFetch(domain:hclibrary.us)",
+      "WebFetch(domain:rutherfordlibrary.org)",
+      "WebFetch(domain:sclsnj.org)",
+      "Bash(python scripts/consolidate.py:*)",
+      "WebFetch(domain:malibrary.netlify.app)",
+      "WebFetch(domain:masslibraryofthings.netlify.app)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:www.prattlibrary.org)",
+      "WebFetch(domain:bangorpubliclibrary.org)",
+      "WebFetch(domain:www.berkslibraries.org)",
+      "WebFetch(domain:lib.de.us)",
+      "WebFetch(domain:www.princememorial.org)",
+      "WebFetch(domain:freeportlibrary.com)",
+      "WebFetch(domain:www.lithgowlibrary.org)",
+      "Bash(gh run view:*)"
     ]
   }
 }

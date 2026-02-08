@@ -14,7 +14,7 @@ export default function Header({ stats }) {
               Library of Things
             </h1>
             <p className="text-indigo-600">
-              Search borrowable items across Northeast US library networks
+              Borrow tools, tech & more from US public libraries — free with your library card
             </p>
           </div>
         </div>

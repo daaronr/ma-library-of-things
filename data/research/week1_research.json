@@ -1,0 +1,222 @@
+{
+  "generated_at": "2026-01-25T15:19:18.707249",
+  "states_researched": [
+    "VT",
+    "NH",
+    "ME",
+    "PA",
+    "DE",
+    "MD"
+  ],
+  "results": [
+    {
+      "state": "VT",
+      "researched_at": "2026-01-25T15:19:18.707278",
+      "networks": [
+        {
+          "name": "Vermont Department of Libraries",
+          "url": "https://libraries.vermont.gov",
+          "robots_txt_url": "https://libraries.vermont.gov/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": false,
+          "blocked_bots": [],
+          "error": "HTTP 403"
+        },
+        {
+          "name": "Catamount Library Network",
+          "url": "https://www.catamountlibrarynetwork.org",
+          "robots_txt_url": "https://www.catamountlibrarynetwork.org/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": false,
+          "blocked_bots": [],
+          "error": "HTTPSConnectionPool(host='www.catamountlibrarynetwork.org', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10abcb130>: Failed to resolve 'www.catamountlibrarynetwork.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+        }
+      ],
+      "candidates": [],
+      "excluded": []
+    },
+    {
+      "state": "NH",
+      "researched_at": "2026-01-25T15:19:21.458002",
+      "networks": [
+        {
+          "name": "NH State Library",
+          "url": "https://www.nh.gov/nhsl",
+          "robots_txt_url": "https://www.nh.gov/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": false,
+          "blocked_bots": [],
+          "error": "HTTP 403"
+        },
+        {
+          "name": "GMILCS",
+          "url": "https://www.gmilcs.org",
+          "robots_txt_url": "https://www.gmilcs.org/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": true,
+          "blocked_bots": [
+            "GPTBot"
+          ],
+          "error": null
+        }
+      ],
+      "candidates": [],
+      "excluded": [
+        {
+          "name": "GMILCS",
+          "reason": "robots.txt blocks AI bots: GPTBot"
+        }
+      ]
+    },
+    {
+      "state": "ME",
+      "researched_at": "2026-01-25T15:19:23.774562",
+      "networks": [
+        {
+          "name": "Maine State Library",
+          "url": "https://www.maine.gov/msl",
+          "robots_txt_url": "https://www.maine.gov/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": false,
+          "blocked_bots": [],
+          "error": null
+        },
+        {
+          "name": "Maine InfoNet",
+          "url": "https://www.maineinfonet.org",
+          "robots_txt_url": "https://www.maineinfonet.org/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": false,
+          "blocked_bots": [],
+          "error": null
+        }
+      ],
+      "candidates": [
+        {
+          "name": "Maine State Library",
+          "url": "https://www.maine.gov/msl"
+        },
+        {
+          "name": "Maine InfoNet",
+          "url": "https://www.maineinfonet.org"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "state": "PA",
+      "researched_at": "2026-01-25T15:19:26.793911",
+      "networks": [
+        {
+          "name": "Access PA",
+          "url": "https://accesspa.powerlibrary.org",
+          "robots_txt_url": "https://accesspa.powerlibrary.org/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": false,
+          "blocked_bots": [],
+          "error": null
+        },
+        {
+          "name": "POWER Library",
+          "url": "https://powerlibrary.org",
+          "robots_txt_url": "https://powerlibrary.org/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": false,
+          "blocked_bots": [],
+          "error": null
+        },
+        {
+          "name": "Free Library of Philadelphia",
+          "url": "https://libwww.freelibrary.org",
+          "robots_txt_url": "https://libwww.freelibrary.org/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": true,
+          "blocked_bots": [
+            "ClaudeBot",
+            "GPTBot",
+            "Google-Extended"
+          ],
+          "error": null
+        }
+      ],
+      "candidates": [
+        {
+          "name": "Access PA",
+          "url": "https://accesspa.powerlibrary.org"
+        },
+        {
+          "name": "POWER Library",
+          "url": "https://powerlibrary.org"
+        }
+      ],
+      "excluded": [
+        {
+          "name": "Free Library of Philadelphia",
+          "reason": "robots.txt blocks AI bots: ClaudeBot, GPTBot, Google-Extended"
+        }
+      ]
+    },
+    {
+      "state": "DE",
+      "researched_at": "2026-01-25T15:19:30.791848",
+      "networks": [
+        {
+          "name": "Delaware Libraries",
+          "url": "https://lib.de.us",
+          "robots_txt_url": "https://lib.de.us/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": false,
+          "blocked_bots": [],
+          "error": null
+        }
+      ],
+      "candidates": [
+        {
+          "name": "Delaware Libraries",
+          "url": "https://lib.de.us"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "state": "MD",
+      "researched_at": "2026-01-25T15:19:32.032957",
+      "networks": [
+        {
+          "name": "Maryland State Library",
+          "url": "https://www.marylandlibraries.org",
+          "robots_txt_url": "https://www.marylandlibraries.org/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": false,
+          "blocked_bots": [],
+          "error": null
+        },
+        {
+          "name": "Enoch Pratt Free Library",
+          "url": "https://www.prattlibrary.org",
+          "robots_txt_url": "https://www.prattlibrary.org/robots.txt",
+          "allows_crawling": true,
+          "blocks_ai_bots": false,
+          "blocked_bots": [],
+          "error": null
+        }
+      ],
+      "candidates": [
+        {
+          "name": "Maryland State Library",
+          "url": "https://www.marylandlibraries.org"
+        },
+        {
+          "name": "Enoch Pratt Free Library",
+          "url": "https://www.prattlibrary.org"
+        }
+      ],
+      "excluded": []
+    }
+  ],
+  "summary": {
+    "total_networks": 12,
+    "total_candidates": 7,
+    "total_excluded": 2
+  }
+}
