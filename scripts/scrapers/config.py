@@ -72,34 +72,10 @@ NETWORK_SOURCES = {
             },
         ],
     },
-    'sails': {
-        'network_name': 'SAILS Library Network',
-        'libraries': [
-            {
-                'name': 'Bridgewater Public Library',
-                'lot_url': 'https://www.bridgewaterpubliclibrary.org/',
-                'location': 'Bridgewater, MA',
-                'phone': '508-697-3331',
-            },
-            {
-                'name': 'East Bridgewater Public Library',
-                'lot_url': 'https://www.eb-library.org/',
-                'location': 'East Bridgewater, MA',
-                'phone': '508-378-1616',
-            },
-        ],
-    },
-    'mbln': {
-        'network_name': 'Metro Boston Library Network',
-        'libraries': [
-            {
-                'name': 'Boston Public Library',
-                'lot_url': 'https://www.bpl.org/library-of-things/',
-                'location': 'Boston, MA',
-                'phone': '617-536-5400',
-            },
-        ],
-    },
+    # NOTE: The following networks are EXCLUDED due to Terms of Service restrictions:
+    # - sails: robots.txt Disallow: / (blocks all crawling)
+    # - mbln/BPL: BiblioCommons ToS prohibits automated harvesting
+    # These networks' data files are manually maintained and should not be scraped.
 }
 
 # Category mappings for normalization
