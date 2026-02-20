@@ -6,12 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Library of Things USA** - a unified search app for borrowable non-traditional items (tools, technology, outdoor gear) across US public libraries and sharing economy organizations (tool libraries, makerspaces, gear libraries).
 
-### Current Coverage (702 items, 11 networks)
+### Current Coverage (791 items, 12 networks)
 - **MA**: Minuteman (MLN), CWMARS
 - **New England**: CT (Bibliomation), RI (Ocean State)
 - **Northeast**: NY, NJ
 - **Mid-Atlantic**: ME, PA, DE, MD
 - **Southeast**: SC (Richland Library - 180 items)
+- **Tool Libraries**: VA (Charlottesville Tool Library - 89 sample from 1071 tools)
 
 ### Expansion Status
 - **Week 1 (Complete)**: ME, PA, DE, MD (VT/NH skipped - robots.txt blocks)

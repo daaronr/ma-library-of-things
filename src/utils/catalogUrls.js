@@ -332,6 +332,17 @@ export const networkCatalogs = {
     region: 'South Carolina',
     state: 'SC',
   },
+
+  // VIRGINIA
+  va_tool_libraries: {
+    name: 'Virginia Tool Libraries',
+    shortName: 'VA-TL',
+    system: 'myturn',
+    baseUrl: 'https://cvilletools.myturn.com',
+    color: '#2E7D32',
+    region: 'Virginia',
+    state: 'VA',
+  },
 };
 
 /**

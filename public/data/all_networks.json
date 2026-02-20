@@ -9,6 +9,10 @@
       "catalog_base_url": "https://catalog.minlib.net",
       "website": "https://www.minlib.net",
       "color": "#1E88E5",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
       "id": "minuteman"
     },
     "cwmars": {
@@ -20,6 +24,10 @@
       "catalog_base_url": "https://catalog.cwmars.org",
       "website": "https://www.cwmars.org",
       "color": "#43A047",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
       "id": "cwmars"
     },
     "bibliomation": {
@@ -31,6 +39,10 @@
       "catalog_base_url": "https://biblio.org",
       "website": "https://www.biblio.org",
       "color": "#4527A0",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
       "notes": "Connecticut public libraries with Library of Things programs",
       "id": "bibliomation"
     },
@@ -43,6 +55,10 @@
       "catalog_base_url": "https://catalog.oslri.net",
       "website": "https://oslri.org",
       "color": "#AD1457",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
       "catalog_url": "https://catalog.oslri.net",
       "notes": "All public libraries in Rhode Island are part of Ocean State Libraries",
       "id": "ocean_state"
@@ -56,6 +72,10 @@
       "catalog_base_url": "https://catalog.nypl.org",
       "website": "https://www.nypl.org",
       "color": "#C62828",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
       "notes": "New York public libraries with Library of Things programs",
       "id": "ny_libraries"
     },
@@ -68,6 +88,10 @@
       "catalog_base_url": "https://catalog.bccls.org",
       "website": "https://librarylinknj.org",
       "color": "#FF6F00",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
       "notes": "New Jersey public libraries with Library of Things programs. Multiple consortiums: BCCLS (Bergen/Essex), MAIN (Morris/Somerset), STELLA (Middlesex/Monmouth).",
       "id": "nj_libraries"
     },
@@ -80,6 +104,10 @@
       "catalog_base_url": "https://minerva.maine.edu",
       "website": "https://www.maineinfonet.org",
       "color": "#00695C",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
       "notes": "Maine public libraries with Library of Things programs. Part of Maine InfoNet consortium.",
       "id": "me_libraries"
     },
@@ -92,6 +120,10 @@
       "catalog_base_url": "https://accesspa.powerlibrary.org",
       "website": "https://powerlibrary.org",
       "color": "#1565C0",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
       "notes": "Pennsylvania public libraries with Library of Things programs. Excludes Free Library of Philadelphia (blocks AI bots).",
       "id": "pa_libraries"
     },
@@ -104,6 +136,10 @@
       "catalog_base_url": "https://delawarelibraries.org",
       "website": "https://lib.de.us",
       "color": "#6A1B9A",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
       "notes": "Delaware public libraries with statewide Library of Things program coordinated through Delaware Libraries.",
       "id": "de_libraries"
     },
@@ -116,8 +152,44 @@
       "catalog_base_url": "https://catalog.prattlibrary.org",
       "website": "https://www.prattlibrary.org",
       "color": "#E65100",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
       "notes": "Maryland public libraries with Library of Things programs, including Enoch Pratt Free Library in Baltimore.",
       "id": "md_libraries"
+    },
+    "sc_libraries": {
+      "name": "South Carolina Libraries",
+      "short_name": "SC",
+      "region": "South Carolina",
+      "state": "SC",
+      "catalog_system": "myturn",
+      "catalog_base_url": "https://richlandlibrary.myturn.com",
+      "website": "https://www.richlandlibrary.com",
+      "color": "#7B1FA2",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "sc_libraries"
+    },
+    "va_tool_libraries": {
+      "name": "Virginia Tool Libraries",
+      "short_name": "VA",
+      "region": "Virginia",
+      "state": "VA",
+      "catalog_system": "myturn",
+      "catalog_base_url": "https://cvilletools.myturn.com",
+      "website": "https://cvilletoollibrary.com",
+      "color": "#2E7D32",
+      "org_type": "tool_library",
+      "access_type": "checkout",
+      "fee_structure": "sliding_scale",
+      "membership_fee": 40.0,
+      "membership_fee_notes": "Sliding scale $20-60/year based on income",
+      "requires_membership": true,
+      "id": "va_tool_libraries"
     }
   },
   "items": [
@@ -5051,13 +5123,2165 @@
       "source_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
       "network": "md_libraries",
       "id": "md_libraries_enoch_pratt_free_library_digital_microscope"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Assistive Technology",
+      "name": "Braille Playing Cards",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_braille_playing_cards"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Assistive Technology",
+      "name": "Portable Hearing Loop",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_portable_hearing_loop"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Assistive Technology",
+      "name": "Ruby XL HD Video Magnifier",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_ruby_xl_hd_video_magnifier"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Assistive Technology",
+      "name": "Braille Learning Device",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_braille_learning_device"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Science/Education",
+      "name": "Compound Microscope Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_compound_microscope_kit"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Home Improvement",
+      "name": "Electric Pressure Washer",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___north_main_electric_pressure_washer"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Technology",
+      "name": "Ghost Hunting Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_ghost_hunting_kit"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Home Improvement",
+      "name": "Moving Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_moving_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Overlock Serger",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_overlock_serger"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Podcasting Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_podcasting_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Music",
+      "name": "Portable Record Player",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_portable_record_player"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Music",
+      "name": "Portable Record Player",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_portable_record_player"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Single-line Diamond Kite",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_single_line_diamond_kite"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor/Camping",
+      "name": "Single-line Diamond Kite",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_single_line_diamond_kite"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Trekking Poles",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_trekking_poles"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Crafts/Sewing",
+      "name": "Yarn Swift and Baller",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_yarn_swift_and_baller"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Yarn Swift and Baller",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_yarn_swift_and_baller"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Home Improvement",
+      "name": "1/2\" Drive Torque Wrench Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___north_main_1/2\"_drive_torque_wrench_set"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "3D Model Request Service",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_3d_model_request_service"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Home Improvement",
+      "name": "6 Foot Folding Table",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___sandhills_6_foot_folding_table"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Home Improvement",
+      "name": "6 Foot Folding Table",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_6_foot_folding_table"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "6 Foot Folding Table",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_6_foot_folding_table"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Home Improvement",
+      "name": "6 Foot Folding Table",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_6_foot_folding_table"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "9\" Cake Pan Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_9\"_cake_pan_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "16mm EF-M Mount Canon Lens",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_16mm_ef_m_mount_canon_lens"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "50 Foot Outdoor Extension Cord",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_50_foot_outdoor_extension_cord"
+    },
+    {
+      "library": "Richland Library - Wheatley",
+      "category": "Home Improvement",
+      "name": "50 Foot Outdoor Extension Cord",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___wheatley_50_foot_outdoor_extension_cord"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "55-Piece Cake Decorating Tip Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_55_piece_cake_decorating_tip_set"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Games",
+      "name": "300 Piece Puzzle, Solar System",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_300_piece_puzzle,_solar_system"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Adjustable Easel",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_adjustable_easel"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor/Camping",
+      "name": "Adult Birding Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_adult_birding_kit"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor/Camping",
+      "name": "Adult Birding Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_adult_birding_kit"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor/Camping",
+      "name": "Adult Bug & Wildflower Watching Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___l_6b4eb7ac"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor/Camping",
+      "name": "Adult Bug & Wildflower Watching Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_adult_bug_&_wildflower_watching_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Adult-Size XL Personal Flotation Device",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_adult_size_xl_personal_flotation_device"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Adult-Size XS/S Personal Flotation Device",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_adult_size_xs/s_personal_flotation_device"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Home Improvement",
+      "name": "Air Inflator",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___eastover_air_inflator"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "Angel Food Cake Pan Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_angel_food_cake_pan_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Backdrop Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_backdrop_kit"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Home Improvement",
+      "name": "Backpack Baby Carrier",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_backpack_baby_carrier"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor Games",
+      "name": "Badminton Racket Set with Shuttlecocks",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_badminton_racket_set_with_shuttlecocks"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Wellness/Health",
+      "name": "Balance Board",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_balance_board"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Wellness/Health",
+      "name": "Balance Stepping Stones",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_balance_stepping_stones"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Band Clamp",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_band_clamp"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Gardening",
+      "name": "Basic Gardening Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_basic_gardening_tool_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Basic Gardening Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_basic_gardening_tool_kit"
+    },
+    {
+      "library": "Richland Library - Wheatley",
+      "category": "Gardening",
+      "name": "Basic Gardening Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___wheatley_basic_gardening_tool_kit"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Bean Bag Bucketz",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_bean_bag_bucketz"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Bias Tape Maker Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_bias_tape_maker_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Bicycle",
+      "name": "Bicycle Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_bicycle_tool_kit"
+    },
+    {
+      "library": "Richland Library - Wheatley",
+      "category": "Bicycle",
+      "name": "Bicycle Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___wheatley_bicycle_tool_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Binding Machine",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_binding_machine"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___eastover_bird_watching_kit"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Pack",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_bird_watching_pack"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Pack, Adult",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_bird_watching_pack,_adult"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Pack, Child",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_bird_watching_pack,_child"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Pack, Family",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_bird_watching_pack,_family"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Blocking Mats",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_blocking_mats"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Games",
+      "name": "Block Tower Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_block_tower_game"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_blood_pressure_monitor"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___eastover_blood_pressure_monitor"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___sandhills_blood_pressure_monitor"
+    },
+    {
+      "library": "Richland Library - Edgewood",
+      "category": "Technology",
+      "name": "Blu-Ray Player",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___edgewood_blu_ray_player"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Blu-Ray Player",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_blu_ray_player"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_bocce_ball_set"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_bocce_ball_set"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_bocce_ball_set"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_bocce_ball_set"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_bocce_ball_set"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Gardening",
+      "name": "Bow Rake",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_bow_rake"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Gardening",
+      "name": "Bow Rake",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___eastover_bow_rake"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Bow Rake",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_bow_rake"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Gardening",
+      "name": "Bow Rake",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_bow_rake"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "Bread & Scone Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_bread_&_scone_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Broadcast Spreader",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_broadcast_spreader"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "Brownie Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_brownie_kit"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Science/Education",
+      "name": "Celestron Telescope",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_celestron_telescope"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Science/Education",
+      "name": "Celestron Telescope",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_celestron_telescope"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___eastover_check_out_sc:_state_park_pass"
+    },
+    {
+      "library": "Richland Library - Edgewood",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___edgewood_check_out_sc:_state_park_pass"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_check_out_sc:_state_park_pass"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___north_main_check_out_sc:_state_park_pass"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_check_out_sc:_state_park_pass"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_check_out_sc:_state_park_pass"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___sandhills_check_out_sc:_state_park_pass"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_check_out_sc:_state_park_pass"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_check_out_sc:_state_park_pass"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_check_out_sc:_state_park_pass"
+    },
+    {
+      "library": "Richland Library - Wheatley",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___wheatley_check_out_sc:_state_park_pass"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "CNC Router",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_cnc_router"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Science/Education",
+      "name": "Code Jumper",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_code_jumper"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Maker Machine",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_cricut_maker_machine"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Maker Machine",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_cricut_maker_machine"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Crafts/Sewing",
+      "name": "Crochet Hook Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___sandhills_crochet_hook_set"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Crochet Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_crochet_set"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Croquet Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_croquet_set"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor Games",
+      "name": "Croquet Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_croquet_set"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "Cupcake/Muffin Pan Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_cupcake/muffin_pan_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Measurement & Detection",
+      "name": "Digital Hanging Scale",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_digital_hanging_scale"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Inspection",
+      "name": "Digital Radon Detector",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_digital_radon_detector"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Auto/Vehicle",
+      "name": "Digital Timing Light",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___north_main_digital_timing_light"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Document Camera, Ladibug",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_document_camera,_ladibug"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Document Camera, USB",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_document_camera,_usb"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Document Camera with Extender Arm",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_document_camera_with_extender_arm"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Home Improvement",
+      "name": "Dremel Rotary Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_dremel_rotary_tool_kit"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Gardening",
+      "name": "Electric Earth Auger",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_electric_earth_auger"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Garden Tool and Tote Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_garden_tool_and_tote_kit"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Gardening",
+      "name": "Garden Tool and Tote Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___eastover_garden_tool_and_tote_kit"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Gardening",
+      "name": "Garden Tool and Tote Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___sandhills_garden_tool_and_tote_kit"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Gardening",
+      "name": "Garden Tool and Tote Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_garden_tool_and_tote_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Games",
+      "name": "Giant Checkers",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_giant_checkers"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "Giant Cookie Pan",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_giant_cookie_pan"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Outdoor Games",
+      "name": "Giant Tumbling Timber Toy",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_giant_tumbling_timber_toy"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor Games",
+      "name": "Giant Tumbling Timber Toy",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_giant_tumbling_timber_toy"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Giant Tumbling Timber Toy",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_giant_tumbling_timber_toy"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Outdoor Games",
+      "name": "Giant Tumbling Timber Toy",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_giant_tumbling_timber_toy"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor Games",
+      "name": "Giant Wooden Four Connect Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_giant_wooden_four_connect_game"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor Games",
+      "name": "Giant Wooden Four Connect Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_giant_wooden_four_connect_game"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Outdoor Games",
+      "name": "Giant Wooden Four Connect Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_giant_wooden_four_connect_game"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Giant Wooden Four Connect Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_giant_wooden_four_connect_game"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor Games",
+      "name": "Giant Wooden Four Connect Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_giant_wooden_four_connect_game"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Hotknife, Cordless",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_hotknife,_cordless"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Home Inspection",
+      "name": "Household Inspection Camera",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___north_main_household_inspection_camera"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Inspection",
+      "name": "Household Inspection Camera",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_household_inspection_camera"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Impact Socket Sets",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_impact_socket_sets"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Impact Wrench Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_impact_wrench_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Infant-Size Personal Flotation Device",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_infant_size_personal_flotation_device"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Auto/Vehicle",
+      "name": "Inflator/Deflator Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_inflator/deflator_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Instax Camera Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_instax_camera_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Ironing Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_ironing_kit"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Music",
+      "name": "Karaoke Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___sandhills_karaoke_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Games",
+      "name": "Keva Planks",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_keva_planks"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Science/Education",
+      "name": "Kids Add-on to Litter Collection Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_kids_add_on_to_litter_collection_kit"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor/Camping",
+      "name": "Kids Birding Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_kids_birding_kit"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor/Camping",
+      "name": "Kids Birding Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_kids_birding_kit"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor/Camping",
+      "name": "Kids Bug & Wildflower Watching Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___l_f4e35525"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Technology",
+      "name": "Mini Video Projection Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___north_main_mini_video_projection_kit"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Technology",
+      "name": "Mini Video Projection Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_mini_video_projection_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Mini Video Projection Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_mini_video_projection_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Moisture Meter",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_moisture_meter"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor/Camping",
+      "name": "Monocular",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_monocular"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Moving Supplies",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_moving_supplies"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Multi-Function Work Table",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_multi_function_work_table"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Multi-Position Ladder",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_multi_position_ladder"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Home Improvement",
+      "name": "Multi-Position Ladder",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_multi_position_ladder"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Home Improvement",
+      "name": "Multi-Position Ladder",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_multi_position_ladder"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Needle Felting Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_needle_felting_kit"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Auto/Vehicle",
+      "name": "OBD2 & EOBD Code Reader",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___north_main_obd2_&_eobd_code_reader"
+    },
+    {
+      "library": "Richland Library - Edgewood",
+      "category": "Technology",
+      "name": "Oral History Digital Camera Kits",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___edgewood_oral_history_digital_camera_kits"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Outdoor Bowling Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_outdoor_bowling_set"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor Games",
+      "name": "Outdoor Bowling Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_outdoor_bowling_set"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Sander, Random Orbit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_sander,_random_orbit"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Technology",
+      "name": "Scanner",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___eastover_scanner"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Technology",
+      "name": "Scanner",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_scanner"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Scanner",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_scanner"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_sc_state_museum_pass"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___blythewood_sc_state_museum_pass"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_sc_state_museum_pass"
+    },
+    {
+      "library": "Richland Library - Edgewood",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___edgewood_sc_state_museum_pass"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___eastover_sc_state_museum_pass"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___lower_richland_sc_state_museum_pass"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_sc_state_museum_pass"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___north_main_sc_state_museum_pass"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___sandhills_sc_state_museum_pass"
+    },
+    {
+      "library": "Richland Library - Wheatley",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___wheatley_sc_state_museum_pass"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Measurement & Detection",
+      "name": "Telescoping Magnetic Pick-Up",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___north_main_telescoping_magnetic_pick_up"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Inspection",
+      "name": "Thermal Imager",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_thermal_imager"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Home Inspection",
+      "name": "Thermal Imaging Camera",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___eastover_thermal_imaging_camera"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___north_main_tool_kit"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_tool_kit"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_tool_kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_tool_kit"
+    },
+    {
+      "library": "Richland Library - Edgewood",
+      "category": "Home Improvement",
+      "name": "Torque Wrench",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___edgewood_torque_wrench"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Kitchen",
+      "name": "Tortilla Press",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_tortilla_press"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Science/Education",
+      "name": "Trace & Write Alphabet Center",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___cooper_trace_&_write_alphabet_center"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Science/Education",
+      "name": "Trace & Write Alphabet Center",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_trace_&_write_alphabet_center"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor/Camping",
+      "name": "Trail Cam Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___ballentine_trail_cam_kit"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Science/Education",
+      "name": "Travel Telescope",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___southeast_travel_telescope"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Music",
+      "name": "Ukulele",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_ukulele"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Vegetables: Fall Bundle Seeds",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "network": "sc_libraries",
+      "id": "sc_libraries_richland_library___main_vegetables:_fall_bundle_seeds"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Party/Event",
+      "name": "10' x 10' EZ-Up Canopy with Sandbag Weights",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_01d16c10"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Battery Powered Lawn Mower",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_battery_powered_lawn_mower"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Benchtop Drill Press",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_benchtop_drill_press"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Kitchen",
+      "name": "Black Walnut Cracker",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_black_walnut_cracker"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Carpet Cleaner",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_carpet_cleaner"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Carpet & Upholstery Cleaner",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_carpet_&_upholstery_cleaner"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Circular Saw, Corded 7 1/2\" Skilsaw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_6a1b3526"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Compact Circular Saw, Corded",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_compact_circular_saw,_corded"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Dehumidifier",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_dehumidifier"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "EGo String Trimmer, Battery",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_ego_string_trimmer,_battery"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Electric Garden Tiller, 16 inch",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electric_garden_tiller,_16_inch"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Kitchen",
+      "name": "Electric Hand-held Mixer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electric_hand_held_mixer"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Electric Leaf Mulcher",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electric_leaf_mulcher"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Planer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electric_planer"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Hammer Drill, Cordless 18v DeWalt",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_hammer_drill,_cordless_18v_dewalt"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Hedge Trimmer, Battery (Stihl)",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_hedge_trimmer,_battery_(stihl)"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Large Nut Gatherer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_large_nut_gatherer"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Masonry Chisel",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_masonry_chisel"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Milwaukee Band Saw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_milwaukee_band_saw"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Post Pounder",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_post_pounder"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Power Screw Gun",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_power_screw_gun"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Power Tool Set, Dewalt",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_power_tool_set,_dewalt"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer, 2500 PSI",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_pressure_washer,_2500_psi"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Pruning Saw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_pruning_saw"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Ratchet Miter Shears",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_ratchet_miter_shears"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Reciprocating Saw, 18V",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_reciprocating_saw,_18v"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Reusable Moving Box Set",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_reusable_moving_box_set"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Root Slayer Shovel",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_root_slayer_shovel"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "3\" C Clamp",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_3\"_c_clamp"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "3 Gallon Wet/Dry Vac",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_3_gallon_wet/dry_vac"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "4\" C Clamp Set",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_4\"_c_clamp_set"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "5-Step Stepladder with Handrails",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_5_step_stepladder_with_handrails"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "5 Tine Compost Pitchfork",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_5_tine_compost_pitchfork"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "6' Ladder",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_6_ladder"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Allen Wrench Set, Metric",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_allen_wrench_set,_metric"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Allen Wrench Set, SAE",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_allen_wrench_set,_sae"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Measurement & Detection",
+      "name": "Anemometer, Portable",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_anemometer,_portable"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Angle Grinder, 4 1/2\"",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_angle_grinder,_4_1/2\""
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Anvil Pruner",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_anvil_pruner"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Arbor Press",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_arbor_press"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Auger Drill Bit Set",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_auger_drill_bit_set"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Auto Body Hammer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_auto_body_hammer"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Measurement & Detection",
+      "name": "Auto Level Transit",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_auto_level_transit"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Automotive Ramps",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_automotive_ramps"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Broadfork",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_broadfork"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Buffer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_buffer"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Bulb Planter",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_bulb_planter"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Bull Bar Wrecking Bar, 44\"",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_bull_bar_wrecking_bar,_44\""
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Cable Cutter",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_cable_cutter"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Cable Ripper",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_cable_ripper"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Carpet Knee Kicker",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_carpet_knee_kicker"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Carpet Tucker & Stair Tool",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_carpet_tucker_&_stair_tool"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Car Rooftop Soft Cargo Bag",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_car_rooftop_soft_cargo_bag"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Caulk Gun",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_caulk_gun"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Edger, Corded Electric",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_edger,_corded_electric"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electrical Fish Tape",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electrical_fish_tape"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Brad Nailer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electric_brad_nailer"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Electric Chainsaw Loppers",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electric_chainsaw_loppers"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Cutout Tool Rotozip",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electric_cutout_tool_rotozip"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Kitchen",
+      "name": "Electric Food Dehydrator",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electric_food_dehydrator"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Electric Hedge Trimmer, 24\"",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electric_hedge_trimmer,_24\""
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Staple & Nail Gun",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electric_staple_&_nail_gun"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Technology",
+      "name": "Electronics Tool Kit",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_electronics_tool_kit"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Miter Shears",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_miter_shears"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Mouse Detail Sander",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_mouse_detail_sander"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Multi-Function Garden Cart",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_multi_function_garden_cart"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Multi-Ladder",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_multi_ladder"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Measurement & Detection",
+      "name": "Multimeter, 600V",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_multimeter,_600v"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Multi-Tool Pliers",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_multi_tool_pliers"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Nail Puller, 12\"",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_nail_puller,_12\""
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Kitchen",
+      "name": "Pressure Canner",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_pressure_canner"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Wallpaper Steamer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_wallpaper_steamer"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Floor Jack, 3 Ton",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_floor_jack,_3_ton"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Jack Stands",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_jack_stands"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Tire Inflator",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_tire_inflator"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Tile Saw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_tile_saw"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Table Saw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_table_saw"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Jigsaw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_jigsaw"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Router",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_router"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Belt Sander",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_belt_sander"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Orbital Sander",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_orbital_sander"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Chainsaw, Electric",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_chainsaw,_electric"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Pole Saw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_pole_saw"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Stud Finder",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_stud_finder"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_laser_level"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Pipe Wrench Set",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_pipe_wrench_set"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Plumbing Snake",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_plumbing_snake"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Shop Vacuum",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_shop_vacuum"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Extension Ladder, 24'",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "network": "va_tool_libraries",
+      "id": "va_tool_libraries_charlottesville_tool_library_extension_ladder,_24"
     }
   ],
   "metadata": {
-    "last_updated": "2026-02-15",
-    "total_items": 522,
-    "total_libraries": 40,
-    "total_networks": 10,
+    "last_updated": "2026-02-20",
+    "total_items": 791,
+    "total_libraries": 52,
+    "total_networks": 12,
     "generated_by": "consolidate.py"
   }
 }

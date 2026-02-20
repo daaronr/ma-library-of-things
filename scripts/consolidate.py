@@ -47,6 +47,8 @@ NETWORK_FILES = {
     "md_libraries": "md_items.json",
     # South Carolina
     "sc_libraries": "sc_items.json",
+    # Virginia
+    "va_tool_libraries": "va_items.json",
 }
 
 # Organization type constants
@@ -240,6 +242,23 @@ NETWORK_METADATA = {
         "access_type": ACCESS_CHECKOUT,
         "fee_structure": FEE_FREE,
         "requires_membership": False,
+    },
+    # Virginia - Tool Libraries
+    "va_tool_libraries": {
+        "name": "Virginia Tool Libraries",
+        "short_name": "VA-TL",
+        "region": "Virginia",
+        "state": "VA",
+        "catalog_system": "myturn",
+        "catalog_base_url": "https://cvilletools.myturn.com",
+        "website": "https://cvilletoollibrary.com",
+        "color": "#2E7D32",
+        "org_type": ORG_TYPE_TOOL_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_SLIDING_SCALE,
+        "membership_fee": 40.0,
+        "membership_fee_notes": "Sliding scale $20-60/year based on income",
+        "requires_membership": True,
     },
 }
 
