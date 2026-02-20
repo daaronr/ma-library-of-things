@@ -90,6 +90,18 @@ const catalogUrlGenerators = {
   oclc_wms: (baseUrl, catalogId, itemName) => {
     return `${baseUrl}/discovery/search?queryString=${encodeURIComponent(itemName)}`;
   },
+
+  // MyTurn (used by Richland Library SC and other Library of Things)
+  myturn: (baseUrl, catalogId, itemName) => {
+    // MyTurn uses browse with search - items link to source_url instead
+    return `${baseUrl}/library/inventory/browse`;
+  },
+
+  // Direct URL only (for non-catalog orgs like tool libraries, makerspaces)
+  direct: (baseUrl, catalogId, itemName) => {
+    // Just return the base URL - items should have source_url
+    return baseUrl;
+  },
 };
 
 // Network configuration with catalog details
@@ -308,6 +320,17 @@ export const networkCatalogs = {
     color: '#E65100',
     region: 'Maryland',
     state: 'MD',
+  },
+
+  // SOUTH CAROLINA
+  sc_libraries: {
+    name: 'South Carolina Libraries',
+    shortName: 'SC',
+    system: 'myturn',
+    baseUrl: 'https://richlandlibrary.myturn.com',
+    color: '#7B1FA2',
+    region: 'South Carolina',
+    state: 'SC',
   },
 };
 

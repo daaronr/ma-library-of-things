@@ -45,9 +45,36 @@ NETWORK_FILES = {
     "de_libraries": "de_items.json",
     # Maryland
     "md_libraries": "md_items.json",
+    # South Carolina
+    "sc_libraries": "sc_items.json",
 }
 
+# Organization type constants
+ORG_TYPE_LIBRARY = "public_library"
+ORG_TYPE_TOOL_LIBRARY = "tool_library"
+ORG_TYPE_MAKERSPACE = "makerspace"
+ORG_TYPE_GEAR_LIBRARY = "gear_library"
+
+# Access type constants
+ACCESS_CHECKOUT = "checkout"      # Items can be taken home
+ACCESS_IN_SPACE = "in_space"      # Use on-site only
+ACCESS_BOTH = "both"              # Both options available
+
+# Fee structure constants
+FEE_FREE = "free"
+FEE_MEMBERSHIP = "membership"
+FEE_PER_ITEM = "per_item"
+FEE_SLIDING_SCALE = "sliding_scale"
+FEE_DEPOSIT_ONLY = "deposit_only"
+
 # Network metadata (used if not in JSON file)
+# New fields for sharing economy expansion:
+#   org_type: public_library | tool_library | makerspace | gear_library
+#   access_type: checkout | in_space | both
+#   fee_structure: free | membership | per_item | sliding_scale | deposit_only
+#   membership_fee: float (annual cost) or None
+#   membership_fee_notes: string describing fee details
+#   requires_membership: bool
 NETWORK_METADATA = {
     # Massachusetts
     "minuteman": {
@@ -59,6 +86,10 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://catalog.minlib.net",
         "website": "https://www.minlib.net",
         "color": "#1E88E5",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
     },
     "cwmars": {
         "name": "CWMARS",
@@ -69,6 +100,10 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://catalog.cwmars.org",
         "website": "https://www.cwmars.org",
         "color": "#43A047",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
     },
     # NOTE: sails, mbln, bpl removed - ToS prohibit automated access
     # Connecticut
@@ -81,6 +116,10 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://biblio.org",
         "website": "https://www.biblio.org",
         "color": "#4527A0",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
     },
     # Rhode Island
     "ocean_state": {
@@ -92,6 +131,10 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://catalog.oslri.net",
         "website": "https://oslri.org",
         "color": "#AD1457",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
     },
     # New York
     "ny_libraries": {
@@ -103,6 +146,10 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://catalog.nypl.org",
         "website": "https://www.nypl.org",
         "color": "#C62828",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
     },
     # New Jersey
     "nj_libraries": {
@@ -114,6 +161,10 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://catalog.bccls.org",
         "website": "https://librarylinknj.org",
         "color": "#FF6F00",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
     },
     # Maine
     "me_libraries": {
@@ -125,6 +176,10 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://minerva.maine.edu",
         "website": "https://www.maineinfonet.org",
         "color": "#00695C",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
     },
     # Pennsylvania
     "pa_libraries": {
@@ -136,6 +191,10 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://accesspa.powerlibrary.org",
         "website": "https://powerlibrary.org",
         "color": "#1565C0",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
     },
     # Delaware
     "de_libraries": {
@@ -147,6 +206,10 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://delawarelibraries.org",
         "website": "https://lib.de.us",
         "color": "#6A1B9A",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
     },
     # Maryland
     "md_libraries": {
@@ -158,6 +221,25 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://catalog.prattlibrary.org",
         "website": "https://www.prattlibrary.org",
         "color": "#E65100",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # South Carolina
+    "sc_libraries": {
+        "name": "South Carolina Libraries",
+        "short_name": "SC",
+        "region": "South Carolina",
+        "state": "SC",
+        "catalog_system": "myturn",
+        "catalog_base_url": "https://richlandlibrary.myturn.com",
+        "website": "https://www.richlandlibrary.com",
+        "color": "#7B1FA2",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
     },
 }
 
@@ -178,7 +260,7 @@ def generate_item_id(network_id: str, library: str, item_name: str) -> str:
     return raw
 
 
-def load_network_data(network_id: str, filename: str) -> dict | None:
+def load_network_data(network_id: str, filename: str):
     """Load data from a network JSON file."""
     filepath = DATA_DIR / filename
     if not filepath.exists():
