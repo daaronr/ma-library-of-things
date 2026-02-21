@@ -1,0 +1,125 @@
+{
+  "network": {
+    "name": "Tennessee Libraries",
+    "id": "tennessee",
+    "region": "Southeast"
+  },
+  "libraries": [
+    {
+      "name": "Nashville Public Library",
+      "location": "Nashville, TN",
+      "lot_url": "https://library.nashville.gov/services/library-things"
+    }
+  ],
+  "items": [
+    {
+      "library": "Nashville Public Library",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "description": "Basic home improvement tool kit",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "description": "Laser level for hanging pictures and home projects",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector",
+      "description": "Digital radon detector for home testing",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Home Inspection",
+      "name": "Air Quality Monitor",
+      "description": "Monitor indoor air quality",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Music",
+      "name": "Electric Keyboard",
+      "description": "Electric keyboard for learning piano",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machine for fabric projects",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Kitchen",
+      "name": "Ice Cream Maker",
+      "description": "Electric ice cream maker",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Wellness/Health",
+      "name": "Kettlebell Set",
+      "description": "Kettlebells for fitness workouts",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Music",
+      "name": "Guitar",
+      "description": "Acoustic guitar for beginners",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Ukulele with learning materials",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Outdoor Games",
+      "name": "Lawn Games Set",
+      "description": "Outdoor lawn games for parties",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Party/Event",
+      "name": "Karaoke Machine",
+      "description": "Portable karaoke machine with microphones",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Kitchen",
+      "name": "Instant Pot",
+      "description": "Multi-use pressure cooker",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Machine",
+      "description": "Cricut cutting machine for crafts",
+      "source_url": "https://library.nashville.gov/services/library-things"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

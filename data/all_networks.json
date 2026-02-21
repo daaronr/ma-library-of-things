@@ -257,6 +257,111 @@
       "membership_fee_notes": "FREE with library card",
       "requires_membership": false,
       "id": "ca_libraries"
+    },
+    "in_libraries": {
+      "name": "Indiana Libraries",
+      "short_name": "IN",
+      "region": "Midwest",
+      "state": "IN",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.indypl.org",
+      "website": "https://www.indypl.org",
+      "color": "#1565C0",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "in_libraries"
+    },
+    "tn_libraries": {
+      "name": "Tennessee Libraries",
+      "short_name": "TN",
+      "region": "Southeast",
+      "state": "TN",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://library.nashville.gov",
+      "website": "https://library.nashville.gov",
+      "color": "#FF6F00",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "tn_libraries"
+    },
+    "oh_libraries": {
+      "name": "Ohio Libraries",
+      "short_name": "OH",
+      "region": "Midwest",
+      "state": "OH",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.starklibrary.org",
+      "website": "https://www.starklibrary.org",
+      "color": "#C62828",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "oh_libraries"
+    },
+    "il_libraries": {
+      "name": "Illinois Libraries",
+      "short_name": "IL",
+      "region": "Midwest",
+      "state": "IL",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.oppl.org",
+      "website": "https://www.oppl.org",
+      "color": "#1565C0",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "il_libraries"
+    },
+    "co_libraries": {
+      "name": "Colorado Libraries",
+      "short_name": "CO",
+      "region": "Mountain West",
+      "state": "CO",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://arapahoelibraries.org",
+      "website": "https://arapahoelibraries.org",
+      "color": "#2E7D32",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "co_libraries"
+    },
+    "tx_libraries": {
+      "name": "Texas Libraries",
+      "short_name": "TX",
+      "region": "Southwest",
+      "state": "TX",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://hcpl.net",
+      "website": "https://hcpl.net",
+      "color": "#BF360C",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "tx_libraries"
+    },
+    "or_tool_libraries": {
+      "name": "Oregon Tool Libraries",
+      "short_name": "OR-TL",
+      "region": "Pacific Northwest",
+      "state": "OR",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://eastportlandtoollibrary.org",
+      "website": "https://eastportlandtoollibrary.org",
+      "color": "#00695C",
+      "org_type": "tool_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "or_tool_libraries"
     }
   },
   "items": [
@@ -8884,13 +8989,949 @@
       "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
       "network": "ca_libraries",
       "id": "ca_libraries_alameda_county_library___centerville_battery_string_trimmer"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Home Improvement",
+      "name": "Home and Auto Tool Kit",
+      "description": "Complete tool kit for home and automotive repairs",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "network": "in_libraries",
+      "id": "in_libraries_indianapolis_public_library_home_and_auto_tool_kit"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Home Improvement",
+      "name": "Socket and Ratchet Set",
+      "description": "Complete socket and ratchet set for mechanical work",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "network": "in_libraries",
+      "id": "in_libraries_indianapolis_public_library_socket_and_ratchet_set"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Home Improvement",
+      "name": "General Tool Set",
+      "description": "Basic tools for household projects",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "network": "in_libraries",
+      "id": "in_libraries_indianapolis_public_library_general_tool_set"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Home Improvement",
+      "name": "Utility Air Floor Blower",
+      "description": "High-powered floor dryer and blower",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "network": "in_libraries",
+      "id": "in_libraries_indianapolis_public_library_utility_air_floor_blower"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine (Full-Size)",
+      "description": "Full-size sewing machine for fabric projects",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "network": "in_libraries",
+      "id": "in_libraries_indianapolis_public_library_sewing_machine_(full_size)"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Handheld Sewing Machine",
+      "description": "Portable handheld sewing machine for quick repairs",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "network": "in_libraries",
+      "id": "in_libraries_indianapolis_public_library_handheld_sewing_machine"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Complete pickleball set with paddles and balls",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "network": "in_libraries",
+      "id": "in_libraries_indianapolis_public_library_pickleball_set"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Pole Set",
+      "description": "Fishing poles and basic tackle for beginners",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "network": "in_libraries",
+      "id": "in_libraries_indianapolis_public_library_fishing_pole_set"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Music",
+      "name": "Ukulele Kit",
+      "description": "Beginner ukulele with learning materials",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "network": "in_libraries",
+      "id": "in_libraries_indianapolis_public_library_ukulele_kit"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Gardening",
+      "name": "Garden Tool Set",
+      "description": "Basic gardening tools for yard work",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "network": "in_libraries",
+      "id": "in_libraries_indianapolis_public_library_garden_tool_set"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Kitchen",
+      "name": "Baking Kit",
+      "description": "Complete baking equipment set",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "network": "in_libraries",
+      "id": "in_libraries_monroe_county_public_library_baking_kit"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Home Inspection",
+      "name": "TrickleStar Energy Monitor",
+      "description": "Monitor energy usage of appliances",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "network": "in_libraries",
+      "id": "in_libraries_monroe_county_public_library_tricklestar_energy_monitor"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Home Improvement",
+      "name": "Folding Hand Truck",
+      "description": "Portable folding hand truck for moving items",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "network": "in_libraries",
+      "id": "in_libraries_monroe_county_public_library_folding_hand_truck"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Technology",
+      "name": "Mobile Video Production Kit",
+      "description": "Equipment for creating videos on mobile devices",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "network": "in_libraries",
+      "id": "in_libraries_monroe_county_public_library_mobile_video_production_kit"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Music",
+      "name": "Ukulele Kit",
+      "description": "Ukulele with instructional materials",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "network": "in_libraries",
+      "id": "in_libraries_monroe_county_public_library_ukulele_kit"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Game Set",
+      "description": "Complete pickleball set with paddles and balls",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "network": "in_libraries",
+      "id": "in_libraries_monroe_county_public_library_pickleball_game_set"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Technology",
+      "name": "iPad",
+      "description": "iPad tablet for borrowing",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "network": "in_libraries",
+      "id": "in_libraries_monroe_county_public_library_ipad"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "network": "in_libraries",
+      "id": "in_libraries_monroe_county_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Binoculars for bird watching and outdoor activities",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "network": "in_libraries",
+      "id": "in_libraries_monroe_county_public_library_binoculars"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Games",
+      "name": "Board Game Collection",
+      "description": "Various board games for checkout",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "network": "in_libraries",
+      "id": "in_libraries_monroe_county_public_library_board_game_collection"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "description": "Basic home improvement tool kit",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_tool_kit"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "description": "Laser level for hanging pictures and home projects",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_laser_level"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector",
+      "description": "Digital radon detector for home testing",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_radon_detector"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Home Inspection",
+      "name": "Air Quality Monitor",
+      "description": "Monitor indoor air quality",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_air_quality_monitor"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Music",
+      "name": "Electric Keyboard",
+      "description": "Electric keyboard for learning piano",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_electric_keyboard"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machine for fabric projects",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_sewing_machine"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Kitchen",
+      "name": "Ice Cream Maker",
+      "description": "Electric ice cream maker",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_ice_cream_maker"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Wellness/Health",
+      "name": "Kettlebell Set",
+      "description": "Kettlebells for fitness workouts",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_kettlebell_set"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Music",
+      "name": "Guitar",
+      "description": "Acoustic guitar for beginners",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_guitar"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Ukulele with learning materials",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_ukulele"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Outdoor Games",
+      "name": "Lawn Games Set",
+      "description": "Outdoor lawn games for parties",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_lawn_games_set"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Party/Event",
+      "name": "Karaoke Machine",
+      "description": "Portable karaoke machine with microphones",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_karaoke_machine"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Kitchen",
+      "name": "Instant Pot",
+      "description": "Multi-use pressure cooker",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_instant_pot"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Machine",
+      "description": "Cricut cutting machine for crafts",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "network": "tn_libraries",
+      "id": "tn_libraries_nashville_public_library_cricut_machine"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Home Inspection",
+      "name": "Kill-A-Watt Meter",
+      "description": "Measure electricity usage of appliances",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_kill_a_watt_meter"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Auto/Vehicle",
+      "name": "Vehicle Diagnostic Code Reader",
+      "description": "OBD-II code reader for vehicle diagnostics",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_vehicle_diagnostic_code_reader"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector",
+      "description": "Digital radon detector for home testing",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_radon_detector"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Home Inspection",
+      "name": "Air Quality Monitor",
+      "description": "Monitor indoor air quality levels",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_air_quality_monitor"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Wellness/Health",
+      "name": "Pulse Oximeter",
+      "description": "Measure blood oxygen levels",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_pulse_oximeter"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "description": "Digital blood pressure cuff",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_blood_pressure_monitor"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope (Tripod)",
+      "description": "Telescope with tripod stand",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_telescope_(tripod)"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Outdoor/Camping",
+      "name": "Tabletop Telescope",
+      "description": "Compact tabletop telescope",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_tabletop_telescope"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Ukulele with beginner materials",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_ukulele"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Outdoor Games",
+      "name": "Giant Connect Four",
+      "description": "Oversized Connect Four yard game",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_giant_connect_four"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Outdoor Games",
+      "name": "Giant Jenga",
+      "description": "Oversized Jenga yard game",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_giant_jenga"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Outdoor Games",
+      "name": "Giant Tic-Tac-Toe",
+      "description": "Oversized Tic-Tac-Toe yard game",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_giant_tic_tac_toe"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "network": "oh_libraries",
+      "id": "oh_libraries_stark_library_wifi_hotspot"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Home Improvement",
+      "name": "Electric Drill",
+      "description": "Cordless electric drill for home projects",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_electric_drill"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "description": "Laser level for precise alignment",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_laser_level"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Measurement & Detection",
+      "name": "Wall Stud Finder",
+      "description": "Electronic stud finder",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_wall_stud_finder"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Full-size sewing machine",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_sewing_machine"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Embroidery Machine",
+      "description": "Embroidery machine for decorative stitching",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_embroidery_machine"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Gardening",
+      "name": "Tiller",
+      "description": "Garden tiller for soil preparation",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_tiller"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Gardening",
+      "name": "Utility Wagon",
+      "description": "Folding utility wagon for yard work",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_utility_wagon"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Outdoor Games",
+      "name": "Tennis Racket Set",
+      "description": "Tennis rackets with balls",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_tennis_racket_set"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "description": "Bocce ball set for outdoor play",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_bocce_ball_set"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Party/Event",
+      "name": "Karaoke Machine",
+      "description": "Portable karaoke machine with microphones",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_karaoke_machine"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Party/Event",
+      "name": "Projector Screen",
+      "description": "Portable projector screen for presentations",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_projector_screen"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_telescope"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Technology",
+      "name": "GoPro Camera",
+      "description": "GoPro action camera with accessories",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_gopro_camera"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Technology",
+      "name": "Mini Projector",
+      "description": "Portable mini projector",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "network": "il_libraries",
+      "id": "il_libraries_oak_park_public_library_mini_projector"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Home Improvement",
+      "name": "Drill Kit",
+      "description": "Cordless drill with accessories",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_drill_kit"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Auto/Vehicle",
+      "name": "Diagnostic Tool",
+      "description": "Vehicle diagnostic code reader",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_diagnostic_tool"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Home Improvement",
+      "name": "Repair Kit",
+      "description": "General home repair tool kit",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_repair_kit"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Technology",
+      "name": "Portable Solar Power Bank",
+      "description": "Solar-powered charging station",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_portable_solar_power_bank"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Starter Set",
+      "description": "Disc golf discs for beginners",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_disc_golf_starter_set"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Pickleball paddles and balls",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_pickleball_set"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Outdoor/Camping",
+      "name": "Hiking Poles",
+      "description": "Adjustable hiking/trekking poles",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_hiking_poles"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Binoculars for birding and hiking",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_binoculars"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Outdoor/Camping",
+      "name": "Camping Gear Kit",
+      "description": "Basic camping equipment",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_camping_gear_kit"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Science/Education",
+      "name": "Robotics Kit",
+      "description": "Educational robotics and coding kit",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_robotics_kit"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Technology/Gaming",
+      "name": "Video Game Console",
+      "description": "Gaming console for checkout",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_video_game_console"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot",
+      "source_url": "https://arapahoelibraries.org/library-of-things/",
+      "network": "co_libraries",
+      "id": "co_libraries_arapahoe_libraries_wifi_hotspot"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Cultivator",
+      "description": "Hand cultivator for soil preparation",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_cultivator"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Garden Hoe",
+      "description": "Garden hoe for weeding and cultivation",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_garden_hoe"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Loppers",
+      "description": "Long-handled loppers for pruning",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_loppers"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Pruning Shears",
+      "description": "Hand pruners for trimming plants",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_pruning_shears"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Garden Rake",
+      "description": "Rake for leaves and debris",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_garden_rake"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Hedge Shears",
+      "description": "Manual hedge shears",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_hedge_shears"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Shovel",
+      "description": "Digging shovel",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_shovel"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Spade",
+      "description": "Garden spade",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_spade"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Trowel",
+      "description": "Hand trowel for planting",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_trowel"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Weeder",
+      "description": "Hand weeder tool",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_weeder"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Wheelbarrow",
+      "description": "Wheelbarrow for hauling materials",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_wheelbarrow"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Garden Gloves",
+      "description": "Work gloves for gardening",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_garden_gloves"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Kneeling Pad",
+      "description": "Cushioned kneeling pad for gardening",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___baldwin_boettcher_kneeling_pad"
+    },
+    {
+      "library": "Harris County Public Library - Evelyn Meador",
+      "category": "Gardening",
+      "name": "Gardening Tool Set",
+      "description": "Basic gardening tools",
+      "source_url": "https://hcpl.net/gardening/",
+      "network": "tx_libraries",
+      "id": "tx_libraries_harris_county_public_library___evelyn_meador_gardening_tool_set"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Circular Saw",
+      "description": "Power circular saw for woodworking",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_circular_saw"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Jigsaw",
+      "description": "Electric jigsaw for curved cuts",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_jigsaw"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Power Drill",
+      "description": "Cordless power drill",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_power_drill"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Orbital Sander",
+      "description": "Random orbital sander",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_orbital_sander"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Hand Saw Set",
+      "description": "Various hand saws",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_hand_saw_set"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Hammer Collection",
+      "description": "Various hammers and mallets",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_hammer_collection"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Screwdriver Set",
+      "description": "Complete screwdriver set",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_screwdriver_set"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Wrench Set",
+      "description": "Combination wrench set",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_wrench_set"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Pliers Set",
+      "description": "Various pliers and cutters",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_pliers_set"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Level Set",
+      "description": "Spirit levels of various sizes",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_level_set"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Gardening",
+      "name": "Pruning Tools",
+      "description": "Pruning shears and loppers",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_pruning_tools"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Gardening",
+      "name": "Digging Tools",
+      "description": "Shovels, spades, and forks",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_digging_tools"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Clamps Set",
+      "description": "Various woodworking clamps",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_clamps_set"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Paint Supplies",
+      "description": "Rollers, brushes, and trays",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_paint_supplies"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Extension Ladder",
+      "description": "Extension ladder for high work",
+      "source_url": "https://eastportlandtoollibrary.org/",
+      "network": "or_tool_libraries",
+      "id": "or_tool_libraries_east_portland_tool_library_extension_ladder"
     }
   ],
   "metadata": {
-    "last_updated": "2026-02-20",
-    "total_items": 997,
-    "total_libraries": 66,
-    "total_networks": 16,
+    "last_updated": "2026-02-21",
+    "total_items": 1101,
+    "total_libraries": 75,
+    "total_networks": 23,
     "generated_by": "consolidate.py"
   }
 }

@@ -1,0 +1,165 @@
+{
+  "network": {
+    "name": "Indiana Libraries",
+    "id": "indiana",
+    "region": "Midwest"
+  },
+  "libraries": [
+    {
+      "name": "Indianapolis Public Library",
+      "location": "Indianapolis, IN",
+      "lot_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things"
+    },
+    {
+      "name": "Monroe County Public Library",
+      "location": "Bloomington, IN",
+      "lot_url": "https://mcpl.info/stacks/library-things"
+    }
+  ],
+  "items": [
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Home Improvement",
+      "name": "Home and Auto Tool Kit",
+      "description": "Complete tool kit for home and automotive repairs",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Home Improvement",
+      "name": "Socket and Ratchet Set",
+      "description": "Complete socket and ratchet set for mechanical work",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Home Improvement",
+      "name": "General Tool Set",
+      "description": "Basic tools for household projects",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Home Improvement",
+      "name": "Utility Air Floor Blower",
+      "description": "High-powered floor dryer and blower",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine (Full-Size)",
+      "description": "Full-size sewing machine for fabric projects",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Handheld Sewing Machine",
+      "description": "Portable handheld sewing machine for quick repairs",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Complete pickleball set with paddles and balls",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Pole Set",
+      "description": "Fishing poles and basic tackle for beginners",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Music",
+      "name": "Ukulele Kit",
+      "description": "Beginner ukulele with learning materials",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Gardening",
+      "name": "Garden Tool Set",
+      "description": "Basic gardening tools for yard work",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Kitchen",
+      "name": "Baking Kit",
+      "description": "Complete baking equipment set",
+      "source_url": "https://mcpl.info/stacks/library-things"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Home Inspection",
+      "name": "TrickleStar Energy Monitor",
+      "description": "Monitor energy usage of appliances",
+      "source_url": "https://mcpl.info/stacks/library-things"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Home Improvement",
+      "name": "Folding Hand Truck",
+      "description": "Portable folding hand truck for moving items",
+      "source_url": "https://mcpl.info/stacks/library-things"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Technology",
+      "name": "Mobile Video Production Kit",
+      "description": "Equipment for creating videos on mobile devices",
+      "source_url": "https://mcpl.info/stacks/library-things"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Music",
+      "name": "Ukulele Kit",
+      "description": "Ukulele with instructional materials",
+      "source_url": "https://mcpl.info/stacks/library-things"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Game Set",
+      "description": "Complete pickleball set with paddles and balls",
+      "source_url": "https://mcpl.info/stacks/library-things"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Technology",
+      "name": "iPad",
+      "description": "iPad tablet for borrowing",
+      "source_url": "https://mcpl.info/stacks/library-things"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://mcpl.info/stacks/library-things"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Binoculars for bird watching and outdoor activities",
+      "source_url": "https://mcpl.info/stacks/library-things"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Games",
+      "name": "Board Game Collection",
+      "description": "Various board games for checkout",
+      "source_url": "https://mcpl.info/stacks/library-things"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

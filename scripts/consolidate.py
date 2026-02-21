@@ -57,6 +57,20 @@ NETWORK_FILES = {
     "wa_tool_libraries": "wa_items.json",
     # California
     "ca_libraries": "ca_items.json",
+    # Indiana
+    "in_libraries": "in_items.json",
+    # Tennessee
+    "tn_libraries": "tn_items.json",
+    # Ohio
+    "oh_libraries": "oh_items.json",
+    # Illinois
+    "il_libraries": "il_items.json",
+    # Colorado
+    "co_libraries": "co_items.json",
+    # Texas
+    "tx_libraries": "tx_items.json",
+    # Oregon
+    "or_tool_libraries": "or_items.json",
 }
 
 # Organization type constants
@@ -333,6 +347,111 @@ NETWORK_METADATA = {
         "access_type": ACCESS_CHECKOUT,
         "fee_structure": FEE_FREE,
         "membership_fee_notes": "FREE with library card",
+        "requires_membership": False,
+    },
+    # Indiana
+    "in_libraries": {
+        "name": "Indiana Libraries",
+        "short_name": "IN",
+        "region": "Midwest",
+        "state": "IN",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.indypl.org",
+        "website": "https://www.indypl.org",
+        "color": "#1565C0",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Tennessee
+    "tn_libraries": {
+        "name": "Tennessee Libraries",
+        "short_name": "TN",
+        "region": "Southeast",
+        "state": "TN",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://library.nashville.gov",
+        "website": "https://library.nashville.gov",
+        "color": "#FF6F00",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Ohio
+    "oh_libraries": {
+        "name": "Ohio Libraries",
+        "short_name": "OH",
+        "region": "Midwest",
+        "state": "OH",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.starklibrary.org",
+        "website": "https://www.starklibrary.org",
+        "color": "#C62828",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Illinois
+    "il_libraries": {
+        "name": "Illinois Libraries",
+        "short_name": "IL",
+        "region": "Midwest",
+        "state": "IL",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.oppl.org",
+        "website": "https://www.oppl.org",
+        "color": "#1565C0",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Colorado
+    "co_libraries": {
+        "name": "Colorado Libraries",
+        "short_name": "CO",
+        "region": "Mountain West",
+        "state": "CO",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://arapahoelibraries.org",
+        "website": "https://arapahoelibraries.org",
+        "color": "#2E7D32",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Texas
+    "tx_libraries": {
+        "name": "Texas Libraries",
+        "short_name": "TX",
+        "region": "Southwest",
+        "state": "TX",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://hcpl.net",
+        "website": "https://hcpl.net",
+        "color": "#BF360C",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Oregon - Tool Libraries
+    "or_tool_libraries": {
+        "name": "Oregon Tool Libraries",
+        "short_name": "OR-TL",
+        "region": "Pacific Northwest",
+        "state": "OR",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://eastportlandtoollibrary.org",
+        "website": "https://eastportlandtoollibrary.org",
+        "color": "#00695C",
+        "org_type": ORG_TYPE_TOOL_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
         "requires_membership": False,
     },
 }

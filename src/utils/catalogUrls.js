@@ -387,6 +387,83 @@ export const networkCatalogs = {
     region: 'California',
     state: 'CA',
   },
+
+  // INDIANA LIBRARIES
+  in_libraries: {
+    name: 'Indiana Libraries',
+    shortName: 'IN',
+    system: 'direct',
+    baseUrl: 'https://www.indypl.org',
+    color: '#1565C0',
+    region: 'Midwest',
+    state: 'IN',
+  },
+
+  // TENNESSEE LIBRARIES
+  tn_libraries: {
+    name: 'Tennessee Libraries',
+    shortName: 'TN',
+    system: 'direct',
+    baseUrl: 'https://library.nashville.gov',
+    color: '#FF6F00',
+    region: 'Southeast',
+    state: 'TN',
+  },
+
+  // OHIO LIBRARIES
+  oh_libraries: {
+    name: 'Ohio Libraries',
+    shortName: 'OH',
+    system: 'direct',
+    baseUrl: 'https://www.starklibrary.org',
+    color: '#C62828',
+    region: 'Midwest',
+    state: 'OH',
+  },
+
+  // ILLINOIS LIBRARIES
+  il_libraries: {
+    name: 'Illinois Libraries',
+    shortName: 'IL',
+    system: 'direct',
+    baseUrl: 'https://www.oppl.org',
+    color: '#1565C0',
+    region: 'Midwest',
+    state: 'IL',
+  },
+
+  // COLORADO LIBRARIES
+  co_libraries: {
+    name: 'Colorado Libraries',
+    shortName: 'CO',
+    system: 'direct',
+    baseUrl: 'https://arapahoelibraries.org',
+    color: '#2E7D32',
+    region: 'Mountain West',
+    state: 'CO',
+  },
+
+  // TEXAS LIBRARIES
+  tx_libraries: {
+    name: 'Texas Libraries',
+    shortName: 'TX',
+    system: 'direct',
+    baseUrl: 'https://hcpl.net',
+    color: '#BF360C',
+    region: 'Southwest',
+    state: 'TX',
+  },
+
+  // OREGON TOOL LIBRARIES
+  or_tool_libraries: {
+    name: 'Oregon Tool Libraries',
+    shortName: 'OR-TL',
+    system: 'direct',
+    baseUrl: 'https://eastportlandtoollibrary.org',
+    color: '#00695C',
+    region: 'Pacific Northwest',
+    state: 'OR',
+  },
 };
 
 /**

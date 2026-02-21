@@ -1,0 +1,127 @@
+{
+  "network": {
+    "name": "Oregon Tool Libraries",
+    "id": "oregon",
+    "region": "Pacific Northwest",
+    "org_type": "tool_library",
+    "fee_structure": "free"
+  },
+  "libraries": [
+    {
+      "name": "East Portland Tool Library",
+      "location": "Portland, OR",
+      "lot_url": "https://eastportlandtoollibrary.org/"
+    }
+  ],
+  "items": [
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Circular Saw",
+      "description": "Power circular saw for woodworking",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Jigsaw",
+      "description": "Electric jigsaw for curved cuts",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Power Drill",
+      "description": "Cordless power drill",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Orbital Sander",
+      "description": "Random orbital sander",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Hand Saw Set",
+      "description": "Various hand saws",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Hammer Collection",
+      "description": "Various hammers and mallets",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Screwdriver Set",
+      "description": "Complete screwdriver set",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Wrench Set",
+      "description": "Combination wrench set",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Pliers Set",
+      "description": "Various pliers and cutters",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Level Set",
+      "description": "Spirit levels of various sizes",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Gardening",
+      "name": "Pruning Tools",
+      "description": "Pruning shears and loppers",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Gardening",
+      "name": "Digging Tools",
+      "description": "Shovels, spades, and forks",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Clamps Set",
+      "description": "Various woodworking clamps",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Paint Supplies",
+      "description": "Rollers, brushes, and trays",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    },
+    {
+      "library": "East Portland Tool Library",
+      "category": "Home Improvement",
+      "name": "Extension Ladder",
+      "description": "Extension ladder for high work",
+      "source_url": "https://eastportlandtoollibrary.org/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

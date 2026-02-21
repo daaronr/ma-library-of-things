@@ -1,0 +1,123 @@
+{
+  "network": {
+    "name": "Texas Libraries",
+    "id": "texas",
+    "region": "Southwest"
+  },
+  "libraries": [
+    {
+      "name": "Harris County Public Library - Baldwin Boettcher",
+      "location": "Houston, TX",
+      "lot_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "name": "Harris County Public Library - Evelyn Meador",
+      "location": "Houston, TX",
+      "lot_url": "https://hcpl.net/gardening/"
+    }
+  ],
+  "items": [
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Cultivator",
+      "description": "Hand cultivator for soil preparation",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Garden Hoe",
+      "description": "Garden hoe for weeding and cultivation",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Loppers",
+      "description": "Long-handled loppers for pruning",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Pruning Shears",
+      "description": "Hand pruners for trimming plants",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Garden Rake",
+      "description": "Rake for leaves and debris",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Hedge Shears",
+      "description": "Manual hedge shears",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Shovel",
+      "description": "Digging shovel",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Spade",
+      "description": "Garden spade",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Trowel",
+      "description": "Hand trowel for planting",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Weeder",
+      "description": "Hand weeder tool",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Wheelbarrow",
+      "description": "Wheelbarrow for hauling materials",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Garden Gloves",
+      "description": "Work gloves for gardening",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Kneeling Pad",
+      "description": "Cushioned kneeling pad for gardening",
+      "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Evelyn Meador",
+      "category": "Gardening",
+      "name": "Gardening Tool Set",
+      "description": "Basic gardening tools",
+      "source_url": "https://hcpl.net/gardening/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

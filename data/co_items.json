@@ -1,0 +1,104 @@
+{
+  "network": {
+    "name": "Colorado Libraries",
+    "id": "colorado",
+    "region": "Mountain West"
+  },
+  "libraries": [
+    {
+      "name": "Arapahoe Libraries",
+      "location": "Arapahoe County, CO",
+      "lot_url": "https://arapahoelibraries.org/library-of-things/"
+    }
+  ],
+  "items": [
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Home Improvement",
+      "name": "Drill Kit",
+      "description": "Cordless drill with accessories",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Auto/Vehicle",
+      "name": "Diagnostic Tool",
+      "description": "Vehicle diagnostic code reader",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Home Improvement",
+      "name": "Repair Kit",
+      "description": "General home repair tool kit",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Technology",
+      "name": "Portable Solar Power Bank",
+      "description": "Solar-powered charging station",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Starter Set",
+      "description": "Disc golf discs for beginners",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Pickleball paddles and balls",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Outdoor/Camping",
+      "name": "Hiking Poles",
+      "description": "Adjustable hiking/trekking poles",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Binoculars for birding and hiking",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Outdoor/Camping",
+      "name": "Camping Gear Kit",
+      "description": "Basic camping equipment",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Science/Education",
+      "name": "Robotics Kit",
+      "description": "Educational robotics and coding kit",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Technology/Gaming",
+      "name": "Video Game Console",
+      "description": "Gaming console for checkout",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    },
+    {
+      "library": "Arapahoe Libraries",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot",
+      "source_url": "https://arapahoelibraries.org/library-of-things/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

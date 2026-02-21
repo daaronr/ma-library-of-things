@@ -757,5 +757,119 @@
     "coordinates": { "lat": 47.5614, "lng": -122.3641 },
     "website": "https://www.wstools.org",
     "catalog_system": "myturn"
+  },
+
+  "indianapolis_public": {
+    "id": "indianapolis_public",
+    "name": "Indianapolis Public Library",
+    "network": "in_libraries",
+    "state": "IN",
+    "location": "Indianapolis, IN",
+    "address": "40 E St Clair St, Indianapolis, IN 46204",
+    "coordinates": { "lat": 39.7767, "lng": -86.1569 },
+    "website": "https://www.indypl.org",
+    "lot_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+    "catalog_system": "direct"
+  },
+  "monroe_county_public": {
+    "id": "monroe_county_public",
+    "name": "Monroe County Public Library",
+    "network": "in_libraries",
+    "state": "IN",
+    "location": "Bloomington, IN",
+    "address": "303 E Kirkwood Ave, Bloomington, IN 47408",
+    "coordinates": { "lat": 39.1653, "lng": -86.5264 },
+    "website": "https://mcpl.info",
+    "lot_url": "https://mcpl.info/stacks/library-things",
+    "catalog_system": "direct"
+  },
+
+  "nashville_public": {
+    "id": "nashville_public",
+    "name": "Nashville Public Library",
+    "network": "tn_libraries",
+    "state": "TN",
+    "location": "Nashville, TN",
+    "address": "615 Church St, Nashville, TN 37219",
+    "coordinates": { "lat": 36.1627, "lng": -86.7816 },
+    "website": "https://library.nashville.gov",
+    "lot_url": "https://library.nashville.gov/services/library-things",
+    "catalog_system": "direct"
+  },
+
+  "stark_library": {
+    "id": "stark_library",
+    "name": "Stark Library",
+    "network": "oh_libraries",
+    "state": "OH",
+    "location": "Canton, OH",
+    "address": "715 Market Ave N, Canton, OH 44702",
+    "coordinates": { "lat": 40.8059, "lng": -81.3784 },
+    "website": "https://www.starklibrary.org",
+    "lot_url": "https://www.starklibrary.org/library-of-things/",
+    "catalog_system": "direct"
+  },
+
+  "oak_park_public": {
+    "id": "oak_park_public",
+    "name": "Oak Park Public Library",
+    "network": "il_libraries",
+    "state": "IL",
+    "location": "Oak Park, IL",
+    "address": "834 Lake St, Oak Park, IL 60301",
+    "coordinates": { "lat": 41.8892, "lng": -87.7844 },
+    "website": "https://www.oppl.org",
+    "lot_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+    "catalog_system": "direct"
+  },
+
+  "arapahoe_libraries": {
+    "id": "arapahoe_libraries",
+    "name": "Arapahoe Libraries",
+    "network": "co_libraries",
+    "state": "CO",
+    "location": "Arapahoe County, CO",
+    "address": "12855 E Adam Aircraft Cir, Englewood, CO 80112",
+    "coordinates": { "lat": 39.5684, "lng": -104.8410 },
+    "website": "https://arapahoelibraries.org",
+    "lot_url": "https://arapahoelibraries.org/library-of-things/",
+    "catalog_system": "direct"
+  },
+
+  "harris_county_baldwin": {
+    "id": "harris_county_baldwin",
+    "name": "Harris County Public Library - Baldwin Boettcher",
+    "network": "tx_libraries",
+    "state": "TX",
+    "location": "Houston, TX",
+    "address": "22248 Aldine Westfield Rd, Humble, TX 77338",
+    "coordinates": { "lat": 29.9880, "lng": -95.2756 },
+    "website": "https://hcpl.net",
+    "lot_url": "https://hcpl.net/gardening/",
+    "catalog_system": "direct"
+  },
+  "harris_county_meador": {
+    "id": "harris_county_meador",
+    "name": "Harris County Public Library - Evelyn Meador",
+    "network": "tx_libraries",
+    "state": "TX",
+    "location": "Houston, TX",
+    "address": "2400 N Meyer Rd, Seabrook, TX 77586",
+    "coordinates": { "lat": 29.5844, "lng": -95.0240 },
+    "website": "https://hcpl.net",
+    "lot_url": "https://hcpl.net/gardening/",
+    "catalog_system": "direct"
+  },
+
+  "east_portland_tool_library": {
+    "id": "east_portland_tool_library",
+    "name": "East Portland Tool Library",
+    "network": "or_tool_libraries",
+    "state": "OR",
+    "location": "Portland, OR",
+    "address": "Portland, OR",
+    "coordinates": { "lat": 45.5152, "lng": -122.4149 },
+    "website": "https://eastportlandtoollibrary.org",
+    "catalog_system": "direct"
   }
 }
