@@ -30,9 +30,9 @@ export default function ItemList({ items, viewMode = 'category' }) {
 
   if (viewMode === 'list') {
     return (
-      <div className="space-y-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
         {items.map((item, idx) => (
-          <ItemCard key={item.id || idx} item={item} />
+          <ItemCard key={item.id || idx} item={item} compact />
         ))}
       </div>
     );
@@ -67,17 +67,17 @@ export default function ItemList({ items, viewMode = 'category' }) {
         </button>
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-3">
         {sortedCategories.map(category => (
-          <div key={category} className="catalog-card overflow-hidden">
+          <div key={category} className="border border-[#D4C5A9] bg-[#FFFDF5]">
             {/* Category header */}
             <button
               onClick={() => toggleCategory(category)}
-              className="w-full flex items-center justify-between p-4 bg-[#F5F1E6] hover:bg-[#EDE9DE] transition-colors border-b border-[#D4C5A9]"
+              className="w-full flex items-center justify-between px-4 py-3 bg-[#F5F1E6] hover:bg-[#EDE9DE] transition-colors border-b border-[#D4C5A9]"
             >
               <div className="flex items-center gap-3">
-                <span className="text-xl">{getCategoryIcon(category)}</span>
-                <span className="font-semibold text-lg">{category}</span>
+                <span className="text-lg">{getCategoryIcon(category)}</span>
+                <span className="font-semibold">{category}</span>
                 <span className="font-mono text-sm text-[#8B4513] border border-[#8B4513] px-2 py-0.5">
                   {grouped[category].length}
                 </span>
@@ -87,11 +87,11 @@ export default function ItemList({ items, viewMode = 'category' }) {
               </span>
             </button>
 
-            {/* Category items */}
+            {/* Category items - grid layout */}
             {expandedCategories.has(category) && (
-              <div className="p-4 space-y-3">
+              <div className="p-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
                 {grouped[category].map((item, idx) => (
-                  <ItemCard key={item.id || idx} item={item} />
+                  <ItemCard key={item.id || idx} item={item} compact />
                 ))}
               </div>
             )}
