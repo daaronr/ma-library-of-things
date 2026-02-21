@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import ItemCard from './ItemCard';
 import { getCategoryIcon } from '../utils/categories';
 
+// Minimum items for a category to have its own section
+const MIN_CATEGORY_SIZE = 5;
+
 export default function ItemList({ items, viewMode = 'category' }) {
-  const [expandedCategories, setExpandedCategories] = useState(
-    new Set(['Home Improvement', 'Technology', 'Outdoor/Camping'])
-  );
+  // Start with all categories collapsed
+  const [expandedCategories, setExpandedCategories] = useState(new Set());
 
   const toggleCategory = (category) => {
     setExpandedCategories(prev => {
@@ -19,13 +21,40 @@ export default function ItemList({ items, viewMode = 'category' }) {
     });
   };
 
-  const expandAll = () => {
-    const allCategories = [...new Set(items.map(i => i.category))];
-    setExpandedCategories(new Set(allCategories));
+  const expandAll = (categories) => {
+    setExpandedCategories(new Set(categories));
   };
 
   const collapseAll = () => {
     setExpandedCategories(new Set());
+  };
+
+  // Group by category, combining small ones into "Other"
+  const groupItems = (items) => {
+    const initial = items.reduce((acc, item) => {
+      const cat = item.category || 'Other';
+      if (!acc[cat]) acc[cat] = [];
+      acc[cat].push(item);
+      return acc;
+    }, {});
+
+    // Find small categories and combine into "Other"
+    const grouped = {};
+    const otherItems = [];
+
+    Object.entries(initial).forEach(([cat, catItems]) => {
+      if (catItems.length < MIN_CATEGORY_SIZE) {
+        otherItems.push(...catItems);
+      } else {
+        grouped[cat] = catItems;
+      }
+    });
+
+    if (otherItems.length > 0) {
+      grouped['Other'] = otherItems;
+    }
+
+    return grouped;
   };
 
   if (viewMode === 'list') {
@@ -38,22 +67,20 @@ export default function ItemList({ items, viewMode = 'category' }) {
     );
   }
 
-  // Group by category
-  const grouped = items.reduce((acc, item) => {
-    const cat = item.category || 'Other';
-    if (!acc[cat]) acc[cat] = [];
-    acc[cat].push(item);
-    return acc;
-  }, {});
-
-  const sortedCategories = Object.keys(grouped).sort();
+  const grouped = groupItems(items);
+  const sortedCategories = Object.keys(grouped).sort((a, b) => {
+    // Put "Other" at the end
+    if (a === 'Other') return 1;
+    if (b === 'Other') return -1;
+    return a.localeCompare(b);
+  });
 
   return (
     <div>
       {/* Expand/Collapse controls */}
       <div className="flex justify-end gap-4 mb-4 text-sm font-mono">
         <button
-          onClick={expandAll}
+          onClick={() => expandAll(sortedCategories)}
           className="text-[#8B4513] hover:underline uppercase tracking-wider"
         >
           Expand all
