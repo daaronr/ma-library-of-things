@@ -343,6 +343,50 @@ export const networkCatalogs = {
     region: 'Virginia',
     state: 'VA',
   },
+
+  // NEW YORK TOOL LIBRARIES
+  ny_tool_libraries: {
+    name: 'New York Tool Libraries',
+    shortName: 'NY-TL',
+    system: 'myturn',
+    baseUrl: 'https://universityheights.myturn.com',
+    color: '#1565C0',
+    region: 'Western New York',
+    state: 'NY',
+  },
+
+  // MINNESOTA TOOL LIBRARIES
+  mn_tool_libraries: {
+    name: 'Minnesota Tool Library',
+    shortName: 'MN-TL',
+    system: 'myturn',
+    baseUrl: 'https://mtl.myturn.com',
+    color: '#00838F',
+    region: 'Minneapolis-St. Paul',
+    state: 'MN',
+  },
+
+  // WASHINGTON TOOL LIBRARIES
+  wa_tool_libraries: {
+    name: 'Washington Tool Libraries',
+    shortName: 'WA-TL',
+    system: 'myturn',
+    baseUrl: 'https://wstl.myturn.com',
+    color: '#558B2F',
+    region: 'Seattle Area',
+    state: 'WA',
+  },
+
+  // CALIFORNIA TOOL LIBRARIES
+  ca_tool_libraries: {
+    name: 'California Tool Libraries',
+    shortName: 'CA-TL',
+    system: 'direct',
+    baseUrl: 'https://www.berkeleypubliclibrary.org/locations/tool-lending-library',
+    color: '#C62828',
+    region: 'San Francisco Bay Area',
+    state: 'CA',
+  },
 };
 
 /**

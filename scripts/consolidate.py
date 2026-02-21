@@ -49,6 +49,14 @@ NETWORK_FILES = {
     "sc_libraries": "sc_items.json",
     # Virginia
     "va_tool_libraries": "va_items.json",
+    # New York Tool Libraries
+    "ny_tool_libraries": "ny_tool_libraries.json",
+    # Minnesota
+    "mn_tool_libraries": "mn_items.json",
+    # Washington
+    "wa_tool_libraries": "wa_items.json",
+    # California
+    "ca_tool_libraries": "ca_items.json",
 }
 
 # Organization type constants
@@ -259,6 +267,73 @@ NETWORK_METADATA = {
         "membership_fee": 40.0,
         "membership_fee_notes": "Sliding scale $20-60/year based on income",
         "requires_membership": True,
+    },
+    # New York - Tool Libraries
+    "ny_tool_libraries": {
+        "name": "New York Tool Libraries",
+        "short_name": "NY-TL",
+        "region": "Western New York",
+        "state": "NY",
+        "catalog_system": "myturn",
+        "catalog_base_url": "https://universityheights.myturn.com",
+        "website": "https://thetoollibrary.org",
+        "color": "#1565C0",
+        "org_type": ORG_TYPE_TOOL_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_MEMBERSHIP,
+        "membership_fee": 30.0,
+        "membership_fee_notes": "$30/year (Tool Belt), $75/year (Tool Box), $150/year (Wheelbarrow)",
+        "requires_membership": True,
+    },
+    # Minnesota - Tool Libraries
+    "mn_tool_libraries": {
+        "name": "Minnesota Tool Library",
+        "short_name": "MN-TL",
+        "region": "Minneapolis-St. Paul",
+        "state": "MN",
+        "catalog_system": "myturn",
+        "catalog_base_url": "https://mtl.myturn.com",
+        "website": "https://www.mntoollibrary.org",
+        "color": "#00838F",
+        "org_type": ORG_TYPE_TOOL_LIBRARY,
+        "access_type": ACCESS_BOTH,
+        "fee_structure": FEE_MEMBERSHIP,
+        "membership_fee": 65.0,
+        "membership_fee_notes": "$65/year (basic) or $120/year (unlimited)",
+        "requires_membership": True,
+    },
+    # Washington - Tool Libraries
+    "wa_tool_libraries": {
+        "name": "Washington Tool Libraries",
+        "short_name": "WA-TL",
+        "region": "Seattle Area",
+        "state": "WA",
+        "catalog_system": "myturn",
+        "catalog_base_url": "https://wstl.myturn.com",
+        "website": "https://www.wstools.org",
+        "color": "#558B2F",
+        "org_type": ORG_TYPE_TOOL_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_SLIDING_SCALE,
+        "membership_fee": 45.0,
+        "membership_fee_notes": "Pay what you can, suggested $45/year",
+        "requires_membership": True,
+    },
+    # California - Tool Libraries
+    "ca_tool_libraries": {
+        "name": "California Tool Libraries",
+        "short_name": "CA-TL",
+        "region": "San Francisco Bay Area",
+        "state": "CA",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library",
+        "website": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library",
+        "color": "#C62828",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "membership_fee_notes": "FREE for Berkeley residents/property owners",
+        "requires_membership": False,
     },
 }
 

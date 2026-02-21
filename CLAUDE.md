@@ -6,18 +6,24 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Library of Things USA** - a unified search app for borrowable non-traditional items (tools, technology, outdoor gear) across US public libraries and sharing economy organizations (tool libraries, makerspaces, gear libraries).
 
-### Current Coverage (791 items, 12 networks)
+### Current Coverage (986 items, 16 networks, 56 libraries)
 - **MA**: Minuteman (MLN), CWMARS
 - **New England**: CT (Bibliomation), RI (Ocean State)
 - **Northeast**: NY, NJ
 - **Mid-Atlantic**: ME, PA, DE, MD
 - **Southeast**: SC (Richland Library - 180 items)
-- **Tool Libraries**: VA (Charlottesville Tool Library - 89 sample from 1071 tools)
+- **Tool Libraries**:
+  - VA: Charlottesville Tool Library (1,071 tools)
+  - NY: The Tool Library, Buffalo (4,806 tools) - $30-150/yr
+  - MN: Minnesota Tool Library (8,219 tools) - $65-120/yr
+  - WA: West Seattle Tool Library (2,426 tools) - pay what you can
+  - CA: Berkeley Tool Lending Library (~3,500 tools) - FREE
 
 ### Expansion Status
 - **Week 1 (Complete)**: ME, PA, DE, MD (VT/NH skipped - robots.txt blocks)
-- **Week 2 (In Progress)**: SC done, NC/GA/VA/WV/DC pending
-- **Sharing Economy Orgs**: Planning to add tool libraries (Charlottesville 1000+ tools), makerspaces
+- **Week 2 (In Progress)**: SC done, tool libraries expanded
+- **Tool Libraries Added**: Buffalo NY, Minnesota, West Seattle WA, Berkeley CA
+- **Skipped**: Chicago Tool Library (blocks ClaudeBot)
 
 ### Organization Types (new data model)
 ```python

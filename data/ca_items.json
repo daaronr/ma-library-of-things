@@ -1,0 +1,72 @@
+{
+  "network": {
+    "name": "California Tool Libraries",
+    "short_name": "CA-TL",
+    "region": "San Francisco Bay Area",
+    "state": "CA"
+  },
+  "libraries": [
+    {
+      "name": "Berkeley Tool Lending Library",
+      "location": "Berkeley, CA",
+      "lot_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library",
+      "catalog_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "address": "1901 Russell St, Berkeley, CA 94703",
+      "hours": "Mon-Tue 10am-6pm, Wed-Thu 12pm-8pm, Fri-Sat 10am-6pm",
+      "phone": "(510) 981-6101",
+      "total_items": 3500
+    }
+  ],
+  "items": [
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Circular Saw", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Hammer", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Chisel Set", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Hand Plane", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Measurement & Detection", "name": "Tape Measure", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "C-Clamp", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Bar Clamp", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Vise Grip", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Concrete Float", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Masonry Trowel", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Cement Mixer", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Kitchen", "name": "Baking Pan Set", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Kitchen", "name": "Food Processor", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Kitchen", "name": "Blender", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Wire Stripper", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Measurement & Detection", "name": "Circuit Tester", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Conduit Bender", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Carpet Knee Kicker", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Drywall T-Square", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Tile Cutter", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Gardening", "name": "Shovel", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Gardening", "name": "Rake", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Gardening", "name": "Pruning Shears", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Gardening", "name": "Hedge Trimmer", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Gardening", "name": "Lawn Mower", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Extension Ladder", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Step Ladder", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Hand Truck", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Wheelbarrow", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Dolly", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Pipe Wrench", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Pliers Set", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Bolt Cutter", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Screwdriver Set", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Drain Auger", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Drain Snake", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Power Drill", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Jigsaw", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Belt Sander", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Orbital Sander", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Angle Grinder", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Bicycle", "name": "Bike Repair Kit", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Measurement & Detection", "name": "Thermal Imager", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Demolition Hammer", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
+    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Pressure Washer", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"}
+  ],
+  "metadata": {
+    "last_updated": "2026-02-20",
+    "source": "Berkeley Public Library website",
+    "notes": "Sample of 45 items from ~3,500 total. FREE for Berkeley residents/property owners. Established 1979, one of the first tool lending libraries in the US."
+  }
+}

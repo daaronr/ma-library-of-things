@@ -190,6 +190,73 @@
       "membership_fee_notes": "Sliding scale $20-60/year based on income",
       "requires_membership": true,
       "id": "va_tool_libraries"
+    },
+    "ny_tool_libraries": {
+      "name": "New York Tool Libraries",
+      "short_name": "NY-TL",
+      "region": "New York",
+      "state": "NY",
+      "catalog_system": "myturn",
+      "catalog_base_url": "https://universityheights.myturn.com",
+      "website": "https://thetoollibrary.org",
+      "color": "#1565C0",
+      "org_type": "tool_library",
+      "access_type": "checkout",
+      "fee_structure": "membership",
+      "membership_fee": 30.0,
+      "membership_fee_notes": "$30/year (Tool Belt), $75/year (Tool Box), $150/year (Wheelbarrow)",
+      "requires_membership": true,
+      "id": "ny_tool_libraries"
+    },
+    "mn_tool_libraries": {
+      "name": "Minnesota Tool Library",
+      "short_name": "MN-TL",
+      "region": "Minneapolis-St. Paul",
+      "state": "MN",
+      "catalog_system": "myturn",
+      "catalog_base_url": "https://mtl.myturn.com",
+      "website": "https://www.mntoollibrary.org",
+      "color": "#00838F",
+      "org_type": "tool_library",
+      "access_type": "both",
+      "fee_structure": "membership",
+      "membership_fee": 65.0,
+      "membership_fee_notes": "$65/year (basic) or $120/year (unlimited)",
+      "requires_membership": true,
+      "id": "mn_tool_libraries"
+    },
+    "wa_tool_libraries": {
+      "name": "Washington Tool Libraries",
+      "short_name": "WA-TL",
+      "region": "Seattle Area",
+      "state": "WA",
+      "catalog_system": "myturn",
+      "catalog_base_url": "https://wstl.myturn.com",
+      "website": "https://www.wstools.org",
+      "color": "#558B2F",
+      "org_type": "tool_library",
+      "access_type": "checkout",
+      "fee_structure": "sliding_scale",
+      "membership_fee": 45.0,
+      "membership_fee_notes": "Pay what you can, suggested $45/year",
+      "requires_membership": true,
+      "id": "wa_tool_libraries"
+    },
+    "ca_tool_libraries": {
+      "name": "California Tool Libraries",
+      "short_name": "CA-TL",
+      "region": "San Francisco Bay Area",
+      "state": "CA",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library",
+      "website": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library",
+      "color": "#C62828",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "membership_fee_notes": "FREE for Berkeley residents/property owners",
+      "requires_membership": false,
+      "id": "ca_tool_libraries"
     }
   },
   "items": [
@@ -7275,13 +7342,1573 @@
       "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
       "network": "va_tool_libraries",
       "id": "va_tool_libraries_charlottesville_tool_library_extension_ladder,_24"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "1/2\" Heavy-Duty Hammerdrill",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_1/2\"_heavy_duty_hammerdrill"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "8-1/4\" Table Saw",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_8_1/4\"_table_saw"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Gardening",
+      "name": "16\" Electric Tiller & Cultivator",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_16\"_electric_tiller_&_cultivator"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "20V Cordless Framing Nailer",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_20v_cordless_framing_nailer"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Band Saw",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_band_saw"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Circular Saw",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_circular_saw"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Gardening",
+      "name": "Corded Electric Lawn Mower",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_corded_electric_lawn_mower"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "DeWalt Reciprocating Saw",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_dewalt_reciprocating_saw"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Gardening",
+      "name": "Ego Cordless Mower",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_ego_cordless_mower"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Gardening",
+      "name": "Electric Tiller & Cultivator",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_electric_tiller_&_cultivator"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Infrared Paint Stripper",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_infrared_paint_stripper"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Pavement Breaker",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_pavement_breaker"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Reciprocating Saw",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_reciprocating_saw"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Measurement & Detection",
+      "name": "Thermal Imaging Camera",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_thermal_imaging_camera"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Tile Saw",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_tile_saw"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "3/8-1\" Pex Clamp Tool",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3/8_1\"_pex_clamp_tool"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "3/8\" Beading Router Bit",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3/8\"_beading_router_bit"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Auto/Vehicle",
+      "name": "3/8\" Drive Socket Set (37-Piece)",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3/8\"_drive_socket_set_(37_piece)"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "3\" C Clamp",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3\"_c_clamp"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "3\" Corded Belt Saw",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3\"_corded_belt_saw"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "3\" Hole Saw",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3\"_hole_saw"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "3-in-1 Caulking Tool",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3_in_1_caulking_tool"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "3-in-1 Flooring Nailer",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3_in_1_flooring_nailer"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "3lb Hammer",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3lb_hammer"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "3 Output Power Adapter",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3_output_power_adapter"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "3 Piece Aviation Snips Set",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3_piece_aviation_snips_set"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "3-Step Metal Stepstool",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_3_step_metal_stepstool"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Auto/Vehicle",
+      "name": "Floor Jack, 3 Ton",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_floor_jack,_3_ton"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Auto/Vehicle",
+      "name": "Jack Stands",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_jack_stands"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_pressure_washer"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Jigsaw",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_jigsaw"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Router",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_router"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Belt Sander",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_belt_sander"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Orbital Sander",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_orbital_sander"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Gardening",
+      "name": "Chainsaw, Electric",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_chainsaw,_electric"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Oscillating Multi-Tool",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_oscillating_multi_tool"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Cordless Drill",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_cordless_drill"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Impact Driver",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_impact_driver"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_laser_level"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_stud_finder"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Cement Mixer",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_cement_mixer"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Gardening",
+      "name": "Leaf Blower",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_leaf_blower"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Gardening",
+      "name": "Hedge Trimmer",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_hedge_trimmer"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Gardening",
+      "name": "String Trimmer",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_string_trimmer"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Gardening",
+      "name": "Wheelbarrow",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_wheelbarrow"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Party/Event",
+      "name": "Canopy Tent",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_canopy_tent"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Extension Ladder",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_extension_ladder"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Step Ladder",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_step_ladder"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Hand Truck",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_hand_truck"
+    },
+    {
+      "library": "The Tool Library (Buffalo)",
+      "category": "Home Improvement",
+      "name": "Dolly",
+      "source_url": "https://universityheights.myturn.com/library/inventory/browse",
+      "network": "ny_tool_libraries",
+      "id": "ny_tool_libraries_the_tool_library_(buffalo)_dolly"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Auto/Vehicle",
+      "name": "Air Compressor - 1.5 GAL - 150 PSI",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_37c8788a"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Anvil - 16\"",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_anvil___16\""
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Gardening",
+      "name": "Battery Powered Lawn Mower",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_10653c34"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Cement Mixer - 3.5 Cubic Feet",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_1cde7699"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Drywall Lift - 11'",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_drywall_lift___11"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Extension Ladder - 25'",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_extension_ladder___25"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Kreg R3 Pocket Hole Jig",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_f01be474"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_laser_level"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Measurement & Detection",
+      "name": "Laser Tape, Laser Level, Stud Finder Kit",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_8598355f"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Gardening",
+      "name": "Log Splitter - 6.5 Ton",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_log_splitter___6.5_ton"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Gardening",
+      "name": "Log Splitter - Manual",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_log_splitter___manual"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Crafts/Sewing",
+      "name": "Metal Detector",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_metal_detector"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Crafts/Sewing",
+      "name": "Plastic Scoring Tool",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_plastic_scoring_tool"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Power Planer - 3\" (IN-SHOP ONLY)",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_88497ae8"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Ratcheting Pipe Threader",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_587482dd"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "1/4\" Shelf Pin Jig",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_1/4\"_shelf_pin_jig"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Auto/Vehicle",
+      "name": "1/4\" Socket Wrench Set",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_1/4\"_socket_wrench_set"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "1\" Planer",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_1\"_planer"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "1\" Spring Clamp",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_1\"_spring_clamp"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "2.5\" Three-Way Clamp",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_2.5\"_three_way_clamp"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Auto/Vehicle",
+      "name": "2\" Half Heel Dollie (Auto Body)",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_18c930e5"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "2\" Spring Clamp",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_2\"_spring_clamp"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Auto/Vehicle",
+      "name": "2 Ton Jack Stand Pair",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_2_ton_jack_stand_pair"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "3 1/4\" Spring Clamp",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_3_1/4\"_spring_clamp"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "3/4\" Plastic Water Pressure Test Gauge",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_99ecf7ae"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "3/4\" Pipe Clamp - 67\"",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_3/4\"_pipe_clamp___67\""
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "3/8\" Cove Router Bit",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_3/8\"_cove_router_bit"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4 Piece Center Punch Set",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_f25b96c3"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4\" Putty Knife",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_4\"_putty_knife"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4\" Scraper",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_4\"_scraper"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4\" Short Chisel Bit Set",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_679b8738"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4\" Trowel Wooden Handle",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_b6b27516"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4-Way Water Key",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_4_way_water_key"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "5 1/2\" Scraper",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_5_1/2\"_scraper"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Measurement & Detection",
+      "name": "5 1/2\" Metal File",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_5_1/2\"_metal_file"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "5\" Crescent Wrench & Pocket Knife Combo",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_f8c7f038"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "5 Flute Countersink - 3/4\"",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_libra_8ee878c5"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Measurement & Detection",
+      "name": "5\" Metal File",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_5\"_metal_file"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "6 1/2\" Trowel",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_6_1/2\"_trowel"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Measurement & Detection",
+      "name": "6\"/150mm Caliper",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_6\"/150mm_caliper"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "6\" Cement Edger",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_6\"_cement_edger"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Table Saw",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_table_saw"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Miter Saw",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_miter_saw"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Jointer",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_jointer"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Lathe",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_lathe"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Drill Press",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_drill_press"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Router Table",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_router_table"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Planer",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_planer"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Bandsaw",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_bandsaw"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Gardening",
+      "name": "Rototiller",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "network": "mn_tool_libraries",
+      "id": "mn_tool_libraries_minnesota_tool_library___ne_minneapolis_rototiller"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "13\" Cordless Electric String Trimmer",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_13\"_cordless_electric_string_trimmer"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1-1/2\" Combination Wrench 18\"",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1_1/2\"_combination_wrench_18\""
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1 1/2\" Combination Wrench 20\"",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1_1/2\"_combination_wrench_20\""
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1 1/2\" Joist Nailer",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1_1/2\"_joist_nailer"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1-1/2\" Ram Bit",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1_1/2\"_ram_bit"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1 1/4\" Combination Wrench",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1_1/4\"_combination_wrench"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/2\"-2-1/2\" Brake Cylinder Hone",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/2\"_2_1/2\"_brake_cylinder_hone"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/2-2\" Knockout Punch Set",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/2_2\"_knockout_punch_set"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/2\" (13mm) Cement Shear",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/2\"_(13mm)_cement_shear"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/2\" Bandfile Belt Sander",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/2\"_bandfile_belt_sander"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/2\" Craftsman Drill",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/2\"_craftsman_drill"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/2\" Drive Pneumatic Impact Wrench",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/2\"_drive_pneumatic_impact_wrench"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/2\" Drive SAE Socket Set",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/2\"_drive_sae_socket_set"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/2\" Drive Torque Wrench",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/2\"_drive_torque_wrench"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/2\" Electric Impact Wrench",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/2\"_electric_impact_wrench"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/4\" Coiled Air Hose 200 PSI max",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/4\"_coiled_air_hose_200_psi_max"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/4 HP Submersible Utility Pump",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/4_hp_submersible_utility_pump"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/4\" x 1/4\" Square Notch Trowel",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/4\"_x_1/4\"_square_notch_trowel"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/4 Sheet Finishing Sander",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/4_sheet_finishing_sander"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/4 Sheet Pad Sander",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/4_sheet_pad_sander"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/4\"x15' Drain Snake",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/4\"x15_drain_snake"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/6 HP Utility Pump",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/6_hp_utility_pump"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/8\" Rotary Tool",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/8\"_rotary_tool"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/16\" Notched Trowel",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_1/16\"_notched_trowel"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "2-3/8\" Axle Nut Socket",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_2_3/8\"_axle_nut_socket"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "2.5lb Pick Mattock",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_2.5lb_pick_mattock"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2 Bag Concrete Mixer",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_2_bag_concrete_mixer"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2' Bar Clamp",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_2_bar_clamp"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2\" Cold Chisel",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_2\"_cold_chisel"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "2-in-1 8\" Pole Saw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_2_in_1_8\"_pole_saw"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2' Level",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_2_level"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2\" Serrated Cold Chisel",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_2\"_serrated_cold_chisel"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "2 Ton Floor Jack",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_2_ton_floor_jack"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "2 Ton Jack Stand",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_2_ton_jack_stand"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2x Folding Plastic Sawhorses",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_2x_folding_plastic_sawhorses"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Table Saw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_table_saw"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Miter Saw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_miter_saw"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Circular Saw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_circular_saw"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Jigsaw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_jigsaw"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Reciprocating Saw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_reciprocating_saw"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Router",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_router"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Belt Sander",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_belt_sander"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Random Orbital Sander",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_random_orbital_sander"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "Lawn Mower",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_lawn_mower"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "Hedge Trimmer",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_hedge_trimmer"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "Chainsaw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_chainsaw"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_pressure_washer"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Extension Ladder",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_extension_ladder"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Step Ladder",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_step_ladder"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Hand Truck",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "network": "wa_tool_libraries",
+      "id": "wa_tool_libraries_west_seattle_tool_library_hand_truck"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Circular Saw",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_circular_saw"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Hammer",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_hammer"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Chisel Set",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_chisel_set"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Hand Plane",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_hand_plane"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Measurement & Detection",
+      "name": "Tape Measure",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_tape_measure"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "C-Clamp",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_c_clamp"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Bar Clamp",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_bar_clamp"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Vise Grip",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_vise_grip"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Concrete Float",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_concrete_float"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Masonry Trowel",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_masonry_trowel"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Cement Mixer",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_cement_mixer"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Kitchen",
+      "name": "Baking Pan Set",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_baking_pan_set"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Kitchen",
+      "name": "Food Processor",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_food_processor"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Kitchen",
+      "name": "Blender",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_blender"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Wire Stripper",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_wire_stripper"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Measurement & Detection",
+      "name": "Circuit Tester",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_circuit_tester"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Conduit Bender",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_conduit_bender"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Carpet Knee Kicker",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_carpet_knee_kicker"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Drywall T-Square",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_drywall_t_square"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Tile Cutter",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_tile_cutter"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Gardening",
+      "name": "Shovel",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_shovel"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Gardening",
+      "name": "Rake",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_rake"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Gardening",
+      "name": "Pruning Shears",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_pruning_shears"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Gardening",
+      "name": "Hedge Trimmer",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_hedge_trimmer"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Gardening",
+      "name": "Lawn Mower",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_lawn_mower"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Extension Ladder",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_extension_ladder"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Step Ladder",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_step_ladder"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Hand Truck",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_hand_truck"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Wheelbarrow",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_wheelbarrow"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Dolly",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_dolly"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Pipe Wrench",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_pipe_wrench"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Pliers Set",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_pliers_set"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Bolt Cutter",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_bolt_cutter"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Screwdriver Set",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_screwdriver_set"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Drain Auger",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_drain_auger"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Drain Snake",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_drain_snake"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Power Drill",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_power_drill"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Jigsaw",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_jigsaw"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Belt Sander",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_belt_sander"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Orbital Sander",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_orbital_sander"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Angle Grinder",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_angle_grinder"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Bicycle",
+      "name": "Bike Repair Kit",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_bike_repair_kit"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Measurement & Detection",
+      "name": "Thermal Imager",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_thermal_imager"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Demolition Hammer",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_demolition_hammer"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "network": "ca_tool_libraries",
+      "id": "ca_tool_libraries_berkeley_tool_lending_library_pressure_washer"
     }
   ],
   "metadata": {
     "last_updated": "2026-02-20",
-    "total_items": 791,
-    "total_libraries": 52,
-    "total_networks": 12,
+    "total_items": 986,
+    "total_libraries": 56,
+    "total_networks": 16,
     "generated_by": "consolidate.py"
   }
 }
