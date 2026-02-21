@@ -8,16 +8,22 @@ export default function Header({ stats }) {
 
       <div className="bg-white rounded-xl shadow-sm p-6 mt-4">
         <div className="flex items-center gap-4 mb-4">
-          <span className="text-5xl">📚</span>
+          <span className="text-5xl">🛠️</span>
           <div>
             <h1 className="text-2xl md:text-3xl font-bold text-indigo-900">
-              Library of Things
+              Borrow Things USA
             </h1>
             <p className="text-indigo-600">
-              Borrow tools, tech & more from US public libraries — free with your library card
+              Search tools, tech & gear from public libraries, tool libraries & makerspaces
             </p>
           </div>
         </div>
+
+        <p className="text-sm text-gray-600 mt-2">
+          Did you know you can borrow power tools, camping gear, and gaming consoles? Many public libraries
+          offer "Library of Things" programs, and community tool libraries provide thousands of tools
+          to borrow. Search below to find what's available near you.
+        </p>
 
         {stats && (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-4">
@@ -28,7 +34,7 @@ export default function Header({ stats }) {
             />
             <StatCard
               value={stats.totalLibraries}
-              label="Libraries"
+              label="Locations"
               color="green"
             />
             <StatCard

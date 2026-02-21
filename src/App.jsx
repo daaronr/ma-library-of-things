@@ -27,6 +27,9 @@ export default function App() {
   // Access filter
   const [freeOnly, setFreeOnly] = useState(false);
 
+  // Sorting
+  const [sortBy, setSortBy] = useState('category');
+
   // Load data
   useEffect(() => {
     Promise.all([
@@ -148,13 +151,23 @@ export default function App() {
       return true;
     });
 
-    // Sort by distance if location is set
-    if (userLocation) {
+    // Sort items based on selected sort option
+    if (sortBy === 'distance' && userLocation) {
       items.sort((a, b) => (a._distance || Infinity) - (b._distance || Infinity));
+    } else if (sortBy === 'name') {
+      items.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+    } else if (sortBy === 'library') {
+      items.sort((a, b) => (a.library || '').localeCompare(b.library || ''));
+    } else if (sortBy === 'category') {
+      items.sort((a, b) => {
+        const catCompare = (a.category || '').localeCompare(b.category || '');
+        if (catCompare !== 0) return catCompare;
+        return (a.name || '').localeCompare(b.name || '');
+      });
     }
 
     return items;
-  }, [data, librariesData, searchTerm, selectedNetworks, selectedLibrary, selectedCategory, userLocation, radiusMiles, freeOnly, availableNetworks]);
+  }, [data, librariesData, searchTerm, selectedNetworks, selectedLibrary, selectedCategory, userLocation, radiusMiles, freeOnly, availableNetworks, sortBy]);
 
   // Derive library list and categories from filtered data (respecting network filter)
   const { libraryList, categories } = useMemo(() => {
@@ -211,6 +224,7 @@ export default function App() {
     setUserLocation(null);
     setRadiusMiles(null);
     setFreeOnly(false);
+    setSortBy('category');
   };
 
   const clearLocation = () => {
@@ -279,6 +293,8 @@ export default function App() {
           onRadiusChange={setRadiusMiles}
           freeOnly={freeOnly}
           onFreeOnlyChange={setFreeOnly}
+          sortBy={sortBy}
+          onSortChange={setSortBy}
           onClearAll={clearAllFilters}
         />
 
@@ -299,7 +315,7 @@ export default function App() {
             </button>
           </div>
         ) : (
-          <ItemList items={filteredItems} viewMode="category" />
+          <ItemList items={filteredItems} viewMode={sortBy === 'category' ? 'category' : 'list'} />
         )}
 
         <Footer lastUpdated={data?.metadata?.last_updated} />

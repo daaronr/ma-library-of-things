@@ -11,7 +11,7 @@ export default function Footer({ lastUpdated }) {
 
         <div className="flex justify-center gap-4 text-sm mb-4">
           <a
-            href="https://github.com/your-username/ma-library-of-things"
+            href="https://github.com/daaronr/ma-library-of-things"
             target="_blank"
             rel="noopener noreferrer"
             className="text-indigo-600 hover:text-indigo-800 hover:underline"
@@ -27,7 +27,9 @@ export default function Footer({ lastUpdated }) {
           </a>
           <span className="text-gray-300">|</span>
           <a
-            href="mailto:feedback@example.com"
+            href="https://github.com/daaronr/ma-library-of-things/issues"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-indigo-600 hover:text-indigo-800 hover:underline"
           >
             Report an issue

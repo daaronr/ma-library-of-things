@@ -20,8 +20,8 @@ export default function Disclaimer() {
         <div className="ml-3">
           <p className="text-sm text-amber-700">
             <strong>Independent Resource:</strong> This is a community-maintained database,
-            not affiliated with or endorsed by any library or library network.
-            Data may be incomplete or outdated. Always verify availability with your local library.
+            not affiliated with or endorsed by any library, tool library, or organization.
+            Data may be incomplete or outdated. Always verify availability directly.
           </p>
         </div>
       </div>

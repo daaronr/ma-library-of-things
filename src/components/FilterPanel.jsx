@@ -20,13 +20,16 @@ export default function FilterPanel({
   onRadiusChange,
   freeOnly,
   onFreeOnlyChange,
+  sortBy,
+  onSortChange,
   onClearAll,
 }) {
   const hasFilters = selectedNetworks.length > 0 ||
                      selectedLibrary !== 'all' ||
                      selectedCategory !== 'all' ||
                      userLocation !== null ||
-                     freeOnly;
+                     freeOnly ||
+                     sortBy !== 'category';
 
   return (
     <div className="bg-white rounded-xl shadow-sm p-4 mb-6 space-y-4">
@@ -96,6 +99,18 @@ export default function FilterPanel({
               {getCategoryIcon(cat)} {cat}
             </option>
           ))}
+        </select>
+
+        {/* Sort dropdown */}
+        <select
+          value={sortBy}
+          onChange={(e) => onSortChange(e.target.value)}
+          className="p-2 border border-gray-200 rounded-lg text-sm"
+        >
+          <option value="category">Sort: By Category</option>
+          <option value="name">Sort: A-Z</option>
+          <option value="library">Sort: By Library</option>
+          {userLocation && <option value="distance">Sort: Nearest First</option>}
         </select>
 
         {/* Free only toggle */}

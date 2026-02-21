@@ -54,10 +54,12 @@ export default function SubmitLibrary() {
               </a>
 
               <a
-                href="mailto:library-of-things@example.com?subject=Add Library: [Library Name]&body=Library Name:%0D%0ALocation (City, State):%0D%0ALibrary of Things URL:%0D%0A%0D%0AItems offered (optional):%0D%0A"
+                href="https://github.com/daaronr/ma-library-of-things/discussions/new?category=library-suggestions"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block w-full bg-indigo-600 hover:bg-indigo-700 text-white text-center py-3 rounded-lg font-medium transition-colors"
               >
-                ✉️ Submit via Email
+                💬 Start a Discussion
               </a>
 
               <p className="text-xs text-gray-500 text-center">
