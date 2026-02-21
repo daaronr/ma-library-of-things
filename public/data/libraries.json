@@ -574,5 +574,188 @@
     "website": "https://www.prattlibrary.org",
     "lot_url": "https://www.prattlibrary.org/books-and-more/library-of-things",
     "catalog_system": "polaris"
+  },
+
+  "berkeley_tool_lending": {
+    "id": "berkeley_tool_lending",
+    "name": "Berkeley Tool Lending Library",
+    "network": "ca_libraries",
+    "state": "CA",
+    "location": "Berkeley, CA",
+    "address": "1901 Russell St, Berkeley, CA 94703",
+    "coordinates": { "lat": 37.8575, "lng": -122.2686 },
+    "phone": "510-981-6101",
+    "website": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library",
+    "catalog_system": "direct"
+  },
+  "oakland_tool_lending": {
+    "id": "oakland_tool_lending",
+    "name": "Oakland Tool Lending Library",
+    "network": "ca_libraries",
+    "state": "CA",
+    "location": "Oakland, CA",
+    "address": "5205 Telegraph Ave, Oakland, CA 94609",
+    "coordinates": { "lat": 37.8399, "lng": -122.2637 },
+    "phone": "510-597-5089",
+    "website": "https://oaklandlibrary.org/otll/",
+    "catalog_system": "direct"
+  },
+  "la_county_compton": {
+    "id": "la_county_compton",
+    "name": "LA County Library - Compton",
+    "network": "ca_libraries",
+    "state": "CA",
+    "location": "Compton, CA",
+    "address": "240 W Compton Blvd, Compton, CA 90220",
+    "coordinates": { "lat": 33.8958, "lng": -118.2201 },
+    "website": "https://lacountylibrary.org/tools/",
+    "catalog_system": "direct"
+  },
+  "la_county_lancaster": {
+    "id": "la_county_lancaster",
+    "name": "LA County Library - Lancaster",
+    "network": "ca_libraries",
+    "state": "CA",
+    "location": "Lancaster, CA",
+    "address": "601 W Lancaster Blvd, Lancaster, CA 93534",
+    "coordinates": { "lat": 34.6986, "lng": -118.1367 },
+    "website": "https://lacountylibrary.org/tools/",
+    "catalog_system": "direct"
+  },
+  "la_county_malibu": {
+    "id": "la_county_malibu",
+    "name": "LA County Library - Malibu",
+    "network": "ca_libraries",
+    "state": "CA",
+    "location": "Malibu, CA",
+    "address": "23519 W Civic Center Way, Malibu, CA 90265",
+    "coordinates": { "lat": 34.0369, "lng": -118.6829 },
+    "website": "https://lacountylibrary.org/tools/",
+    "catalog_system": "direct"
+  },
+  "la_county_norwalk": {
+    "id": "la_county_norwalk",
+    "name": "LA County Library - Norwalk",
+    "network": "ca_libraries",
+    "state": "CA",
+    "location": "Norwalk, CA",
+    "address": "12350 Imperial Hwy, Norwalk, CA 90650",
+    "coordinates": { "lat": 33.9137, "lng": -118.0681 },
+    "website": "https://lacountylibrary.org/tools/",
+    "catalog_system": "direct"
+  },
+  "la_county_rosemead": {
+    "id": "la_county_rosemead",
+    "name": "LA County Library - Rosemead",
+    "network": "ca_libraries",
+    "state": "CA",
+    "location": "Rosemead, CA",
+    "address": "8800 Valley Blvd, Rosemead, CA 91770",
+    "coordinates": { "lat": 34.0624, "lng": -118.0803 },
+    "website": "https://lacountylibrary.org/tools/",
+    "catalog_system": "direct"
+  },
+  "la_county_san_fernando": {
+    "id": "la_county_san_fernando",
+    "name": "LA County Library - San Fernando",
+    "network": "ca_libraries",
+    "state": "CA",
+    "location": "San Fernando, CA",
+    "address": "217 N Maclay Ave, San Fernando, CA 91340",
+    "coordinates": { "lat": 34.2884, "lng": -118.4390 },
+    "website": "https://lacountylibrary.org/tools/",
+    "catalog_system": "direct"
+  },
+  "santa_clara_milpitas": {
+    "id": "santa_clara_milpitas",
+    "name": "Santa Clara County Library - Milpitas",
+    "network": "ca_libraries",
+    "state": "CA",
+    "location": "Milpitas, CA",
+    "address": "160 N Main St, Milpitas, CA 95035",
+    "coordinates": { "lat": 37.4323, "lng": -121.8996 },
+    "website": "https://sccld.org/things/",
+    "catalog_system": "direct"
+  },
+  "alameda_irvington": {
+    "id": "alameda_irvington",
+    "name": "Alameda County Library - Irvington",
+    "network": "ca_libraries",
+    "state": "CA",
+    "location": "Fremont, CA",
+    "address": "41825 Greenpark Dr, Fremont, CA 94538",
+    "coordinates": { "lat": 37.5224, "lng": -121.9631 },
+    "website": "https://aclibrary.org/",
+    "catalog_system": "direct"
+  },
+  "alameda_centerville": {
+    "id": "alameda_centerville",
+    "name": "Alameda County Library - Centerville",
+    "network": "ca_libraries",
+    "state": "CA",
+    "location": "Fremont, CA",
+    "address": "3801 Nicolet Ave, Fremont, CA 94536",
+    "coordinates": { "lat": 37.5558, "lng": -121.9878 },
+    "website": "https://aclibrary.org/",
+    "catalog_system": "direct"
+  },
+
+  "charlottesville_tool_library": {
+    "id": "charlottesville_tool_library",
+    "name": "Charlottesville Tool Library",
+    "network": "va_tool_libraries",
+    "state": "VA",
+    "location": "Charlottesville, VA",
+    "address": "1740 Broadway Street, #13, Charlottesville, VA 22902",
+    "coordinates": { "lat": 38.0406, "lng": -78.4860 },
+    "phone": "434-257-3537",
+    "website": "https://cvilletoollibrary.com",
+    "catalog_system": "myturn"
+  },
+  "buffalo_tool_library": {
+    "id": "buffalo_tool_library",
+    "name": "The Tool Library (Buffalo)",
+    "network": "ny_tool_libraries",
+    "state": "NY",
+    "location": "Buffalo, NY",
+    "address": "2626 Main Street, Buffalo, NY 14214",
+    "coordinates": { "lat": 42.9451, "lng": -78.8371 },
+    "phone": "716-510-1745",
+    "website": "https://thetoollibrary.org",
+    "catalog_system": "myturn"
+  },
+  "minnesota_tool_library_ne": {
+    "id": "minnesota_tool_library_ne",
+    "name": "Minnesota Tool Library - NE Minneapolis",
+    "network": "mn_tool_libraries",
+    "state": "MN",
+    "location": "Minneapolis, MN",
+    "address": "1620 Central Ave NE, Suite #126, Minneapolis, MN 55413",
+    "coordinates": { "lat": 45.0028, "lng": -93.2476 },
+    "phone": "612-440-8665",
+    "website": "https://www.mntoollibrary.org",
+    "catalog_system": "myturn"
+  },
+  "minnesota_tool_library_sp": {
+    "id": "minnesota_tool_library_sp",
+    "name": "Minnesota Tool Library - St. Paul",
+    "network": "mn_tool_libraries",
+    "state": "MN",
+    "location": "St. Paul, MN",
+    "address": "St. Paul, MN",
+    "coordinates": { "lat": 44.9537, "lng": -93.0900 },
+    "website": "https://www.mntoollibrary.org",
+    "catalog_system": "myturn"
+  },
+  "west_seattle_tool_library": {
+    "id": "west_seattle_tool_library",
+    "name": "West Seattle Tool Library",
+    "network": "wa_tool_libraries",
+    "state": "WA",
+    "location": "Seattle, WA",
+    "address": "4408 Delridge Way SW, Seattle, WA 98106",
+    "coordinates": { "lat": 47.5614, "lng": -122.3641 },
+    "website": "https://www.wstools.org",
+    "catalog_system": "myturn"
   }
 }

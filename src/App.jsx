@@ -24,6 +24,9 @@ export default function App() {
   const [userLocation, setUserLocation] = useState(null);
   const [radiusMiles, setRadiusMiles] = useState(null);
 
+  // Access filter
+  const [freeOnly, setFreeOnly] = useState(false);
+
   // Load data
   useEffect(() => {
     Promise.all([
@@ -136,6 +139,12 @@ export default function App() {
         if (!item._distance || item._distance > radiusMiles) return false;
       }
 
+      // Free only filter
+      if (freeOnly) {
+        const network = availableNetworks[item.network];
+        if (network?.fee_structure && network.fee_structure !== 'free') return false;
+      }
+
       return true;
     });
 
@@ -145,7 +154,7 @@ export default function App() {
     }
 
     return items;
-  }, [data, librariesData, searchTerm, selectedNetworks, selectedLibrary, selectedCategory, userLocation, radiusMiles]);
+  }, [data, librariesData, searchTerm, selectedNetworks, selectedLibrary, selectedCategory, userLocation, radiusMiles, freeOnly, availableNetworks]);
 
   // Derive library list and categories from filtered data (respecting network filter)
   const { libraryList, categories } = useMemo(() => {
@@ -201,6 +210,7 @@ export default function App() {
     setSelectedCategory('all');
     setUserLocation(null);
     setRadiusMiles(null);
+    setFreeOnly(false);
   };
 
   const clearLocation = () => {
@@ -267,6 +277,8 @@ export default function App() {
           onClearLocation={clearLocation}
           radiusMiles={radiusMiles}
           onRadiusChange={setRadiusMiles}
+          freeOnly={freeOnly}
+          onFreeOnlyChange={setFreeOnly}
           onClearAll={clearAllFilters}
         />
 
