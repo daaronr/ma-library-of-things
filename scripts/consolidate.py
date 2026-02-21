@@ -81,6 +81,12 @@ NETWORK_FILES = {
     "fl_libraries": "fl_items.json",
     # North Carolina
     "nc_libraries": "nc_items.json",
+    # Oklahoma
+    "ok_libraries": "ok_items.json",
+    # Wisconsin
+    "wi_libraries": "wi_items.json",
+    # Louisiana
+    "la_libraries": "la_items.json",
 }
 
 # Organization type constants
@@ -534,6 +540,51 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://www.nhcgov.com",
         "website": "https://www.nhcgov.com",
         "color": "#00838F",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Oklahoma
+    "ok_libraries": {
+        "name": "Oklahoma Libraries",
+        "short_name": "OK",
+        "region": "Southwest",
+        "state": "OK",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.metrolibrary.org",
+        "website": "https://www.metrolibrary.org",
+        "color": "#C62828",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Wisconsin
+    "wi_libraries": {
+        "name": "Wisconsin Libraries",
+        "short_name": "WI",
+        "region": "Midwest",
+        "state": "WI",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://oakcreeklibrary.org",
+        "website": "https://oakcreeklibrary.org",
+        "color": "#C62828",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Louisiana
+    "la_libraries": {
+        "name": "Louisiana Libraries",
+        "short_name": "LA",
+        "region": "Southeast",
+        "state": "LA",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://nolalibrary.org",
+        "website": "https://nolalibrary.org",
+        "color": "#6A1B9A",
         "org_type": ORG_TYPE_LIBRARY,
         "access_type": ACCESS_CHECKOUT,
         "fee_structure": FEE_FREE,

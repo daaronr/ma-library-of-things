@@ -519,6 +519,39 @@ export const networkCatalogs = {
     region: 'Southeast',
     state: 'NC',
   },
+
+  // OKLAHOMA LIBRARIES
+  ok_libraries: {
+    name: 'Oklahoma Libraries',
+    shortName: 'OK',
+    system: 'direct',
+    baseUrl: 'https://www.metrolibrary.org',
+    color: '#C62828',
+    region: 'Southwest',
+    state: 'OK',
+  },
+
+  // WISCONSIN LIBRARIES
+  wi_libraries: {
+    name: 'Wisconsin Libraries',
+    shortName: 'WI',
+    system: 'direct',
+    baseUrl: 'https://oakcreeklibrary.org',
+    color: '#C62828',
+    region: 'Midwest',
+    state: 'WI',
+  },
+
+  // LOUISIANA LIBRARIES
+  la_libraries: {
+    name: 'Louisiana Libraries',
+    shortName: 'LA',
+    system: 'direct',
+    baseUrl: 'https://nolalibrary.org',
+    color: '#6A1B9A',
+    region: 'Southeast',
+    state: 'LA',
+  },
 };
 
 /**

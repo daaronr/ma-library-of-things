@@ -437,6 +437,51 @@
       "fee_structure": "free",
       "requires_membership": false,
       "id": "nc_libraries"
+    },
+    "ok_libraries": {
+      "name": "Oklahoma Libraries",
+      "short_name": "OK",
+      "region": "Southwest",
+      "state": "OK",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.metrolibrary.org",
+      "website": "https://www.metrolibrary.org",
+      "color": "#C62828",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "ok_libraries"
+    },
+    "wi_libraries": {
+      "name": "Wisconsin Libraries",
+      "short_name": "WI",
+      "region": "Midwest",
+      "state": "WI",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://oakcreeklibrary.org",
+      "website": "https://oakcreeklibrary.org",
+      "color": "#C62828",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "wi_libraries"
+    },
+    "la_libraries": {
+      "name": "Louisiana Libraries",
+      "short_name": "LA",
+      "region": "Southeast",
+      "state": "LA",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://nolalibrary.org",
+      "website": "https://nolalibrary.org",
+      "color": "#6A1B9A",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "la_libraries"
     }
   },
   "items": [
@@ -10810,13 +10855,454 @@
       "source_url": "https://www.nhcgov.com/1256/Library-of-Things",
       "network": "nc_libraries",
       "id": "nc_libraries_new_hanover_county_library_preparedness_kits"
+    },
+    {
+      "library": "Metropolitan Library System",
+      "category": "Gardening",
+      "name": "Hand Tool Set",
+      "description": "Gardening hand tools and bucket",
+      "source_url": "https://www.metrolibrary.org/metrogrows",
+      "network": "ok_libraries",
+      "id": "ok_libraries_metropolitan_library_system_hand_tool_set"
+    },
+    {
+      "library": "Metropolitan Library System",
+      "category": "Gardening",
+      "name": "Garden Hoe",
+      "description": "Tool for soil cultivation and weed removal",
+      "source_url": "https://www.metrolibrary.org/metrogrows",
+      "network": "ok_libraries",
+      "id": "ok_libraries_metropolitan_library_system_garden_hoe"
+    },
+    {
+      "library": "Metropolitan Library System",
+      "category": "Gardening",
+      "name": "Loppers",
+      "description": "Cutting tool for pruning branches",
+      "source_url": "https://www.metrolibrary.org/metrogrows",
+      "network": "ok_libraries",
+      "id": "ok_libraries_metropolitan_library_system_loppers"
+    },
+    {
+      "library": "Metropolitan Library System",
+      "category": "Gardening",
+      "name": "Broad Fork",
+      "description": "Digging implement for aerating soil",
+      "source_url": "https://www.metrolibrary.org/metrogrows",
+      "network": "ok_libraries",
+      "id": "ok_libraries_metropolitan_library_system_broad_fork"
+    },
+    {
+      "library": "Metropolitan Library System",
+      "category": "Gardening",
+      "name": "Garden Rake",
+      "description": "Tool for smoothing garden beds",
+      "source_url": "https://www.metrolibrary.org/metrogrows",
+      "network": "ok_libraries",
+      "id": "ok_libraries_metropolitan_library_system_garden_rake"
+    },
+    {
+      "library": "Metropolitan Library System",
+      "category": "Gardening",
+      "name": "Spading Fork",
+      "description": "Tool for turning soil and compost",
+      "source_url": "https://www.metrolibrary.org/metrogrows",
+      "network": "ok_libraries",
+      "id": "ok_libraries_metropolitan_library_system_spading_fork"
+    },
+    {
+      "library": "Metropolitan Library System",
+      "category": "Gardening",
+      "name": "Digging Shovel",
+      "description": "Shovel for excavation",
+      "source_url": "https://www.metrolibrary.org/metrogrows",
+      "network": "ok_libraries",
+      "id": "ok_libraries_metropolitan_library_system_digging_shovel"
+    },
+    {
+      "library": "Metropolitan Library System",
+      "category": "Gardening",
+      "name": "Garden Spade",
+      "description": "Flat-bladed tool for edging and digging",
+      "source_url": "https://www.metrolibrary.org/metrogrows",
+      "network": "ok_libraries",
+      "id": "ok_libraries_metropolitan_library_system_garden_spade"
+    },
+    {
+      "library": "Metropolitan Library System",
+      "category": "Science/Education",
+      "name": "Discovery Backpacks",
+      "description": "Educational kits for children ages 4-12 with nature themes",
+      "source_url": "https://www.metrolibrary.org/metrogrows",
+      "network": "ok_libraries",
+      "id": "ok_libraries_metropolitan_library_system_discovery_backpacks"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "description": "Medical device for monitoring cardiovascular health",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_blood_pressure_monitor"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Wellness/Health",
+      "name": "Exercise Equipment Set",
+      "description": "Dumbbells, resistance bands, exercise mats, and more",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_exercise_equipment_set"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Science/Education",
+      "name": "Microscope Set",
+      "description": "52-piece microscope equipment kit",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_microscope_set"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Science/Education",
+      "name": "Sphero SPRK+",
+      "description": "Programmable robotic ball for coding education",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_sphero_sprk+"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Astronomy observation equipment",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_telescope"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Magnification viewing devices",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_binoculars"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Detection equipment for exploration",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_metal_detector"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Poles",
+      "description": "Angling equipment for fishing",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_fishing_poles"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Outdoor Games",
+      "name": "Cornhole Set",
+      "description": "Outdoor tossing game",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_cornhole_set"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "description": "Lawn game equipment",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_bocce_ball_set"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Outdoor Games",
+      "name": "Pickleball Equipment",
+      "description": "Paddles and balls for pickleball",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_pickleball_equipment"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Set",
+      "description": "Flying disc and targets",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_disc_golf_set"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Fabric stitching equipment",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_sewing_machine"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Easy Press Mini",
+      "description": "Compact heat press machine for crafts",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_cricut_easy_press_mini"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Crafts/Sewing",
+      "name": "Loom",
+      "description": "Weaving equipment",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_loom"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Music",
+      "name": "Guitar",
+      "description": "Acoustic guitar",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_guitar"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Small string instrument",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_ukulele"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Party/Event",
+      "name": "Karaoke Machine",
+      "description": "Singing entertainment system",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_karaoke_machine"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Technology",
+      "name": "Projector",
+      "description": "Image projection equipment",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_projector"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Technology",
+      "name": "Camera",
+      "description": "Photography/video recording device",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_camera"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Technology",
+      "name": "Portable Turntable",
+      "description": "Victrola Bluetooth portable record player",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_portable_turntable"
+    },
+    {
+      "library": "Eastern Oklahoma Library System",
+      "category": "Technology/Gaming",
+      "name": "Laser Tag Set",
+      "description": "Ultra-Pro electronic tag game system",
+      "source_url": "https://eols.org/library-of-things/",
+      "network": "ok_libraries",
+      "id": "ok_libraries_eastern_oklahoma_library_system_laser_tag_set"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Games",
+      "name": "Board Games Collection",
+      "description": "Games for all ages from 3+ through adults",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_board_games_collection"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Switch Games",
+      "description": "Video games for Nintendo Switch",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_nintendo_switch_games"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology/Gaming",
+      "name": "Xbox One Games",
+      "description": "Video games for Xbox One",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_xbox_one_games"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Wii Games",
+      "description": "Video games for Nintendo Wii",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_nintendo_wii_games"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Science/Education",
+      "name": "STEM Explorer Kits",
+      "description": "Educational science and technology kits",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_stem_explorer_kits"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Science/Education",
+      "name": "Bee-Bot Coding Kit",
+      "description": "Programmable floor robot for teaching coding to children",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_bee_bot_coding_kit"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Home Inspection",
+      "name": "Electricity Meter",
+      "description": "Watt's Up meter displays electricity usage in dollars and cents",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_electricity_meter"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Mobile WiFi Hotspot",
+      "description": "Portable router for internet connectivity",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_mobile_wifi_hotspot"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "CD/DVD Drive",
+      "description": "External disc drive for computers",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_cd/dvd_drive"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Floppy Disc Drive",
+      "description": "External floppy drive for legacy media",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_floppy_disc_drive"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Cassette Converter",
+      "description": "Device for converting cassette tapes to digital",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_cassette_converter"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Video Capture Device",
+      "description": "Equipment for digitizing video content",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_video_capture_device"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Film Scanner",
+      "description": "Scanner for digitizing film negatives and slides",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_film_scanner"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Microphone",
+      "description": "Recording microphone",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "network": "wi_libraries",
+      "id": "wi_libraries_oak_creek_public_library_microphone"
+    },
+    {
+      "library": "New Orleans Public Library - East New Orleans",
+      "category": "Gardening",
+      "name": "Shovel",
+      "description": "Digging shovel for catch basin cleaning and yard work",
+      "source_url": "https://nolalibrary.org/location-specific-services/tools/",
+      "network": "la_libraries",
+      "id": "la_libraries_new_orleans_public_library___east_new_orleans_shovel"
+    },
+    {
+      "library": "New Orleans Public Library - East New Orleans",
+      "category": "Gardening",
+      "name": "Rake",
+      "description": "Rake for catch basin cleaning and debris removal",
+      "source_url": "https://nolalibrary.org/location-specific-services/tools/",
+      "network": "la_libraries",
+      "id": "la_libraries_new_orleans_public_library___east_new_orleans_rake"
+    },
+    {
+      "library": "New Orleans Public Library - East New Orleans",
+      "category": "Gardening",
+      "name": "Wheelbarrow",
+      "description": "Wheelbarrow for transporting materials",
+      "source_url": "https://nolalibrary.org/location-specific-services/tools/",
+      "network": "la_libraries",
+      "id": "la_libraries_new_orleans_public_library___east_new_orleans_wheelbarrow"
+    },
+    {
+      "library": "New Orleans Public Library - East New Orleans",
+      "category": "Gardening",
+      "name": "Work Gloves",
+      "description": "Protective gloves for tool use",
+      "source_url": "https://nolalibrary.org/location-specific-services/tools/",
+      "network": "la_libraries",
+      "id": "la_libraries_new_orleans_public_library___east_new_orleans_work_gloves"
     }
   ],
   "metadata": {
     "last_updated": "2026-02-21",
-    "total_items": 1191,
-    "total_libraries": 82,
-    "total_networks": 28,
+    "total_items": 1240,
+    "total_libraries": 86,
+    "total_networks": 31,
     "generated_by": "consolidate.py"
   }
 }

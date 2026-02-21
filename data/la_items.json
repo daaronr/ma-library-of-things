@@ -1,0 +1,48 @@
+{
+  "network": {
+    "name": "Louisiana Libraries",
+    "id": "louisiana",
+    "region": "Southeast"
+  },
+  "libraries": [
+    {
+      "name": "New Orleans Public Library - East New Orleans",
+      "location": "New Orleans, LA",
+      "lot_url": "https://nolalibrary.org/location-specific-services/tools/"
+    }
+  ],
+  "items": [
+    {
+      "library": "New Orleans Public Library - East New Orleans",
+      "category": "Gardening",
+      "name": "Shovel",
+      "description": "Digging shovel for catch basin cleaning and yard work",
+      "source_url": "https://nolalibrary.org/location-specific-services/tools/"
+    },
+    {
+      "library": "New Orleans Public Library - East New Orleans",
+      "category": "Gardening",
+      "name": "Rake",
+      "description": "Rake for catch basin cleaning and debris removal",
+      "source_url": "https://nolalibrary.org/location-specific-services/tools/"
+    },
+    {
+      "library": "New Orleans Public Library - East New Orleans",
+      "category": "Gardening",
+      "name": "Wheelbarrow",
+      "description": "Wheelbarrow for transporting materials",
+      "source_url": "https://nolalibrary.org/location-specific-services/tools/"
+    },
+    {
+      "library": "New Orleans Public Library - East New Orleans",
+      "category": "Gardening",
+      "name": "Work Gloves",
+      "description": "Protective gloves for tool use",
+      "source_url": "https://nolalibrary.org/location-specific-services/tools/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

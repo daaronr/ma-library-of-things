@@ -960,5 +960,56 @@
     "website": "https://www.nhcgov.com",
     "lot_url": "https://www.nhcgov.com/1256/Library-of-Things",
     "catalog_system": "direct"
+  },
+
+  "metropolitan_library_okc": {
+    "id": "metropolitan_library_okc",
+    "name": "Metropolitan Library System",
+    "network": "ok_libraries",
+    "state": "OK",
+    "location": "Oklahoma City, OK",
+    "address": "300 Park Ave, Oklahoma City, OK 73102",
+    "coordinates": { "lat": 35.4676, "lng": -97.5164 },
+    "website": "https://www.metrolibrary.org",
+    "lot_url": "https://www.metrolibrary.org/metrogrows",
+    "catalog_system": "direct"
+  },
+  "eastern_oklahoma_library": {
+    "id": "eastern_oklahoma_library",
+    "name": "Eastern Oklahoma Library System",
+    "network": "ok_libraries",
+    "state": "OK",
+    "location": "Eastern Oklahoma",
+    "address": "801 W Okmulgee, Muskogee, OK 74401",
+    "coordinates": { "lat": 35.7479, "lng": -95.3697 },
+    "website": "https://eols.org",
+    "lot_url": "https://eols.org/library-of-things/",
+    "catalog_system": "direct"
+  },
+
+  "oak_creek_public": {
+    "id": "oak_creek_public",
+    "name": "Oak Creek Public Library",
+    "network": "wi_libraries",
+    "state": "WI",
+    "location": "Oak Creek, WI",
+    "address": "8040 S 6th St, Oak Creek, WI 53154",
+    "coordinates": { "lat": 42.8856, "lng": -87.8998 },
+    "website": "https://oakcreeklibrary.org",
+    "lot_url": "https://oakcreeklibrary.org/library-of-things/",
+    "catalog_system": "direct"
+  },
+
+  "new_orleans_east": {
+    "id": "new_orleans_east",
+    "name": "New Orleans Public Library - East New Orleans",
+    "network": "la_libraries",
+    "state": "LA",
+    "location": "New Orleans, LA",
+    "address": "5641 Read Blvd, New Orleans, LA 70127",
+    "coordinates": { "lat": 30.0335, "lng": -89.9586 },
+    "website": "https://nolalibrary.org",
+    "lot_url": "https://nolalibrary.org/location-specific-services/tools/",
+    "catalog_system": "direct"
   }
 }

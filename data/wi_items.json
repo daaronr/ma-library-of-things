@@ -1,0 +1,118 @@
+{
+  "network": {
+    "name": "Wisconsin Libraries",
+    "id": "wisconsin",
+    "region": "Midwest"
+  },
+  "libraries": [
+    {
+      "name": "Oak Creek Public Library",
+      "location": "Oak Creek, WI",
+      "lot_url": "https://oakcreeklibrary.org/library-of-things/"
+    }
+  ],
+  "items": [
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Games",
+      "name": "Board Games Collection",
+      "description": "Games for all ages from 3+ through adults",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Switch Games",
+      "description": "Video games for Nintendo Switch",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology/Gaming",
+      "name": "Xbox One Games",
+      "description": "Video games for Xbox One",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Wii Games",
+      "description": "Video games for Nintendo Wii",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Science/Education",
+      "name": "STEM Explorer Kits",
+      "description": "Educational science and technology kits",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Science/Education",
+      "name": "Bee-Bot Coding Kit",
+      "description": "Programmable floor robot for teaching coding to children",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Home Inspection",
+      "name": "Electricity Meter",
+      "description": "Watt's Up meter displays electricity usage in dollars and cents",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Mobile WiFi Hotspot",
+      "description": "Portable router for internet connectivity",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "CD/DVD Drive",
+      "description": "External disc drive for computers",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Floppy Disc Drive",
+      "description": "External floppy drive for legacy media",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Cassette Converter",
+      "description": "Device for converting cassette tapes to digital",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Video Capture Device",
+      "description": "Equipment for digitizing video content",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Film Scanner",
+      "description": "Scanner for digitizing film negatives and slides",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Microphone",
+      "description": "Recording microphone",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}
