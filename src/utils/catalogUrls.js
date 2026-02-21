@@ -377,14 +377,14 @@ export const networkCatalogs = {
     state: 'WA',
   },
 
-  // CALIFORNIA TOOL LIBRARIES
-  ca_tool_libraries: {
-    name: 'California Tool Libraries',
-    shortName: 'CA-TL',
+  // CALIFORNIA LIBRARIES
+  ca_libraries: {
+    name: 'California Libraries',
+    shortName: 'CA',
     system: 'direct',
     baseUrl: 'https://www.berkeleypubliclibrary.org/locations/tool-lending-library',
     color: '#C62828',
-    region: 'San Francisco Bay Area',
+    region: 'California',
     state: 'CA',
   },
 };

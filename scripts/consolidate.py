@@ -56,7 +56,7 @@ NETWORK_FILES = {
     # Washington
     "wa_tool_libraries": "wa_items.json",
     # California
-    "ca_tool_libraries": "ca_items.json",
+    "ca_libraries": "ca_items.json",
 }
 
 # Organization type constants
@@ -319,11 +319,11 @@ NETWORK_METADATA = {
         "membership_fee_notes": "Pay what you can, suggested $45/year",
         "requires_membership": True,
     },
-    # California - Tool Libraries
-    "ca_tool_libraries": {
-        "name": "California Tool Libraries",
-        "short_name": "CA-TL",
-        "region": "San Francisco Bay Area",
+    # California - Public Libraries
+    "ca_libraries": {
+        "name": "California Libraries",
+        "short_name": "CA",
+        "region": "California",
         "state": "CA",
         "catalog_system": "direct",
         "catalog_base_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library",
@@ -332,7 +332,7 @@ NETWORK_METADATA = {
         "org_type": ORG_TYPE_LIBRARY,
         "access_type": ACCESS_CHECKOUT,
         "fee_structure": FEE_FREE,
-        "membership_fee_notes": "FREE for Berkeley residents/property owners",
+        "membership_fee_notes": "FREE with library card",
         "requires_membership": False,
     },
 }

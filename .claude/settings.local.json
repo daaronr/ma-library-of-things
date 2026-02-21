@@ -58,7 +58,13 @@
       "WebFetch(domain:buffalotoollibrary.org)",
       "WebFetch(domain:mntoollibrary.org)",
       "WebFetch(domain:westseattletoollibrary.org)",
-      "WebFetch(domain:thetoollibrary.org)"
+      "WebFetch(domain:thetoollibrary.org)",
+      "WebFetch(domain:lacountylibrary.org)",
+      "WebFetch(domain:sccld.org)",
+      "WebFetch(domain:aclibrary.org)",
+      "WebFetch(domain:www.library.sunnyvale.ca.gov)",
+      "WebFetch(domain:oaklandlibrary.org)",
+      "WebFetch(domain:www.sclibrary.org)"
     ]
   }
 }
