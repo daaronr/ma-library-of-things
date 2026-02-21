@@ -30,7 +30,7 @@ export default function ItemList({ items, viewMode = 'category' }) {
 
   if (viewMode === 'list') {
     return (
-      <div className="space-y-3">
+      <div className="space-y-4">
         {items.map((item, idx) => (
           <ItemCard key={item.id || idx} item={item} />
         ))}
@@ -51,45 +51,45 @@ export default function ItemList({ items, viewMode = 'category' }) {
   return (
     <div>
       {/* Expand/Collapse controls */}
-      <div className="flex justify-end gap-2 mb-3 text-sm">
+      <div className="flex justify-end gap-4 mb-4 text-sm font-mono">
         <button
           onClick={expandAll}
-          className="text-indigo-600 hover:text-indigo-800"
+          className="text-[#8B4513] hover:underline uppercase tracking-wider"
         >
           Expand all
         </button>
-        <span className="text-gray-300">|</span>
+        <span className="text-[#D4C5A9]">|</span>
         <button
           onClick={collapseAll}
-          className="text-indigo-600 hover:text-indigo-800"
+          className="text-[#8B4513] hover:underline uppercase tracking-wider"
         >
           Collapse all
         </button>
       </div>
 
-      <div className="space-y-3">
+      <div className="space-y-4">
         {sortedCategories.map(category => (
-          <div key={category} className="bg-white rounded-xl shadow-sm overflow-hidden">
+          <div key={category} className="catalog-card overflow-hidden">
             {/* Category header */}
             <button
               onClick={() => toggleCategory(category)}
-              className="w-full flex items-center justify-between p-4 bg-gray-50 hover:bg-gray-100 transition-colors"
+              className="w-full flex items-center justify-between p-4 bg-[#F5F1E6] hover:bg-[#EDE9DE] transition-colors border-b border-[#D4C5A9]"
             >
               <div className="flex items-center gap-3">
                 <span className="text-xl">{getCategoryIcon(category)}</span>
-                <span className="font-semibold text-gray-800">{category}</span>
-                <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full text-sm">
+                <span className="font-semibold text-lg">{category}</span>
+                <span className="font-mono text-sm text-[#8B4513] border border-[#8B4513] px-2 py-0.5">
                   {grouped[category].length}
                 </span>
               </div>
-              <span className="text-gray-400 text-lg">
+              <span className="text-[#8B4513] text-lg font-mono">
                 {expandedCategories.has(category) ? '−' : '+'}
               </span>
             </button>
 
             {/* Category items */}
             {expandedCategories.has(category) && (
-              <div className="p-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="p-4 space-y-3">
                 {grouped[category].map((item, idx) => (
                   <ItemCard key={item.id || idx} item={item} />
                 ))}

@@ -1,29 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg: #F5F1E6;
+  --card: #FFFDF5;
+  --fg: #2C2416;
+  --accent: #8B4513;
+  --line: #D4C5A9;
+  --red-line: #FFCCCC;
+}
+
 body {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Source Serif 4', Georgia, serif;
+  background: var(--bg);
+  color: var(--fg);
 }
 
 @layer components {
   .btn-primary {
-    @apply px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors font-medium;
+    @apply px-6 py-3 font-mono text-xs tracking-widest uppercase;
+    background: var(--fg);
+    color: var(--card);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-primary:hover {
+    background: var(--accent);
   }
 
   .btn-secondary {
-    @apply px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors font-medium;
+    @apply px-4 py-2 font-mono text-xs tracking-wider uppercase;
+    background: transparent;
+    color: var(--fg);
+    border: 2px solid var(--line);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--accent);
+    color: var(--accent);
   }
 
   .input-field {
-    @apply w-full p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-indigo-300 focus:border-indigo-400 outline-none transition-all;
+    @apply w-full p-4 text-lg;
+    font-family: 'Source Serif 4', Georgia, serif;
+    border: 2px solid var(--fg);
+    background: white;
+    outline: none;
+  }
+
+  .input-field:focus {
+    border-color: var(--accent);
   }
 
   .card {
-    @apply bg-white rounded-xl shadow-sm border border-gray-100;
+    background: var(--card);
+    border: 1px solid var(--line);
+    position: relative;
+  }
+
+  .card::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--red-line);
   }
 
   .network-badge {
-    @apply text-xs font-medium px-2 py-1 rounded-full text-white;
+    @apply text-xs font-mono px-2 py-1 uppercase tracking-wider;
+    border: 1px solid currentColor;
+    background: transparent;
+  }
+
+  /* Card catalog styling */
+  .catalog-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    box-shadow: 4px 4px 0 var(--line);
+    background-image: repeating-linear-gradient(
+      var(--card) 0px,
+      var(--card) 28px,
+      #E8DFD0 28px,
+      #E8DFD0 29px
+    );
+  }
+
+  .index-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 24px;
+    padding-left: 44px;
+    position: relative;
+    transition: all 0.2s;
+  }
+
+  .index-card::before {
+    content: '';
+    position: absolute;
+    left: 24px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--red-line);
+  }
+
+  .index-card:hover {
+    transform: translateX(8px);
+    box-shadow: -4px 4px 0 var(--line);
+  }
+
+  .stamp {
+    display: inline-block;
+    border: 3px solid var(--accent);
+    padding: 8px 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--accent);
+    transform: rotate(-3deg);
+  }
+
+  .drawer-tab {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid var(--line);
+    background: var(--bg);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .drawer-tab:hover,
+  .drawer-tab.active {
+    background: var(--card);
+    color: var(--accent);
+  }
+
+  .section-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #888;
+  }
+
+  .dashed-border {
+    border-top: 2px dashed var(--line);
   }
 }

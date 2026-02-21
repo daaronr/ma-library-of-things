@@ -5,87 +5,73 @@ import { formatDistance } from '../utils/location';
 
 export default function ItemCard({ item }) {
   const networkInfo = getNetworkInfo(item.network);
-  // Prefer source_url (Library of Things page) over catalog search
-  // Catalog searches often don't find LoT items which aren't in main catalog
   const itemUrl = item.source_url || item.catalog_url ||
     getCatalogUrl(item.network, item.catalog_id, item.name);
   const isSourceUrl = !!item.source_url;
 
   return (
-    <div className="bg-white border border-gray-100 rounded-lg p-4 hover:shadow-md transition-shadow">
+    <div className="index-card cursor-pointer group">
+      {/* Category and name */}
       <div className="flex items-start justify-between gap-3">
         <div className="flex-1 min-w-0">
-          {/* Item name and description */}
-          <div className="flex items-center gap-2 mb-1">
-            <span className="text-lg">{getCategoryIcon(item.category)}</span>
-            <h3 className="font-semibold text-gray-900 truncate">
-              {item.name}
-            </h3>
-          </div>
+          <h3 className="text-lg font-semibold mb-1 group-hover:text-[#8B4513] transition-colors">
+            {item.name}
+          </h3>
 
           {item.description && (
-            <p className="text-sm text-gray-600 line-clamp-2 mb-2">
+            <p className="text-sm text-gray-600 line-clamp-2 leading-relaxed">
               {item.description}
             </p>
           )}
-
-          {/* Library and network info */}
-          <div className="flex flex-wrap items-center gap-2 text-sm">
-            <span className="text-gray-500">{item.library}</span>
-            {networkInfo && (
-              <span
-                className="network-badge"
-                style={{ backgroundColor: networkInfo.color }}
-              >
-                {networkInfo.shortName}
-              </span>
-            )}
-            {/* Distance badge */}
-            {item._distance !== undefined && item._distance !== Infinity && (
-              <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                </svg>
-                {formatDistance(item._distance)}
-              </span>
-            )}
-          </div>
         </div>
 
-        {/* Item link - prefer source URL (Library of Things page) over catalog search */}
+        {/* Link */}
         {itemUrl && (
           <a
             href={itemUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 text-indigo-600 hover:text-indigo-800 text-sm font-medium flex items-center gap-1"
+            className="flex-shrink-0 text-[#8B4513] hover:underline text-sm font-mono uppercase tracking-wider"
             title={isSourceUrl ? "View Library of Things page" : "Search in library catalog"}
+            onClick={(e) => e.stopPropagation()}
           >
-            <span className="hidden sm:inline">{isSourceUrl ? "View" : "Search"}</span>
-            <svg
-              className="w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-              />
-            </svg>
+            View →
           </a>
         )}
       </div>
 
+      {/* Meta info */}
+      <div className="mt-4 pt-3 border-t border-dashed border-[#D4C5A9] flex flex-wrap items-center justify-between gap-2 text-sm">
+        <span className="text-gray-500 font-mono text-xs uppercase tracking-wider">
+          {getCategoryIcon(item.category)} {item.category}
+        </span>
+
+        <div className="flex items-center gap-2">
+          {/* Distance badge */}
+          {item._distance !== undefined && item._distance !== Infinity && (
+            <span className="font-mono text-xs text-[#8B4513]">
+              {formatDistance(item._distance)}
+            </span>
+          )}
+
+          <span className="text-gray-400">•</span>
+          <span className="text-gray-600">{item.library}</span>
+
+          {networkInfo && (
+            <span
+              className="network-badge text-xs"
+              style={{ color: networkInfo.color, borderColor: networkInfo.color }}
+            >
+              {networkInfo.shortName}
+            </span>
+          )}
+        </div>
+      </div>
+
       {/* Stale data warning */}
       {item.last_verified && isStale(item.last_verified) && (
-        <div className="mt-2 text-xs text-amber-600 flex items-center gap-1">
-          <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-          </svg>
-          Not recently verified
+        <div className="mt-2 text-xs text-amber-700 font-mono flex items-center gap-1">
+          ⚠ Not recently verified
         </div>
       )}
     </div>

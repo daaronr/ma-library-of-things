@@ -6,66 +6,42 @@ export default function Header({ stats }) {
     <header className="mb-6">
       <Disclaimer />
 
-      <div className="bg-white rounded-xl shadow-sm p-6 mt-4">
-        <div className="flex items-center gap-4 mb-4">
-          <span className="text-5xl">🛠️</span>
-          <div>
-            <h1 className="text-2xl md:text-3xl font-bold text-indigo-900">
-              Borrow Things USA
-            </h1>
-            <p className="text-indigo-600">
-              Search tools, tech & gear from public libraries, tool libraries & makerspaces
-            </p>
-          </div>
-        </div>
+      <div className="catalog-card p-8 md:p-10 mt-4">
+        <div className="section-label mb-4">Subject Card Catalog — Main Collection</div>
 
-        <p className="text-sm text-gray-600 mt-2">
-          Did you know you can borrow power tools, camping gear, and gaming consoles? Many public libraries
-          offer "Library of Things" programs, and community tool libraries provide thousands of tools
-          to borrow. Search below to find what's available near you.
+        <h1 className="text-3xl md:text-5xl font-semibold leading-tight mb-4">
+          Library of <span className="text-[#8B4513] underline decoration-wavy underline-offset-4">Things</span>
+        </h1>
+
+        <p className="text-lg leading-relaxed max-w-2xl mb-6">
+          A community catalog of tools, technology, and equipment available for borrowing
+          from public libraries and tool lending libraries across the United States.
         </p>
 
-        {stats && (
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-4">
-            <StatCard
-              value={stats.totalItems}
-              label="Items"
-              color="indigo"
-            />
-            <StatCard
-              value={stats.totalLibraries}
-              label="Locations"
-              color="green"
-            />
-            <StatCard
-              value={stats.totalNetworks}
-              label="Networks"
-              color="purple"
-            />
-            <StatCard
-              value={stats.toolItems}
-              label="Tool Items"
-              color="orange"
-            />
+        <div className="flex flex-wrap items-end justify-between gap-6">
+          {stats && (
+            <div className="flex flex-wrap gap-6 pt-4 border-t-2 border-dashed border-[#D4C5A9]">
+              <StatItem value={stats.totalItems} label="items" />
+              <StatItem value={stats.totalLibraries} label="locations" />
+              <StatItem value={stats.totalNetworks} label="networks" />
+              <StatItem value={stats.toolItems} label="tools" />
+            </div>
+          )}
+
+          <div className="stamp">
+            Free to Borrow
           </div>
-        )}
+        </div>
       </div>
     </header>
   );
 }
 
-function StatCard({ value, label, color }) {
-  const colors = {
-    indigo: 'bg-indigo-50 text-indigo-700',
-    green: 'bg-green-50 text-green-700',
-    purple: 'bg-purple-50 text-purple-700',
-    orange: 'bg-orange-50 text-orange-700',
-  };
-
+function StatItem({ value, label }) {
   return (
-    <div className={`rounded-lg p-3 text-center ${colors[color]}`}>
-      <div className="text-2xl font-bold">{value}</div>
-      <div className="text-xs">{label}</div>
+    <div className="flex items-baseline gap-2">
+      <span className="text-3xl font-semibold text-[#8B4513]">{value}</span>
+      <span className="text-sm text-gray-500">{label}</span>
     </div>
   );
 }

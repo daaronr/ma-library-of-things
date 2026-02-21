@@ -234,10 +234,10 @@ export default function App() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading library data...</p>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#8B4513] mx-auto mb-4"></div>
+          <p className="text-gray-600 font-mono uppercase tracking-wider text-sm">Loading catalog...</p>
         </div>
       </div>
     );
@@ -245,10 +245,10 @@ export default function App() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
-        <div className="bg-white rounded-xl shadow-lg p-8 max-w-md text-center">
-          <div className="text-red-500 text-5xl mb-4">⚠️</div>
-          <h1 className="text-xl font-bold text-gray-800 mb-2">Unable to Load Data</h1>
+      <div className="min-h-screen flex items-center justify-center p-4">
+        <div className="catalog-card p-8 max-w-md text-center">
+          <div className="text-5xl mb-4">📋</div>
+          <h1 className="text-xl font-semibold mb-2">Unable to Load Catalog</h1>
           <p className="text-gray-600 mb-4">{error}</p>
           <button
             onClick={() => window.location.reload()}
@@ -262,16 +262,19 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      <div className="max-w-6xl mx-auto px-4 py-6">
+    <div className="min-h-screen">
+      <div className="max-w-5xl mx-auto px-4 py-6">
         <Header stats={stats} />
 
         {/* Search */}
-        <div className="bg-white rounded-xl shadow-sm p-4 mb-4">
+        <div className="catalog-card p-6 mb-4 relative">
+          <div className="section-label absolute -top-2.5 left-4 bg-[#F5F1E6] px-2">
+            Search
+          </div>
           <SearchBar
             value={searchTerm}
             onChange={setSearchTerm}
-            placeholder="Search items, categories, or libraries..."
+            placeholder="Search the catalog..."
           />
         </div>
 
@@ -299,16 +302,16 @@ export default function App() {
         />
 
         {/* Results count */}
-        <div className="text-sm text-gray-600 mb-4">
-          Showing {filteredItems.length} of {data?.items?.length || 0} items
+        <div className="text-sm text-gray-600 mb-4 font-mono">
+          Showing <span className="text-[#8B4513] font-semibold">{filteredItems.length}</span> of {data?.items?.length || 0} items
           {searchTerm && ` matching "${searchTerm}"`}
         </div>
 
         {/* Items */}
         {filteredItems.length === 0 ? (
-          <div className="bg-white rounded-xl shadow-sm p-8 text-center">
-            <div className="text-4xl mb-4">🔍</div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">No items found</h3>
+          <div className="catalog-card p-8 text-center">
+            <div className="text-4xl mb-4">📭</div>
+            <h3 className="text-lg font-semibold mb-2">No items found</h3>
             <p className="text-gray-600 mb-4">Try adjusting your search or filters</p>
             <button onClick={clearAllFilters} className="btn-secondary">
               Clear all filters
