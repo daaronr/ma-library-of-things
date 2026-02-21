@@ -43,7 +43,22 @@
       "WebFetch(domain:www.princememorial.org)",
       "WebFetch(domain:freeportlibrary.com)",
       "WebFetch(domain:www.lithgowlibrary.org)",
-      "Bash(gh run view:*)"
+      "Bash(gh run view:*)",
+      "Bash(git stash:*)",
+      "WebFetch(domain:cvilletools.myturn.com)",
+      "WebFetch(domain:localtools.org)",
+      "WebFetch(domain:www.berkeleypubliclibrary.org)",
+      "WebFetch(domain:wstl.myturn.com)",
+      "WebFetch(domain:universityheights.myturn.com)",
+      "WebFetch(domain:mtl.myturn.com)",
+      "WebFetch(domain:www.chicagotoollibrary.org)",
+      "WebFetch(domain:buffalotoollibrary.myturn.com)",
+      "WebFetch(domain:mntoollibrary.myturn.com)",
+      "WebFetch(domain:westseattle.myturn.com)",
+      "WebFetch(domain:buffalotoollibrary.org)",
+      "WebFetch(domain:mntoollibrary.org)",
+      "WebFetch(domain:westseattletoollibrary.org)",
+      "WebFetch(domain:thetoollibrary.org)"
     ]
   }
 }

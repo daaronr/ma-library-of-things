@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { getUserLocation, getZipCoordinates, isValidZip } from '../utils/location';
+import { getUserLocation, getZipCoordinatesAsync, isValidZip } from '../utils/location';
 
 export default function LocationInput({ userLocation, onLocationChange, onClear }) {
   const [zipInput, setZipInput] = useState('');
@@ -22,7 +22,7 @@ export default function LocationInput({ userLocation, onLocationChange, onClear 
     }
   };
 
-  const handleZipSubmit = (e) => {
+  const handleZipSubmit = async (e) => {
     e.preventDefault();
     setError(null);
 
@@ -32,12 +32,19 @@ export default function LocationInput({ userLocation, onLocationChange, onClear 
       return;
     }
 
-    const coords = getZipCoordinates(zip);
-    if (coords) {
-      onLocationChange(coords);
-      setLocationSource(`ZIP ${zip}`);
-    } else {
-      setError('ZIP code not found. Try a nearby ZIP or use your location.');
+    setLoading(true);
+    try {
+      const coords = await getZipCoordinatesAsync(zip);
+      if (coords) {
+        onLocationChange(coords);
+        setLocationSource(`ZIP ${zip}`);
+      } else {
+        setError('ZIP code not found. Try a nearby ZIP or use your location.');
+      }
+    } catch (err) {
+      setError('Failed to look up ZIP code. Please try again.');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -104,14 +111,15 @@ export default function LocationInput({ userLocation, onLocationChange, onClear 
               onChange={(e) => setZipInput(e.target.value)}
               placeholder="Enter ZIP code"
               maxLength={10}
-              className="block w-28 px-2 py-1.5 text-xs border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+              disabled={loading}
+              className="block w-28 px-2 py-1.5 text-xs border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 disabled:opacity-50"
             />
             <button
               type="submit"
-              disabled={!zipInput.trim()}
+              disabled={!zipInput.trim() || loading}
               className="px-2 py-1.5 text-xs font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              Go
+              {loading ? '...' : 'Go'}
             </button>
           </form>
         </div>

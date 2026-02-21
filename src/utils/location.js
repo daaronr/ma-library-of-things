@@ -386,13 +386,51 @@ const COMMON_ZIP_COORDS = {
 };
 
 /**
- * Look up coordinates for a ZIP code
+ * Look up coordinates for a ZIP code (synchronous, cache only)
  * @param {string} zip - 5-digit ZIP code
  * @returns {{lat: number, lng: number} | null} Coordinates or null if not found
  */
 export function getZipCoordinates(zip) {
   const normalizedZip = zip.replace(/\D/g, '').slice(0, 5);
   return COMMON_ZIP_COORDS[normalizedZip] || null;
+}
+
+/**
+ * Look up coordinates for a ZIP code using external API
+ * Uses Zippopotam.us (free, no API key required)
+ * @param {string} zip - 5-digit ZIP code
+ * @returns {Promise<{lat: number, lng: number} | null>} Coordinates or null if not found
+ */
+export async function getZipCoordinatesAsync(zip) {
+  const normalizedZip = zip.replace(/\D/g, '').slice(0, 5);
+
+  // First check local cache
+  if (COMMON_ZIP_COORDS[normalizedZip]) {
+    return COMMON_ZIP_COORDS[normalizedZip];
+  }
+
+  // Try external API
+  try {
+    const response = await fetch(`https://api.zippopotam.us/us/${normalizedZip}`);
+    if (!response.ok) {
+      return null;
+    }
+    const data = await response.json();
+    if (data.places && data.places.length > 0) {
+      const place = data.places[0];
+      const coords = {
+        lat: parseFloat(place.latitude),
+        lng: parseFloat(place.longitude),
+      };
+      // Cache for future lookups
+      COMMON_ZIP_COORDS[normalizedZip] = coords;
+      return coords;
+    }
+  } catch (error) {
+    console.warn('ZIP code lookup failed:', error);
+  }
+
+  return null;
 }
 
 /**
