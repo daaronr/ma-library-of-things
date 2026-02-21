@@ -871,5 +871,94 @@
     "coordinates": { "lat": 45.5152, "lng": -122.4149 },
     "website": "https://eastportlandtoollibrary.org",
     "catalog_system": "direct"
+  },
+
+  "livonia_public": {
+    "id": "livonia_public",
+    "name": "Livonia Public Library",
+    "network": "mi_libraries",
+    "state": "MI",
+    "location": "Livonia, MI",
+    "address": "32777 Five Mile Rd, Livonia, MI 48154",
+    "coordinates": { "lat": 42.4042, "lng": -83.3716 },
+    "website": "https://livonialibrary.info",
+    "lot_url": "https://livonialibrary.info/library-of-things/",
+    "catalog_system": "direct"
+  },
+  "traverse_area_district": {
+    "id": "traverse_area_district",
+    "name": "Traverse Area District Library",
+    "network": "mi_libraries",
+    "state": "MI",
+    "location": "Traverse City, MI",
+    "address": "610 Woodmere Ave, Traverse City, MI 49686",
+    "coordinates": { "lat": 44.7631, "lng": -85.6206 },
+    "website": "https://www.tadl.org",
+    "lot_url": "https://www.tadl.org/things",
+    "catalog_system": "direct"
+  },
+
+  "des_moines_public": {
+    "id": "des_moines_public",
+    "name": "Des Moines Public Library",
+    "network": "ia_libraries",
+    "state": "IA",
+    "location": "Des Moines, IA",
+    "address": "1000 Grand Ave, Des Moines, IA 50309",
+    "coordinates": { "lat": 41.5868, "lng": -93.6250 },
+    "website": "https://www.dmpl.org",
+    "lot_url": "https://www.dmpl.org/library-things",
+    "catalog_system": "direct"
+  },
+
+  "st_louis_county": {
+    "id": "st_louis_county",
+    "name": "St. Louis County Library",
+    "network": "mo_libraries",
+    "state": "MO",
+    "location": "St. Louis County, MO",
+    "address": "1640 S Lindbergh Blvd, St. Louis, MO 63131",
+    "coordinates": { "lat": 38.6270, "lng": -90.4107 },
+    "website": "https://www.slcl.org",
+    "lot_url": "https://www.slcl.org/books-emedia-more/library-of-things",
+    "catalog_system": "direct"
+  },
+
+  "manatee_county_public": {
+    "id": "manatee_county_public",
+    "name": "Manatee County Public Library",
+    "network": "fl_libraries",
+    "state": "FL",
+    "location": "Manatee County, FL",
+    "address": "1301 Barcarrota Blvd W, Bradenton, FL 34205",
+    "coordinates": { "lat": 27.4989, "lng": -82.5748 },
+    "website": "https://www.mymanatee.org",
+    "lot_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+    "catalog_system": "direct"
+  },
+  "pasco_county_libraries": {
+    "id": "pasco_county_libraries",
+    "name": "Pasco County Libraries",
+    "network": "fl_libraries",
+    "state": "FL",
+    "location": "Pasco County, FL",
+    "address": "8012 Library Rd, Hudson, FL 34667",
+    "coordinates": { "lat": 28.3647, "lng": -82.6932 },
+    "website": "https://pascolibraries.org",
+    "lot_url": "https://pascolibraries.org/borrow/library-of-things/",
+    "catalog_system": "direct"
+  },
+
+  "new_hanover_county": {
+    "id": "new_hanover_county",
+    "name": "New Hanover County Library",
+    "network": "nc_libraries",
+    "state": "NC",
+    "location": "Wilmington, NC",
+    "address": "201 Chestnut St, Wilmington, NC 28401",
+    "coordinates": { "lat": 34.2357, "lng": -77.9447 },
+    "website": "https://www.nhcgov.com",
+    "lot_url": "https://www.nhcgov.com/1256/Library-of-Things",
+    "catalog_system": "direct"
   }
 }

@@ -71,6 +71,16 @@ NETWORK_FILES = {
     "tx_libraries": "tx_items.json",
     # Oregon
     "or_tool_libraries": "or_items.json",
+    # Michigan
+    "mi_libraries": "mi_items.json",
+    # Iowa
+    "ia_libraries": "ia_items.json",
+    # Missouri
+    "mo_libraries": "mo_items.json",
+    # Florida
+    "fl_libraries": "fl_items.json",
+    # North Carolina
+    "nc_libraries": "nc_items.json",
 }
 
 # Organization type constants
@@ -450,6 +460,81 @@ NETWORK_METADATA = {
         "website": "https://eastportlandtoollibrary.org",
         "color": "#00695C",
         "org_type": ORG_TYPE_TOOL_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Michigan
+    "mi_libraries": {
+        "name": "Michigan Libraries",
+        "short_name": "MI",
+        "region": "Midwest",
+        "state": "MI",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://livonialibrary.info",
+        "website": "https://livonialibrary.info",
+        "color": "#1565C0",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Iowa
+    "ia_libraries": {
+        "name": "Iowa Libraries",
+        "short_name": "IA",
+        "region": "Midwest",
+        "state": "IA",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.dmpl.org",
+        "website": "https://www.dmpl.org",
+        "color": "#C62828",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Missouri
+    "mo_libraries": {
+        "name": "Missouri Libraries",
+        "short_name": "MO",
+        "region": "Midwest",
+        "state": "MO",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.slcl.org",
+        "website": "https://www.slcl.org",
+        "color": "#6A1B9A",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Florida
+    "fl_libraries": {
+        "name": "Florida Libraries",
+        "short_name": "FL",
+        "region": "Southeast",
+        "state": "FL",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.mymanatee.org",
+        "website": "https://www.mymanatee.org",
+        "color": "#FF6F00",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # North Carolina
+    "nc_libraries": {
+        "name": "North Carolina Libraries",
+        "short_name": "NC",
+        "region": "Southeast",
+        "state": "NC",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.nhcgov.com",
+        "website": "https://www.nhcgov.com",
+        "color": "#00838F",
+        "org_type": ORG_TYPE_LIBRARY,
         "access_type": ACCESS_CHECKOUT,
         "fee_structure": FEE_FREE,
         "requires_membership": False,

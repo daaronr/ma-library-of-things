@@ -1,0 +1,69 @@
+{
+  "network": {
+    "name": "North Carolina Libraries",
+    "id": "north_carolina",
+    "region": "Southeast"
+  },
+  "libraries": [
+    {
+      "name": "New Hanover County Library",
+      "location": "Wilmington, NC",
+      "lot_url": "https://www.nhcgov.com/1256/Library-of-Things"
+    }
+  ],
+  "items": [
+    {
+      "library": "New Hanover County Library",
+      "category": "Crafts/Sewing",
+      "name": "Arts and Crafts Kits",
+      "description": "Creative and craft-focused kits",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Science/Education",
+      "name": "Educational Kits",
+      "description": "Learning-oriented materials and tools",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Party/Event",
+      "name": "Entertainment Kits",
+      "description": "Recreation and enjoyment items",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games for checkout",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Wellness/Health",
+      "name": "Health and Wellness Kits",
+      "description": "Fitness and wellness-related resources",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Outdoor/Camping",
+      "name": "Outdoor Recreation Equipment",
+      "description": "Equipment for outdoor activities",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Home Improvement",
+      "name": "Preparedness Kits",
+      "description": "Emergency and survival kits",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

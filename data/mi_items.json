@@ -1,0 +1,277 @@
+{
+  "network": {
+    "name": "Michigan Libraries",
+    "id": "michigan",
+    "region": "Midwest"
+  },
+  "libraries": [
+    {
+      "name": "Livonia Public Library",
+      "location": "Livonia, MI",
+      "lot_url": "https://livonialibrary.info/library-of-things/"
+    },
+    {
+      "name": "Traverse Area District Library",
+      "location": "Traverse City, MI",
+      "lot_url": "https://www.tadl.org/things"
+    }
+  ],
+  "items": [
+    {
+      "library": "Livonia Public Library",
+      "category": "Games",
+      "name": "Board Games Collection",
+      "description": "Various board games for checkout",
+      "source_url": "https://livonialibrary.info/library-of-things/"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Games",
+      "name": "Puzzles",
+      "description": "Jigsaw puzzles for all ages",
+      "source_url": "https://livonialibrary.info/library-of-things/"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "description": "Basic tools for household projects",
+      "source_url": "https://livonialibrary.info/library-of-things/"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Science/Education",
+      "name": "STEAM Kits",
+      "description": "Science, technology, engineering, arts, and math educational kits",
+      "source_url": "https://livonialibrary.info/library-of-things/"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Outdoor Games",
+      "name": "Sports Equipment",
+      "description": "Various sports equipment for outdoor activities",
+      "source_url": "https://livonialibrary.info/library-of-things/"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "Portable WiFi hotspot device",
+      "source_url": "https://livonialibrary.info/library-of-things/"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Wellness/Health",
+      "name": "Memory Care Kits",
+      "description": "Kits designed to support memory and cognitive health",
+      "source_url": "https://livonialibrary.info/library-of-things/"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Science/Education",
+      "name": "Observe the Moon Fun Kit",
+      "description": "STEAM kit for lunar observation activities",
+      "source_url": "https://livonialibrary.info/library-of-things/"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Crafts/Sewing",
+      "name": "Art Projector",
+      "description": "Projector for tracing and art projects",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machine for fabric projects",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Crafts/Sewing",
+      "name": "Starter Weaving Loom",
+      "description": "Beginner loom for weaving projects",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Kitchen",
+      "name": "Baking Pans",
+      "description": "Various baking pans for kitchen use",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Guitar",
+      "description": "Acoustic guitar for beginners",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Ukulele with learning materials",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Keyboard",
+      "description": "Electronic keyboard for learning piano",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Synthesizer",
+      "description": "Electronic synthesizer for music creation",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Drums",
+      "description": "Drum kit for percussion practice",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Theremin",
+      "description": "Electronic theremin instrument",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games for entertainment",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Outdoor Games",
+      "name": "Yard Games",
+      "description": "Outdoor lawn games for parties",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Party/Event",
+      "name": "Video Projector",
+      "description": "Projector for presentations and movie nights",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Party/Event",
+      "name": "PA Speakers",
+      "description": "Portable PA speaker system",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Science/Education",
+      "name": "STEM Kits",
+      "description": "Science and technology educational kits",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Science/Education",
+      "name": "Microscope",
+      "description": "Microscope for scientific observation",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Metal detector for treasure hunting",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Outdoor/Camping",
+      "name": "Birding Backpack",
+      "description": "Backpack with binoculars and bird guides",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Laptop",
+      "description": "Laptop computer for checkout",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Photo Scanner",
+      "description": "Scanner for digitizing photos",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Digital Audio Recorder",
+      "description": "Portable audio recording device",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "description": "Laser level for precise alignment",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Home Inspection",
+      "name": "Energy Meter",
+      "description": "Measure electricity usage of appliances",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "description": "Electronic stud finder for wall mounting",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Moisture Meter",
+      "description": "Measure moisture levels in materials",
+      "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Thermal Leak Detector",
+      "description": "Detect heat leaks in your home",
+      "source_url": "https://www.tadl.org/things"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

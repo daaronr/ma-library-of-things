@@ -1,0 +1,153 @@
+{
+  "network": {
+    "name": "Iowa Libraries",
+    "id": "iowa",
+    "region": "Midwest"
+  },
+  "libraries": [
+    {
+      "name": "Des Moines Public Library",
+      "location": "Des Moines, IA",
+      "lot_url": "https://www.dmpl.org/library-things"
+    }
+  ],
+  "items": [
+    {
+      "library": "Des Moines Public Library",
+      "category": "Kitchen",
+      "name": "Ice Cream Maker",
+      "description": "Electric ice cream maker",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Kitchen",
+      "name": "Cookie Cutters Set",
+      "description": "Various cookie cutters including dinosaur shapes",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Technology",
+      "name": "WiFi Mini Projector",
+      "description": "Portable projector with WiFi connectivity",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Technology",
+      "name": "3D Printer",
+      "description": "3D printer for creating objects",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Technology",
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Technology",
+      "name": "Scanner",
+      "description": "Document and photo scanner",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Technology",
+      "name": "Video to Digital Converter",
+      "description": "Convert VHS and other video formats to digital",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "description": "Digital blood pressure cuff",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "description": "Basic household tool kit",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Home Improvement",
+      "name": "Cordless Drill",
+      "description": "Cordless power drill",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "description": "Laser level for precise alignment",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "description": "Electronic stud finder",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Measurement & Detection",
+      "name": "Tape Measure",
+      "description": "Standard tape measure",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Metal detector for treasure hunting",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Wood Burning Kit",
+      "description": "Wood burning tool kit for pyrography",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "description": "Bocce ball set for outdoor play",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Home Improvement",
+      "name": "Carpet Cleaner",
+      "description": "Portable carpet cleaning machine",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Games",
+      "name": "Azul Board Game",
+      "description": "Azul tile-laying strategy game",
+      "source_url": "https://www.dmpl.org/library-things"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Party/Event",
+      "name": "Portable Play Yard",
+      "description": "Portable play yard for children",
+      "source_url": "https://www.dmpl.org/library-things"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

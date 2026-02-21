@@ -362,6 +362,81 @@
       "fee_structure": "free",
       "requires_membership": false,
       "id": "or_tool_libraries"
+    },
+    "mi_libraries": {
+      "name": "Michigan Libraries",
+      "short_name": "MI",
+      "region": "Midwest",
+      "state": "MI",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://livonialibrary.info",
+      "website": "https://livonialibrary.info",
+      "color": "#1565C0",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "mi_libraries"
+    },
+    "ia_libraries": {
+      "name": "Iowa Libraries",
+      "short_name": "IA",
+      "region": "Midwest",
+      "state": "IA",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.dmpl.org",
+      "website": "https://www.dmpl.org",
+      "color": "#C62828",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "ia_libraries"
+    },
+    "mo_libraries": {
+      "name": "Missouri Libraries",
+      "short_name": "MO",
+      "region": "Midwest",
+      "state": "MO",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.slcl.org",
+      "website": "https://www.slcl.org",
+      "color": "#6A1B9A",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "mo_libraries"
+    },
+    "fl_libraries": {
+      "name": "Florida Libraries",
+      "short_name": "FL",
+      "region": "Southeast",
+      "state": "FL",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.mymanatee.org",
+      "website": "https://www.mymanatee.org",
+      "color": "#FF6F00",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "fl_libraries"
+    },
+    "nc_libraries": {
+      "name": "North Carolina Libraries",
+      "short_name": "NC",
+      "region": "Southeast",
+      "state": "NC",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.nhcgov.com",
+      "website": "https://www.nhcgov.com",
+      "color": "#00838F",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "nc_libraries"
     }
   },
   "items": [
@@ -9925,13 +10000,823 @@
       "source_url": "https://eastportlandtoollibrary.org/",
       "network": "or_tool_libraries",
       "id": "or_tool_libraries_east_portland_tool_library_extension_ladder"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Games",
+      "name": "Board Games Collection",
+      "description": "Various board games for checkout",
+      "source_url": "https://livonialibrary.info/library-of-things/",
+      "network": "mi_libraries",
+      "id": "mi_libraries_livonia_public_library_board_games_collection"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Games",
+      "name": "Puzzles",
+      "description": "Jigsaw puzzles for all ages",
+      "source_url": "https://livonialibrary.info/library-of-things/",
+      "network": "mi_libraries",
+      "id": "mi_libraries_livonia_public_library_puzzles"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "description": "Basic tools for household projects",
+      "source_url": "https://livonialibrary.info/library-of-things/",
+      "network": "mi_libraries",
+      "id": "mi_libraries_livonia_public_library_tool_kit"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Science/Education",
+      "name": "STEAM Kits",
+      "description": "Science, technology, engineering, arts, and math educational kits",
+      "source_url": "https://livonialibrary.info/library-of-things/",
+      "network": "mi_libraries",
+      "id": "mi_libraries_livonia_public_library_steam_kits"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Outdoor Games",
+      "name": "Sports Equipment",
+      "description": "Various sports equipment for outdoor activities",
+      "source_url": "https://livonialibrary.info/library-of-things/",
+      "network": "mi_libraries",
+      "id": "mi_libraries_livonia_public_library_sports_equipment"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "Portable WiFi hotspot device",
+      "source_url": "https://livonialibrary.info/library-of-things/",
+      "network": "mi_libraries",
+      "id": "mi_libraries_livonia_public_library_mobile_hotspot"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Wellness/Health",
+      "name": "Memory Care Kits",
+      "description": "Kits designed to support memory and cognitive health",
+      "source_url": "https://livonialibrary.info/library-of-things/",
+      "network": "mi_libraries",
+      "id": "mi_libraries_livonia_public_library_memory_care_kits"
+    },
+    {
+      "library": "Livonia Public Library",
+      "category": "Science/Education",
+      "name": "Observe the Moon Fun Kit",
+      "description": "STEAM kit for lunar observation activities",
+      "source_url": "https://livonialibrary.info/library-of-things/",
+      "network": "mi_libraries",
+      "id": "mi_libraries_livonia_public_library_observe_the_moon_fun_kit"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Crafts/Sewing",
+      "name": "Art Projector",
+      "description": "Projector for tracing and art projects",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_art_projector"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machine for fabric projects",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_sewing_machine"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Crafts/Sewing",
+      "name": "Starter Weaving Loom",
+      "description": "Beginner loom for weaving projects",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_starter_weaving_loom"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Kitchen",
+      "name": "Baking Pans",
+      "description": "Various baking pans for kitchen use",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_baking_pans"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Guitar",
+      "description": "Acoustic guitar for beginners",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_guitar"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Ukulele with learning materials",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_ukulele"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Keyboard",
+      "description": "Electronic keyboard for learning piano",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_keyboard"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Synthesizer",
+      "description": "Electronic synthesizer for music creation",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_synthesizer"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Drums",
+      "description": "Drum kit for percussion practice",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_drums"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Theremin",
+      "description": "Electronic theremin instrument",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_theremin"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games for entertainment",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_board_games"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Outdoor Games",
+      "name": "Yard Games",
+      "description": "Outdoor lawn games for parties",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_yard_games"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Party/Event",
+      "name": "Video Projector",
+      "description": "Projector for presentations and movie nights",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_video_projector"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Party/Event",
+      "name": "PA Speakers",
+      "description": "Portable PA speaker system",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_pa_speakers"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Science/Education",
+      "name": "STEM Kits",
+      "description": "Science and technology educational kits",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_stem_kits"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Science/Education",
+      "name": "Microscope",
+      "description": "Microscope for scientific observation",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_microscope"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_telescope"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Metal detector for treasure hunting",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_metal_detector"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Outdoor/Camping",
+      "name": "Birding Backpack",
+      "description": "Backpack with binoculars and bird guides",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_birding_backpack"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Laptop",
+      "description": "Laptop computer for checkout",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_laptop"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_wifi_hotspot"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Photo Scanner",
+      "description": "Scanner for digitizing photos",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_photo_scanner"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Digital Audio Recorder",
+      "description": "Portable audio recording device",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_digital_audio_recorder"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "description": "Laser level for precise alignment",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_laser_level"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Home Inspection",
+      "name": "Energy Meter",
+      "description": "Measure electricity usage of appliances",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_energy_meter"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "description": "Electronic stud finder for wall mounting",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_stud_finder"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Moisture Meter",
+      "description": "Measure moisture levels in materials",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_moisture_meter"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Thermal Leak Detector",
+      "description": "Detect heat leaks in your home",
+      "source_url": "https://www.tadl.org/things",
+      "network": "mi_libraries",
+      "id": "mi_libraries_traverse_area_district_library_thermal_leak_detector"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Kitchen",
+      "name": "Ice Cream Maker",
+      "description": "Electric ice cream maker",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_ice_cream_maker"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Kitchen",
+      "name": "Cookie Cutters Set",
+      "description": "Various cookie cutters including dinosaur shapes",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_cookie_cutters_set"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Technology",
+      "name": "WiFi Mini Projector",
+      "description": "Portable projector with WiFi connectivity",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_wifi_mini_projector"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Technology",
+      "name": "3D Printer",
+      "description": "3D printer for creating objects",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_3d_printer"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Technology",
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_bluetooth_speaker"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Technology",
+      "name": "Scanner",
+      "description": "Document and photo scanner",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_scanner"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Technology",
+      "name": "Video to Digital Converter",
+      "description": "Convert VHS and other video formats to digital",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_video_to_digital_converter"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "description": "Digital blood pressure cuff",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_blood_pressure_monitor"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "description": "Basic household tool kit",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_tool_kit"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Home Improvement",
+      "name": "Cordless Drill",
+      "description": "Cordless power drill",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_cordless_drill"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "description": "Laser level for precise alignment",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_laser_level"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "description": "Electronic stud finder",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_stud_finder"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Measurement & Detection",
+      "name": "Tape Measure",
+      "description": "Standard tape measure",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_tape_measure"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Metal detector for treasure hunting",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_metal_detector"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Wood Burning Kit",
+      "description": "Wood burning tool kit for pyrography",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_wood_burning_kit"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "description": "Bocce ball set for outdoor play",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_bocce_ball_set"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Home Improvement",
+      "name": "Carpet Cleaner",
+      "description": "Portable carpet cleaning machine",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_carpet_cleaner"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Games",
+      "name": "Azul Board Game",
+      "description": "Azul tile-laying strategy game",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_azul_board_game"
+    },
+    {
+      "library": "Des Moines Public Library",
+      "category": "Party/Event",
+      "name": "Portable Play Yard",
+      "description": "Portable play yard for children",
+      "source_url": "https://www.dmpl.org/library-things",
+      "network": "ia_libraries",
+      "id": "ia_libraries_des_moines_public_library_portable_play_yard"
+    },
+    {
+      "library": "St. Louis County Library",
+      "category": "Technology",
+      "name": "Accessibility Tools",
+      "description": "Tools for blindness, low vision and dyslexia",
+      "source_url": "https://www.slcl.org/books-emedia-more/library-of-things",
+      "network": "mo_libraries",
+      "id": "mo_libraries_st._louis_county_library_accessibility_tools"
+    },
+    {
+      "library": "St. Louis County Library",
+      "category": "Games",
+      "name": "Puzzles",
+      "description": "Jigsaw puzzles for entertainment",
+      "source_url": "https://www.slcl.org/books-emedia-more/library-of-things",
+      "network": "mo_libraries",
+      "id": "mo_libraries_st._louis_county_library_puzzles"
+    },
+    {
+      "library": "St. Louis County Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games for checkout",
+      "source_url": "https://www.slcl.org/books-emedia-more/library-of-things",
+      "network": "mo_libraries",
+      "id": "mo_libraries_st._louis_county_library_board_games"
+    },
+    {
+      "library": "St. Louis County Library",
+      "category": "Wellness/Health",
+      "name": "Health Monitoring Equipment",
+      "description": "Equipment for monitoring health and wellness",
+      "source_url": "https://www.slcl.org/books-emedia-more/library-of-things",
+      "network": "mo_libraries",
+      "id": "mo_libraries_st._louis_county_library_health_monitoring_equipment"
+    },
+    {
+      "library": "St. Louis County Library",
+      "category": "Music",
+      "name": "Musical Instruments",
+      "description": "Various instruments with instructional materials",
+      "source_url": "https://www.slcl.org/books-emedia-more/library-of-things",
+      "network": "mo_libraries",
+      "id": "mo_libraries_st._louis_county_library_musical_instruments"
+    },
+    {
+      "library": "St. Louis County Library",
+      "category": "Outdoor/Camping",
+      "name": "Outdoor Activity Equipment",
+      "description": "Equipment for nature exploration and stargazing",
+      "source_url": "https://www.slcl.org/books-emedia-more/library-of-things",
+      "network": "mo_libraries",
+      "id": "mo_libraries_st._louis_county_library_outdoor_activity_equipment"
+    },
+    {
+      "library": "St. Louis County Library",
+      "category": "Science/Education",
+      "name": "Literacy Kits",
+      "description": "Educational literacy kits for children",
+      "source_url": "https://www.slcl.org/books-emedia-more/library-of-things",
+      "network": "mo_libraries",
+      "id": "mo_libraries_st._louis_county_library_literacy_kits"
+    },
+    {
+      "library": "St. Louis County Library",
+      "category": "Science/Education",
+      "name": "STEAM Kits",
+      "description": "Science, technology, engineering, arts and math kits",
+      "source_url": "https://www.slcl.org/books-emedia-more/library-of-things",
+      "network": "mo_libraries",
+      "id": "mo_libraries_st._louis_county_library_steam_kits"
+    },
+    {
+      "library": "St. Louis County Library",
+      "category": "Technology",
+      "name": "Portable Projector",
+      "description": "Projector for presentations and events",
+      "source_url": "https://www.slcl.org/books-emedia-more/library-of-things",
+      "network": "mo_libraries",
+      "id": "mo_libraries_st._louis_county_library_portable_projector"
+    },
+    {
+      "library": "St. Louis County Library",
+      "category": "Science/Education",
+      "name": "Genealogy Resources",
+      "description": "Tools for documenting family history",
+      "source_url": "https://www.slcl.org/books-emedia-more/library-of-things",
+      "network": "mo_libraries",
+      "id": "mo_libraries_st._louis_county_library_genealogy_resources"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "network": "fl_libraries",
+      "id": "fl_libraries_manatee_county_public_library_telescope"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Binoculars for bird watching and outdoor activities",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "network": "fl_libraries",
+      "id": "fl_libraries_manatee_county_public_library_binoculars"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Music",
+      "name": "Musical Instruments",
+      "description": "Various musical instruments including bongos, drums, keyboards, accordions",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "network": "fl_libraries",
+      "id": "fl_libraries_manatee_county_public_library_musical_instruments"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Home Improvement",
+      "name": "Tools",
+      "description": "Hardware and equipment for home projects",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "network": "fl_libraries",
+      "id": "fl_libraries_manatee_county_public_library_tools"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "network": "fl_libraries",
+      "id": "fl_libraries_manatee_county_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Science/Education",
+      "name": "STEM Kits",
+      "description": "Science and technology educational kits",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "network": "fl_libraries",
+      "id": "fl_libraries_manatee_county_public_library_stem_kits"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Science/Education",
+      "name": "Early Literacy Kits",
+      "description": "Literacy kits for infants through middle school",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "network": "fl_libraries",
+      "id": "fl_libraries_manatee_county_public_library_early_literacy_kits"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Kitchen",
+      "name": "Cake Pans",
+      "description": "Various cake pans for baking",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "network": "fl_libraries",
+      "id": "fl_libraries_manatee_county_public_library_cake_pans"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Outdoor/Camping",
+      "name": "Birdwatching Backpack",
+      "description": "Kit with bird guides and binoculars for adults and children",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "network": "fl_libraries",
+      "id": "fl_libraries_pasco_county_libraries_birdwatching_backpack"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Technology",
+      "name": "TI-84 Plus CE Calculator",
+      "description": "Graphing calculator for standardized tests",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "network": "fl_libraries",
+      "id": "fl_libraries_pasco_county_libraries_ti_84_plus_ce_calculator"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Technology",
+      "name": "Playaway Launchpad",
+      "description": "Preloaded tablet with educational games",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "network": "fl_libraries",
+      "id": "fl_libraries_pasco_county_libraries_playaway_launchpad"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Technology/Gaming",
+      "name": "Video Games",
+      "description": "Games for PlayStation, Xbox, Nintendo Switch",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "network": "fl_libraries",
+      "id": "fl_libraries_pasco_county_libraries_video_games"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Portable internet access device",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "network": "fl_libraries",
+      "id": "fl_libraries_pasco_county_libraries_wifi_hotspot"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Ukulele with tuner and carrying case",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "network": "fl_libraries",
+      "id": "fl_libraries_pasco_county_libraries_ukulele"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Crafts/Sewing",
+      "name": "Looms",
+      "description": "Weaving looms in small, medium, and large sizes",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "network": "fl_libraries",
+      "id": "fl_libraries_pasco_county_libraries_looms"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Wellness/Health",
+      "name": "Memory Kits",
+      "description": "Kits designed for dementia support",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "network": "fl_libraries",
+      "id": "fl_libraries_pasco_county_libraries_memory_kits"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Gardening",
+      "name": "Seed Library",
+      "description": "Seeds available for growing your own plants",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "network": "fl_libraries",
+      "id": "fl_libraries_pasco_county_libraries_seed_library"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Games",
+      "name": "Adaptive Toys",
+      "description": "Toys designed for children with disabilities",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "network": "fl_libraries",
+      "id": "fl_libraries_pasco_county_libraries_adaptive_toys"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Crafts/Sewing",
+      "name": "Arts and Crafts Kits",
+      "description": "Creative and craft-focused kits",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things",
+      "network": "nc_libraries",
+      "id": "nc_libraries_new_hanover_county_library_arts_and_crafts_kits"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Science/Education",
+      "name": "Educational Kits",
+      "description": "Learning-oriented materials and tools",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things",
+      "network": "nc_libraries",
+      "id": "nc_libraries_new_hanover_county_library_educational_kits"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Party/Event",
+      "name": "Entertainment Kits",
+      "description": "Recreation and enjoyment items",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things",
+      "network": "nc_libraries",
+      "id": "nc_libraries_new_hanover_county_library_entertainment_kits"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games for checkout",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things",
+      "network": "nc_libraries",
+      "id": "nc_libraries_new_hanover_county_library_board_games"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Wellness/Health",
+      "name": "Health and Wellness Kits",
+      "description": "Fitness and wellness-related resources",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things",
+      "network": "nc_libraries",
+      "id": "nc_libraries_new_hanover_county_library_health_and_wellness_kits"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Outdoor/Camping",
+      "name": "Outdoor Recreation Equipment",
+      "description": "Equipment for outdoor activities",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things",
+      "network": "nc_libraries",
+      "id": "nc_libraries_new_hanover_county_library_outdoor_recreation_equipment"
+    },
+    {
+      "library": "New Hanover County Library",
+      "category": "Home Improvement",
+      "name": "Preparedness Kits",
+      "description": "Emergency and survival kits",
+      "source_url": "https://www.nhcgov.com/1256/Library-of-Things",
+      "network": "nc_libraries",
+      "id": "nc_libraries_new_hanover_county_library_preparedness_kits"
     }
   ],
   "metadata": {
     "last_updated": "2026-02-21",
-    "total_items": 1101,
-    "total_libraries": 75,
-    "total_networks": 23,
+    "total_items": 1191,
+    "total_libraries": 82,
+    "total_networks": 28,
     "generated_by": "consolidate.py"
   }
 }

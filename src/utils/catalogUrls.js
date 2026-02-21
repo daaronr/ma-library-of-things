@@ -464,6 +464,61 @@ export const networkCatalogs = {
     region: 'Pacific Northwest',
     state: 'OR',
   },
+
+  // MICHIGAN LIBRARIES
+  mi_libraries: {
+    name: 'Michigan Libraries',
+    shortName: 'MI',
+    system: 'direct',
+    baseUrl: 'https://livonialibrary.info',
+    color: '#1565C0',
+    region: 'Midwest',
+    state: 'MI',
+  },
+
+  // IOWA LIBRARIES
+  ia_libraries: {
+    name: 'Iowa Libraries',
+    shortName: 'IA',
+    system: 'direct',
+    baseUrl: 'https://www.dmpl.org',
+    color: '#C62828',
+    region: 'Midwest',
+    state: 'IA',
+  },
+
+  // MISSOURI LIBRARIES
+  mo_libraries: {
+    name: 'Missouri Libraries',
+    shortName: 'MO',
+    system: 'direct',
+    baseUrl: 'https://www.slcl.org',
+    color: '#6A1B9A',
+    region: 'Midwest',
+    state: 'MO',
+  },
+
+  // FLORIDA LIBRARIES
+  fl_libraries: {
+    name: 'Florida Libraries',
+    shortName: 'FL',
+    system: 'direct',
+    baseUrl: 'https://www.mymanatee.org',
+    color: '#FF6F00',
+    region: 'Southeast',
+    state: 'FL',
+  },
+
+  // NORTH CAROLINA LIBRARIES
+  nc_libraries: {
+    name: 'North Carolina Libraries',
+    shortName: 'NC',
+    system: 'direct',
+    baseUrl: 'https://www.nhcgov.com',
+    color: '#00838F',
+    region: 'Southeast',
+    state: 'NC',
+  },
 };
 
 /**
