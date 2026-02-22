@@ -37,6 +37,294 @@
   ],
   "items": [
     {
+      "library": "Needham Free Public Library",
+      "category": "Borrowing",
+      "name": "Borrowers must have a valid Minuteman Library Network card in good standing",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Borrowing",
+      "name": "Borrowers of Library of Things items must be 18 years old or older",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Borrowing",
+      "name": "Borrowers will receive a copy of the Library of Things Lending Agreement",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Borrowing",
+      "name": "Borrowers must pick up and return the Library of Things item at the Needham Free Public Library Circulation Desk",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "About",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Contact Robert MacLean, Library Director",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Events",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Genealogy and Local History Room",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Just for Adults",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Kids & Teens",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Library of Things",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Library Renovations",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Services",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Strategic Plan",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Trustees of the Needham Free Public Library",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Trustees’ Commitment To Equity And Inclusion",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Policies",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Latest News",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "To borrow a Thing, you must have a Minuteman Network Library card and sign the appropriate Library of Things agreement: Library of Things Lending Policy and Loan Agreement",
+      "description": "English Política de Préstamos de la Biblioteca de Objetos y Acuerdo de Préstamo - Español Política de Empréstimo e Contrato da Biblioteca de Coisas - Português",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "Library of Things Lending Policy and Loan Agreement",
+      "description": "English",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "Política de Préstamos de la Biblioteca de Objetos y Acuerdo de Préstamo",
+      "description": "Español",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "Política de Empréstimo e Contrato da Biblioteca de Coisas",
+      "description": "Português",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "Framingham residents may request items online or by phone",
+      "description": "Non-Framingham residents may request items only by phone",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "Things cannot be sent to any other library, and must be picked up in person",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Requesting, Picking Up, & Returning Things",
+      "name": "You will receive a notification when your item(s) are ready",
+      "description": "Things can be picked up at the circulation desk",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Main Library",
+      "name": "508-532-5570",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Search Catalog",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Museum Passes",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Ask a Librarian",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Monthly Newsletter",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Get A Library Card",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "New Arrivals",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-02-22"
+    },
+    {
       "library": "Morse Institute Library",
       "category": "Home Improvement",
       "name": "20V Drill Driver Kit",
@@ -724,8 +1012,8 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-02-15",
-    "verified_items_count": 133,
+    "last_updated": "2026-02-22",
+    "verified_items_count": 130,
     "data_source": "Automated scraping + manual verification"
   }
 }
