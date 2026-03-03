@@ -87,6 +87,12 @@ NETWORK_FILES = {
     "wi_libraries": "wi_items.json",
     # Louisiana
     "la_libraries": "la_items.json",
+    # Utah
+    "ut_libraries": "ut_items.json",
+    # Kansas
+    "ks_libraries": "ks_items.json",
+    # Arizona
+    "az_libraries": "az_items.json",
 }
 
 # Organization type constants
@@ -585,6 +591,51 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://nolalibrary.org",
         "website": "https://nolalibrary.org",
         "color": "#6A1B9A",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Utah
+    "ut_libraries": {
+        "name": "Utah Libraries",
+        "short_name": "UT",
+        "region": "Mountain West",
+        "state": "UT",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.slcolibrary.org",
+        "website": "https://www.slcolibrary.org",
+        "color": "#C62828",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Kansas
+    "ks_libraries": {
+        "name": "Kansas Libraries",
+        "short_name": "KS",
+        "region": "Midwest",
+        "state": "KS",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.wichitalibrary.org",
+        "website": "https://www.wichitalibrary.org",
+        "color": "#1565C0",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Arizona
+    "az_libraries": {
+        "name": "Arizona Libraries",
+        "short_name": "AZ",
+        "region": "Southwest",
+        "state": "AZ",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.mesalibrary.org",
+        "website": "https://www.mesalibrary.org",
+        "color": "#FF6F00",
         "org_type": ORG_TYPE_LIBRARY,
         "access_type": ACCESS_CHECKOUT,
         "fee_structure": FEE_FREE,

@@ -552,6 +552,39 @@ export const networkCatalogs = {
     region: 'Southeast',
     state: 'LA',
   },
+
+  // UTAH LIBRARIES
+  ut_libraries: {
+    name: 'Utah Libraries',
+    shortName: 'UT',
+    system: 'direct',
+    baseUrl: 'https://www.slcolibrary.org',
+    color: '#C62828',
+    region: 'Mountain West',
+    state: 'UT',
+  },
+
+  // KANSAS LIBRARIES
+  ks_libraries: {
+    name: 'Kansas Libraries',
+    shortName: 'KS',
+    system: 'direct',
+    baseUrl: 'https://www.wichitalibrary.org',
+    color: '#1565C0',
+    region: 'Midwest',
+    state: 'KS',
+  },
+
+  // ARIZONA LIBRARIES
+  az_libraries: {
+    name: 'Arizona Libraries',
+    shortName: 'AZ',
+    system: 'direct',
+    baseUrl: 'https://www.mesalibrary.org',
+    color: '#FF6F00',
+    region: 'Southwest',
+    state: 'AZ',
+  },
 };
 
 /**

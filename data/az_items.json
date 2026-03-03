@@ -1,0 +1,41 @@
+{
+  "network": {
+    "name": "Arizona Libraries",
+    "id": "arizona",
+    "region": "Southwest"
+  },
+  "libraries": [
+    {
+      "name": "Mesa Public Library",
+      "location": "Mesa, AZ",
+      "lot_url": "https://www.mesalibrary.org/find/stuffbrary"
+    }
+  ],
+  "items": [
+    {
+      "library": "Mesa Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Hiking Kit",
+      "description": "Backpack with walking sticks, compass, binoculars, and hiking guides",
+      "source_url": "https://www.mesalibrary.org/find/stuffbrary"
+    },
+    {
+      "library": "Mesa Public Library",
+      "category": "Science/Education",
+      "name": "Museum To-Go Box",
+      "description": "Fossils and museum replicas with lesson plans for teachers",
+      "source_url": "https://www.mesalibrary.org/find/stuffbrary"
+    },
+    {
+      "library": "Mesa Public Library",
+      "category": "Science/Education",
+      "name": "Play Kit",
+      "description": "Themed play sets for children ages 3-5",
+      "source_url": "https://www.mesalibrary.org/find/stuffbrary"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

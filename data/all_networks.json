@@ -482,6 +482,51 @@
       "fee_structure": "free",
       "requires_membership": false,
       "id": "la_libraries"
+    },
+    "ut_libraries": {
+      "name": "Utah Libraries",
+      "short_name": "UT",
+      "region": "Mountain West",
+      "state": "UT",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.slcolibrary.org",
+      "website": "https://www.slcolibrary.org",
+      "color": "#C62828",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "ut_libraries"
+    },
+    "ks_libraries": {
+      "name": "Kansas Libraries",
+      "short_name": "KS",
+      "region": "Midwest",
+      "state": "KS",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.wichitalibrary.org",
+      "website": "https://www.wichitalibrary.org",
+      "color": "#1565C0",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "ks_libraries"
+    },
+    "az_libraries": {
+      "name": "Arizona Libraries",
+      "short_name": "AZ",
+      "region": "Southwest",
+      "state": "AZ",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.mesalibrary.org",
+      "website": "https://www.mesalibrary.org",
+      "color": "#FF6F00",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "az_libraries"
     }
   },
   "items": [
@@ -11648,13 +11693,256 @@
       "source_url": "https://nolalibrary.org/location-specific-services/tools/",
       "network": "la_libraries",
       "id": "la_libraries_new_orleans_public_library___east_new_orleans_work_gloves"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "Chromebook",
+      "description": "Laptop with Chrome OS for web access",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_chromebook"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "Launchpad Tablet",
+      "description": "Durable tablet with pre-installed literacy apps",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_launchpad_tablet"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Science/Education",
+      "name": "WhaZoodles Speaker",
+      "description": "Educational speaker with stories, music, and guided meditations",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_whazoodles_speaker"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Wellness/Health",
+      "name": "Heart Health Kit",
+      "description": "Blood pressure monitor, pulse oximeter, and thermometer",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_heart_health_kit"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Wellness/Health",
+      "name": "HappyLight Therapy Lamp",
+      "description": "Light therapy device for seasonal affective disorder",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_happylight_therapy_lamp"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Home Inspection",
+      "name": "Radon Monitor",
+      "description": "EcoBlu real-time radon detection device",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_radon_monitor"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "description": "Binoculars, monocular, tripod, smartphone holder, and field guide",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_bird_watching_kit"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "GoPro Camera",
+      "description": "Action camera with tripod and helmet mounts",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_gopro_camera"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Orion StarBlast telescope for stargazing",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_telescope"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Science/Education",
+      "name": "Kids Nature Kit",
+      "description": "Seasonal backpack with exploration tools and wildlife guides",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_kids_nature_kit"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Wellness/Health",
+      "name": "Memory Care Kit",
+      "description": "Themed collections with puzzles and sensory items for dementia support",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_memory_care_kit"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Science/Education",
+      "name": "Storytime To Go Kit",
+      "description": "Book bundles with activities and toys",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_storytime_to_go_kit"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Kitchen",
+      "name": "Pasta Maker Kit",
+      "description": "Equipment for making fresh pasta",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_pasta_maker_kit"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "Preserve the Memory Equipment",
+      "description": "Devices for converting VHS, cassettes, film, and slides to digital",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "network": "ut_libraries",
+      "id": "ut_libraries_salt_lake_county_library_preserve_the_memory_equipment"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "network": "ks_libraries",
+      "id": "ks_libraries_wichita_public_library_telescope"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector",
+      "description": "Radon detection device for home safety",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "network": "ks_libraries",
+      "id": "ks_libraries_wichita_public_library_radon_detector"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Science/Education",
+      "name": "Microscope",
+      "description": "Microscope for scientific observation",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "network": "ks_libraries",
+      "id": "ks_libraries_wichita_public_library_microscope"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Technology",
+      "name": "Chromebook",
+      "description": "Laptop for 28-day checkout",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "network": "ks_libraries",
+      "id": "ks_libraries_wichita_public_library_chromebook"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "network": "ks_libraries",
+      "id": "ks_libraries_wichita_public_library_wifi_hotspot"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "description": "Adult and children's binoculars in a backpack",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "network": "ks_libraries",
+      "id": "ks_libraries_wichita_public_library_bird_watching_kit"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor Kit",
+      "description": "Monitor with log book and instruction booklet",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "network": "ks_libraries",
+      "id": "ks_libraries_wichita_public_library_blood_pressure_monitor_kit"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Science/Education",
+      "name": "Finch Robot 2.0",
+      "description": "Programmable robot for learning coding",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "network": "ks_libraries",
+      "id": "ks_libraries_wichita_public_library_finch_robot_2.0"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Science/Education",
+      "name": "Anatomical Models",
+      "description": "Human body models for medical education",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "network": "ks_libraries",
+      "id": "ks_libraries_wichita_public_library_anatomical_models"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Wellness/Health",
+      "name": "Memory Kit",
+      "description": "Games, puzzles, and books for dementia support",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "network": "ks_libraries",
+      "id": "ks_libraries_wichita_public_library_memory_kit"
+    },
+    {
+      "library": "Mesa Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Hiking Kit",
+      "description": "Backpack with walking sticks, compass, binoculars, and hiking guides",
+      "source_url": "https://www.mesalibrary.org/find/stuffbrary",
+      "network": "az_libraries",
+      "id": "az_libraries_mesa_public_library_hiking_kit"
+    },
+    {
+      "library": "Mesa Public Library",
+      "category": "Science/Education",
+      "name": "Museum To-Go Box",
+      "description": "Fossils and museum replicas with lesson plans for teachers",
+      "source_url": "https://www.mesalibrary.org/find/stuffbrary",
+      "network": "az_libraries",
+      "id": "az_libraries_mesa_public_library_museum_to_go_box"
+    },
+    {
+      "library": "Mesa Public Library",
+      "category": "Science/Education",
+      "name": "Play Kit",
+      "description": "Themed play sets for children ages 3-5",
+      "source_url": "https://www.mesalibrary.org/find/stuffbrary",
+      "network": "az_libraries",
+      "id": "az_libraries_mesa_public_library_play_kit"
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-01",
-    "total_items": 1272,
-    "total_libraries": 86,
-    "total_networks": 31,
+    "last_updated": "2026-03-03",
+    "total_items": 1299,
+    "total_libraries": 89,
+    "total_networks": 34,
     "generated_by": "consolidate.py"
   }
 }

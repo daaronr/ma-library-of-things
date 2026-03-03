@@ -1,0 +1,118 @@
+{
+  "network": {
+    "name": "Utah Libraries",
+    "id": "utah",
+    "region": "Mountain West"
+  },
+  "libraries": [
+    {
+      "name": "Salt Lake County Library",
+      "location": "Salt Lake County, UT",
+      "lot_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    }
+  ],
+  "items": [
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "Chromebook",
+      "description": "Laptop with Chrome OS for web access",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "Launchpad Tablet",
+      "description": "Durable tablet with pre-installed literacy apps",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Science/Education",
+      "name": "WhaZoodles Speaker",
+      "description": "Educational speaker with stories, music, and guided meditations",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Wellness/Health",
+      "name": "Heart Health Kit",
+      "description": "Blood pressure monitor, pulse oximeter, and thermometer",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Wellness/Health",
+      "name": "HappyLight Therapy Lamp",
+      "description": "Light therapy device for seasonal affective disorder",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Home Inspection",
+      "name": "Radon Monitor",
+      "description": "EcoBlu real-time radon detection device",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "description": "Binoculars, monocular, tripod, smartphone holder, and field guide",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "GoPro Camera",
+      "description": "Action camera with tripod and helmet mounts",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Orion StarBlast telescope for stargazing",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Science/Education",
+      "name": "Kids Nature Kit",
+      "description": "Seasonal backpack with exploration tools and wildlife guides",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Wellness/Health",
+      "name": "Memory Care Kit",
+      "description": "Themed collections with puzzles and sensory items for dementia support",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Science/Education",
+      "name": "Storytime To Go Kit",
+      "description": "Book bundles with activities and toys",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Kitchen",
+      "name": "Pasta Maker Kit",
+      "description": "Equipment for making fresh pasta",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "Preserve the Memory Equipment",
+      "description": "Devices for converting VHS, cassettes, film, and slides to digital",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

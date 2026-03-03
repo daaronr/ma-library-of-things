@@ -1,0 +1,90 @@
+{
+  "network": {
+    "name": "Kansas Libraries",
+    "id": "kansas",
+    "region": "Midwest"
+  },
+  "libraries": [
+    {
+      "name": "Wichita Public Library",
+      "location": "Wichita, KS",
+      "lot_url": "https://www.wichitalibrary.org/things"
+    }
+  ],
+  "items": [
+    {
+      "library": "Wichita Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://www.wichitalibrary.org/things"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector",
+      "description": "Radon detection device for home safety",
+      "source_url": "https://www.wichitalibrary.org/things"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Science/Education",
+      "name": "Microscope",
+      "description": "Microscope for scientific observation",
+      "source_url": "https://www.wichitalibrary.org/things"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Technology",
+      "name": "Chromebook",
+      "description": "Laptop for 28-day checkout",
+      "source_url": "https://www.wichitalibrary.org/things"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspot",
+      "description": "Mobile internet hotspot device",
+      "source_url": "https://www.wichitalibrary.org/things"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "description": "Adult and children's binoculars in a backpack",
+      "source_url": "https://www.wichitalibrary.org/things"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor Kit",
+      "description": "Monitor with log book and instruction booklet",
+      "source_url": "https://www.wichitalibrary.org/things"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Science/Education",
+      "name": "Finch Robot 2.0",
+      "description": "Programmable robot for learning coding",
+      "source_url": "https://www.wichitalibrary.org/things"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Science/Education",
+      "name": "Anatomical Models",
+      "description": "Human body models for medical education",
+      "source_url": "https://www.wichitalibrary.org/things"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Wellness/Health",
+      "name": "Memory Kit",
+      "description": "Games, puzzles, and books for dementia support",
+      "source_url": "https://www.wichitalibrary.org/things"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-02-21",
+    "data_source": "Manual research"
+  }
+}

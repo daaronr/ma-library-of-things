@@ -1011,5 +1011,44 @@
     "website": "https://nolalibrary.org",
     "lot_url": "https://nolalibrary.org/location-specific-services/tools/",
     "catalog_system": "direct"
+  },
+
+  "salt_lake_county_library": {
+    "id": "salt_lake_county_library",
+    "name": "Salt Lake County Library",
+    "network": "ut_libraries",
+    "state": "UT",
+    "location": "Salt Lake County, UT",
+    "address": "8030 S 1825 W, West Jordan, UT 84088",
+    "coordinates": { "lat": 40.6097, "lng": -111.9391 },
+    "website": "https://www.slcolibrary.org",
+    "lot_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+    "catalog_system": "direct"
+  },
+
+  "wichita_public_library": {
+    "id": "wichita_public_library",
+    "name": "Wichita Public Library",
+    "network": "ks_libraries",
+    "state": "KS",
+    "location": "Wichita, KS",
+    "address": "223 S Main St, Wichita, KS 67202",
+    "coordinates": { "lat": 37.6872, "lng": -97.3301 },
+    "website": "https://www.wichitalibrary.org",
+    "lot_url": "https://www.wichitalibrary.org/things",
+    "catalog_system": "direct"
+  },
+
+  "mesa_public_library": {
+    "id": "mesa_public_library",
+    "name": "Mesa Public Library",
+    "network": "az_libraries",
+    "state": "AZ",
+    "location": "Mesa, AZ",
+    "address": "64 E 1st St, Mesa, AZ 85201",
+    "coordinates": { "lat": 33.4152, "lng": -111.8315 },
+    "website": "https://www.mesalibrary.org",
+    "lot_url": "https://www.mesalibrary.org/find/stuffbrary",
+    "catalog_system": "direct"
   }
 }
