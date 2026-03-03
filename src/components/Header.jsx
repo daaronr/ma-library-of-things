@@ -1,13 +1,24 @@
 import React from 'react';
 import Disclaimer from './Disclaimer';
 
-export default function Header({ stats }) {
+export default function Header({ stats, onShowDashboard, showDashboardLink }) {
   return (
     <header className="mb-6">
       <Disclaimer />
 
       <div className="catalog-card p-8 md:p-10 mt-4">
-        <div className="section-label mb-4">Subject Card Catalog — Main Collection</div>
+        <div className="flex items-center justify-between mb-4">
+          <div className="section-label">Subject Card Catalog — Main Collection</div>
+          {showDashboardLink && (
+            <button
+              onClick={onShowDashboard}
+              className="text-sm font-mono text-[#8B4513] hover:text-[#6B3410] transition-colors flex items-center gap-1.5 border border-[#D4C5A9] px-3 py-1.5 rounded hover:bg-[#F5F1E6]"
+            >
+              <span>📊</span>
+              <span>Statistics</span>
+            </button>
+          )}
+        </div>
 
         <h1 className="text-3xl md:text-5xl font-semibold leading-tight mb-4">
           Library of <span className="text-[#8B4513] underline decoration-wavy underline-offset-4">Things</span>

@@ -5,6 +5,7 @@ import FilterPanel from './components/FilterPanel';
 import ItemList from './components/ItemList';
 import Footer from './components/Footer';
 import SubmitLibrary from './components/SubmitLibrary';
+import Dashboard from './components/Dashboard';
 import { networkCatalogs } from './utils/catalogUrls';
 import { calculateDistance } from './utils/location';
 
@@ -13,6 +14,7 @@ export default function App() {
   const [librariesData, setLibrariesData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [view, setView] = useState('catalog'); // 'catalog' or 'dashboard'
 
   // Filter state
   const [searchTerm, setSearchTerm] = useState('');
@@ -264,7 +266,12 @@ export default function App() {
   return (
     <div className="min-h-screen">
       <div className="max-w-7xl mx-auto px-4 py-6">
-        <Header stats={stats} />
+        <Header stats={stats} onShowDashboard={() => setView('dashboard')} showDashboardLink={view === 'catalog'} />
+
+        {view === 'dashboard' ? (
+          <Dashboard data={data} networks={availableNetworks} onBack={() => setView('catalog')} />
+        ) : (
+          <>
 
         {/* Search */}
         <div className="catalog-card p-6 mb-4 relative">
@@ -323,6 +330,8 @@ export default function App() {
 
         <Footer lastUpdated={data?.metadata?.last_updated} />
         <SubmitLibrary />
+        </>
+        )}
       </div>
     </div>
   );
