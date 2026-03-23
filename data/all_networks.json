@@ -527,6 +527,189 @@
       "fee_structure": "free",
       "requires_membership": false,
       "id": "az_libraries"
+    },
+    "ga_libraries": {
+      "name": "Georgia Libraries",
+      "short_name": "GA",
+      "region": "Georgia",
+      "state": "GA",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://chestateelibrary.org",
+      "website": "https://chestateelibrary.org",
+      "color": "#C62828",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "ga_libraries"
+    },
+    "ky_libraries": {
+      "name": "Kentucky Libraries & Tool Libraries",
+      "short_name": "KY",
+      "region": "Kentucky",
+      "state": "KY",
+      "catalog_system": "myturn",
+      "catalog_base_url": "https://louisvilletoollibrary.myturn.com",
+      "website": "https://www.kentonlibrary.org",
+      "color": "#1565C0",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "ky_libraries"
+    },
+    "al_libraries": {
+      "name": "Alabama Libraries",
+      "short_name": "AL",
+      "region": "Alabama",
+      "state": "AL",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.dhcls.org",
+      "website": "https://www.dhcls.org",
+      "color": "#BF360C",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "al_libraries"
+    },
+    "nh_libraries": {
+      "name": "New Hampshire Libraries",
+      "short_name": "NH",
+      "region": "New Hampshire",
+      "state": "NH",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://concordpubliclibrary.net",
+      "website": "https://concordpubliclibrary.net",
+      "color": "#2E7D32",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "notes": "New Hampshire public libraries with Library of Things programs.",
+      "id": "nh_libraries"
+    },
+    "vt_libraries": {
+      "name": "Vermont Libraries",
+      "short_name": "VT",
+      "region": "Vermont",
+      "state": "VT",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.fletcherfree.org",
+      "website": "https://www.fletcherfree.org",
+      "color": "#00695C",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "notes": "Vermont public libraries with Library of Things programs.",
+      "id": "vt_libraries"
+    },
+    "ne_libraries": {
+      "name": "Nebraska Libraries",
+      "short_name": "NE",
+      "region": "Nebraska",
+      "state": "NE",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.gretna.org/library",
+      "website": "https://www.gretna.org/library",
+      "color": "#C62828",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "notes": "Nebraska public libraries with Library of Things programs. Library of Things adoption is still emerging in Nebraska compared to New England states.",
+      "id": "ne_libraries"
+    },
+    "nm_libraries": {
+      "name": "New Mexico Libraries",
+      "short_name": "NM",
+      "region": "Southwest",
+      "state": "NM",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.santafelibrary.org",
+      "website": "https://www.santafelibrary.org",
+      "color": "#6A1B9A",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "nm_libraries"
+    },
+    "nv_libraries": {
+      "name": "Nevada Libraries",
+      "short_name": "NV",
+      "region": "Mountain West",
+      "state": "NV",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://bclibrary.org",
+      "website": "https://bclibrary.org",
+      "color": "#FF6F00",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "nv_libraries"
+    },
+    "dc_libraries": {
+      "name": "DC Libraries",
+      "short_name": "DC",
+      "region": "Washington DC",
+      "state": "DC",
+      "catalog_system": "myturn",
+      "catalog_base_url": "https://thelabs.myturn.com",
+      "website": "https://www.dclibrary.org",
+      "color": "#1565C0",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "dc_libraries"
+    },
+    "ar_libraries": {
+      "name": "Arkansas Libraries",
+      "short_name": "AR",
+      "region": "South",
+      "state": "AR",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://cals.org",
+      "website": "https://cals.org",
+      "color": "#E65100",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "ar_libraries"
+    },
+    "wv_libraries": {
+      "name": "West Virginia Libraries",
+      "short_name": "WV",
+      "region": "South",
+      "state": "WV",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.kcpls.org",
+      "website": "https://www.kcpls.org",
+      "color": "#1565C0",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "wv_libraries"
+    },
+    "id_libraries": {
+      "name": "Idaho Libraries",
+      "short_name": "ID",
+      "region": "Northwest",
+      "state": "ID",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://communitylibrary.net",
+      "website": "https://communitylibrary.net",
+      "color": "#2E7D32",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "id_libraries"
     }
   },
   "items": [
@@ -537,7 +720,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public__62a1b494"
     },
@@ -548,7 +731,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public__c3b84832"
     },
@@ -559,7 +742,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public__348b0349"
     },
@@ -570,7 +753,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public__97a1a3c3"
     },
@@ -581,7 +764,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_about"
     },
@@ -592,7 +775,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_contact_robert_maclean,_library_director"
     },
@@ -603,7 +786,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_events"
     },
@@ -614,7 +797,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_genealogy_and_local_history_room"
     },
@@ -625,7 +808,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_just_for_adults"
     },
@@ -636,7 +819,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_kids_&_teens"
     },
@@ -647,7 +830,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_library_of_things"
     },
@@ -658,7 +841,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_library_renovations"
     },
@@ -669,7 +852,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_services"
     },
@@ -680,7 +863,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_strategic_plan"
     },
@@ -691,7 +874,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public__1f7b3126"
     },
@@ -702,7 +885,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public__1ca7d3e7"
     },
@@ -713,7 +896,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_policies"
     },
@@ -724,7 +907,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_needham_free_public_library_latest_news"
     },
@@ -735,7 +918,7 @@
       "description": "English Política de Préstamos de la Biblioteca de Objetos y Acuerdo de Préstamo - Español Política de Empréstimo e Contrato da Biblioteca de Coisas - Português",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_li_c259a65c"
     },
@@ -746,7 +929,7 @@
       "description": "English",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_li_f4ba9b43"
     },
@@ -757,7 +940,7 @@
       "description": "Español",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_li_d4781723"
     },
@@ -768,7 +951,7 @@
       "description": "Português",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_li_6bd4329f"
     },
@@ -779,7 +962,7 @@
       "description": "Non-Framingham residents may request items only by phone",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_li_00f98bd7"
     },
@@ -790,7 +973,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_li_837f8fb0"
     },
@@ -801,7 +984,7 @@
       "description": "Things can be picked up at the circulation desk",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_li_ddcb35cb"
     },
@@ -812,7 +995,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_library_508_532_5570"
     },
@@ -823,7 +1006,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_library_search_catalog"
     },
@@ -834,7 +1017,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_library_museum_passes"
     },
@@ -845,7 +1028,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_library_ask_a_librarian"
     },
@@ -856,7 +1039,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_library_monthly_newsletter"
     },
@@ -867,7 +1050,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_library_get_a_library_card"
     },
@@ -878,7 +1061,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-03-22",
+      "last_verified": "2026-03-01",
       "network": "minuteman",
       "id": "minuteman_framingham_public_library_new_arrivals"
     },
@@ -11936,13 +12119,4282 @@
       "source_url": "https://www.mesalibrary.org/find/stuffbrary",
       "network": "az_libraries",
       "id": "az_libraries_mesa_public_library_play_kit"
+    },
+    {
+      "library": "Chestatee Regional Library System",
+      "category": "Kitchen",
+      "name": "Cake Pan Set",
+      "description": "Themed cake pans for checkout",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_chestatee_regional_library_system_cake_pan_set"
+    },
+    {
+      "library": "Chestatee Regional Library System",
+      "category": "Outdoor/Camping",
+      "name": "Tent",
+      "description": "Camping tent for outdoor use",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_chestatee_regional_library_system_tent"
+    },
+    {
+      "library": "Chestatee Regional Library System",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Binoculars for birdwatching and outdoor activities",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_chestatee_regional_library_system_binoculars"
+    },
+    {
+      "library": "Chestatee Regional Library System",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_chestatee_regional_library_system_telescope"
+    },
+    {
+      "library": "Chestatee Regional Library System",
+      "category": "Auto/Vehicle",
+      "name": "Car Diagnostic Code Reader",
+      "description": "OBD code reader for vehicle diagnostics",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_chestatee_regional_library_system_car_diagnostic_code_reader"
+    },
+    {
+      "library": "Chestatee Regional Library System",
+      "category": "Technology",
+      "name": "Raspberry Pi",
+      "description": "Raspberry Pi computer for learning programming",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_chestatee_regional_library_system_raspberry_pi"
+    },
+    {
+      "library": "Chestatee Regional Library System",
+      "category": "Technology",
+      "name": "Launchpad",
+      "description": "Electronic learning device",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_chestatee_regional_library_system_launchpad"
+    },
+    {
+      "library": "Chestatee Regional Library System",
+      "category": "Science/Education",
+      "name": "Code-a-pillar",
+      "description": "Coding toy for children",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_chestatee_regional_library_system_code_a_pillar"
+    },
+    {
+      "library": "Chestatee Regional Library System",
+      "category": "Outdoor/Camping",
+      "name": "Get Outdoors! Backpack",
+      "description": "Backpack with learning activities for state park visits",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_chestatee_regional_library_system_get_outdoors!_backpack"
+    },
+    {
+      "library": "Chestatee Regional Library System",
+      "category": "Science/Education",
+      "name": "Flash Cards",
+      "description": "Educational flash cards",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_chestatee_regional_library_system_flash_cards"
+    },
+    {
+      "library": "Chestatee Regional Library System",
+      "category": "Science/Education",
+      "name": "LeapFrog Reading Kit",
+      "description": "Interactive reading learning kit for children",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_chestatee_regional_library_system_leapfrog_reading_kit"
+    },
+    {
+      "library": "Sequoyah Regional Library System",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machines available for checkout (12 in collection)",
+      "source_url": "https://www.sequoyahregionallibrary.org/library-of-things",
+      "network": "ga_libraries",
+      "id": "ga_libraries_sequoyah_regional_library_system_sewing_machine"
+    },
+    {
+      "library": "Moultrie-Colquitt County Library",
+      "category": "Music",
+      "name": "Ukulele with Instructional Materials",
+      "description": "Kala Makala soprano ukulele with instructional books, DVDs, and tuner (20 in collection)",
+      "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/",
+      "network": "ga_libraries",
+      "id": "ga_libraries_moultrie_colquitt_co_b43e7138"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Drills",
+      "description": "Various power drills",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_drills"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Wrenches",
+      "description": "Various wrenches",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_wrenches"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Hammers",
+      "description": "Various hammers",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_hammers"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Chainsaw",
+      "description": "Most popular checkout item",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_electric_chainsaw"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Upholstery Cleaner",
+      "description": "Popular checkout item",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_upholstery_cleaner"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Wood Chisels (various sizes)",
+      "description": "Woodworking chisels",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_wood_chisels_(various_sizes)"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Impact Wrench",
+      "description": "Power impact wrench",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_electric_impact_wrench"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Hammer Drill",
+      "description": "Power hammer drill",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_hammer_drill"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Hot Glue Gun",
+      "description": "Glue gun for crafts and repairs",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_hot_glue_gun"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Torque Wrench",
+      "description": "Precision torque wrench",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_torque_wrench"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer Attachments",
+      "description": "Various pressure washer accessories",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_pressure_washer_attachments"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Home Improvement",
+      "name": "Auger Drill Bits",
+      "description": "Various sizes",
+      "source_url": "https://louisvilletoollibrary.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_auger_drill_bits"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Kitchen",
+      "name": "Springform Cake Pans",
+      "description": "Baking pans",
+      "source_url": "https://loutoday.6amcity.com/3-unusual-things-check-out-louisville-tool-library",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_springform_cake_pans"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Party/Event",
+      "name": "Five-Gallon Glass Beverage Dispensers",
+      "description": "Large beverage dispensers for events",
+      "source_url": "https://loutoday.6amcity.com/3-unusual-things-check-out-louisville-tool-library",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_five_gallon_glass_beverage_dispensers"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Music",
+      "name": "Casio Keyboard",
+      "description": "Electronic keyboard",
+      "source_url": "https://loutoday.6amcity.com/3-unusual-things-check-out-louisville-tool-library",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_casio_keyboard"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Wellness/Health",
+      "name": "Folding Massage Table",
+      "description": "Portable massage table",
+      "source_url": "https://loutoday.6amcity.com/3-unusual-things-check-out-louisville-tool-library",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_folding_massage_table"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Various board games including The Golden Girls game",
+      "source_url": "https://loutoday.6amcity.com/3-unusual-things-check-out-louisville-tool-library",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_board_games"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Outdoor/Camping",
+      "name": "Kayaks",
+      "description": "Kayaks for water recreation",
+      "source_url": "https://www.louisvilletoollibrary.com/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_kayaks"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machines",
+      "description": "Sewing machines for fabric work",
+      "source_url": "https://www.louisvilletoollibrary.com/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_sewing_machines"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Outdoor/Camping",
+      "name": "Camping Equipment",
+      "description": "Various camping gear",
+      "source_url": "https://www.louisvilletoollibrary.com/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_camping_equipment"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Kitchen",
+      "name": "Popcorn Maker",
+      "description": "Popcorn machine",
+      "source_url": "https://www.louisvilletoollibrary.com/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_popcorn_maker"
+    },
+    {
+      "library": "Louisville Tool Library",
+      "category": "Technology",
+      "name": "Flash Photography Kit",
+      "description": "Photography lighting equipment",
+      "source_url": "https://www.louisvilletoollibrary.com/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_louisville_tool_library_flash_photography_kit"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Home Improvement",
+      "name": "Power Tools",
+      "description": "Various power tools for construction and DIY",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_power_tools"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Home Improvement",
+      "name": "Hand Tools",
+      "description": "Various manual tools for repairs",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_hand_tools"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Home Improvement",
+      "name": "Socket Sets",
+      "description": "Various socket wrench sets",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_socket_sets"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Home Improvement",
+      "name": "Sanders",
+      "description": "Various power sanders",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_sanders"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Home Improvement",
+      "name": "Hole Saws",
+      "description": "Hole saw drill bits",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_hole_saws"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Home Improvement",
+      "name": "Hydraulic Jack",
+      "description": "Hydraulic lifting jack",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_hydraulic_jack"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Home Improvement",
+      "name": "Notched Trowels (various sizes)",
+      "description": "Tiling and masonry trowels",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_notched_trowels_(various_sizes)"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Home Improvement",
+      "name": "Belt Sander",
+      "description": "Power belt sander",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_belt_sander"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Kitchen",
+      "name": "Kitchen Equipment",
+      "description": "Various kitchen appliances and utensils",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_kitchen_equipment"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Outdoor/Camping",
+      "name": "Camping Gear",
+      "description": "Various camping equipment",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_camping_gear"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Gardening",
+      "name": "Gardening Tools",
+      "description": "Various garden implements",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_gardening_tools"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Gardening",
+      "name": "Lawn Tools",
+      "description": "Equipment for grass and yard maintenance",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_lawn_tools"
+    },
+    {
+      "library": "Lexington Tool Library",
+      "category": "Gardening",
+      "name": "Landscaping Tools",
+      "description": "Implements for landscape design and outdoor projects",
+      "source_url": "https://lextools.myturn.com/library/inventory/browse",
+      "network": "ky_libraries",
+      "id": "ky_libraries_lexington_tool_library_landscaping_tools"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Brushless Belt Sander, Cordless (DeWalt)",
+      "description": "DeWalt 3\" x 21\" 20v, includes case, charger, 2 batteries",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_2ca1300e"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Chainsaw, Cordless (DeWalt)",
+      "description": "DeWalt 20v, 12\" bar, includes 2 batteries, charger and case",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_10733f5a"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Auto/Vehicle",
+      "name": "Portable Vehicle Ramp Set",
+      "description": "Pittsburgh Automotive 13,000 lb. ramp set",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_f46214fc"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Hedge Trimmer, Electric (Black & Decker)",
+      "description": "Corded electric hedge trimmer",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_ef31b4db"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Air Compressor (Bostitch)",
+      "description": "6 gallon, 150 PSI, pancake compressor",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_8e83c54d"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Mechanics Tool Set, SAE MM",
+      "description": "Complete mechanics tool set",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_455aaccf"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Kobalt Household Tool Set",
+      "description": "General household tool set",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_15f0cd8b"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Corded Electric Lawn Mower",
+      "description": "Electric lawn mower",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_4791de40"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "String Trimmer, Corded",
+      "description": "Corded string trimmer/weed whacker",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_string_trimmer,_corded"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Wheelbarrow (Leonard 6 cu. ft.)",
+      "description": "Poly tray wheelbarrow",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_1c039d7b"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Push Reel Lawn Mower (Scotts 20\")",
+      "description": "Manual push reel mower",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_3d9b1191"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Impact Wrench, Corded (Porter Cable)",
+      "description": "1/2\", 7.5 amp corded impact wrench",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_fa1d9f06"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Cordless Power Tool Combo Set (Craftsman)",
+      "description": "5-piece cordless power tool combo",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_b1a47190"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Grass Clipper Shears",
+      "description": "6\" right-handed grass shears",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_grass_clipper_shears"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Bicycle",
+      "name": "Bicycle Pump (Bell)",
+      "description": "Bicycle pump with gauge",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_bicycle_pump_(bell)"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Hedge Shears (Leonard 9\")",
+      "description": "9\" blade hedge shears",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_36664245"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Heavy Duty Caulk Gun",
+      "description": "10 oz. rod caulk gun",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_heavy_duty_caulk_gun"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Tow Strap (KTool)",
+      "description": "240-in., 7,500 lbs. max working load",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_tow_strap_(ktool)"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Measurement & Detection",
+      "name": "Kill A Watt EZ Meter",
+      "description": "Assess the efficiency of appliances",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_kill_a_watt_ez_meter"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Heat Gun (Kobalt 1500W)",
+      "description": "Professional LCD heat gun",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_caddd3a7"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Loppers (various sizes)",
+      "description": "Large, medium, small; ratchet and regular; anvil and crosscut varieties",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_90d8a69c"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Garden Fork",
+      "description": "Digging fork for garden work",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_garden_fork"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Edgers (multiple sizes)",
+      "description": "Various sizes and shapes of lawn edgers",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_e978d88e"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Pruning Saws",
+      "description": "Saws for pruning branches",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_pruning_saws"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Rakes",
+      "description": "Various rakes for yard work",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_rakes"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Gardening",
+      "name": "Leaf Blower",
+      "description": "Leaf blower for yard cleanup",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_leaf_blower"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Ladders (several types)",
+      "description": "Various ladder types",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_a0269572"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Brad Nail Gun",
+      "description": "Brad nailer for finish work",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_brad_nail_gun"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Stapler",
+      "description": "Heavy duty stapler",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_stapler"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Flooring Gun",
+      "description": "Flooring nailer for installation",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_flooring_gun"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "C-Clamps",
+      "description": "Various C-clamps for woodworking",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_c_clamps"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Screwdrivers",
+      "description": "Various screwdrivers",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_screwdrivers"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Hand Truck",
+      "description": "Hand truck for moving heavy items",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_hand_truck"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Ratchet Strap Set",
+      "description": "Ratchet straps for securing loads",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_ratchet_strap_set"
+    },
+    {
+      "library": "Kenton County Public Library - Empower Tools",
+      "category": "Home Improvement",
+      "name": "Moving Blankets",
+      "description": "Protective blankets for moving furniture",
+      "source_url": "https://www.kentonlibrary.org/empower-tools/",
+      "network": "ky_libraries",
+      "id": "ky_libraries_kenton_county_public_library___empower_tools_moving_blankets"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Music",
+      "name": "Acoustic Guitar",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_acoustic_guitar"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Camera (Point-and-Shoot)",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_camera_(point_and_shoot)"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Camera (Video)",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_camera_(video)"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Digital Film Scanner",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_digital_film_scanner"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Drawing Tablet",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_drawing_tablet"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "DVD Player",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_dvd_player"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Science/Education",
+      "name": "Graphing Calculator",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_graphing_calculator"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Laptops",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_laptops"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Laptop & Hotspot",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_laptop_&_hotspot"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Microphone",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_microphone"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Classic",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_nintendo_classic"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology/Gaming",
+      "name": "PlayStation 4",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_playstation_4"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Portable Speaker System",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_portable_speaker_system"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Projector",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_projector"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Projector Screen",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_projector_screen"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Roku Streaming Stick",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_roku_streaming_stick"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology/Gaming",
+      "name": "SEGA Genesis Mini",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_sega_genesis_mini"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology/Gaming",
+      "name": "Super Nintendo Classic Mini",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_super_nintendo_classic_mini"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_telescope"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Music",
+      "name": "Turntable",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_turntable"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Webcam",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_webcam"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Air Compressor",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_air_compressor"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_binoculars"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Drill (Power)",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_drill_(power)"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Drill (Impact Driver)",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_drill_(impact_driver)"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Measurement & Detection",
+      "name": "Electrical Test Kit",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_electrical_test_kit"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Fabric Steamer",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_fabric_steamer"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Hack Saw",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_hack_saw"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Crafts/Sewing",
+      "name": "Heat Press",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_heat_press"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Laminator",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_laminator"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Gardening",
+      "name": "Leaf Blower",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_leaf_blower"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_metal_detector"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_pressure_washer"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Shop Vacuum",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_shop_vacuum"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder & Level",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_stud_finder_&_level"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Tool Box",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_tool_box"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Tripods",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_tripods"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Kitchen",
+      "name": "Cake Pan Set",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_cake_pan_set"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Kitchen",
+      "name": "Cake Pop Maker",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_cake_pop_maker"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Party/Event",
+      "name": "Megaphone",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_megaphone"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Crafts/Sewing",
+      "name": "Silhouette Cutter",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_silhouette_cutter"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "network": "al_libraries",
+      "id": "al_libraries_dothan_houston_county_library_system_sewing_machine"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Music",
+      "name": "Acoustic Guitar",
+      "description": "Acoustic guitar available for checkout",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_acoustic_guitar"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Measurement & Detection",
+      "name": "Kill A Watt Energy Detector",
+      "description": "Device for measuring energy consumption of appliances",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_kill_a_watt_energy_detector"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Wellness/Health",
+      "name": "Light Therapy Lamp",
+      "description": "Lamp for seasonal affective disorder and light therapy",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_light_therapy_lamp"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Home Improvement",
+      "name": "Paper Shredder",
+      "description": "Document shredder for personal use",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_paper_shredder"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Trail Camera",
+      "description": "Wildlife trail camera for outdoor use",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_trail_camera"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Auto/Vehicle",
+      "name": "Vehicle Code Reader",
+      "description": "OBD code reader for vehicle diagnostics",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_vehicle_code_reader"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Measurement & Detection",
+      "name": "Ghost Meter / Detector",
+      "description": "EMF detection device",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_ghost_meter_/_detector"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Home Inspection",
+      "name": "Thermal Imaging Camera",
+      "description": "Infrared thermal imaging camera for heat detection",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_thermal_imaging_camera"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Technology",
+      "name": "Travel Adapter Set",
+      "description": "International travel power adapter set",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_travel_adapter_set"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Gardening",
+      "name": "Soil Tester/Analyzer",
+      "description": "Soil quality testing and analysis device",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_soil_tester/analyzer"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Technology",
+      "name": "Text Scanning Pen",
+      "description": "Portable scanning pen for digitizing text",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_text_scanning_pen"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Measurement & Detection",
+      "name": "Self-leveling Wall Mount Laser",
+      "description": "Self-leveling laser for wall mounting and alignment",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_self_leveling_wall_mount_laser"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Technology",
+      "name": "Yeti Microphone",
+      "description": "USB condenser microphone for recording and podcasting",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_yeti_microphone"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Outdoor Games",
+      "name": "Kan Jam Pro",
+      "description": "Outdoor disc-throwing game set",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_kan_jam_pro"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Party/Event",
+      "name": "Karaoke Machine",
+      "description": "Karaoke machine with microphone",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_karaoke_machine"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Metal detector for treasure hunting and exploration",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_metal_detector"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Telescope with instructional videos for stargazing",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_telescope"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Pickleball paddles and equipment",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_pickleball_set"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Science/Education",
+      "name": "Digital Microscope",
+      "description": "USB digital microscope for magnification and observation",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_digital_microscope"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Outdoor/Camping",
+      "name": "GPS Navigator",
+      "description": "GPS device for geocaching and exploration",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_gps_navigator"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Technology",
+      "name": "Cassette Player / Converter",
+      "description": "Converts cassette tapes to digital format",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_cassette_player_/_converter"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Technology",
+      "name": "Digital Film & Slide Scanner",
+      "description": "Scans film negatives and slides to digital format",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_digital_film_&_slide_scanner"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Technology",
+      "name": "Vinyl Record Player / Converter",
+      "description": "Plays vinyl records and converts to digital format",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_vinyl_record_player_/_converter"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Technology",
+      "name": "VHS Video to Digital Converter",
+      "description": "Converts VHS tapes to digital video files",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_vhs_video_to_digital_converter"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Technology",
+      "name": "Kodak 8mm and Super 8mm Film Digitizer",
+      "description": "Digitizes 8mm and Super 8mm film reels",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_kodak_8mm_and_super_8mm_film_digitizer"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Technology",
+      "name": "Flatbed Scanner",
+      "description": "Flatbed document and photo scanner",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_flatbed_scanner"
+    },
+    {
+      "library": "Concord Public Library",
+      "category": "Technology",
+      "name": "Slide Projector",
+      "description": "Traditional slide projector for viewing slides",
+      "source_url": "https://www.concordnh.gov/1365/Library-of-Things",
+      "network": "nh_libraries",
+      "id": "nh_libraries_concord_public_library_slide_projector"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Folding Kayak",
+      "description": "Portable folding kayak for water recreation",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_folding_kayak"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Paddleboard",
+      "description": "Stand-up paddleboard for water recreation",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_paddleboard"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Rods",
+      "description": "Fishing rods for recreational fishing",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_fishing_rods"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Cooler",
+      "description": "Portable cooler for camping and outdoor activities",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_cooler"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Personal Flotation Devices",
+      "description": "Life jackets/PFDs for water safety",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_personal_flotation_devices"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Tent",
+      "description": "Camping tent including winter camping tent",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_tent"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Lanterns",
+      "description": "Camping lanterns for outdoor lighting",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_lanterns"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Sleeping Bags",
+      "description": "Sleeping bags for camping",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_sleeping_bags"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Headlamps",
+      "description": "LED headlamps for camping and hiking",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_headlamps"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Camping Chairs",
+      "description": "Portable folding camping chairs",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_camping_chairs"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Hammock",
+      "description": "Portable hammock for camping and recreation",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_hammock"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Hiking Backpack",
+      "description": "Backpack for hiking and outdoor excursions",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_hiking_backpack"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Sleeping Pads",
+      "description": "Camping sleeping pads for ground insulation",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_sleeping_pads"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_telescope"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machine for checkout",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_sewing_machine"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Snowshoes",
+      "description": "Snowshoes for winter hiking",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_snowshoes"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Gardening",
+      "name": "Broadfork",
+      "description": "Tool for breaking up hard soil to improve aeration and drainage",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_broadfork"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Gardening",
+      "name": "Battery Powered Hand Seeder",
+      "description": "Broadcasts seeds for lawn grass, cover crops, or baby greens",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_battery_powered_hand_seeder"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Gardening",
+      "name": "Compost Thermometer",
+      "description": "Thermometer for monitoring compost pile temperature",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_compost_thermometer"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Gardening",
+      "name": "Pruning Saw",
+      "description": "21-inch bow pruning saw for brush clearing",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_pruning_saw"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Gardening",
+      "name": "Telescoping Lopper",
+      "description": "25-37 inch telescoping bypass lopper for tree trimming",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_telescoping_lopper"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Gardening",
+      "name": "Push Seeder",
+      "description": "For row crops with interchangeable plates",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_push_seeder"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Gardening",
+      "name": "Garden Fork",
+      "description": "Digging fork for loosening soil and bed preparation",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_garden_fork"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Gardening",
+      "name": "Easi-Grip Adaptive Garden Tools",
+      "description": "Ergonomic angled-handle garden tools for accessibility (fork, trowel, cultivator, hoe)",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_easi_grip_adaptive_garden_tools"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Gardening",
+      "name": "Garden Kneeler and Seat",
+      "description": "Folds flat, supports up to 250 lbs, dual-purpose kneeler/seat",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_garden_kneeler_and_seat"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Gardening",
+      "name": "Deluxe Stand-Up Weeder",
+      "description": "Four stainless-steel claws, 39-inch length, eliminates bending",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_deluxe_stand_up_weeder"
+    },
+    {
+      "library": "Keene Public Library",
+      "category": "Gardening",
+      "name": "Seed Starting Kit",
+      "description": "Includes heat mat, grow light, fan, seed trays, dome, and handbook",
+      "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_keene_public_library_seed_starting_kit"
+    },
+    {
+      "library": "Howe Library",
+      "category": "Outdoor Games",
+      "name": "Giant Connect Four",
+      "description": "Oversized Connect Four lawn game",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_howe_library_giant_connect_four"
+    },
+    {
+      "library": "Howe Library",
+      "category": "Outdoor Games",
+      "name": "Giant Jenga",
+      "description": "Oversized Jenga lawn game",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_howe_library_giant_jenga"
+    },
+    {
+      "library": "Howe Library",
+      "category": "Outdoor Games",
+      "name": "Giant Candyland",
+      "description": "Oversized Candyland lawn game",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_howe_library_giant_candyland"
+    },
+    {
+      "library": "Howe Library",
+      "category": "Kitchen",
+      "name": "Electronic Knife Sharpener",
+      "description": "Electric knife sharpening device",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_howe_library_electronic_knife_sharpener"
+    },
+    {
+      "library": "Derry Public Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Metal detector for treasure hunting",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_derry_public_library_metal_detector"
+    },
+    {
+      "library": "Derry Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Pickleball paddles and equipment",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_derry_public_library_pickleball_set"
+    },
+    {
+      "library": "Derry Public Library",
+      "category": "Music",
+      "name": "Roll-Up Piano",
+      "description": "Portable roll-up electronic piano keyboard",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_derry_public_library_roll_up_piano"
+    },
+    {
+      "library": "Derry Public Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "description": "Digital blood pressure monitoring device",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_derry_public_library_blood_pressure_monitor"
+    },
+    {
+      "library": "Maxfield Public Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Metal detector for treasure hunting",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_maxfield_public_library_metal_detector"
+    },
+    {
+      "library": "Maxfield Public Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "description": "Power washer for outdoor cleaning",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_maxfield_public_library_pressure_washer"
+    },
+    {
+      "library": "Maxfield Public Library",
+      "category": "Party/Event",
+      "name": "Popcorn Machine",
+      "description": "Popcorn maker for events and home use",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_maxfield_public_library_popcorn_machine"
+    },
+    {
+      "library": "Maxfield Public Library",
+      "category": "Technology",
+      "name": "Yoto Mini Audio Player",
+      "description": "Screen-free audio player for kids",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_maxfield_public_library_yoto_mini_audio_player"
+    },
+    {
+      "library": "Maxfield Public Library",
+      "category": "Technology",
+      "name": "DVD Player",
+      "description": "DVD player for checkout",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_maxfield_public_library_dvd_player"
+    },
+    {
+      "library": "Maxfield Public Library",
+      "category": "Science/Education",
+      "name": "Egg Incubator",
+      "description": "Incubator for hatching eggs as educational activity",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_maxfield_public_library_egg_incubator"
+    },
+    {
+      "library": "Elkins Public Library",
+      "category": "Kitchen",
+      "name": "Canning Set",
+      "description": "Home canning equipment set",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_elkins_public_library_canning_set"
+    },
+    {
+      "library": "Elkins Public Library",
+      "category": "Party/Event",
+      "name": "Party Tents",
+      "description": "Portable party/event tents",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_elkins_public_library_party_tents"
+    },
+    {
+      "library": "Elkins Public Library",
+      "category": "Technology",
+      "name": "Record Player",
+      "description": "Vinyl record player for checkout",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_elkins_public_library_record_player"
+    },
+    {
+      "library": "Freedom Public Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Metal detector for treasure hunting",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_freedom_public_library_metal_detector"
+    },
+    {
+      "library": "Freedom Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Binoculars for birdwatching and nature observation",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_freedom_public_library_binoculars"
+    },
+    {
+      "library": "Freedom Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Snowshoes",
+      "description": "Snowshoes for winter hiking",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_freedom_public_library_snowshoes"
+    },
+    {
+      "library": "Freedom Public Library",
+      "category": "Technology",
+      "name": "Slide Projector",
+      "description": "Traditional slide projector",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_freedom_public_library_slide_projector"
+    },
+    {
+      "library": "Lebanon Public Libraries",
+      "category": "Bicycle",
+      "name": "E-Bikes",
+      "description": "Electric bicycles available for checkout",
+      "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/",
+      "network": "nh_libraries",
+      "id": "nh_libraries_lebanon_public_libraries_e_bikes"
+    },
+    {
+      "library": "Nashua Public Library",
+      "category": "Technology",
+      "name": "LED Projector",
+      "description": "LED video projector",
+      "source_url": "https://nashualibrary.org/lot",
+      "network": "nh_libraries",
+      "id": "nh_libraries_nashua_public_library_led_projector"
+    },
+    {
+      "library": "Nashua Public Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://nashualibrary.org/lot",
+      "network": "nh_libraries",
+      "id": "nh_libraries_nashua_public_library_telescope"
+    },
+    {
+      "library": "Nashua Public Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "Ukulele musical instrument",
+      "source_url": "https://nashualibrary.org/lot",
+      "network": "nh_libraries",
+      "id": "nh_libraries_nashua_public_library_ukulele"
+    },
+    {
+      "library": "Nashua Public Library",
+      "category": "Science/Education",
+      "name": "Puppet Theater",
+      "description": "Puppet theater for kids activities",
+      "source_url": "https://nashualibrary.org/lot",
+      "network": "nh_libraries",
+      "id": "nh_libraries_nashua_public_library_puppet_theater"
+    },
+    {
+      "library": "Nashua Public Library",
+      "category": "Wellness/Health",
+      "name": "Animatronic Cat",
+      "description": "Companion animatronic cat",
+      "source_url": "https://nashualibrary.org/lot",
+      "network": "nh_libraries",
+      "id": "nh_libraries_nashua_public_library_animatronic_cat"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Crafts/Sewing",
+      "name": "10 Piece Jewelry Tool Kit",
+      "description": "Jewelry making tool set",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_10_piece_jewelry_tool_kit"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Cordless Steam Iron",
+      "description": "Cordless iron for sewing and fabric projects",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_cordless_steam_iron"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Darning Loom",
+      "description": "Loom for darning and mending",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_darning_loom"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Afghan Loom",
+      "description": "Loom for creating afghans and blankets",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_afghan_loom"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Yarn Swift",
+      "description": "Tool for holding yarn skeins while winding",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_yarn_swift"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Yarn Winder",
+      "description": "Tool for winding yarn into balls",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_yarn_winder"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Round Tart/Quiche Pan (9 inch)",
+      "description": "9-inch round tart and quiche baking pan",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_round_tart/quiche_pan_(9_inch)"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Bundt Cake Pan (12 Cup)",
+      "description": "12-cup bundt cake baking pan",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_bundt_cake_pan_(12_cup)"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Bundt Quartet",
+      "description": "Mini bundt cake pan set",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_bundt_quartet"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Butterfly Cake Pan",
+      "description": "Butterfly-shaped specialty cake pan",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_butterfly_cake_pan"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Cake Decorating Kit",
+      "description": "Kit with tools for decorating cakes",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_cake_decorating_kit"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Car-Shaped Baking Mold",
+      "description": "Car-shaped specialty baking mold",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_car_shaped_baking_mold"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Cookie Press",
+      "description": "Press for making shaped cookies",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_cookie_press"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Cooling Rack",
+      "description": "Wire rack for cooling baked goods",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_cooling_rack"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Dinosaur Cake Pan",
+      "description": "Dinosaur-shaped specialty cake pan",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_dinosaur_cake_pan"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Food Dehydrator",
+      "description": "Electric food dehydrator for drying fruits, herbs, and jerky",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_food_dehydrator"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Holiday Cookie Cutters",
+      "description": "Holiday-themed cookie cutter sets (Halloween, Valentines)",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_holiday_cookie_cutters"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Heart-Shaped Cake Pan",
+      "description": "Heart-shaped specialty cake pan",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_heart_shaped_cake_pan"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Knife Sharpener",
+      "description": "Knife sharpening tool",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_knife_sharpener"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Mini Muffin Tins",
+      "description": "Mini-sized muffin baking tins",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_mini_muffin_tins"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Pasta Maker",
+      "description": "Manual pasta making machine",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_pasta_maker"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Racecar-Shaped Cake Pan",
+      "description": "Racecar-shaped specialty cake pan",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_racecar_shaped_cake_pan"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Kitchen",
+      "name": "Springform Cake Pan",
+      "description": "Springform pan for cheesecakes and layer cakes",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_springform_cake_pan"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Games",
+      "name": "Board Game Collection",
+      "description": "65+ board games including Catan, Pandemic, Ticket to Ride, Wingspan, Scrabble, Cranium, Exploding Kittens, and more",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_board_game_collection"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Games",
+      "name": "Mahjong Set",
+      "description": "Traditional Mahjong tile game set",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_mahjong_set"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Games",
+      "name": "3-in-1 Magnetic Board Game Set",
+      "description": "Magnetic travel game set with three games",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_3_in_1_magnetic_board_game_set"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Outdoor Games",
+      "name": "Giant Connect 4",
+      "description": "Oversized Connect Four outdoor game",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_giant_connect_4"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Outdoor Games",
+      "name": "Giant Jenga",
+      "description": "Oversized Jenga outdoor game",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_giant_jenga"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Outdoor Games",
+      "name": "Giant Tic Tac Toe",
+      "description": "Oversized Tic Tac Toe outdoor game",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_giant_tic_tac_toe"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Outdoor Games",
+      "name": "Croquet",
+      "description": "Croquet lawn game set",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_croquet"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Outdoor Games",
+      "name": "Slammo",
+      "description": "Outdoor ball-bouncing game (similar to Spikeball)",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_slammo"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Cultivators",
+      "description": "Hand cultivating tools for garden beds",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_cultivators"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Garden Shovels and Spades",
+      "description": "Assorted garden digging tools",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_garden_shovels_and_spades"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Bulb Planters",
+      "description": "Tools for planting flower bulbs",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_bulb_planters"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Edgers",
+      "description": "Garden edging tools",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_edgers"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Folding Saw",
+      "description": "Folding pruning saw",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_folding_saw"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Garden Forks",
+      "description": "Various garden forks for soil work",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_garden_forks"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Garden Hose",
+      "description": "Garden watering hose",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_garden_hose"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Grass Clippers",
+      "description": "Manual grass cutting clippers",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_grass_clippers"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Hedge Trimmers",
+      "description": "Hedge trimming shears",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_hedge_trimmers"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Hoes",
+      "description": "Garden hoes for weeding and soil work",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_hoes"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Post Digger",
+      "description": "Post hole digger tool",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_post_digger"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Rakes",
+      "description": "Garden and leaf rakes",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_rakes"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Gardening",
+      "name": "Tree Trimmers",
+      "description": "Tree branch trimming tools",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_tree_trimmers"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Home Improvement",
+      "name": "Drill/Driver",
+      "description": "Cordless drill and driver",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_drill/driver"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Home Improvement",
+      "name": "Home Repair Tools",
+      "description": "Basic home repair tool kit",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_home_repair_tools"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Home Improvement",
+      "name": "14 Inch Wide Flooring Scraper",
+      "description": "Wide scraper for flooring removal",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_14_inch_wide_flooring_scraper"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Home Improvement",
+      "name": "6 Inch Heavy Duty Scraper",
+      "description": "Heavy duty scraping tool",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_6_inch_heavy_duty_scraper"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Measurement & Detection",
+      "name": "Hygrometer",
+      "description": "Humidity measuring device",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_hygrometer"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Home Inspection",
+      "name": "Infrared Thermal Camera",
+      "description": "TG 165 infrared thermal imaging camera for heat loss detection",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_infrared_thermal_camera"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Measurement & Detection",
+      "name": "Infrared Thermometer",
+      "description": "Non-contact infrared temperature measuring device",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_infrared_thermometer"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Measurement & Detection",
+      "name": "Watts Up? Power Analyzer",
+      "description": "Device for measuring electrical power consumption",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_watts_up?_power_analyzer"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Measure",
+      "description": "Laser distance measuring tool",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_laser_measure"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Music",
+      "name": "Moog Theremini",
+      "description": "Electronic theremin musical instrument by Moog",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_moog_theremini"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "description": "Metal detector for treasure hunting and exploration",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_metal_detector"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Kit",
+      "description": "Basic sewing kit with supplies",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_sewing_kit"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Letter and Number Stamp Set",
+      "description": "Stamp set for crafting with letters and numbers",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_letter_and_number_stamp_set"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Portable Drawing Easel",
+      "description": "Portable easel for drawing and painting",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_portable_drawing_easel"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Outdoor/Camping",
+      "name": "Adult Snowshoes",
+      "description": "Snowshoes for adults (seasonal)",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_adult_snowshoes"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Outdoor/Camping",
+      "name": "Youth Snowshoes",
+      "description": "Snowshoes for youth (seasonal)",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_youth_snowshoes"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Outdoor/Camping",
+      "name": "Beach and Sandcastle Kit",
+      "description": "Beach toys and sandcastle building tools",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_beach_and_sandcastle_kit"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Outdoor Games",
+      "name": "Tennis Rackets",
+      "description": "Tennis rackets for checkout",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_tennis_rackets"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Technology",
+      "name": "Laminator",
+      "description": "Document laminating machine",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_laminator"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Technology",
+      "name": "NT-USB Microphone",
+      "description": "USB microphone for recording",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_nt_usb_microphone"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Technology",
+      "name": "Portable CD Player",
+      "description": "Portable CD player for checkout",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_portable_cd_player"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Telescope for stargazing",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_telescope"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Science/Education",
+      "name": "Citizenship Toolkit 2025",
+      "description": "Resources for U.S. citizenship preparation",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_citizenship_toolkit_2025"
+    },
+    {
+      "library": "Fletcher Free Library",
+      "category": "Outdoor/Camping",
+      "name": "Snow Brick Maker",
+      "description": "Mold for making snow bricks (seasonal)",
+      "source_url": "https://fletcherfree.org/LOT",
+      "network": "vt_libraries",
+      "id": "vt_libraries_fletcher_free_library_snow_brick_maker"
+    },
+    {
+      "library": "Richmond Free Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machine for checkout",
+      "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_richmond_free_library_sewing_machine"
+    },
+    {
+      "library": "Richmond Free Library",
+      "category": "Games",
+      "name": "Family Board Games",
+      "description": "Collection of family board games",
+      "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_richmond_free_library_family_board_games"
+    },
+    {
+      "library": "Richmond Free Library",
+      "category": "Measurement & Detection",
+      "name": "Kilowatt Electricity Usage Meter",
+      "description": "Device for measuring electrical power consumption",
+      "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_richmond_free_library_kilowatt_electricity_usage_meter"
+    },
+    {
+      "library": "Richmond Free Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "description": "Digital blood pressure monitoring device",
+      "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_richmond_free_library_blood_pressure_monitor"
+    },
+    {
+      "library": "Richmond Free Library",
+      "category": "Measurement & Detection",
+      "name": "Firewood Moisture Meter",
+      "description": "Meter for measuring firewood moisture content",
+      "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_richmond_free_library_firewood_moisture_meter"
+    },
+    {
+      "library": "Richmond Free Library",
+      "category": "Outdoor/Camping",
+      "name": "Snowshoes",
+      "description": "Snowshoes for winter hiking",
+      "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_richmond_free_library_snowshoes"
+    },
+    {
+      "library": "Richmond Free Library",
+      "category": "Outdoor/Camping",
+      "name": "Trekking Poles",
+      "description": "Hiking trekking poles",
+      "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_richmond_free_library_trekking_poles"
+    },
+    {
+      "library": "Richmond Free Library",
+      "category": "Outdoor Games",
+      "name": "Bocce Set",
+      "description": "Bocce ball lawn game set",
+      "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_richmond_free_library_bocce_set"
+    },
+    {
+      "library": "Richmond Free Library",
+      "category": "Outdoor Games",
+      "name": "Cornhole Set",
+      "description": "Cornhole bean bag toss game",
+      "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_richmond_free_library_cornhole_set"
+    },
+    {
+      "library": "Richmond Free Library",
+      "category": "Science/Education",
+      "name": "STEAM Kits",
+      "description": "Science, Technology, Engineering, Art, and Math educational kits",
+      "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_richmond_free_library_steam_kits"
+    },
+    {
+      "library": "Brownell Library",
+      "category": "Party/Event",
+      "name": "Karaoke Machine",
+      "description": "Karaoke machine with microphone",
+      "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_brownell_library_karaoke_machine"
+    },
+    {
+      "library": "Brownell Library",
+      "category": "Technology",
+      "name": "Walkie-Talkies",
+      "description": "Two-way radio communication devices",
+      "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_brownell_library_walkie_talkies"
+    },
+    {
+      "library": "Brownell Library",
+      "category": "Crafts/Sewing",
+      "name": "Round Loom",
+      "description": "Circular knitting loom for yarn projects",
+      "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_brownell_library_round_loom"
+    },
+    {
+      "library": "Brownell Library",
+      "category": "Games",
+      "name": "Tarot Kit",
+      "description": "Tarot card set with instruction materials",
+      "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_brownell_library_tarot_kit"
+    },
+    {
+      "library": "Ilsley Public Library",
+      "category": "Bicycle",
+      "name": "E-Bike",
+      "description": "Electric bicycle available for checkout",
+      "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_ilsley_public_library_e_bike"
+    },
+    {
+      "library": "Ilsley Public Library",
+      "category": "Science/Education",
+      "name": "Orion StarBlast Telescope",
+      "description": "4.5-inch tabletop telescope for stargazing",
+      "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_ilsley_public_library_orion_starblast_telescope"
+    },
+    {
+      "library": "Ilsley Public Library",
+      "category": "Technology",
+      "name": "Epson LCD Projector",
+      "description": "LCD video projector for presentations and movies",
+      "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_ilsley_public_library_epson_lcd_projector"
+    },
+    {
+      "library": "Essex Free Library",
+      "category": "Music",
+      "name": "Ukuleles",
+      "description": "Nine ukuleles available for checkout",
+      "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_essex_free_library_ukuleles"
+    },
+    {
+      "library": "Essex Free Library",
+      "category": "Outdoor/Camping",
+      "name": "Snowshoes",
+      "description": "16 pairs of snowshoes for winter hiking",
+      "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_essex_free_library_snowshoes"
+    },
+    {
+      "library": "Rochester Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Gold Panning Equipment",
+      "description": "Gold panning kit for recreational prospecting",
+      "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow",
+      "network": "vt_libraries",
+      "id": "vt_libraries_rochester_public_library_gold_panning_equipment"
+    },
+    {
+      "library": "Brooks Memorial Library",
+      "category": "Bicycle",
+      "name": "E-Bikes",
+      "description": "Electric bicycles available spring through fall",
+      "source_url": "https://brookslibraryvt.org/use-the-library/library-of-things/",
+      "network": "vt_libraries",
+      "id": "vt_libraries_brooks_memorial_library_e_bikes"
+    },
+    {
+      "library": "Brooks Memorial Library",
+      "category": "Gardening",
+      "name": "Seasonal Garden Tools",
+      "description": "Garden tools available spring through fall from Field to Fork tool cottage",
+      "source_url": "https://brookslibraryvt.org/use-the-library/library-of-things/",
+      "network": "vt_libraries",
+      "id": "vt_libraries_brooks_memorial_library_seasonal_garden_tools"
+    },
+    {
+      "library": "Brooks Memorial Library",
+      "category": "Kitchen",
+      "name": "Kitchen Tools",
+      "description": "Kitchen tools and equipment available year-round",
+      "source_url": "https://brookslibraryvt.org/use-the-library/library-of-things/",
+      "network": "vt_libraries",
+      "id": "vt_libraries_brooks_memorial_library_kitchen_tools"
+    },
+    {
+      "library": "Gretna Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Collection of board games for adults and families (limit 2 per card)",
+      "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/",
+      "network": "ne_libraries",
+      "id": "ne_libraries_gretna_public_library_board_games"
+    },
+    {
+      "library": "Gretna Public Library",
+      "category": "Kitchen",
+      "name": "Cake Pans",
+      "description": "Variety of cake pans, muffin tins, and cookie cutters (limit 2 per card)",
+      "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/",
+      "network": "ne_libraries",
+      "id": "ne_libraries_gretna_public_library_cake_pans"
+    },
+    {
+      "library": "Gretna Public Library",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Kit",
+      "description": "Kit with 6-12 discs and instructions, sponsored by Gretna Ace Hardware (limit 1 per card)",
+      "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/",
+      "network": "ne_libraries",
+      "id": "ne_libraries_gretna_public_library_disc_golf_kit"
+    },
+    {
+      "library": "Gretna Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Kit",
+      "description": "2- or 4-player kit with paddles, 3 balls, and instructions, sponsored by SCHEELS (limit 1 per card)",
+      "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/",
+      "network": "ne_libraries",
+      "id": "ne_libraries_gretna_public_library_pickleball_kit"
+    },
+    {
+      "library": "Gretna Public Library",
+      "category": "Games",
+      "name": "Puzzles",
+      "description": "Puzzles ranging from 25 to 2,500 pieces (limit 2 per card)",
+      "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/",
+      "network": "ne_libraries",
+      "id": "ne_libraries_gretna_public_library_puzzles"
+    },
+    {
+      "library": "Gretna Public Library",
+      "category": "Science/Education",
+      "name": "Story Time Kits",
+      "description": "Pre-selected books, crafts, and games for at-home story time (limit 1 per card)",
+      "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/",
+      "network": "ne_libraries",
+      "id": "ne_libraries_gretna_public_library_story_time_kits"
+    },
+    {
+      "library": "Gretna Public Library",
+      "category": "Science/Education",
+      "name": "Telescope Kit",
+      "description": "Telescope provided and maintained by Omaha Astronomical Society (limit 1 per card)",
+      "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/",
+      "network": "ne_libraries",
+      "id": "ne_libraries_gretna_public_library_telescope_kit"
+    },
+    {
+      "library": "Gretna Public Library",
+      "category": "Music",
+      "name": "Ukulele Kit",
+      "description": "Ukulele instrument with tuner (limit 1 per card)",
+      "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/",
+      "network": "ne_libraries",
+      "id": "ne_libraries_gretna_public_library_ukulele_kit"
+    },
+    {
+      "library": "Ralston Public Library",
+      "category": "Outdoor Games",
+      "name": "Lawn Games",
+      "description": "Outdoor lawn games collection",
+      "source_url": "https://www.3newsnow.com/papillion-lavista-ralston-bellevue/im-glad-they-have-it-ralstons-public-library-provides-access-to-a-variety-of-things",
+      "network": "ne_libraries",
+      "id": "ne_libraries_ralston_public_library_lawn_games"
+    },
+    {
+      "library": "Ralston Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machine available for checkout",
+      "source_url": "https://www.3newsnow.com/papillion-lavista-ralston-bellevue/im-glad-they-have-it-ralstons-public-library-provides-access-to-a-variety-of-things",
+      "network": "ne_libraries",
+      "id": "ne_libraries_ralston_public_library_sewing_machine"
+    },
+    {
+      "library": "Ralston Public Library",
+      "category": "Music",
+      "name": "Musical Instruments",
+      "description": "Musical instruments available for checkout",
+      "source_url": "https://www.3newsnow.com/papillion-lavista-ralston-bellevue/im-glad-they-have-it-ralstons-public-library-provides-access-to-a-variety-of-things",
+      "network": "ne_libraries",
+      "id": "ne_libraries_ralston_public_library_musical_instruments"
+    },
+    {
+      "library": "Ralston Public Library",
+      "category": "Technology",
+      "name": "Projector",
+      "description": "Projector for movies and presentations",
+      "source_url": "https://www.3newsnow.com/papillion-lavista-ralston-bellevue/im-glad-they-have-it-ralstons-public-library-provides-access-to-a-variety-of-things",
+      "network": "ne_libraries",
+      "id": "ne_libraries_ralston_public_library_projector"
+    },
+    {
+      "library": "Santa Fe Public Library",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspot",
+      "description": "Mobile internet device, free checkout for cardholders 18+",
+      "source_url": "https://www.santafelibrary.org/things",
+      "network": "nm_libraries",
+      "id": "nm_libraries_santa_fe_public_library_wi_fi_hotspot"
+    },
+    {
+      "library": "Santa Fe Public Library",
+      "category": "Technology",
+      "name": "Laptop",
+      "description": "Windows 11 computer with Microsoft Suite",
+      "source_url": "https://www.santafelibrary.org/things",
+      "network": "nm_libraries",
+      "id": "nm_libraries_santa_fe_public_library_laptop"
+    },
+    {
+      "library": "Santa Fe Public Library",
+      "category": "Science/Education",
+      "name": "Museum & Cultural Passes",
+      "description": "Admission passes to select museums, historic sites, and cultural centers in New Mexico",
+      "source_url": "https://www.santafelibrary.org/things",
+      "network": "nm_libraries",
+      "id": "nm_libraries_santa_fe_public_library_museum_&_cultural_passes"
+    },
+    {
+      "library": "Santa Fe Public Library",
+      "category": "Science/Education",
+      "name": "Early Literacy Kits (E.L.K.)",
+      "description": "Themed kits for caregivers to help children develop early literacy skills",
+      "source_url": "https://www.santafelibrary.org/things",
+      "network": "nm_libraries",
+      "id": "nm_libraries_santa_fe_public_library_early_literacy_kits_(e.l.k.)"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Music",
+      "name": "Ukulele Kit",
+      "description": "Ukulele with instructional DVD, string tuner, and song books",
+      "source_url": "https://abqlibrary.org/featured",
+      "network": "nm_libraries",
+      "id": "nm_libraries_albuquerque_bernalillo_county_library_ukulele_kit"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Outdoor/Camping",
+      "name": "Beginning Birding Kit",
+      "description": "Binoculars, birding guide, and resources for birdwatching",
+      "source_url": "https://abqlibrary.org/featured",
+      "network": "nm_libraries",
+      "id": "nm_libraries_albuquerque_bernalillo_county_library_beginning_birding_kit"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Measurement & Detection",
+      "name": "Kill-A-Watt Energy Use Meter",
+      "description": "Device to measure energy consumption of appliances",
+      "source_url": "https://abqlibrary.org/featured",
+      "network": "nm_libraries",
+      "id": "nm_libraries_albuquerque_bernalillo_county_library_kill_a_watt_energy_use_meter"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Kitchen",
+      "name": "Specialty Cake Pans",
+      "description": "30+ shaped pans including licensed characters, hearts, giant cupcakes; 3-week checkout",
+      "source_url": "https://abqlibrary.org/featured",
+      "network": "nm_libraries",
+      "id": "nm_libraries_albuquerque_bernalillo_county_library_specialty_cake_pans"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspots",
+      "description": "Mobile internet devices via T-Mobile partnership; 3-week checkout",
+      "source_url": "https://abqlibrary.org/featured",
+      "network": "nm_libraries",
+      "id": "nm_libraries_albuquerque_bernalillo_county_library_wi_fi_hotspots"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Science/Education",
+      "name": "Museum Discovery Passes",
+      "description": "Family passes for local art, history, science, and technology museums",
+      "source_url": "https://abqlibrary.org/featured",
+      "network": "nm_libraries",
+      "id": "nm_libraries_albuquerque_bernalillo_county_library_museum_discovery_passes"
+    },
+    {
+      "library": "Thomas Branigan Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Available for checkout from Library of Things collection",
+      "source_url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings/",
+      "network": "nm_libraries",
+      "id": "nm_libraries_thomas_branigan_memorial_library_sewing_machine"
+    },
+    {
+      "library": "Thomas Branigan Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Knitting & Crochet Needles",
+      "description": "Fiber arts tools for knitting and crochet projects",
+      "source_url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings/",
+      "network": "nm_libraries",
+      "id": "nm_libraries_thomas_branigan_memorial_library_knitting_&_crochet_needles"
+    },
+    {
+      "library": "Thomas Branigan Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Leatherworking Kit",
+      "description": "Tools and supplies for leatherworking projects",
+      "source_url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings/",
+      "network": "nm_libraries",
+      "id": "nm_libraries_thomas_branigan_memorial_library_leatherworking_kit"
+    },
+    {
+      "library": "Thomas Branigan Memorial Library",
+      "category": "Kitchen",
+      "name": "Custom Baking Pans",
+      "description": "Specialty shaped baking pans donated by community member",
+      "source_url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings/",
+      "network": "nm_libraries",
+      "id": "nm_libraries_thomas_branigan_memorial_library_custom_baking_pans"
+    },
+    {
+      "library": "Thomas Branigan Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Jewelry Making Kit",
+      "description": "Kit for jewelry crafting projects",
+      "source_url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings/",
+      "network": "nm_libraries",
+      "id": "nm_libraries_thomas_branigan_memorial_library_jewelry_making_kit"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Kitchen",
+      "name": "Cake Pans & Cookie Cutters",
+      "description": "Baking equipment for checkout",
+      "source_url": "https://bclibrary.org/library-of-things-10467",
+      "network": "nv_libraries",
+      "id": "nv_libraries_boulder_city_library_cake_pans_&_cookie_cutters"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Gardening",
+      "name": "Garden Tools",
+      "description": "Gardening equipment; requires signed waiver",
+      "source_url": "https://bclibrary.org/library-of-things-10467",
+      "network": "nv_libraries",
+      "id": "nv_libraries_boulder_city_library_garden_tools"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Auto/Vehicle",
+      "name": "Car Code Scanner",
+      "description": "OBD diagnostic device for vehicles",
+      "source_url": "https://bclibrary.org/library-of-things-10467",
+      "network": "nv_libraries",
+      "id": "nv_libraries_boulder_city_library_car_code_scanner"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Outdoor/Camping",
+      "name": "Hiking GPS",
+      "description": "GPS navigation equipment for hiking",
+      "source_url": "https://bclibrary.org/library-of-things-10467",
+      "network": "nv_libraries",
+      "id": "nv_libraries_boulder_city_library_hiking_gps"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Games for entertainment and recreation",
+      "source_url": "https://bclibrary.org/library-of-things-10467",
+      "network": "nv_libraries",
+      "id": "nv_libraries_boulder_city_library_board_games"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspot",
+      "description": "Mobile internet connectivity device",
+      "source_url": "https://bclibrary.org/library-of-things-10467",
+      "network": "nv_libraries",
+      "id": "nv_libraries_boulder_city_library_wi_fi_hotspot"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Science/Education",
+      "name": "STEAM Kits",
+      "description": "Educational STEAM activity kits; limit 1 per family",
+      "source_url": "https://bclibrary.org/library-of-things-10467",
+      "network": "nv_libraries",
+      "id": "nv_libraries_boulder_city_library_steam_kits"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Outdoor/Camping",
+      "name": "Hiking & Creature Discovery Backpacks",
+      "description": "Backpacks with nature exploration supplies",
+      "source_url": "https://bclibrary.org/library-of-things-10467",
+      "network": "nv_libraries",
+      "id": "nv_libraries_boulder_city_library_hiking_&_creature_discovery_backpacks"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Outdoor/Camping",
+      "name": "Nevada State Park Pass",
+      "description": "Entry to any of Nevada's 28 state parks, valid for 1 vehicle up to 8 passengers, 1-week checkout",
+      "source_url": "https://bclibrary.org/library-of-things-10467",
+      "network": "nv_libraries",
+      "id": "nv_libraries_boulder_city_library_nevada_state_park_pass"
+    },
+    {
+      "library": "Henderson District Public Libraries",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspot",
+      "description": "Portable internet device for checkout",
+      "source_url": "https://hendersonlibraries.com/",
+      "network": "nv_libraries",
+      "id": "nv_libraries_henderson_district_public_libraries_wi_fi_hotspot"
+    },
+    {
+      "library": "Henderson District Public Libraries",
+      "category": "Technology",
+      "name": "Chromebook",
+      "description": "Laptop computer for checkout",
+      "source_url": "https://hendersonlibraries.com/",
+      "network": "nv_libraries",
+      "id": "nv_libraries_henderson_district_public_libraries_chromebook"
+    },
+    {
+      "library": "Henderson District Public Libraries",
+      "category": "Outdoor/Camping",
+      "name": "Nevada State Park Pass",
+      "description": "Outdoor recreation access pass",
+      "source_url": "https://hendersonlibraries.com/",
+      "network": "nv_libraries",
+      "id": "nv_libraries_henderson_district_public_libraries_nevada_state_park_pass"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Spring Clamps Set",
+      "description": "1\", 2\", and 3\" clamps for woodworking and general use",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_spring_clamps_set"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "C Clamps Set",
+      "description": "4\" and 5\" heavy-duty clamping tools",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_c_clamps_set"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Bar Clamps",
+      "description": "4\" bar clamps for woodworking",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_bar_clamps"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Cross Peen Hammer",
+      "description": "2.5 lb metalworking hammer",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_cross_peen_hammer"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Engineer Hammer",
+      "description": "2.5 lb heavy hammer",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_engineer_hammer"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Measurement & Detection",
+      "name": "Bubble Level (2-foot)",
+      "description": "Leveling tool for construction and home improvement",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_bubble_level_(2_foot)"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Measurement & Detection",
+      "name": "Box Beam Level (4-foot)",
+      "description": "Large leveling tool for construction",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library____3f6ee43b"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Cold Chisel Set",
+      "description": "3-piece set for cutting and shaping metal",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_cold_chisel_set"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Tongue & Groove Plier Set",
+      "description": "3-piece set for plumbing and mechanical work",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library____3d78ca2b"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Tin Snip Set",
+      "description": "4-piece sheet metal cutting set",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_tin_snip_set"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Wood Chisel Set",
+      "description": "4-piece woodworking chisel set",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_wood_chisel_set"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Power Drill",
+      "description": "Cordless power drill for home improvement projects",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_power_drill"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Miter Saw",
+      "description": "Power saw for precise angled cuts",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_miter_saw"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Soldering Iron",
+      "description": "For electronics and metalwork",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_soldering_iron"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Screwdriver Set",
+      "description": "Assorted hand screwdrivers",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_screwdriver_set"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Hacksaw",
+      "description": "Manual cutting saw",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_hacksaw"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Staple Gun",
+      "description": "Fastening tool for upholstery and construction",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_staple_gun"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Party/Event",
+      "name": "Projector",
+      "description": "LCD projector for events and presentations",
+      "source_url": "https://www.dclibrary.org/using-the-library/event-supplies-library",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_projector"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Party/Event",
+      "name": "Projection Screen",
+      "description": "Portable projection screen for events",
+      "source_url": "https://www.dclibrary.org/using-the-library/event-supplies-library",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_projection_screen"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Party/Event",
+      "name": "Folding Tables",
+      "description": "Event furniture for community gatherings",
+      "source_url": "https://www.dclibrary.org/using-the-library/event-supplies-library",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_folding_tables"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Party/Event",
+      "name": "Folding Chairs",
+      "description": "Event seating for community gatherings",
+      "source_url": "https://www.dclibrary.org/using-the-library/event-supplies-library",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_folding_chairs"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Party/Event",
+      "name": "String Lights",
+      "description": "Decorative lighting for events",
+      "source_url": "https://www.dclibrary.org/using-the-library/event-supplies-library",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_public_library___tool_library_at_the_labs_string_lights"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Home Improvement",
+      "name": "Miter Saw",
+      "description": "Power saw for angled cuts",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_miter_saw"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Home Improvement",
+      "name": "Power Drill",
+      "description": "Portable power drill",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_power_drill"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Home Improvement",
+      "name": "Ladder",
+      "description": "Climbing access for home projects",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_ladder"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Home Improvement",
+      "name": "Shop Vacuum",
+      "description": "Wet/dry vacuum for workshop cleanup",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_shop_vacuum"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Home Improvement",
+      "name": "Power Washer",
+      "description": "Pressure washing equipment",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_power_washer"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Rakes",
+      "description": "Garden hand tools",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_rakes"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Weedwhacker",
+      "description": "String trimmer for yard work",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_weedwhacker"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Hedge Trimmers",
+      "description": "Powered hedge cutting tools",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_hedge_trimmers"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Shovels",
+      "description": "Digging tools for garden and yard",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_shovels"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Wheelbarrow",
+      "description": "Material transport for garden and yard",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_wheelbarrow"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Soil Testing Kit",
+      "description": "Kit to test soil composition and pH",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_soil_testing_kit"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Wheel Hoe",
+      "description": "Push cultivator for garden beds",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_wheel_hoe"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Bee Equipment",
+      "description": "Beekeeping supplies and tools",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_bee_equipment"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Outdoor/Camping",
+      "name": "Solar Oven",
+      "description": "Solar-powered cooking device",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_solar_oven"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Kitchen",
+      "name": "Cider Press",
+      "description": "Apple and fruit press for cider making",
+      "source_url": "https://dctoollibrary.org/",
+      "network": "dc_libraries",
+      "id": "dc_libraries_dc_tool_library_(green_neighbors_dc)_cider_press"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Drills",
+      "description": "Power drills for home projects",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_drills"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Hammers",
+      "description": "Hammers for general home improvement tasks",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_hammers"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Wrenches",
+      "description": "Wrench set for various fastening tasks",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_wrenches"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Trowels",
+      "description": "Trowels for masonry and gardening",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_trowels"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Drop Cloths",
+      "description": "Protective drop cloths for painting projects",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_drop_cloths"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Woodworking Tools",
+      "description": "Carpentry and wood project supplies",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_woodworking_tools"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Electrical Tools",
+      "description": "Wiring and electrical project equipment",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_electrical_tools"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Masonry Tools",
+      "description": "Stonework and masonry supplies",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_masonry_tools"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Remodeling Tools",
+      "description": "Home renovation supplies and tools",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_remodeling_tools"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Workshop Tools",
+      "description": "General workshop equipment",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_workshop_tools"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Safety Equipment",
+      "description": "Protective gear and safety equipment for projects",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_safety_equipment"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Auto/Vehicle",
+      "name": "Automotive Tools",
+      "description": "Car repair gadgets and vehicle maintenance equipment",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_automotive_tools"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Bicycle",
+      "name": "Bicycle Repair Station",
+      "description": "Outdoor bike repair station available 24/7",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_bicycle_repair_station"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Bicycle",
+      "name": "Bicycle Tools",
+      "description": "Bike maintenance and repair supplies",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_bicycle_tools"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Gardening",
+      "name": "Rakes",
+      "description": "Rakes for yard work and leaf collection",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_rakes"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Gardening",
+      "name": "Shovels",
+      "description": "Shovels for digging and yard work",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_shovels"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Gardening",
+      "name": "Pole Saw",
+      "description": "Extended reach saw for trimming tree branches",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_pole_saw"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Gardening",
+      "name": "Yardwork Tools",
+      "description": "Lawn and garden maintenance supplies",
+      "source_url": "https://cals.org/tool-library",
+      "network": "ar_libraries",
+      "id": "ar_libraries_central_arkansas_library_system_(cals)_yardwork_tools"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Bluetooth Speakers",
+      "description": "Portable Bluetooth speakers for audio playback",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_bluetooth_speakers"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "CD Boomboxes",
+      "description": "Portable CD players with speakers",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_cd_boomboxes"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Digital Voice Recorders",
+      "description": "Digital audio recording devices",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_digital_voice_recorders"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "DVD Players",
+      "description": "Portable DVD players",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_dvd_players"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "GoPro Cameras",
+      "description": "Action cameras for video recording",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_gopro_cameras"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Graphing Calculators",
+      "description": "Advanced graphing calculators for math and science",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_graphing_calculators"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "iPads",
+      "description": "Apple iPad tablets for in-library and checkout use",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_ipads"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Laptops",
+      "description": "Laptop computers for in-library use (5-hour sessions)",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_laptops"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Portable Document Scanners",
+      "description": "Compact scanners for digitizing documents",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_portable_document_scanners"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Projectors",
+      "description": "Video projectors for presentations and movie viewing",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_projectors"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Roku Players",
+      "description": "Streaming media players",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_roku_players"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detectors",
+      "description": "Metal detectors for treasure hunting and surveying",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_metal_detectors"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Science/Education",
+      "name": "Telescopes",
+      "description": "Orion StarBlast 4.5\" telescopes through STAR program",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_telescopes"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Science/Education",
+      "name": "Microscopes",
+      "description": "Microscopes for scientific observation",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_microscopes"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Science/Education",
+      "name": "Robotics Kits",
+      "description": "Code & Go Robot Mouse, Ozobot Evo, Sphero coding robots",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_robotics_kits"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Science/Education",
+      "name": "Science Exploration Kits",
+      "description": "Kits covering magnets, human body, molecules, and more",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_science_exploration_kits"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Science/Education",
+      "name": "Building & Construction Sets",
+      "description": "Engineering and construction kits for children and teens",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_building_&_construction_sets"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Games",
+      "name": "American Girl Dolls",
+      "description": "Various character dolls with accessories for checkout",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_american_girl_dolls"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Games",
+      "name": "Memory Games",
+      "description": "Memory and cognitive games for adults",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_memory_games"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "description": "Binoculars and bird identification guides",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_bird_watching_kit"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Music",
+      "name": "Ukuleles",
+      "description": "Ukuleles with instructional materials",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_ukuleles"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Music",
+      "name": "Drumming Kit",
+      "description": "Drum practice equipment and instructional materials",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_drumming_kit"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Music",
+      "name": "Piano Kit",
+      "description": "Portable piano/keyboard with learning materials",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_piano_kit"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machines",
+      "description": "Sewing machines for home use",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_sewing_machines"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Calligraphy Kit",
+      "description": "Calligraphy pens and practice materials",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_calligraphy_kit"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Chainmaille Kit",
+      "description": "Chain mail jewelry making supplies",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_chainmaille_kit"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Needle Crafts Kit",
+      "description": "Crochet and knitting supplies with instructions",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_needle_crafts_kit"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Origami Kit",
+      "description": "Origami paper and instructional guides",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_origami_kit"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Drawing Kit",
+      "description": "Drawing supplies and instructional materials",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_drawing_kit"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Coloring for Meditation Kit",
+      "description": "Adult coloring books and supplies for relaxation",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_coloring_for_meditation_kit"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Wellness/Health",
+      "name": "Light Therapy Lamp",
+      "description": "Light therapy device for seasonal affective disorder",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_light_therapy_lamp"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Wellness/Health",
+      "name": "Sleep Aids Kit",
+      "description": "Sleep improvement tools and resources",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_sleep_aids_kit"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Wellness/Health",
+      "name": "Library for Life Kits",
+      "description": "Resource kits for coping, memory care, and mental health",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_library_for_life_kits"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Home Improvement",
+      "name": "DIY Tool Sets",
+      "description": "General-purpose tool sets for home projects",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_bentonville_public_library_diy_tool_sets"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor Kit",
+      "description": "Blood pressure monitoring equipment (American Heart Association grant)",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_blood_pressure_monitor_kit"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Technology",
+      "name": "Chromebooks",
+      "description": "Small laptop computers available for 1-week checkout (9 available)",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_chromebooks"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Science/Education",
+      "name": "Early Literacy Backpacks",
+      "description": "8 themed sets with storybooks, toys, crafts, and parental guidance",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_early_literacy_backpacks"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Science/Education",
+      "name": "Literacy Boxes",
+      "description": "34 kits with learning exercises from farm animals to science experiments",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_literacy_boxes"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Games",
+      "name": "Monopoly Junior Dig'n Dinos Game",
+      "description": "Dinosaur-themed Monopoly board game for kids",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_monopoly_junior_dign_dinos_game"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Games",
+      "name": "Puzzles",
+      "description": "Assorted puzzles for adults and children in various themes and sizes",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_puzzles"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Kitchen",
+      "name": "Novelty Cake Pans",
+      "description": "Various shaped cake pans (2-week checkout)",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_novelty_cake_pans"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Rods",
+      "description": "Complete fishing setup with rod, reel, and hook",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_fishing_rods"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor Games",
+      "name": "Sidewalk Shuffleboard",
+      "description": "Outdoor shuffleboard game set",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_sidewalk_shuffleboard"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor Games",
+      "name": "Badminton Set",
+      "description": "Complete badminton set for outdoor play",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_badminton_set"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor Games",
+      "name": "Horseshoes",
+      "description": "Horseshoe tossing game set",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_horseshoes"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor Games",
+      "name": "Capture the Flag",
+      "description": "Outdoor capture the flag game kit",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_capture_the_flag"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor Games",
+      "name": "Frisbee Toss",
+      "description": "Frisbee toss game for outdoor family activities",
+      "source_url": "https://www.searlibrary.org/library-of-things",
+      "network": "ar_libraries",
+      "id": "ar_libraries_southeast_arkansas_regional_library_frisbee_toss"
+    },
+    {
+      "library": "Kanawha County Public Library",
+      "category": "Home Improvement",
+      "name": "Hand Tools",
+      "description": "Various hand tools for home repairs and projects (up to 5 at a time)",
+      "source_url": "https://www.kcpls.org/tool-lending-library",
+      "network": "wv_libraries",
+      "id": "wv_libraries_kanawha_county_public_library_hand_tools"
+    },
+    {
+      "library": "Kanawha County Public Library",
+      "category": "Home Improvement",
+      "name": "Power Tools",
+      "description": "Power tools for home improvement (up to 2 at a time)",
+      "source_url": "https://www.kcpls.org/tool-lending-library",
+      "network": "wv_libraries",
+      "id": "wv_libraries_kanawha_county_public_library_power_tools"
+    },
+    {
+      "library": "Kanawha County Public Library",
+      "category": "Home Improvement",
+      "name": "Hammers",
+      "description": "Hammers for general construction and repair tasks",
+      "source_url": "https://www.kcpls.org/tool-lending-library",
+      "network": "wv_libraries",
+      "id": "wv_libraries_kanawha_county_public_library_hammers"
+    },
+    {
+      "library": "Kanawha County Public Library",
+      "category": "Home Improvement",
+      "name": "Cement Mixer",
+      "description": "Cement mixer for concrete and masonry projects",
+      "source_url": "https://www.kcpls.org/tool-lending-library",
+      "network": "wv_libraries",
+      "id": "wv_libraries_kanawha_county_public_library_cement_mixer"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Gardening",
+      "name": "Garden Tools",
+      "description": "Garden tools for yard and garden work",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_garden_tools"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Gardening",
+      "name": "Hand Tiller",
+      "description": "Hand tiller for soil cultivation",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_hand_tiller"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Gardening",
+      "name": "Shovels and Rakes",
+      "description": "Shovels and rakes for yard work",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_shovels_and_rakes"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Home Improvement",
+      "name": "Mechanic Tool Set",
+      "description": "Complete mechanic tool set for repairs",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_mechanic_tool_set"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Home Improvement",
+      "name": "Household Tool Set",
+      "description": "General household tool set for home repairs",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_household_tool_set"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Home Improvement",
+      "name": "Sledgehammer",
+      "description": "Heavy sledgehammer for demolition and driving stakes",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_sledgehammer"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Home Improvement",
+      "name": "Power Tool Set",
+      "description": "Set of power tools for home projects",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_power_tool_set"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Home Improvement",
+      "name": "Rotary Tool Kit",
+      "description": "Rotary tool with accessories for cutting, grinding, and polishing",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_rotary_tool_kit"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Measurement & Detection",
+      "name": "Squares, Levels, and Accessory Kit",
+      "description": "Measurement tools including squares and levels",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison__75fa1118"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Science/Education",
+      "name": "STEM Kits",
+      "description": "Science, technology, engineering, and math educational kits",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_stem_kits"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Poles",
+      "description": "Fishing poles for outdoor recreation",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_fishing_poles"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Binoculars for bird watching and outdoor observation",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_binoculars"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Board games for family and group play",
+      "source_url": "https://www.clarksburglibrary.org/library-services",
+      "network": "wv_libraries",
+      "id": "wv_libraries_clarksburg_harrison_public_library_board_games"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Technology/Gaming",
+      "name": "Video Games",
+      "description": "Video games for checkout (7-day loan, max 5 per cardholder, 2 renewals)",
+      "source_url": "https://communitylibrary.net/borrow/",
+      "network": "id_libraries",
+      "id": "id_libraries_community_library_network_video_games"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Technology",
+      "name": "T-Mobile Hotspots",
+      "description": "Mobile WiFi hotspots for internet access (7-day loan, 2 renewals)",
+      "source_url": "https://communitylibrary.net/borrow/",
+      "network": "id_libraries",
+      "id": "id_libraries_community_library_network_t_mobile_hotspots"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Technology",
+      "name": "Roku Streaming Players",
+      "description": "Roku streaming media players (7-day loan, 2 renewals)",
+      "source_url": "https://communitylibrary.net/borrow/",
+      "network": "id_libraries",
+      "id": "id_libraries_community_library_network_roku_streaming_players"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Technology",
+      "name": "Apple TV",
+      "description": "Apple TV streaming devices (7-day loan, 2 renewals)",
+      "source_url": "https://communitylibrary.net/borrow/",
+      "network": "id_libraries",
+      "id": "id_libraries_community_library_network_apple_tv"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Home Improvement",
+      "name": "Tools",
+      "description": "Various tools available for checkout with Library of Things waiver",
+      "source_url": "https://communitylibrary.net/borrow/",
+      "network": "id_libraries",
+      "id": "id_libraries_community_library_network_tools"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Games",
+      "name": "Games",
+      "description": "Board games and other games for checkout",
+      "source_url": "https://communitylibrary.net/borrow/",
+      "network": "id_libraries",
+      "id": "id_libraries_community_library_network_games"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Crafts/Sewing",
+      "name": "Craft Gadgets",
+      "description": "Various craft tools and gadgets for creative projects",
+      "source_url": "https://communitylibrary.net/borrow/",
+      "network": "id_libraries",
+      "id": "id_libraries_community_library_network_craft_gadgets"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Science/Education",
+      "name": "Educator Kits (K-6)",
+      "description": "Ready-to-build kits for each grade level K-6, designed for educators",
+      "source_url": "https://communitylibrary.net/borrow/",
+      "network": "id_libraries",
+      "id": "id_libraries_community_library_network_educator_kits_(k_6)"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Impact Drivers and Wrenches",
+      "description": "Various sizes of impact drivers and wrenches",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse",
+      "network": "id_libraries",
+      "id": "id_libraries_creative_confluence_tool_library_impact_drivers_and_wrenches"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Rotary Hammer",
+      "description": "Rotary hammer for drilling into concrete and masonry",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse",
+      "network": "id_libraries",
+      "id": "id_libraries_creative_confluence_tool_library_rotary_hammer"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Angle Grinders",
+      "description": "Angle grinders for cutting and grinding metal and stone",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse",
+      "network": "id_libraries",
+      "id": "id_libraries_creative_confluence_tool_library_angle_grinders"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Orbital Sander",
+      "description": "Power sander for wood finishing and surface preparation",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse",
+      "network": "id_libraries",
+      "id": "id_libraries_creative_confluence_tool_library_orbital_sander"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Cordless Circular Saw",
+      "description": "Battery-powered circular saw for cutting wood",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse",
+      "network": "id_libraries",
+      "id": "id_libraries_creative_confluence_tool_library_cordless_circular_saw"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Drills",
+      "description": "Various power drills for drilling and driving",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse",
+      "network": "id_libraries",
+      "id": "id_libraries_creative_confluence_tool_library_drills"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Measurement & Detection",
+      "name": "Levels (2', 4', 6')",
+      "description": "Spirit levels in multiple sizes for leveling and alignment",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse",
+      "network": "id_libraries",
+      "id": "id_libraries_creative_confluence_tool_library_levels_(2,_4,_6)"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Gardening",
+      "name": "Pitchforks",
+      "description": "Pitchforks for hay, compost, and garden work",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse",
+      "network": "id_libraries",
+      "id": "id_libraries_creative_confluence_tool_library_pitchforks"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Trailer Hitches",
+      "description": "Trailer hitch equipment for towing",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse",
+      "network": "id_libraries",
+      "id": "id_libraries_creative_confluence_tool_library_trailer_hitches"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Outdoor/Camping",
+      "name": "Tents",
+      "description": "Camping tents available for checkout",
+      "source_url": "https://adalib.org/",
+      "network": "id_libraries",
+      "id": "id_libraries_ada_community_library_tents"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detectors",
+      "description": "Metal detectors for treasure hunting and exploration",
+      "source_url": "https://adalib.org/",
+      "network": "id_libraries",
+      "id": "id_libraries_ada_community_library_metal_detectors"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Bicycle",
+      "name": "Bicycle Repair Kits",
+      "description": "Bike repair tool kits for basic bicycle maintenance",
+      "source_url": "https://adalib.org/",
+      "network": "id_libraries",
+      "id": "id_libraries_ada_community_library_bicycle_repair_kits"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "description": "Bocce ball game set for outdoor play",
+      "source_url": "https://adalib.org/",
+      "network": "id_libraries",
+      "id": "id_libraries_ada_community_library_bocce_ball_set"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Outdoor Games",
+      "name": "Giant Jenga",
+      "description": "Oversized Jenga game for outdoor entertainment",
+      "source_url": "https://adalib.org/",
+      "network": "id_libraries",
+      "id": "id_libraries_ada_community_library_giant_jenga"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Outdoor/Camping",
+      "name": "Snowshoes",
+      "description": "Snowshoes for winter outdoor recreation",
+      "source_url": "https://adalib.org/",
+      "network": "id_libraries",
+      "id": "id_libraries_ada_community_library_snowshoes"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Wellness/Health",
+      "name": "Wellness Kits",
+      "description": "Health and wellness resource kits for checkout",
+      "source_url": "https://adalib.org/",
+      "network": "id_libraries",
+      "id": "id_libraries_ada_community_library_wellness_kits"
     }
   ],
   "metadata": {
-    "last_updated": "2026-03-22",
-    "total_items": 1299,
-    "total_libraries": 89,
-    "total_networks": 34,
+    "last_updated": "2026-03-23",
+    "total_items": 1778,
+    "total_libraries": 129,
+    "total_networks": 46,
     "generated_by": "consolidate.py"
   }
 }

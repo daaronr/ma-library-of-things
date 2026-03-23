@@ -1,0 +1,44 @@
+{
+  "network": {
+    "name": "Georgia Libraries",
+    "short_name": "GA",
+    "region": "Georgia",
+    "state": "GA"
+  },
+  "libraries": [
+    {
+      "name": "Chestatee Regional Library System",
+      "location": "Dahlonega, GA",
+      "lot_url": "https://chestateelibrary.org/"
+    },
+    {
+      "name": "Sequoyah Regional Library System",
+      "location": "Canton, GA",
+      "lot_url": "https://www.sequoyahregionallibrary.org/library-of-things"
+    },
+    {
+      "name": "Moultrie-Colquitt County Library",
+      "location": "Moultrie, GA",
+      "lot_url": "https://mccls.org/"
+    }
+  ],
+  "items": [
+    {"library": "Chestatee Regional Library System", "category": "Kitchen", "name": "Cake Pan Set", "description": "Themed cake pans for checkout", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"},
+    {"library": "Chestatee Regional Library System", "category": "Outdoor/Camping", "name": "Tent", "description": "Camping tent for outdoor use", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"},
+    {"library": "Chestatee Regional Library System", "category": "Outdoor/Camping", "name": "Binoculars", "description": "Binoculars for birdwatching and outdoor activities", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"},
+    {"library": "Chestatee Regional Library System", "category": "Science/Education", "name": "Telescope", "description": "Telescope for stargazing", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"},
+    {"library": "Chestatee Regional Library System", "category": "Auto/Vehicle", "name": "Car Diagnostic Code Reader", "description": "OBD code reader for vehicle diagnostics", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"},
+    {"library": "Chestatee Regional Library System", "category": "Technology", "name": "Raspberry Pi", "description": "Raspberry Pi computer for learning programming", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"},
+    {"library": "Chestatee Regional Library System", "category": "Technology", "name": "Launchpad", "description": "Electronic learning device", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"},
+    {"library": "Chestatee Regional Library System", "category": "Science/Education", "name": "Code-a-pillar", "description": "Coding toy for children", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"},
+    {"library": "Chestatee Regional Library System", "category": "Outdoor/Camping", "name": "Get Outdoors! Backpack", "description": "Backpack with learning activities for state park visits", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"},
+    {"library": "Chestatee Regional Library System", "category": "Science/Education", "name": "Flash Cards", "description": "Educational flash cards", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"},
+    {"library": "Chestatee Regional Library System", "category": "Science/Education", "name": "LeapFrog Reading Kit", "description": "Interactive reading learning kit for children", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"},
+    {"library": "Sequoyah Regional Library System", "category": "Crafts/Sewing", "name": "Sewing Machine", "description": "Sewing machines available for checkout (12 in collection)", "source_url": "https://www.sequoyahregionallibrary.org/library-of-things"},
+    {"library": "Moultrie-Colquitt County Library", "category": "Music", "name": "Ukulele with Instructional Materials", "description": "Kala Makala soprano ukulele with instructional books, DVDs, and tuner (20 in collection)", "source_url": "https://georgialibraries.org/a-library-of-things-public-libraries-provide-access-to-sewing-machines-cooking-pans-and-more/"}
+  ],
+  "metadata": {
+    "last_updated": "2026-03-22",
+    "notes": "Georgia public libraries offer various Library of Things items. Data sourced from Georgia Public Library Service articles and individual library websites. Georgia State Park Library passes are also available at many branches but are not included as physical items."
+  }
+}

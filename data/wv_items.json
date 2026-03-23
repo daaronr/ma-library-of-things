@@ -1,0 +1,144 @@
+{
+  "network": {
+    "name": "West Virginia Libraries",
+    "id": "west_virginia",
+    "region": "South"
+  },
+  "libraries": [
+    {
+      "name": "Kanawha County Public Library",
+      "location": "Charleston, WV",
+      "lot_url": "https://www.kcpls.org/tool-lending-library"
+    },
+    {
+      "name": "Clarksburg-Harrison Public Library",
+      "location": "Clarksburg, WV",
+      "lot_url": "https://www.clarksburglibrary.org/library-services"
+    }
+  ],
+  "items": [
+    {
+      "library": "Kanawha County Public Library",
+      "category": "Home Improvement",
+      "name": "Hand Tools",
+      "description": "Various hand tools for home repairs and projects (up to 5 at a time)",
+      "source_url": "https://www.kcpls.org/tool-lending-library"
+    },
+    {
+      "library": "Kanawha County Public Library",
+      "category": "Home Improvement",
+      "name": "Power Tools",
+      "description": "Power tools for home improvement (up to 2 at a time)",
+      "source_url": "https://www.kcpls.org/tool-lending-library"
+    },
+    {
+      "library": "Kanawha County Public Library",
+      "category": "Home Improvement",
+      "name": "Hammers",
+      "description": "Hammers for general construction and repair tasks",
+      "source_url": "https://www.kcpls.org/tool-lending-library"
+    },
+    {
+      "library": "Kanawha County Public Library",
+      "category": "Home Improvement",
+      "name": "Cement Mixer",
+      "description": "Cement mixer for concrete and masonry projects",
+      "source_url": "https://www.kcpls.org/tool-lending-library"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Gardening",
+      "name": "Garden Tools",
+      "description": "Garden tools for yard and garden work",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Gardening",
+      "name": "Hand Tiller",
+      "description": "Hand tiller for soil cultivation",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Gardening",
+      "name": "Shovels and Rakes",
+      "description": "Shovels and rakes for yard work",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Home Improvement",
+      "name": "Mechanic Tool Set",
+      "description": "Complete mechanic tool set for repairs",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Home Improvement",
+      "name": "Household Tool Set",
+      "description": "General household tool set for home repairs",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Home Improvement",
+      "name": "Sledgehammer",
+      "description": "Heavy sledgehammer for demolition and driving stakes",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Home Improvement",
+      "name": "Power Tool Set",
+      "description": "Set of power tools for home projects",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Home Improvement",
+      "name": "Rotary Tool Kit",
+      "description": "Rotary tool with accessories for cutting, grinding, and polishing",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Measurement & Detection",
+      "name": "Squares, Levels, and Accessory Kit",
+      "description": "Measurement tools including squares and levels",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Science/Education",
+      "name": "STEM Kits",
+      "description": "Science, technology, engineering, and math educational kits",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Poles",
+      "description": "Fishing poles for outdoor recreation",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "description": "Binoculars for bird watching and outdoor observation",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    },
+    {
+      "library": "Clarksburg-Harrison Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Board games for family and group play",
+      "source_url": "https://www.clarksburglibrary.org/library-services"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-22",
+    "notes": "West Virginia has 2 confirmed library tool lending programs. Kanawha County PL (Charleston) lends tools from hammers to cement mixers; max 7 items (2 power, 5 hand) for 14-day loan. Clarksburg-Harrison PL lends tools, STEM kits, outdoor equipment, and board games. Summers County PL also added utility wagons per ALA 2023 report but no detailed catalog was found online."
+  }
+}

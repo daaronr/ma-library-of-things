@@ -1,0 +1,135 @@
+{
+  "network": {
+    "name": "New Mexico Libraries",
+    "id": "nm_libraries",
+    "region": "Southwest"
+  },
+  "libraries": [
+    {
+      "name": "Santa Fe Public Library",
+      "location": "Santa Fe, NM",
+      "lot_url": "https://www.santafelibrary.org/things"
+    },
+    {
+      "name": "Albuquerque Bernalillo County Library",
+      "location": "Albuquerque, NM",
+      "lot_url": "https://abqlibrary.org/featured"
+    },
+    {
+      "name": "Thomas Branigan Memorial Library",
+      "location": "Las Cruces, NM",
+      "lot_url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings/"
+    }
+  ],
+  "items": [
+    {
+      "library": "Santa Fe Public Library",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspot",
+      "description": "Mobile internet device, free checkout for cardholders 18+",
+      "source_url": "https://www.santafelibrary.org/things"
+    },
+    {
+      "library": "Santa Fe Public Library",
+      "category": "Technology",
+      "name": "Laptop",
+      "description": "Windows 11 computer with Microsoft Suite",
+      "source_url": "https://www.santafelibrary.org/things"
+    },
+    {
+      "library": "Santa Fe Public Library",
+      "category": "Science/Education",
+      "name": "Museum & Cultural Passes",
+      "description": "Admission passes to select museums, historic sites, and cultural centers in New Mexico",
+      "source_url": "https://www.santafelibrary.org/things"
+    },
+    {
+      "library": "Santa Fe Public Library",
+      "category": "Science/Education",
+      "name": "Early Literacy Kits (E.L.K.)",
+      "description": "Themed kits for caregivers to help children develop early literacy skills",
+      "source_url": "https://www.santafelibrary.org/things"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Music",
+      "name": "Ukulele Kit",
+      "description": "Ukulele with instructional DVD, string tuner, and song books",
+      "source_url": "https://abqlibrary.org/featured"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Outdoor/Camping",
+      "name": "Beginning Birding Kit",
+      "description": "Binoculars, birding guide, and resources for birdwatching",
+      "source_url": "https://abqlibrary.org/featured"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Measurement & Detection",
+      "name": "Kill-A-Watt Energy Use Meter",
+      "description": "Device to measure energy consumption of appliances",
+      "source_url": "https://abqlibrary.org/featured"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Kitchen",
+      "name": "Specialty Cake Pans",
+      "description": "30+ shaped pans including licensed characters, hearts, giant cupcakes; 3-week checkout",
+      "source_url": "https://abqlibrary.org/featured"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspots",
+      "description": "Mobile internet devices via T-Mobile partnership; 3-week checkout",
+      "source_url": "https://abqlibrary.org/featured"
+    },
+    {
+      "library": "Albuquerque Bernalillo County Library",
+      "category": "Science/Education",
+      "name": "Museum Discovery Passes",
+      "description": "Family passes for local art, history, science, and technology museums",
+      "source_url": "https://abqlibrary.org/featured"
+    },
+    {
+      "library": "Thomas Branigan Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Available for checkout from Library of Things collection",
+      "source_url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings/"
+    },
+    {
+      "library": "Thomas Branigan Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Knitting & Crochet Needles",
+      "description": "Fiber arts tools for knitting and crochet projects",
+      "source_url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings/"
+    },
+    {
+      "library": "Thomas Branigan Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Leatherworking Kit",
+      "description": "Tools and supplies for leatherworking projects",
+      "source_url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings/"
+    },
+    {
+      "library": "Thomas Branigan Memorial Library",
+      "category": "Kitchen",
+      "name": "Custom Baking Pans",
+      "description": "Specialty shaped baking pans donated by community member",
+      "source_url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings/"
+    },
+    {
+      "library": "Thomas Branigan Memorial Library",
+      "category": "Crafts/Sewing",
+      "name": "Jewelry Making Kit",
+      "description": "Kit for jewelry crafting projects",
+      "source_url": "https://lascruces.gov/arts-and-leisure/libraries/libraryofthings/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-23",
+    "data_source": "Manual research"
+  }
+}

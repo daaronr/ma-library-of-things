@@ -1,0 +1,154 @@
+{
+  "network": {
+    "name": "Vermont Libraries",
+    "short_name": "VT",
+    "region": "Vermont",
+    "state": "VT",
+    "notes": "Vermont public libraries with Library of Things programs."
+  },
+  "libraries": [
+    {
+      "name": "Fletcher Free Library",
+      "location": "Burlington, VT",
+      "lot_url": "https://fletcherfree.org/LOT"
+    },
+    {
+      "name": "Brooks Memorial Library",
+      "location": "Brattleboro, VT",
+      "lot_url": "https://brookslibraryvt.org/use-the-library/library-of-things/"
+    },
+    {
+      "name": "Richmond Free Library",
+      "location": "Richmond, VT",
+      "lot_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow"
+    },
+    {
+      "name": "Brownell Library",
+      "location": "Essex Junction, VT",
+      "lot_url": "https://www.brownelllibrary.org/"
+    },
+    {
+      "name": "Ilsley Public Library",
+      "location": "Middlebury, VT",
+      "lot_url": "https://www.ilsleypubliclibrary.org/"
+    },
+    {
+      "name": "Essex Free Library",
+      "location": "Essex, VT",
+      "lot_url": "https://www.essexfreelibrary.org/"
+    },
+    {
+      "name": "Norman Williams Public Library",
+      "location": "Woodstock, VT",
+      "lot_url": "https://normanwilliams.org/"
+    },
+    {
+      "name": "Rochester Public Library",
+      "location": "Rochester, VT",
+      "lot_url": "https://www.rochesterpubliclibraryvt.org/"
+    }
+  ],
+  "items": [
+    {"library": "Fletcher Free Library", "category": "Crafts/Sewing", "name": "10 Piece Jewelry Tool Kit", "description": "Jewelry making tool set", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Crafts/Sewing", "name": "Cordless Steam Iron", "description": "Cordless iron for sewing and fabric projects", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Crafts/Sewing", "name": "Darning Loom", "description": "Loom for darning and mending", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Crafts/Sewing", "name": "Afghan Loom", "description": "Loom for creating afghans and blankets", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Crafts/Sewing", "name": "Yarn Swift", "description": "Tool for holding yarn skeins while winding", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Crafts/Sewing", "name": "Yarn Winder", "description": "Tool for winding yarn into balls", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Round Tart/Quiche Pan (9 inch)", "description": "9-inch round tart and quiche baking pan", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Bundt Cake Pan (12 Cup)", "description": "12-cup bundt cake baking pan", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Bundt Quartet", "description": "Mini bundt cake pan set", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Butterfly Cake Pan", "description": "Butterfly-shaped specialty cake pan", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Cake Decorating Kit", "description": "Kit with tools for decorating cakes", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Car-Shaped Baking Mold", "description": "Car-shaped specialty baking mold", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Cookie Press", "description": "Press for making shaped cookies", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Cooling Rack", "description": "Wire rack for cooling baked goods", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Dinosaur Cake Pan", "description": "Dinosaur-shaped specialty cake pan", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Food Dehydrator", "description": "Electric food dehydrator for drying fruits, herbs, and jerky", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Holiday Cookie Cutters", "description": "Holiday-themed cookie cutter sets (Halloween, Valentines)", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Heart-Shaped Cake Pan", "description": "Heart-shaped specialty cake pan", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Knife Sharpener", "description": "Knife sharpening tool", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Mini Muffin Tins", "description": "Mini-sized muffin baking tins", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Pasta Maker", "description": "Manual pasta making machine", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Racecar-Shaped Cake Pan", "description": "Racecar-shaped specialty cake pan", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Kitchen", "name": "Springform Cake Pan", "description": "Springform pan for cheesecakes and layer cakes", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Games", "name": "Board Game Collection", "description": "65+ board games including Catan, Pandemic, Ticket to Ride, Wingspan, Scrabble, Cranium, Exploding Kittens, and more", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Games", "name": "Mahjong Set", "description": "Traditional Mahjong tile game set", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Games", "name": "3-in-1 Magnetic Board Game Set", "description": "Magnetic travel game set with three games", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Outdoor Games", "name": "Giant Connect 4", "description": "Oversized Connect Four outdoor game", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Outdoor Games", "name": "Giant Jenga", "description": "Oversized Jenga outdoor game", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Outdoor Games", "name": "Giant Tic Tac Toe", "description": "Oversized Tic Tac Toe outdoor game", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Outdoor Games", "name": "Croquet", "description": "Croquet lawn game set", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Outdoor Games", "name": "Slammo", "description": "Outdoor ball-bouncing game (similar to Spikeball)", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Cultivators", "description": "Hand cultivating tools for garden beds", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Garden Shovels and Spades", "description": "Assorted garden digging tools", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Bulb Planters", "description": "Tools for planting flower bulbs", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Edgers", "description": "Garden edging tools", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Folding Saw", "description": "Folding pruning saw", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Garden Forks", "description": "Various garden forks for soil work", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Garden Hose", "description": "Garden watering hose", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Grass Clippers", "description": "Manual grass cutting clippers", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Hedge Trimmers", "description": "Hedge trimming shears", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Hoes", "description": "Garden hoes for weeding and soil work", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Post Digger", "description": "Post hole digger tool", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Rakes", "description": "Garden and leaf rakes", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Gardening", "name": "Tree Trimmers", "description": "Tree branch trimming tools", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Home Improvement", "name": "Drill/Driver", "description": "Cordless drill and driver", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Home Improvement", "name": "Home Repair Tools", "description": "Basic home repair tool kit", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Home Improvement", "name": "14 Inch Wide Flooring Scraper", "description": "Wide scraper for flooring removal", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Home Improvement", "name": "6 Inch Heavy Duty Scraper", "description": "Heavy duty scraping tool", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Measurement & Detection", "name": "Hygrometer", "description": "Humidity measuring device", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Home Inspection", "name": "Infrared Thermal Camera", "description": "TG 165 infrared thermal imaging camera for heat loss detection", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Measurement & Detection", "name": "Infrared Thermometer", "description": "Non-contact infrared temperature measuring device", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Measurement & Detection", "name": "Watts Up? Power Analyzer", "description": "Device for measuring electrical power consumption", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Measurement & Detection", "name": "Laser Measure", "description": "Laser distance measuring tool", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Music", "name": "Moog Theremini", "description": "Electronic theremin musical instrument by Moog", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Measurement & Detection", "name": "Metal Detector", "description": "Metal detector for treasure hunting and exploration", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Crafts/Sewing", "name": "Sewing Kit", "description": "Basic sewing kit with supplies", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Crafts/Sewing", "name": "Letter and Number Stamp Set", "description": "Stamp set for crafting with letters and numbers", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Crafts/Sewing", "name": "Portable Drawing Easel", "description": "Portable easel for drawing and painting", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Outdoor/Camping", "name": "Adult Snowshoes", "description": "Snowshoes for adults (seasonal)", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Outdoor/Camping", "name": "Youth Snowshoes", "description": "Snowshoes for youth (seasonal)", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Outdoor/Camping", "name": "Beach and Sandcastle Kit", "description": "Beach toys and sandcastle building tools", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Outdoor Games", "name": "Tennis Rackets", "description": "Tennis rackets for checkout", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Technology", "name": "Laminator", "description": "Document laminating machine", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Technology", "name": "NT-USB Microphone", "description": "USB microphone for recording", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Technology", "name": "Portable CD Player", "description": "Portable CD player for checkout", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Science/Education", "name": "Telescope", "description": "Telescope for stargazing", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Science/Education", "name": "Citizenship Toolkit 2025", "description": "Resources for U.S. citizenship preparation", "source_url": "https://fletcherfree.org/LOT"},
+    {"library": "Fletcher Free Library", "category": "Outdoor/Camping", "name": "Snow Brick Maker", "description": "Mold for making snow bricks (seasonal)", "source_url": "https://fletcherfree.org/LOT"},
+
+    {"library": "Richmond Free Library", "category": "Crafts/Sewing", "name": "Sewing Machine", "description": "Sewing machine for checkout", "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow"},
+    {"library": "Richmond Free Library", "category": "Games", "name": "Family Board Games", "description": "Collection of family board games", "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow"},
+    {"library": "Richmond Free Library", "category": "Measurement & Detection", "name": "Kilowatt Electricity Usage Meter", "description": "Device for measuring electrical power consumption", "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow"},
+    {"library": "Richmond Free Library", "category": "Wellness/Health", "name": "Blood Pressure Monitor", "description": "Digital blood pressure monitoring device", "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow"},
+    {"library": "Richmond Free Library", "category": "Measurement & Detection", "name": "Firewood Moisture Meter", "description": "Meter for measuring firewood moisture content", "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow"},
+    {"library": "Richmond Free Library", "category": "Outdoor/Camping", "name": "Snowshoes", "description": "Snowshoes for winter hiking", "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow"},
+    {"library": "Richmond Free Library", "category": "Outdoor/Camping", "name": "Trekking Poles", "description": "Hiking trekking poles", "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow"},
+    {"library": "Richmond Free Library", "category": "Outdoor Games", "name": "Bocce Set", "description": "Bocce ball lawn game set", "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow"},
+    {"library": "Richmond Free Library", "category": "Outdoor Games", "name": "Cornhole Set", "description": "Cornhole bean bag toss game", "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow"},
+    {"library": "Richmond Free Library", "category": "Science/Education", "name": "STEAM Kits", "description": "Science, Technology, Engineering, Art, and Math educational kits", "source_url": "https://www.richmondfreelibraryvt.org/at-the-library/borrow"},
+
+    {"library": "Brownell Library", "category": "Party/Event", "name": "Karaoke Machine", "description": "Karaoke machine with microphone", "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow"},
+    {"library": "Brownell Library", "category": "Technology", "name": "Walkie-Talkies", "description": "Two-way radio communication devices", "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow"},
+    {"library": "Brownell Library", "category": "Crafts/Sewing", "name": "Round Loom", "description": "Circular knitting loom for yarn projects", "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow"},
+    {"library": "Brownell Library", "category": "Games", "name": "Tarot Kit", "description": "Tarot card set with instruction materials", "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow"},
+
+    {"library": "Ilsley Public Library", "category": "Bicycle", "name": "E-Bike", "description": "Electric bicycle available for checkout", "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow"},
+    {"library": "Ilsley Public Library", "category": "Science/Education", "name": "Orion StarBlast Telescope", "description": "4.5-inch tabletop telescope for stargazing", "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow"},
+    {"library": "Ilsley Public Library", "category": "Technology", "name": "Epson LCD Projector", "description": "LCD video projector for presentations and movies", "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow"},
+
+    {"library": "Essex Free Library", "category": "Music", "name": "Ukuleles", "description": "Nine ukuleles available for checkout", "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow"},
+    {"library": "Essex Free Library", "category": "Outdoor/Camping", "name": "Snowshoes", "description": "16 pairs of snowshoes for winter hiking", "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow"},
+
+    {"library": "Rochester Public Library", "category": "Outdoor/Camping", "name": "Gold Panning Equipment", "description": "Gold panning kit for recreational prospecting", "source_url": "https://www.vlct.org/article/library-things-non-traditional-items-borrow"},
+
+    {"library": "Brooks Memorial Library", "category": "Bicycle", "name": "E-Bikes", "description": "Electric bicycles available spring through fall", "source_url": "https://brookslibraryvt.org/use-the-library/library-of-things/"},
+    {"library": "Brooks Memorial Library", "category": "Gardening", "name": "Seasonal Garden Tools", "description": "Garden tools available spring through fall from Field to Fork tool cottage", "source_url": "https://brookslibraryvt.org/use-the-library/library-of-things/"},
+    {"library": "Brooks Memorial Library", "category": "Kitchen", "name": "Kitchen Tools", "description": "Kitchen tools and equipment available year-round", "source_url": "https://brookslibraryvt.org/use-the-library/library-of-things/"}
+  ],
+  "metadata": {
+    "last_updated": "2026-03-22",
+    "source": "Manual research from library websites, VLCT article, and Vermont Department of Libraries"
+  }
+}

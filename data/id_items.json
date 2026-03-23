@@ -1,0 +1,198 @@
+{
+  "network": {
+    "name": "Idaho Libraries",
+    "id": "idaho",
+    "region": "Northwest"
+  },
+  "libraries": [
+    {
+      "name": "Community Library Network",
+      "location": "Post Falls / Coeur d'Alene, ID",
+      "lot_url": "https://communitylibrary.net/borrow/"
+    },
+    {
+      "name": "Creative Confluence Tool Library",
+      "location": "Salmon, ID",
+      "lot_url": "https://salmonconfluence.org/tools"
+    },
+    {
+      "name": "Ada Community Library",
+      "location": "Boise area, ID",
+      "lot_url": "https://adalib.org/"
+    }
+  ],
+  "items": [
+    {
+      "library": "Community Library Network",
+      "category": "Technology/Gaming",
+      "name": "Video Games",
+      "description": "Video games for checkout (7-day loan, max 5 per cardholder, 2 renewals)",
+      "source_url": "https://communitylibrary.net/borrow/"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Technology",
+      "name": "T-Mobile Hotspots",
+      "description": "Mobile WiFi hotspots for internet access (7-day loan, 2 renewals)",
+      "source_url": "https://communitylibrary.net/borrow/"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Technology",
+      "name": "Roku Streaming Players",
+      "description": "Roku streaming media players (7-day loan, 2 renewals)",
+      "source_url": "https://communitylibrary.net/borrow/"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Technology",
+      "name": "Apple TV",
+      "description": "Apple TV streaming devices (7-day loan, 2 renewals)",
+      "source_url": "https://communitylibrary.net/borrow/"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Home Improvement",
+      "name": "Tools",
+      "description": "Various tools available for checkout with Library of Things waiver",
+      "source_url": "https://communitylibrary.net/borrow/"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Games",
+      "name": "Games",
+      "description": "Board games and other games for checkout",
+      "source_url": "https://communitylibrary.net/borrow/"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Crafts/Sewing",
+      "name": "Craft Gadgets",
+      "description": "Various craft tools and gadgets for creative projects",
+      "source_url": "https://communitylibrary.net/borrow/"
+    },
+    {
+      "library": "Community Library Network",
+      "category": "Science/Education",
+      "name": "Educator Kits (K-6)",
+      "description": "Ready-to-build kits for each grade level K-6, designed for educators",
+      "source_url": "https://communitylibrary.net/borrow/"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Impact Drivers and Wrenches",
+      "description": "Various sizes of impact drivers and wrenches",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Rotary Hammer",
+      "description": "Rotary hammer for drilling into concrete and masonry",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Angle Grinders",
+      "description": "Angle grinders for cutting and grinding metal and stone",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Orbital Sander",
+      "description": "Power sander for wood finishing and surface preparation",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Cordless Circular Saw",
+      "description": "Battery-powered circular saw for cutting wood",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Home Improvement",
+      "name": "Drills",
+      "description": "Various power drills for drilling and driving",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Measurement & Detection",
+      "name": "Levels (2', 4', 6')",
+      "description": "Spirit levels in multiple sizes for leveling and alignment",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Gardening",
+      "name": "Pitchforks",
+      "description": "Pitchforks for hay, compost, and garden work",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Creative Confluence Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Trailer Hitches",
+      "description": "Trailer hitch equipment for towing",
+      "source_url": "https://salmonconfluence.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Outdoor/Camping",
+      "name": "Tents",
+      "description": "Camping tents available for checkout",
+      "source_url": "https://adalib.org/"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detectors",
+      "description": "Metal detectors for treasure hunting and exploration",
+      "source_url": "https://adalib.org/"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Bicycle",
+      "name": "Bicycle Repair Kits",
+      "description": "Bike repair tool kits for basic bicycle maintenance",
+      "source_url": "https://adalib.org/"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "description": "Bocce ball game set for outdoor play",
+      "source_url": "https://adalib.org/"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Outdoor Games",
+      "name": "Giant Jenga",
+      "description": "Oversized Jenga game for outdoor entertainment",
+      "source_url": "https://adalib.org/"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Outdoor/Camping",
+      "name": "Snowshoes",
+      "description": "Snowshoes for winter outdoor recreation",
+      "source_url": "https://adalib.org/"
+    },
+    {
+      "library": "Ada Community Library",
+      "category": "Wellness/Health",
+      "name": "Wellness Kits",
+      "description": "Health and wellness resource kits for checkout",
+      "source_url": "https://adalib.org/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-22",
+    "notes": "Idaho has 3 confirmed Library of Things programs. Community Library Network (North Idaho) lends games, tech, tools, and craft gadgets with a waiver. Creative Confluence Tool Library in Salmon has 217+ tools with $50/year membership for families. Ada Community Library (Boise area) lends outdoor gear, games, and wellness kits. Idaho Share & Supply (Boise nonprofit) was planned but their website appears to be down as of March 2026. Gizmo-CDA (Coeur d'Alene) lends STEM equipment to educators only."
+  }
+}

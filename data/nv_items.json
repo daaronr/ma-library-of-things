@@ -1,0 +1,109 @@
+{
+  "network": {
+    "name": "Nevada Libraries",
+    "id": "nv_libraries",
+    "region": "Mountain West"
+  },
+  "libraries": [
+    {
+      "name": "Boulder City Library",
+      "location": "Boulder City, NV",
+      "lot_url": "https://bclibrary.org/library-of-things-10467"
+    },
+    {
+      "name": "Henderson District Public Libraries",
+      "location": "Henderson, NV",
+      "lot_url": "https://hendersonlibraries.com/"
+    }
+  ],
+  "items": [
+    {
+      "library": "Boulder City Library",
+      "category": "Kitchen",
+      "name": "Cake Pans & Cookie Cutters",
+      "description": "Baking equipment for checkout",
+      "source_url": "https://bclibrary.org/library-of-things-10467"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Gardening",
+      "name": "Garden Tools",
+      "description": "Gardening equipment; requires signed waiver",
+      "source_url": "https://bclibrary.org/library-of-things-10467"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Auto/Vehicle",
+      "name": "Car Code Scanner",
+      "description": "OBD diagnostic device for vehicles",
+      "source_url": "https://bclibrary.org/library-of-things-10467"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Outdoor/Camping",
+      "name": "Hiking GPS",
+      "description": "GPS navigation equipment for hiking",
+      "source_url": "https://bclibrary.org/library-of-things-10467"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Games for entertainment and recreation",
+      "source_url": "https://bclibrary.org/library-of-things-10467"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspot",
+      "description": "Mobile internet connectivity device",
+      "source_url": "https://bclibrary.org/library-of-things-10467"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Science/Education",
+      "name": "STEAM Kits",
+      "description": "Educational STEAM activity kits; limit 1 per family",
+      "source_url": "https://bclibrary.org/library-of-things-10467"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Outdoor/Camping",
+      "name": "Hiking & Creature Discovery Backpacks",
+      "description": "Backpacks with nature exploration supplies",
+      "source_url": "https://bclibrary.org/library-of-things-10467"
+    },
+    {
+      "library": "Boulder City Library",
+      "category": "Outdoor/Camping",
+      "name": "Nevada State Park Pass",
+      "description": "Entry to any of Nevada's 28 state parks, valid for 1 vehicle up to 8 passengers, 1-week checkout",
+      "source_url": "https://bclibrary.org/library-of-things-10467"
+    },
+    {
+      "library": "Henderson District Public Libraries",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspot",
+      "description": "Portable internet device for checkout",
+      "source_url": "https://hendersonlibraries.com/"
+    },
+    {
+      "library": "Henderson District Public Libraries",
+      "category": "Technology",
+      "name": "Chromebook",
+      "description": "Laptop computer for checkout",
+      "source_url": "https://hendersonlibraries.com/"
+    },
+    {
+      "library": "Henderson District Public Libraries",
+      "category": "Outdoor/Camping",
+      "name": "Nevada State Park Pass",
+      "description": "Outdoor recreation access pass",
+      "source_url": "https://hendersonlibraries.com/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-23",
+    "data_source": "Manual research"
+  }
+}

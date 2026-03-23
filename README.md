@@ -1,11 +1,13 @@
-# Library of Things - Northeast US
+# Library of Things USA
 
-A consolidated, searchable database of "Library of Things" items available through public library networks in the Northeast United States. These programs allow library cardholders to borrow tools, equipment, technology, and other non-traditional items for free.
+A consolidated, searchable database of "Library of Things" items available through public libraries and tool-lending organizations across the United States. These programs allow community members to borrow tools, equipment, technology, outdoor gear, and other non-traditional items — often for free.
 
 **Features:**
 - Search by location (ZIP code or geolocation)
 - Filter by radius (5, 10, 25, 50 miles)
-- Browse by network, library, or category
+- Browse by network, library, state, or category
+- Filter by organization type (public library vs. tool library) and free-only items
+- Statistics dashboard with coverage breakdowns
 - Direct links to library catalogs
 
 > **DISCLAIMER:** This is an independent, community-maintained project. It is not affiliated with, endorsed by, or officially connected to any library network or individual library. For official information, please contact your local library directly.
@@ -14,37 +16,54 @@ A consolidated, searchable database of "Library of Things" items available throu
 
 Library of Things programs are incredible public resources, but discovery is fragmented. Each library maintains its own webpage, making it difficult for patrons to find what's available across networks. This project consolidates that information into a searchable unified app with location-based filtering.
 
-## Networks Covered
+## Current Coverage
 
-### Massachusetts
-| Network | Region | Items | Status |
-|---------|--------|-------|--------|
-| **Minuteman (MLN)** | MetroWest Boston | 98+ | Active |
-| **CWMARS** | Central/Western MA | 41+ | Active |
+**1,299+ items across 34 networks in 32 states**
 
-### Connecticut
-| Network | Region | Items | Status |
-|---------|--------|-------|--------|
-| **Bibliomation** | Connecticut | 19+ | Active |
+### Public Libraries
 
-### Rhode Island
-| Network | Region | Items | Status |
-|---------|--------|-------|--------|
-| **Ocean State Libraries** | Rhode Island | 75+ | Active |
+| State | Network | Items | Status |
+|-------|---------|-------|--------|
+| AZ | Arizona Libraries | 3+ | Active |
+| CA | California Libraries | 92+ | Active |
+| CO | Colorado Libraries | 12+ | Active |
+| CT | Connecticut Libraries (Bibliomation) | 19+ | Active |
+| DE | Delaware Libraries | 30+ | Active |
+| FL | Florida Libraries | 18+ | Active |
+| IA | Iowa Libraries | 19+ | Active |
+| IL | Illinois Libraries | 15+ | Active |
+| IN | Indiana Libraries | 20+ | Active |
+| KS | Kansas Libraries | 10+ | Active |
+| LA | Louisiana Libraries | 4+ | Active |
+| MA | Minuteman Library Network (MLN) | 130+ | Active |
+| MA | CWMARS | 41+ | Active |
+| MD | Maryland Libraries | 11+ | Active |
+| ME | Maine Libraries | 113+ | Active |
+| MI | Michigan Libraries | 36+ | Active |
+| MO | Missouri Libraries | 10+ | Active |
+| NC | North Carolina Libraries | 7+ | Active |
+| NJ | New Jersey Libraries | 47+ | Active |
+| NY | New York Libraries | 22+ | Active |
+| OH | Ohio Libraries | 13+ | Active |
+| OK | Oklahoma Libraries | 31+ | Active |
+| PA | Pennsylvania Libraries | 30+ | Active |
+| RI | Ocean State Libraries | 75+ | Active |
+| SC | South Carolina Libraries (Richland) | 180+ | Active |
+| TN | Tennessee Libraries | 15+ | Active |
+| TX | Texas Libraries | 14+ | Active |
+| UT | Utah Libraries | 14+ | Active |
+| WI | Wisconsin Libraries | 14+ | Active |
 
-### New York
-| Network | Region | Items | Status |
-|---------|--------|-------|--------|
-| **Nassau/Suffolk** | Long Island | 14+ | Active |
-| **NYPL/Queens** | NYC | 8+ | Active |
+### Tool Libraries & Sharing Organizations
 
-### New Jersey
-| Network | Region | Items | Status |
-|---------|--------|-------|--------|
-| **BCCLS** | Bergen/Essex County | 24+ | Active |
-| **MAIN/STELLA** | Morris/Somerset/Middlesex | 23+ | Active |
-
-**Total:** 302+ verified items across 31 libraries in 6 networks (5 states)
+| State | Organization | Items Listed | Total Collection | Fee |
+|-------|-------------|-------------|-----------------|-----|
+| CA | Berkeley Tool Lending Library | 92+ | ~3,500 tools | FREE |
+| MN | Minnesota Tool Library | 50+ | 8,219 tools | $65-120/yr |
+| NY | The Tool Library, Buffalo | 50+ | 4,806 tools | $30-150/yr |
+| OR | Oregon Tool Libraries | 15+ | varies | varies |
+| VA | Charlottesville Tool Library | 89+ | 1,071 tools | varies |
+| WA | West Seattle Tool Library | 50+ | 2,426 tools | pay what you can |
 
 ### Excluded Libraries
 
@@ -55,19 +74,11 @@ The following libraries have been excluded due to their Terms of Service explici
 | Boston Public Library | BiblioCommons ToS prohibits automated harvesting |
 | Brooklyn Public Library | BiblioCommons ToS prohibits automated harvesting |
 | SAILS Network (Bridgewater, W. Bridgewater) | robots.txt blocks all automated access |
-| Ramsey Free Public Library (NJ) | robots.txt blocks AI bots (ClaudeBot, GPTBot) |
-| Hunterdon County Library (NJ) | robots.txt blocks AI bots (ChatGPT, GPTBot) |
+| Ramsey Free Public Library (NJ) | robots.txt blocks AI bots |
+| Hunterdon County Library (NJ) | robots.txt blocks AI bots |
+| Chicago Tool Library | blocks ClaudeBot |
 
 We respect library policies and encourage users to visit these libraries directly for their Library of Things offerings.
-
-## Key Finding: Morse Institute Library
-
-**Morse Institute Library in Natick has the most extensive tool lending program in Massachusetts.** Their collection includes:
-- Power tools (20V Drill Driver, Pressure Washer)
-- Complete tool sets (65-piece homeowner's kit, 85-piece socket set)
-- Professional measurement equipment (laser measurer, thermal imaging camera)
-- Home inspection tools (radon detector, CO meter, electrical test kit)
-- 168+ verified items total
 
 ## Quick Start
 
@@ -88,7 +99,6 @@ npm run build
 
 ```bash
 python scripts/generate_xlsx.py --network minuteman
-python scripts/generate_xlsx.py --network cwmars
 python scripts/generate_xlsx.py --all
 ```
 
@@ -113,21 +123,22 @@ ma-library-of-things/
 ├── src/                          # React app source
 │   ├── App.jsx                   # Main app component
 │   ├── components/               # React components
+│   │   ├── Dashboard.jsx         # Statistics dashboard
 │   │   ├── Header.jsx
 │   │   ├── SearchBar.jsx
+│   │   ├── LocationInput.jsx
+│   │   ├── RadiusFilter.jsx
 │   │   ├── FilterPanel.jsx
 │   │   ├── ItemCard.jsx
 │   │   ├── ItemList.jsx
+│   │   ├── SubmitLibrary.jsx
 │   │   ├── Disclaimer.jsx
 │   │   └── Footer.jsx
 │   └── utils/                    # Utilities
 │       ├── catalogUrls.js        # Catalog URL generators
 │       └── categories.js         # Category icons/normalization
-├── data/                         # JSON data files
-│   ├── minuteman_items.json
-│   ├── cwmars_items.json
-│   ├── sails_items.json
-│   ├── mbln_items.json
+├── data/                         # JSON data files (per-state + consolidated)
+│   ├── {state}_items.json        # Per-state/network data (32 files)
 │   └── all_networks.json         # Consolidated data
 ├── public/data/                  # Build-time data
 │   └── all_networks.json
@@ -143,6 +154,7 @@ ma-library-of-things/
 ├── .github/workflows/            # GitHub Actions
 │   ├── deploy.yml                # Netlify deployment
 │   └── update-data.yml           # Weekly data updates
+├── design-concepts.html          # UI design explorations
 ├── apps/                         # Legacy standalone apps
 ├── docs/                         # Documentation
 └── outputs/                      # Generated Excel files
@@ -185,6 +197,17 @@ Each item in the database includes:
 }
 ```
 
+Organizations also include:
+```json
+{
+  "org_type": "public_library | tool_library | makerspace | gear_library",
+  "access_type": "checkout | in_space | both",
+  "fee_structure": "free | membership | sliding_scale | per_item",
+  "membership_fee": 25.00,
+  "requires_membership": true
+}
+```
+
 ## Contributing
 
 Want to add more libraries or networks? See [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md).
@@ -193,7 +216,7 @@ Key ways to help:
 1. **Add data** from libraries not yet included
 2. **Verify accuracy** of existing entries
 3. **Improve scrapers** for better automation
-4. **Expand coverage** to other states (NY, NJ, PA, etc.) and networks
+4. **Expand coverage** to remaining states
 
 ### Adding a New Network
 
@@ -218,10 +241,10 @@ This project is released under the MIT License. The underlying data is publicly 
 
 - Created by [David Reinstein](https://davidreinstein.org) with assistance from [Claude AI](https://claude.ai)
 - Data sourced from individual library websites
-- Inspired by the amazing work of public librarians across the Northeast US
+- Inspired by the amazing work of public librarians and tool-lending organizations across the US
 
 ---
 
 *This is an independent community project. Not affiliated with any library or library network.*
 
-*Last updated: January 2026*
+*Last updated: March 2026*

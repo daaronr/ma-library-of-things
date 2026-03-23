@@ -1,0 +1,151 @@
+{
+  "network": {
+    "name": "New Hampshire Libraries",
+    "short_name": "NH",
+    "region": "New Hampshire",
+    "state": "NH",
+    "notes": "New Hampshire public libraries with Library of Things programs."
+  },
+  "libraries": [
+    {
+      "name": "Concord Public Library",
+      "location": "Concord, NH",
+      "lot_url": "https://www.concordnh.gov/1365/Library-of-Things"
+    },
+    {
+      "name": "Nashua Public Library",
+      "location": "Nashua, NH",
+      "lot_url": "https://nashualibrary.org/lot"
+    },
+    {
+      "name": "Keene Public Library",
+      "location": "Keene, NH",
+      "lot_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"
+    },
+    {
+      "name": "Howe Library",
+      "location": "Hanover, NH",
+      "lot_url": "https://www.thehowe.org/"
+    },
+    {
+      "name": "Derry Public Library",
+      "location": "Derry, NH",
+      "lot_url": "https://derrypl.org/"
+    },
+    {
+      "name": "Maxfield Public Library",
+      "location": "Loudon, NH",
+      "lot_url": "https://maxfieldlibrary.org/"
+    },
+    {
+      "name": "Elkins Public Library",
+      "location": "Canterbury, NH",
+      "lot_url": "https://www.elkinspubliclibrary.org/"
+    },
+    {
+      "name": "Freedom Public Library",
+      "location": "Freedom, NH",
+      "lot_url": "https://www.freedompubliclibrary.org/"
+    },
+    {
+      "name": "Lebanon Public Libraries",
+      "location": "Lebanon, NH",
+      "lot_url": "https://www.leblibrary.com/"
+    }
+  ],
+  "items": [
+    {"library": "Concord Public Library", "category": "Music", "name": "Acoustic Guitar", "description": "Acoustic guitar available for checkout", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Measurement & Detection", "name": "Kill A Watt Energy Detector", "description": "Device for measuring energy consumption of appliances", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Wellness/Health", "name": "Light Therapy Lamp", "description": "Lamp for seasonal affective disorder and light therapy", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Home Improvement", "name": "Paper Shredder", "description": "Document shredder for personal use", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Outdoor/Camping", "name": "Trail Camera", "description": "Wildlife trail camera for outdoor use", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Auto/Vehicle", "name": "Vehicle Code Reader", "description": "OBD code reader for vehicle diagnostics", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Measurement & Detection", "name": "Ghost Meter / Detector", "description": "EMF detection device", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Home Inspection", "name": "Thermal Imaging Camera", "description": "Infrared thermal imaging camera for heat detection", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Technology", "name": "Travel Adapter Set", "description": "International travel power adapter set", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Gardening", "name": "Soil Tester/Analyzer", "description": "Soil quality testing and analysis device", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Technology", "name": "Text Scanning Pen", "description": "Portable scanning pen for digitizing text", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Measurement & Detection", "name": "Self-leveling Wall Mount Laser", "description": "Self-leveling laser for wall mounting and alignment", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Technology", "name": "Yeti Microphone", "description": "USB condenser microphone for recording and podcasting", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Outdoor Games", "name": "Kan Jam Pro", "description": "Outdoor disc-throwing game set", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Party/Event", "name": "Karaoke Machine", "description": "Karaoke machine with microphone", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Measurement & Detection", "name": "Metal Detector", "description": "Metal detector for treasure hunting and exploration", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Science/Education", "name": "Telescope", "description": "Telescope with instructional videos for stargazing", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Outdoor Games", "name": "Pickleball Set", "description": "Pickleball paddles and equipment", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Science/Education", "name": "Digital Microscope", "description": "USB digital microscope for magnification and observation", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Outdoor/Camping", "name": "GPS Navigator", "description": "GPS device for geocaching and exploration", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Technology", "name": "Cassette Player / Converter", "description": "Converts cassette tapes to digital format", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Technology", "name": "Digital Film & Slide Scanner", "description": "Scans film negatives and slides to digital format", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Technology", "name": "Vinyl Record Player / Converter", "description": "Plays vinyl records and converts to digital format", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Technology", "name": "VHS Video to Digital Converter", "description": "Converts VHS tapes to digital video files", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Technology", "name": "Kodak 8mm and Super 8mm Film Digitizer", "description": "Digitizes 8mm and Super 8mm film reels", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Technology", "name": "Flatbed Scanner", "description": "Flatbed document and photo scanner", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+    {"library": "Concord Public Library", "category": "Technology", "name": "Slide Projector", "description": "Traditional slide projector for viewing slides", "source_url": "https://www.concordnh.gov/1365/Library-of-Things"},
+
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Folding Kayak", "description": "Portable folding kayak for water recreation", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Paddleboard", "description": "Stand-up paddleboard for water recreation", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Fishing Rods", "description": "Fishing rods for recreational fishing", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Cooler", "description": "Portable cooler for camping and outdoor activities", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Personal Flotation Devices", "description": "Life jackets/PFDs for water safety", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Tent", "description": "Camping tent including winter camping tent", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Lanterns", "description": "Camping lanterns for outdoor lighting", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Sleeping Bags", "description": "Sleeping bags for camping", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Headlamps", "description": "LED headlamps for camping and hiking", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Camping Chairs", "description": "Portable folding camping chairs", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Hammock", "description": "Portable hammock for camping and recreation", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Hiking Backpack", "description": "Backpack for hiking and outdoor excursions", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Sleeping Pads", "description": "Camping sleeping pads for ground insulation", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Science/Education", "name": "Telescope", "description": "Telescope for stargazing", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Crafts/Sewing", "name": "Sewing Machine", "description": "Sewing machine for checkout", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Outdoor/Camping", "name": "Snowshoes", "description": "Snowshoes for winter hiking", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Gardening", "name": "Broadfork", "description": "Tool for breaking up hard soil to improve aeration and drainage", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Gardening", "name": "Battery Powered Hand Seeder", "description": "Broadcasts seeds for lawn grass, cover crops, or baby greens", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Gardening", "name": "Compost Thermometer", "description": "Thermometer for monitoring compost pile temperature", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Gardening", "name": "Pruning Saw", "description": "21-inch bow pruning saw for brush clearing", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Gardening", "name": "Telescoping Lopper", "description": "25-37 inch telescoping bypass lopper for tree trimming", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Gardening", "name": "Push Seeder", "description": "For row crops with interchangeable plates", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Gardening", "name": "Garden Fork", "description": "Digging fork for loosening soil and bed preparation", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Gardening", "name": "Easi-Grip Adaptive Garden Tools", "description": "Ergonomic angled-handle garden tools for accessibility (fork, trowel, cultivator, hoe)", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Gardening", "name": "Garden Kneeler and Seat", "description": "Folds flat, supports up to 250 lbs, dual-purpose kneeler/seat", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Gardening", "name": "Deluxe Stand-Up Weeder", "description": "Four stainless-steel claws, 39-inch length, eliminates bending", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+    {"library": "Keene Public Library", "category": "Gardening", "name": "Seed Starting Kit", "description": "Includes heat mat, grow light, fan, seed trays, dome, and handbook", "source_url": "https://keenenh.gov/keene-public-library/how-do-i/library-things-garden-tools-and-outdoor-gear-collections/"},
+
+    {"library": "Howe Library", "category": "Outdoor Games", "name": "Giant Connect Four", "description": "Oversized Connect Four lawn game", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Howe Library", "category": "Outdoor Games", "name": "Giant Jenga", "description": "Oversized Jenga lawn game", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Howe Library", "category": "Outdoor Games", "name": "Giant Candyland", "description": "Oversized Candyland lawn game", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Howe Library", "category": "Kitchen", "name": "Electronic Knife Sharpener", "description": "Electric knife sharpening device", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+
+    {"library": "Derry Public Library", "category": "Measurement & Detection", "name": "Metal Detector", "description": "Metal detector for treasure hunting", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Derry Public Library", "category": "Outdoor Games", "name": "Pickleball Set", "description": "Pickleball paddles and equipment", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Derry Public Library", "category": "Music", "name": "Roll-Up Piano", "description": "Portable roll-up electronic piano keyboard", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Derry Public Library", "category": "Wellness/Health", "name": "Blood Pressure Monitor", "description": "Digital blood pressure monitoring device", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+
+    {"library": "Maxfield Public Library", "category": "Measurement & Detection", "name": "Metal Detector", "description": "Metal detector for treasure hunting", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Maxfield Public Library", "category": "Home Improvement", "name": "Pressure Washer", "description": "Power washer for outdoor cleaning", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Maxfield Public Library", "category": "Party/Event", "name": "Popcorn Machine", "description": "Popcorn maker for events and home use", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Maxfield Public Library", "category": "Technology", "name": "Yoto Mini Audio Player", "description": "Screen-free audio player for kids", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Maxfield Public Library", "category": "Technology", "name": "DVD Player", "description": "DVD player for checkout", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Maxfield Public Library", "category": "Science/Education", "name": "Egg Incubator", "description": "Incubator for hatching eggs as educational activity", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+
+    {"library": "Elkins Public Library", "category": "Kitchen", "name": "Canning Set", "description": "Home canning equipment set", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Elkins Public Library", "category": "Party/Event", "name": "Party Tents", "description": "Portable party/event tents", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Elkins Public Library", "category": "Technology", "name": "Record Player", "description": "Vinyl record player for checkout", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+
+    {"library": "Freedom Public Library", "category": "Measurement & Detection", "name": "Metal Detector", "description": "Metal detector for treasure hunting", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Freedom Public Library", "category": "Outdoor/Camping", "name": "Binoculars", "description": "Binoculars for birdwatching and nature observation", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Freedom Public Library", "category": "Outdoor/Camping", "name": "Snowshoes", "description": "Snowshoes for winter hiking", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+    {"library": "Freedom Public Library", "category": "Technology", "name": "Slide Projector", "description": "Traditional slide projector", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+
+    {"library": "Lebanon Public Libraries", "category": "Bicycle", "name": "E-Bikes", "description": "Electric bicycles available for checkout", "source_url": "https://www.nhmagazine.com/borrow-more-than-books-at-your-local-library/"},
+
+    {"library": "Nashua Public Library", "category": "Technology", "name": "LED Projector", "description": "LED video projector", "source_url": "https://nashualibrary.org/lot"},
+    {"library": "Nashua Public Library", "category": "Science/Education", "name": "Telescope", "description": "Telescope for stargazing", "source_url": "https://nashualibrary.org/lot"},
+    {"library": "Nashua Public Library", "category": "Music", "name": "Ukulele", "description": "Ukulele musical instrument", "source_url": "https://nashualibrary.org/lot"},
+    {"library": "Nashua Public Library", "category": "Science/Education", "name": "Puppet Theater", "description": "Puppet theater for kids activities", "source_url": "https://nashualibrary.org/lot"},
+    {"library": "Nashua Public Library", "category": "Wellness/Health", "name": "Animatronic Cat", "description": "Companion animatronic cat", "source_url": "https://nashualibrary.org/lot"}
+  ],
+  "metadata": {
+    "last_updated": "2026-03-22",
+    "source": "Manual research from library websites and NH Magazine"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "network": {
+    "name": "DC Libraries",
+    "id": "dc_libraries",
+    "region": "Washington DC"
+  },
+  "libraries": [
+    {
+      "name": "DC Public Library - Tool Library at the Labs",
+      "location": "Washington, DC",
+      "lot_url": "https://www.dclibrary.org/using-the-library/tool-library"
+    },
+    {
+      "name": "DC Tool Library (Green Neighbors DC)",
+      "location": "Washington, DC",
+      "lot_url": "https://dctoollibrary.org/"
+    }
+  ],
+  "items": [
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Spring Clamps Set",
+      "description": "1\", 2\", and 3\" clamps for woodworking and general use",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "C Clamps Set",
+      "description": "4\" and 5\" heavy-duty clamping tools",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Bar Clamps",
+      "description": "4\" bar clamps for woodworking",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Cross Peen Hammer",
+      "description": "2.5 lb metalworking hammer",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Engineer Hammer",
+      "description": "2.5 lb heavy hammer",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Measurement & Detection",
+      "name": "Bubble Level (2-foot)",
+      "description": "Leveling tool for construction and home improvement",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Measurement & Detection",
+      "name": "Box Beam Level (4-foot)",
+      "description": "Large leveling tool for construction",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Cold Chisel Set",
+      "description": "3-piece set for cutting and shaping metal",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Tongue & Groove Plier Set",
+      "description": "3-piece set for plumbing and mechanical work",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Tin Snip Set",
+      "description": "4-piece sheet metal cutting set",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Wood Chisel Set",
+      "description": "4-piece woodworking chisel set",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Power Drill",
+      "description": "Cordless power drill for home improvement projects",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Miter Saw",
+      "description": "Power saw for precise angled cuts",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Soldering Iron",
+      "description": "For electronics and metalwork",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Screwdriver Set",
+      "description": "Assorted hand screwdrivers",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Hacksaw",
+      "description": "Manual cutting saw",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Home Improvement",
+      "name": "Staple Gun",
+      "description": "Fastening tool for upholstery and construction",
+      "source_url": "https://thelabs.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Party/Event",
+      "name": "Projector",
+      "description": "LCD projector for events and presentations",
+      "source_url": "https://www.dclibrary.org/using-the-library/event-supplies-library"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Party/Event",
+      "name": "Projection Screen",
+      "description": "Portable projection screen for events",
+      "source_url": "https://www.dclibrary.org/using-the-library/event-supplies-library"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Party/Event",
+      "name": "Folding Tables",
+      "description": "Event furniture for community gatherings",
+      "source_url": "https://www.dclibrary.org/using-the-library/event-supplies-library"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Party/Event",
+      "name": "Folding Chairs",
+      "description": "Event seating for community gatherings",
+      "source_url": "https://www.dclibrary.org/using-the-library/event-supplies-library"
+    },
+    {
+      "library": "DC Public Library - Tool Library at the Labs",
+      "category": "Party/Event",
+      "name": "String Lights",
+      "description": "Decorative lighting for events",
+      "source_url": "https://www.dclibrary.org/using-the-library/event-supplies-library"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Home Improvement",
+      "name": "Miter Saw",
+      "description": "Power saw for angled cuts",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Home Improvement",
+      "name": "Power Drill",
+      "description": "Portable power drill",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Home Improvement",
+      "name": "Ladder",
+      "description": "Climbing access for home projects",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Home Improvement",
+      "name": "Shop Vacuum",
+      "description": "Wet/dry vacuum for workshop cleanup",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Home Improvement",
+      "name": "Power Washer",
+      "description": "Pressure washing equipment",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Rakes",
+      "description": "Garden hand tools",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Weedwhacker",
+      "description": "String trimmer for yard work",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Hedge Trimmers",
+      "description": "Powered hedge cutting tools",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Shovels",
+      "description": "Digging tools for garden and yard",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Wheelbarrow",
+      "description": "Material transport for garden and yard",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Soil Testing Kit",
+      "description": "Kit to test soil composition and pH",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Wheel Hoe",
+      "description": "Push cultivator for garden beds",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Gardening",
+      "name": "Bee Equipment",
+      "description": "Beekeeping supplies and tools",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Outdoor/Camping",
+      "name": "Solar Oven",
+      "description": "Solar-powered cooking device",
+      "source_url": "https://dctoollibrary.org/"
+    },
+    {
+      "library": "DC Tool Library (Green Neighbors DC)",
+      "category": "Kitchen",
+      "name": "Cider Press",
+      "description": "Apple and fruit press for cider making",
+      "source_url": "https://dctoollibrary.org/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-23",
+    "data_source": "Manual research"
+  }
+}

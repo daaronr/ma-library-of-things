@@ -1,0 +1,490 @@
+{
+  "network": {
+    "name": "Arkansas Libraries",
+    "id": "arkansas",
+    "region": "South"
+  },
+  "libraries": [
+    {
+      "name": "Central Arkansas Library System (CALS)",
+      "location": "Little Rock, AR",
+      "lot_url": "https://cals.org/tool-library"
+    },
+    {
+      "name": "Bentonville Public Library",
+      "location": "Bentonville, AR",
+      "lot_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "name": "Southeast Arkansas Regional Library",
+      "location": "Pine Bluff, AR",
+      "lot_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "name": "Malvern Hot Spring County Library",
+      "location": "Malvern, AR",
+      "lot_url": "https://hsclibrary.arkansas.gov/using-the-library/library-of-things/"
+    }
+  ],
+  "items": [
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Drills",
+      "description": "Power drills for home projects",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Hammers",
+      "description": "Hammers for general home improvement tasks",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Wrenches",
+      "description": "Wrench set for various fastening tasks",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Trowels",
+      "description": "Trowels for masonry and gardening",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Drop Cloths",
+      "description": "Protective drop cloths for painting projects",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Woodworking Tools",
+      "description": "Carpentry and wood project supplies",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Electrical Tools",
+      "description": "Wiring and electrical project equipment",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Masonry Tools",
+      "description": "Stonework and masonry supplies",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Remodeling Tools",
+      "description": "Home renovation supplies and tools",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Workshop Tools",
+      "description": "General workshop equipment",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Home Improvement",
+      "name": "Safety Equipment",
+      "description": "Protective gear and safety equipment for projects",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Auto/Vehicle",
+      "name": "Automotive Tools",
+      "description": "Car repair gadgets and vehicle maintenance equipment",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Bicycle",
+      "name": "Bicycle Repair Station",
+      "description": "Outdoor bike repair station available 24/7",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Bicycle",
+      "name": "Bicycle Tools",
+      "description": "Bike maintenance and repair supplies",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Gardening",
+      "name": "Rakes",
+      "description": "Rakes for yard work and leaf collection",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Gardening",
+      "name": "Shovels",
+      "description": "Shovels for digging and yard work",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Gardening",
+      "name": "Pole Saw",
+      "description": "Extended reach saw for trimming tree branches",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Central Arkansas Library System (CALS)",
+      "category": "Gardening",
+      "name": "Yardwork Tools",
+      "description": "Lawn and garden maintenance supplies",
+      "source_url": "https://cals.org/tool-library"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Bluetooth Speakers",
+      "description": "Portable Bluetooth speakers for audio playback",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "CD Boomboxes",
+      "description": "Portable CD players with speakers",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Digital Voice Recorders",
+      "description": "Digital audio recording devices",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "DVD Players",
+      "description": "Portable DVD players",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "GoPro Cameras",
+      "description": "Action cameras for video recording",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Graphing Calculators",
+      "description": "Advanced graphing calculators for math and science",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "iPads",
+      "description": "Apple iPad tablets for in-library and checkout use",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Laptops",
+      "description": "Laptop computers for in-library use (5-hour sessions)",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Portable Document Scanners",
+      "description": "Compact scanners for digitizing documents",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Projectors",
+      "description": "Video projectors for presentations and movie viewing",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Technology",
+      "name": "Roku Players",
+      "description": "Streaming media players",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detectors",
+      "description": "Metal detectors for treasure hunting and surveying",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Science/Education",
+      "name": "Telescopes",
+      "description": "Orion StarBlast 4.5\" telescopes through STAR program",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Science/Education",
+      "name": "Microscopes",
+      "description": "Microscopes for scientific observation",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Science/Education",
+      "name": "Robotics Kits",
+      "description": "Code & Go Robot Mouse, Ozobot Evo, Sphero coding robots",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Science/Education",
+      "name": "Science Exploration Kits",
+      "description": "Kits covering magnets, human body, molecules, and more",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Science/Education",
+      "name": "Building & Construction Sets",
+      "description": "Engineering and construction kits for children and teens",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Games",
+      "name": "American Girl Dolls",
+      "description": "Various character dolls with accessories for checkout",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Games",
+      "name": "Memory Games",
+      "description": "Memory and cognitive games for adults",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "description": "Binoculars and bird identification guides",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Music",
+      "name": "Ukuleles",
+      "description": "Ukuleles with instructional materials",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Music",
+      "name": "Drumming Kit",
+      "description": "Drum practice equipment and instructional materials",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Music",
+      "name": "Piano Kit",
+      "description": "Portable piano/keyboard with learning materials",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machines",
+      "description": "Sewing machines for home use",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Calligraphy Kit",
+      "description": "Calligraphy pens and practice materials",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Chainmaille Kit",
+      "description": "Chain mail jewelry making supplies",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Needle Crafts Kit",
+      "description": "Crochet and knitting supplies with instructions",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Origami Kit",
+      "description": "Origami paper and instructional guides",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Drawing Kit",
+      "description": "Drawing supplies and instructional materials",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Coloring for Meditation Kit",
+      "description": "Adult coloring books and supplies for relaxation",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Wellness/Health",
+      "name": "Light Therapy Lamp",
+      "description": "Light therapy device for seasonal affective disorder",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Wellness/Health",
+      "name": "Sleep Aids Kit",
+      "description": "Sleep improvement tools and resources",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Wellness/Health",
+      "name": "Library for Life Kits",
+      "description": "Resource kits for coping, memory care, and mental health",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Bentonville Public Library",
+      "category": "Home Improvement",
+      "name": "DIY Tool Sets",
+      "description": "General-purpose tool sets for home projects",
+      "source_url": "https://bentonvillelibrary.org/browse/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor Kit",
+      "description": "Blood pressure monitoring equipment (American Heart Association grant)",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Technology",
+      "name": "Chromebooks",
+      "description": "Small laptop computers available for 1-week checkout (9 available)",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Science/Education",
+      "name": "Early Literacy Backpacks",
+      "description": "8 themed sets with storybooks, toys, crafts, and parental guidance",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Science/Education",
+      "name": "Literacy Boxes",
+      "description": "34 kits with learning exercises from farm animals to science experiments",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Games",
+      "name": "Monopoly Junior Dig'n Dinos Game",
+      "description": "Dinosaur-themed Monopoly board game for kids",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Games",
+      "name": "Puzzles",
+      "description": "Assorted puzzles for adults and children in various themes and sizes",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Kitchen",
+      "name": "Novelty Cake Pans",
+      "description": "Various shaped cake pans (2-week checkout)",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Rods",
+      "description": "Complete fishing setup with rod, reel, and hook",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor Games",
+      "name": "Sidewalk Shuffleboard",
+      "description": "Outdoor shuffleboard game set",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor Games",
+      "name": "Badminton Set",
+      "description": "Complete badminton set for outdoor play",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor Games",
+      "name": "Horseshoes",
+      "description": "Horseshoe tossing game set",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor Games",
+      "name": "Capture the Flag",
+      "description": "Outdoor capture the flag game kit",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    },
+    {
+      "library": "Southeast Arkansas Regional Library",
+      "category": "Outdoor Games",
+      "name": "Frisbee Toss",
+      "description": "Frisbee toss game for outdoor family activities",
+      "source_url": "https://www.searlibrary.org/library-of-things"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-22",
+    "notes": "Arkansas has 4 libraries with Library of Things programs. CALS Tool Library at Dee Brown Library allows up to 5 tools (max 3 power tools). Bentonville has 182+ items across technology, crafts, music, and wellness. Malvern lends gadgets, tools, games, kits, and electronics (1-week loan). Southeast AR lends outdoor games, fishing gear, tech, and educational kits."
+  }
+}

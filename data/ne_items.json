@@ -1,0 +1,41 @@
+{
+  "network": {
+    "name": "Nebraska Libraries",
+    "short_name": "NE",
+    "region": "Nebraska",
+    "state": "NE",
+    "notes": "Nebraska public libraries with Library of Things programs. Library of Things adoption is still emerging in Nebraska compared to New England states."
+  },
+  "libraries": [
+    {
+      "name": "Gretna Public Library",
+      "location": "Gretna, NE",
+      "lot_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/"
+    },
+    {
+      "name": "Ralston Public Library",
+      "location": "Ralston, NE",
+      "lot_url": "https://www.ralstonlibrary.org/"
+    }
+  ],
+  "items": [
+    {"library": "Gretna Public Library", "category": "Games", "name": "Board Games", "description": "Collection of board games for adults and families (limit 2 per card)", "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/"},
+    {"library": "Gretna Public Library", "category": "Kitchen", "name": "Cake Pans", "description": "Variety of cake pans, muffin tins, and cookie cutters (limit 2 per card)", "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/"},
+    {"library": "Gretna Public Library", "category": "Outdoor Games", "name": "Disc Golf Kit", "description": "Kit with 6-12 discs and instructions, sponsored by Gretna Ace Hardware (limit 1 per card)", "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/"},
+    {"library": "Gretna Public Library", "category": "Outdoor Games", "name": "Pickleball Kit", "description": "2- or 4-player kit with paddles, 3 balls, and instructions, sponsored by SCHEELS (limit 1 per card)", "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/"},
+    {"library": "Gretna Public Library", "category": "Games", "name": "Puzzles", "description": "Puzzles ranging from 25 to 2,500 pieces (limit 2 per card)", "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/"},
+    {"library": "Gretna Public Library", "category": "Science/Education", "name": "Story Time Kits", "description": "Pre-selected books, crafts, and games for at-home story time (limit 1 per card)", "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/"},
+    {"library": "Gretna Public Library", "category": "Science/Education", "name": "Telescope Kit", "description": "Telescope provided and maintained by Omaha Astronomical Society (limit 1 per card)", "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/"},
+    {"library": "Gretna Public Library", "category": "Music", "name": "Ukulele Kit", "description": "Ukulele instrument with tuner (limit 1 per card)", "source_url": "https://gretnapubliclibrary.org/elibrary/library-of-things/"},
+
+    {"library": "Ralston Public Library", "category": "Outdoor Games", "name": "Lawn Games", "description": "Outdoor lawn games collection", "source_url": "https://www.3newsnow.com/papillion-lavista-ralston-bellevue/im-glad-they-have-it-ralstons-public-library-provides-access-to-a-variety-of-things"},
+    {"library": "Ralston Public Library", "category": "Crafts/Sewing", "name": "Sewing Machine", "description": "Sewing machine available for checkout", "source_url": "https://www.3newsnow.com/papillion-lavista-ralston-bellevue/im-glad-they-have-it-ralstons-public-library-provides-access-to-a-variety-of-things"},
+    {"library": "Ralston Public Library", "category": "Music", "name": "Musical Instruments", "description": "Musical instruments available for checkout", "source_url": "https://www.3newsnow.com/papillion-lavista-ralston-bellevue/im-glad-they-have-it-ralstons-public-library-provides-access-to-a-variety-of-things"},
+    {"library": "Ralston Public Library", "category": "Technology", "name": "Projector", "description": "Projector for movies and presentations", "source_url": "https://www.3newsnow.com/papillion-lavista-ralston-bellevue/im-glad-they-have-it-ralstons-public-library-provides-access-to-a-variety-of-things"}
+  ],
+  "metadata": {
+    "last_updated": "2026-03-22",
+    "source": "Manual research from library websites and local news coverage",
+    "research_notes": "Nebraska's Library of Things adoption is less widespread than New England. Major systems like Omaha Public Library and Lincoln City Libraries do not appear to have formal Library of Things programs. Gretna and Ralston are the confirmed programs found in the Omaha metro area."
+  }
+}

@@ -585,6 +585,138 @@ export const networkCatalogs = {
     region: 'Southwest',
     state: 'AZ',
   },
+
+  // GEORGIA LIBRARIES
+  ga_libraries: {
+    name: 'Georgia Libraries',
+    shortName: 'GA',
+    system: 'direct',
+    baseUrl: 'https://chestateelibrary.org',
+    color: '#C62828',
+    region: 'Southeast',
+    state: 'GA',
+  },
+
+  // KENTUCKY LIBRARIES
+  ky_libraries: {
+    name: 'Kentucky Libraries',
+    shortName: 'KY',
+    system: 'myturn',
+    baseUrl: 'https://louisvilletoollibrary.myturn.com',
+    color: '#1565C0',
+    region: 'Southeast',
+    state: 'KY',
+  },
+
+  // ALABAMA LIBRARIES
+  al_libraries: {
+    name: 'Alabama Libraries',
+    shortName: 'AL',
+    system: 'direct',
+    baseUrl: 'https://www.dhcls.org',
+    color: '#BF360C',
+    region: 'Southeast',
+    state: 'AL',
+  },
+
+  // NEW HAMPSHIRE LIBRARIES
+  nh_libraries: {
+    name: 'New Hampshire Libraries',
+    shortName: 'NH',
+    system: 'direct',
+    baseUrl: 'https://concordpubliclibrary.net',
+    color: '#2E7D32',
+    region: 'New England',
+    state: 'NH',
+  },
+
+  // VERMONT LIBRARIES
+  vt_libraries: {
+    name: 'Vermont Libraries',
+    shortName: 'VT',
+    system: 'direct',
+    baseUrl: 'https://www.fletcherfree.org',
+    color: '#00695C',
+    region: 'New England',
+    state: 'VT',
+  },
+
+  // NEBRASKA LIBRARIES
+  ne_libraries: {
+    name: 'Nebraska Libraries',
+    shortName: 'NE',
+    system: 'direct',
+    baseUrl: 'https://www.gretna.org/library',
+    color: '#C62828',
+    region: 'Midwest',
+    state: 'NE',
+  },
+
+  // NEW MEXICO LIBRARIES
+  nm_libraries: {
+    name: 'New Mexico Libraries',
+    shortName: 'NM',
+    system: 'direct',
+    baseUrl: 'https://www.santafelibrary.org',
+    color: '#6A1B9A',
+    region: 'Southwest',
+    state: 'NM',
+  },
+
+  // NEVADA LIBRARIES
+  nv_libraries: {
+    name: 'Nevada Libraries',
+    shortName: 'NV',
+    system: 'direct',
+    baseUrl: 'https://bclibrary.org',
+    color: '#FF6F00',
+    region: 'Mountain West',
+    state: 'NV',
+  },
+
+  // WASHINGTON DC LIBRARIES
+  dc_libraries: {
+    name: 'DC Libraries',
+    shortName: 'DC',
+    system: 'myturn',
+    baseUrl: 'https://thelabs.myturn.com',
+    color: '#1565C0',
+    region: 'Mid-Atlantic',
+    state: 'DC',
+  },
+
+  // ARKANSAS LIBRARIES
+  ar_libraries: {
+    name: 'Arkansas Libraries',
+    shortName: 'AR',
+    system: 'direct',
+    baseUrl: 'https://cals.org',
+    color: '#E65100',
+    region: 'South Central',
+    state: 'AR',
+  },
+
+  // WEST VIRGINIA LIBRARIES
+  wv_libraries: {
+    name: 'West Virginia Libraries',
+    shortName: 'WV',
+    system: 'direct',
+    baseUrl: 'https://www.kcpls.org',
+    color: '#1565C0',
+    region: 'Appalachian',
+    state: 'WV',
+  },
+
+  // IDAHO LIBRARIES
+  id_libraries: {
+    name: 'Idaho Libraries',
+    shortName: 'ID',
+    system: 'direct',
+    baseUrl: 'https://communitylibrary.net',
+    color: '#2E7D32',
+    region: 'Mountain West',
+    state: 'ID',
+  },
 };
 
 /**
