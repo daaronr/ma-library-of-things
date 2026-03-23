@@ -4,7 +4,7 @@ const HIGHLIGHT_SECTIONS = [
   {
     title: "You Can Borrow THAT From a Library?",
     emoji: "🤯",
-    description: "Items that make people do a double-take",
+    description: "Animatronic cats, ghost hunting kits, gold panning, and beekeeping gear",
     match: (item) => {
       const t = `${item.name} ${item.description || ''}`.toLowerCase();
       return (
@@ -220,13 +220,17 @@ export default function Highlights({ data, networks, onBack }) {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {section.items.map((item, i) => (
-              <div
+              <a
                 key={`${item.id || i}`}
-                className="bg-[#FFFDF5] border border-[#E8DCC8] rounded p-3 hover:border-[#8B4513] transition-colors"
+                href={item.source_url || item.catalog_url || '#'}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block bg-[#FFFDF5] border border-[#E8DCC8] rounded p-3 hover:border-[#8B4513] hover:shadow-sm transition-all group"
               >
                 <div className="flex items-start justify-between gap-2">
-                  <h3 className="font-medium text-sm text-[#2C2416] leading-snug">
+                  <h3 className="font-medium text-sm text-[#2C2416] leading-snug group-hover:text-[#8B4513] transition-colors">
                     {item.name}
+                    <span className="inline-block ml-1 text-[10px] text-gray-400 group-hover:text-[#8B4513]">↗</span>
                   </h3>
                   <span className="text-[10px] font-mono text-[#8B4513] bg-[#F5F1E6] px-1.5 py-0.5 rounded flex-shrink-0">
                     {item.state}
@@ -236,7 +240,7 @@ export default function Highlights({ data, networks, onBack }) {
                   <p className="text-xs text-gray-500 mt-1 line-clamp-2">{item.description}</p>
                 )}
                 <p className="text-[10px] text-gray-400 mt-1.5 truncate">{item.library}</p>
-              </div>
+              </a>
             ))}
           </div>
         </div>
