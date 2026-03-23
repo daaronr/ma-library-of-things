@@ -1,0 +1,240 @@
+{
+  "network": {
+    "name": "North Dakota Libraries",
+    "id": "nd_libraries",
+    "region": "Midwest"
+  },
+  "libraries": [
+    {
+      "name": "Fargo Public Library",
+      "location": "Fargo, ND",
+      "lot_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things"
+    },
+    {
+      "name": "Bismarck Veterans Memorial Public Library",
+      "location": "Bismarck, ND",
+      "lot_url": "https://www.bismarcknd.gov/2239/Library-of-Things"
+    },
+    {
+      "name": "Minot Public Library",
+      "location": "Minot, ND",
+      "lot_url": "https://www.minotlibrary.org/resources/"
+    }
+  ],
+  "items": [
+    {
+      "library": "Fargo Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Adventure Backpacks",
+      "description": "Outdoor exploration kits",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Tabletop games for checkout",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Science/Education",
+      "name": "Curiosity Kits",
+      "description": "Hands-on educational STEM kits",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Kit",
+      "description": "Disc golf equipment set",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Home Inspection",
+      "name": "Draft Check Meter",
+      "description": "Device for measuring drafts in homes",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspots",
+      "description": "Portable wireless internet devices",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Outdoor/Camping",
+      "name": "ND State Parks Pass",
+      "description": "Daily vehicle entry to all ND state parks",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Home Inspection",
+      "name": "Power Check Meter",
+      "description": "Device for checking power usage",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector Kit",
+      "description": "Home radon testing kit",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Science/Education",
+      "name": "Sunspotter",
+      "description": "Solar observation tool",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Outdoor/Camping",
+      "name": "ND State Parks Pass",
+      "description": "Daily vehicle entry to all ND state parks and recreation areas",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Collection for all ages",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Technology/Gaming",
+      "name": "Video Games",
+      "description": "Games for Xbox Series X, PS5, Switch, and older systems",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Set",
+      "description": "Three discs (driver, mid-range, putter) in carrying case",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Four paddles and four balls per set",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Children's Life Jackets",
+      "description": "US Coast Guard-approved, various children's sizes",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Poles",
+      "description": "Fishing rod with small tackle box",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector Kit",
+      "description": "Reusable radon test kit for home use",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Home Inspection",
+      "name": "Power Use Monitor",
+      "description": "Device to measure home appliance energy consumption",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Science/Education",
+      "name": "Ghost Hunting Kit",
+      "description": "EMF meter, EVP recorder, motion sensor, ghost-hunting books",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Home Improvement",
+      "name": "Power Drills",
+      "description": "Power drills for checkout",
+      "source_url": "https://www.minotlibrary.org/resources/"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Home Improvement",
+      "name": "Mitre Saws",
+      "description": "Power mitre saws",
+      "source_url": "https://www.minotlibrary.org/resources/"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Home Improvement",
+      "name": "Air Compressor",
+      "description": "Pneumatic air compressor",
+      "source_url": "https://www.minotlibrary.org/resources/"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Gardening",
+      "name": "Landscaping and Garden Tools",
+      "description": "Various landscaping and garden tools",
+      "source_url": "https://www.minotlibrary.org/resources/"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Technology",
+      "name": "Canon Cameras",
+      "description": "Two Canon cameras for checkout",
+      "source_url": "https://www.minotlibrary.org/resources/"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Technology",
+      "name": "GoPro 7",
+      "description": "Action camera with mounts and accessories",
+      "source_url": "https://www.minotlibrary.org/resources/"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Science/Education",
+      "name": "LEGO Mindstorms",
+      "description": "3 programmable LEGO robotics kits",
+      "source_url": "https://www.minotlibrary.org/resources/"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Games",
+      "name": "Board Games (150+)",
+      "description": "Over 150 classic and modern board games",
+      "source_url": "https://www.minotlibrary.org/resources/"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Party/Event",
+      "name": "Murder Mystery Party Kits",
+      "description": "Party game kits for group events",
+      "source_url": "https://www.minotlibrary.org/resources/"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Adventure Packs",
+      "description": "Themed backpacks (Rock Collecting, Stargazing, Hiking) with books and ND State Park Passes",
+      "source_url": "https://www.minotlibrary.org/resources/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-23",
+    "data_source": "Manual research"
+  }
+}

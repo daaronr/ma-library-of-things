@@ -1,0 +1,350 @@
+{
+  "network": {
+    "name": "Wyoming Libraries",
+    "id": "wy_libraries",
+    "region": "Mountain West"
+  },
+  "libraries": [
+    {
+      "name": "Teton County Library",
+      "location": "Jackson, WY",
+      "lot_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "name": "Campbell County Public Library",
+      "location": "Gillette, WY",
+      "lot_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "name": "Natrona County Library",
+      "location": "Casper, WY",
+      "lot_url": "https://www.natronacountylibrary.org/things/"
+    },
+    {
+      "name": "Sublette County Library",
+      "location": "Pinedale, WY",
+      "lot_url": "https://sublettecountylibrary.org/library-of-things/"
+    }
+  ],
+  "items": [
+    {
+      "library": "Teton County Library",
+      "category": "Crafts/Sewing",
+      "name": "Book Binding Kit",
+      "description": "Kit for bookbinding projects",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Repair Kit",
+      "description": "Basic sewing repair supplies",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Crafts/Sewing",
+      "name": "Calligraphy Kit",
+      "description": "Calligraphy pen and supplies",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Crafts/Sewing",
+      "name": "Crochet Hooks",
+      "description": "Hooks for crochet projects",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Home Improvement",
+      "name": "Basic Tool Kit",
+      "description": "General hand tools",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Gardening",
+      "name": "Garden Tools",
+      "description": "Garden tool set",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "description": "Laser level for alignment",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "description": "Electronic wall stud detector",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Technology",
+      "name": "Action Camera",
+      "description": "Action/adventure camera",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Technology",
+      "name": "Presentation Projector",
+      "description": "Portable projector",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Wellness/Health",
+      "name": "SAD Light",
+      "description": "Seasonal Affective Disorder therapy lamp",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Technology",
+      "name": "Digital Film Scanner",
+      "description": "Scanner for film negatives",
+      "source_url": "https://tclib.org/1365/Library-of-Things"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Kitchen",
+      "name": "Baking Pans",
+      "description": "Assorted baking pans",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Kitchen",
+      "name": "Canning Kit",
+      "description": "Home food preservation equipment",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Maker & Heat Press",
+      "description": "Digital cutting machine and heat transfer press",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machine for fabric projects",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector",
+      "description": "Digital radon gas monitor",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Kit",
+      "description": "Blood pressure monitoring device",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Technology",
+      "name": "Content Creator Kit",
+      "description": "Media production equipment including GoPro, camcorder, gimbal",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Outdoor/Camping",
+      "name": "State Parks Backpack",
+      "description": "Backpack with WY State Park pass, binoculars, compass, field guides",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Astronomical observation telescope",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Set",
+      "description": "Disc golf discs and bag",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Party/Event",
+      "name": "Portable PA System",
+      "description": "Amplification system for events",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector",
+      "description": "Digital radon gas monitor, continuous tester",
+      "source_url": "https://www.natronacountylibrary.org/things/"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Technology",
+      "name": "Verizon Hotspot (WiFi2Go)",
+      "description": "Portable hotspot, connects up to 15 devices",
+      "source_url": "https://www.natronacountylibrary.org/things/"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Technology/Gaming",
+      "name": "Video Games",
+      "description": "Titles for Xbox One, PS4/5, Switch, Wii, Wii U",
+      "source_url": "https://www.natronacountylibrary.org/things/"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Auto/Vehicle",
+      "name": "Jump Starter and Power Bank",
+      "description": "Battery starter for 12-volt engines",
+      "source_url": "https://www.natronacountylibrary.org/things/"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "All-wood entry-level ukulele",
+      "source_url": "https://www.natronacountylibrary.org/things/"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Music",
+      "name": "Record Player",
+      "description": "Dansette Bermuda turntable with Bluetooth",
+      "source_url": "https://www.natronacountylibrary.org/things/"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Technology",
+      "name": "Digital Camera",
+      "description": "48-megapixel camera with 4K video",
+      "source_url": "https://www.natronacountylibrary.org/things/"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Crafts/Sewing",
+      "name": "Baby Lock Sewing Machine",
+      "description": "Metal construction sewing machine",
+      "source_url": "https://www.natronacountylibrary.org/things/"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Science/Education",
+      "name": "Makey Makey STEM Pack",
+      "description": "12-unit kit for invention projects",
+      "source_url": "https://www.natronacountylibrary.org/things/"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Outdoor Games",
+      "name": "Tennis Kit",
+      "description": "Tennis rackets and balls (adult and children sizes)",
+      "source_url": "https://www.natronacountylibrary.org/things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Home Improvement",
+      "name": "Air Compressor",
+      "description": "Pneumatic power tool with accessories",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Home Improvement",
+      "name": "Cordless Drill",
+      "description": "Battery-powered drill",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Home Improvement",
+      "name": "100-Piece Toolkit",
+      "description": "Essential hand tools collection",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Outdoor/Camping",
+      "name": "Trail Camera",
+      "description": "Wildlife monitoring camera",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Outdoor/Camping",
+      "name": "Metal Detector",
+      "description": "Metal detection device with backpack",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Kitchen",
+      "name": "Ice Cream Maker",
+      "description": "Frozen dessert machine",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Kitchen",
+      "name": "Pressure Canner",
+      "description": "Food preservation equipment",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Wellness/Health",
+      "name": "Light Therapy Lamp",
+      "description": "Seasonal mood support device",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Cuff",
+      "description": "Health monitoring device",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Electronic sewing machine",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Crafts/Sewing",
+      "name": "Cricut EasyPress",
+      "description": "Heat transfer machine for custom fabric designs",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "String instrument with carrying case",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-23",
+    "data_source": "Manual research"
+  }
+}

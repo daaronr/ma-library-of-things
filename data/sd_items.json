@@ -1,0 +1,123 @@
+{
+  "network": {
+    "name": "South Dakota Libraries",
+    "id": "sd_libraries",
+    "region": "Midwest"
+  },
+  "libraries": [
+    {
+      "name": "Rapid City Public Library",
+      "location": "Rapid City, SD",
+      "lot_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy"
+    },
+    {
+      "name": "K.O. Lee Aberdeen Public Library",
+      "location": "Aberdeen, SD",
+      "lot_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout"
+    }
+  ],
+  "items": [
+    {
+      "library": "Rapid City Public Library",
+      "category": "Home Improvement",
+      "name": "Toolkit",
+      "description": "Hand tool kit; 1-week loan, 18+",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Set",
+      "description": "Disc golf equipment; 1-week loan",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Kit",
+      "description": "Fishing rod and tackle box",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "Portable internet; 1-week, 1 per account/month",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Games",
+      "name": "Board Games & Puzzles",
+      "description": "Tabletop games and puzzles; 3-week loan",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Technology/Gaming",
+      "name": "Video Games",
+      "description": "Video game collection; 1-week loan",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Park and Museum Passes",
+      "description": "SD state park and museum access; 3-day loan, 1/month",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Science/Education",
+      "name": "Robots",
+      "description": "Programmable robots; in-library use",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspot",
+      "description": "Portable wireless internet device",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Technology",
+      "name": "iPad",
+      "description": "Tablet with educational apps, Libby and Hoopla access",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Technology",
+      "name": "Laptop",
+      "description": "Computer for on-site or off-site checkout",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Science/Education",
+      "name": "Microscope",
+      "description": "Magnification instrument; patrons supply own slides",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Outdoor/Camping",
+      "name": "State Park Pass",
+      "description": "SD state park pass; up to 3 days, once per month",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Science/Education",
+      "name": "STEM Kits",
+      "description": "Hands-on science/tech/engineering/math activity kits, age 6+",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-23",
+    "data_source": "Manual research"
+  }
+}

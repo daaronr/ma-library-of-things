@@ -1,0 +1,247 @@
+{
+  "network": {
+    "name": "Montana Libraries",
+    "id": "mt_libraries",
+    "region": "Mountain West"
+  },
+  "libraries": [
+    {
+      "name": "Lewis & Clark Library",
+      "location": "Helena, MT",
+      "lot_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "name": "Missoula Public Library",
+      "location": "Missoula, MT",
+      "lot_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/"
+    },
+    {
+      "name": "MUD Tool Library",
+      "location": "Missoula, MT",
+      "lot_url": "https://mudproject.org/our-programs/tool-library/"
+    }
+  ],
+  "items": [
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Outdoor/Camping",
+      "name": "Birdwatching Kit",
+      "description": "Vortex Crossfire HD 8x42 binoculars, Montana Audubon bird guide, field guide",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Outdoor/Camping",
+      "name": "Walking Sticks",
+      "description": "Handmade wooden walking staffs",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Paddles, balls, and carrying case",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Bushnell, Orion, and ExploraScope models",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Science/Education",
+      "name": "Starry Sky Survey Kit",
+      "description": "Light pollution monitoring equipment",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspot",
+      "description": "T-Mobile and Verizon portable hotspots",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Technology",
+      "name": "Epson Projector",
+      "description": "PowerLite Home Cinema projector",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Technology",
+      "name": "Power Station",
+      "description": "Rechargeable battery with multiple ports",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Technology",
+      "name": "C-PEN Secure Reader 2",
+      "description": "Text-to-speech device, multilingual",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitoring Kit",
+      "description": "Cuff, pedometer, and measurement log",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Wellness/Health",
+      "name": "LED Light Therapy Lamp",
+      "description": "Verilux HappyLight Luxe for seasonal affective disorder",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Music",
+      "name": "Ukulele Kit",
+      "description": "21\" and 23\" beginner kits with accessories",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Singer 1507WC with starter supplies",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Home Inspection",
+      "name": "Thermal Leak Detector",
+      "description": "Identifies home insulation problems",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Kitchen",
+      "name": "Induction Cooktop Kit",
+      "description": "Induction stove top, pot with lid, informational folder",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars and Birding Backpack",
+      "description": "Binoculars with birdwatching supplies",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Children's Life Jackets",
+      "description": "Life jackets for children up to 90 lbs, summer availability",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Astronomical observation telescope",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Measurement & Detection",
+      "name": "Kill-a-Watt Meter",
+      "description": "Energy usage monitor",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Technology",
+      "name": "Laptop",
+      "description": "Laptop computer for checkout",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Auto/Vehicle",
+      "name": "Automotive Diagnostic Scanner",
+      "description": "OBD code reader for vehicle diagnostics",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Games",
+      "name": "Board Games and Puzzles",
+      "description": "Collection of board games and puzzles",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Carpentry and Woodworking Tools",
+      "description": "1,806 carpentry and woodworking items",
+      "source_url": "https://mud.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Home Maintenance Tools",
+      "description": "2,502 home maintenance items including hand scrapers",
+      "source_url": "https://mud.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Remodeling Tools",
+      "description": "2,307 remodeling tools and equipment",
+      "source_url": "https://mud.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Electrical and Soldering Tools",
+      "description": "550 electrical and soldering items",
+      "source_url": "https://mud.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Metalworking Tools",
+      "description": "675 metalworking items",
+      "source_url": "https://mud.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Plumbing Tools",
+      "description": "812 plumbing tools",
+      "source_url": "https://mud.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Automotive Tools",
+      "description": "633 automotive tools including socket sets",
+      "source_url": "https://mud.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Bicycle",
+      "name": "Bike Tools",
+      "description": "356 bicycle repair tools",
+      "source_url": "https://mud.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Gardening",
+      "name": "Yard and Garden Tools",
+      "description": "1,354 yard and garden tools including cultivating tools",
+      "source_url": "https://mud.myturn.com/library/inventory/browse"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-23",
+    "data_source": "Manual research"
+  }
+}

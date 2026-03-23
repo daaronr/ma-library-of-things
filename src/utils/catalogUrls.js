@@ -717,6 +717,72 @@ export const networkCatalogs = {
     region: 'Mountain West',
     state: 'ID',
   },
+
+  // ALASKA LIBRARIES
+  ak_libraries: {
+    name: 'Alaska Libraries',
+    shortName: 'AK',
+    system: 'myturn',
+    baseUrl: 'https://chenatoollibrary.myturn.com',
+    color: '#00695C',
+    region: 'Pacific Northwest',
+    state: 'AK',
+  },
+
+  // HAWAII LIBRARIES
+  hi_libraries: {
+    name: 'Hawaii Libraries',
+    shortName: 'HI',
+    system: 'myturn',
+    baseUrl: 'https://hnltoollibrary.myturn.com',
+    color: '#E65100',
+    region: 'Pacific',
+    state: 'HI',
+  },
+
+  // MONTANA LIBRARIES
+  mt_libraries: {
+    name: 'Montana Libraries',
+    shortName: 'MT',
+    system: 'direct',
+    baseUrl: 'https://www.lclibrary.org',
+    color: '#1565C0',
+    region: 'Mountain West',
+    state: 'MT',
+  },
+
+  // WYOMING LIBRARIES
+  wy_libraries: {
+    name: 'Wyoming Libraries',
+    shortName: 'WY',
+    system: 'direct',
+    baseUrl: 'https://www.natronacountylibrary.org',
+    color: '#BF360C',
+    region: 'Mountain West',
+    state: 'WY',
+  },
+
+  // NORTH DAKOTA LIBRARIES
+  nd_libraries: {
+    name: 'North Dakota Libraries',
+    shortName: 'ND',
+    system: 'direct',
+    baseUrl: 'https://fargond.gov',
+    color: '#C62828',
+    region: 'Midwest',
+    state: 'ND',
+  },
+
+  // SOUTH DAKOTA LIBRARIES
+  sd_libraries: {
+    name: 'South Dakota Libraries',
+    shortName: 'SD',
+    system: 'direct',
+    baseUrl: 'https://www.rapidcitylibrary.org',
+    color: '#6A1B9A',
+    region: 'Midwest',
+    state: 'SD',
+  },
 };
 
 /**

@@ -710,6 +710,98 @@
       "fee_structure": "free",
       "requires_membership": false,
       "id": "id_libraries"
+    },
+    "ak_libraries": {
+      "name": "Alaska Libraries",
+      "short_name": "AK",
+      "region": "Pacific Northwest",
+      "state": "AK",
+      "catalog_system": "myturn",
+      "catalog_base_url": "https://chenatoollibrary.myturn.com",
+      "website": "https://chenatoollibrary.myturn.com",
+      "color": "#00695C",
+      "org_type": "tool_library",
+      "access_type": "checkout",
+      "fee_structure": "membership",
+      "requires_membership": true,
+      "id": "ak_libraries"
+    },
+    "hi_libraries": {
+      "name": "Hawaii Libraries",
+      "short_name": "HI",
+      "region": "Pacific",
+      "state": "HI",
+      "catalog_system": "myturn",
+      "catalog_base_url": "https://hnltoollibrary.myturn.com",
+      "website": "https://www.reusehawaii.org/toollibrary",
+      "color": "#E65100",
+      "org_type": "tool_library",
+      "access_type": "checkout",
+      "fee_structure": "membership",
+      "membership_fee": 210.0,
+      "membership_fee_notes": "$45/month or $210/year",
+      "requires_membership": true,
+      "id": "hi_libraries"
+    },
+    "mt_libraries": {
+      "name": "Montana Libraries",
+      "short_name": "MT",
+      "region": "Mountain West",
+      "state": "MT",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.lclibrary.org",
+      "website": "https://www.lclibrary.org",
+      "color": "#1565C0",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "mt_libraries"
+    },
+    "wy_libraries": {
+      "name": "Wyoming Libraries",
+      "short_name": "WY",
+      "region": "Mountain West",
+      "state": "WY",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.natronacountylibrary.org",
+      "website": "https://www.natronacountylibrary.org",
+      "color": "#BF360C",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "wy_libraries"
+    },
+    "nd_libraries": {
+      "name": "North Dakota Libraries",
+      "short_name": "ND",
+      "region": "Midwest",
+      "state": "ND",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://fargond.gov",
+      "website": "https://fargond.gov",
+      "color": "#C62828",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "nd_libraries"
+    },
+    "sd_libraries": {
+      "name": "South Dakota Libraries",
+      "short_name": "SD",
+      "region": "Midwest",
+      "state": "SD",
+      "catalog_system": "direct",
+      "catalog_base_url": "https://www.rapidcitylibrary.org",
+      "website": "https://www.rapidcitylibrary.org",
+      "color": "#6A1B9A",
+      "org_type": "public_library",
+      "access_type": "checkout",
+      "fee_structure": "free",
+      "requires_membership": false,
+      "id": "sd_libraries"
     }
   },
   "items": [
@@ -16388,13 +16480,1354 @@
       "source_url": "https://adalib.org/",
       "network": "id_libraries",
       "id": "id_libraries_ada_community_library_wellness_kits"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "Sliding Compound Miter Saw",
+      "description": "Power saw for precise angled cuts",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_sliding_compound_miter_saw"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "Router (11 amp)",
+      "description": "Power router for woodworking",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_router_(11_amp)"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "SDS-Max Combi Hammer Drill",
+      "description": "Heavy-duty rotary hammer drill",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_sds_max_combi_hammer_drill"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "Impact Wrench",
+      "description": "Power impact wrench for automotive and construction",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_impact_wrench"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Wood Splitter (6-ton)",
+      "description": "Electric log splitter for firewood preparation",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_electric_wood_splitter_(6_ton)"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "Socket Set",
+      "description": "Heavy-duty wrenches and socket sets",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_socket_set"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Kitchen",
+      "name": "Knife Sharpener (Worksharp)",
+      "description": "Professional knife sharpening system",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_knife_sharpener_(worksharp)"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Kitchen",
+      "name": "Kitchen & Dining Equipment",
+      "description": "30 kitchen and dining items available for checkout",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_kitchen_&_dining_equipment"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Technology",
+      "name": "Electronics Equipment",
+      "description": "8 electronics items available for checkout",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_electronics_equipment"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Outdoor/Camping",
+      "name": "Sports & Outdoors Gear",
+      "description": "24 sports and outdoor items available for checkout",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_sports_&_outdoors_gear"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Party/Event",
+      "name": "Party & Event Supplies",
+      "description": "5 party and event items available for checkout",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_party_&_event_supplies"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Crafts/Sewing",
+      "name": "Hobbies & Crafts Supplies",
+      "description": "7 hobby and craft items available for checkout",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse",
+      "network": "ak_libraries",
+      "id": "ak_libraries_chena_tool_library_hobbies_&_crafts_supplies"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Table Saw",
+      "description": "Craftsman and DeWalt table saws for woodworking",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_table_saw"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Band Saw",
+      "description": "Vertical band saw for curved and straight cuts",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_band_saw"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Miter Saw",
+      "description": "Power saw for precise angled cuts",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_miter_saw"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Thickness Planer",
+      "description": "Power planer for woodworking",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_thickness_planer"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "SDS Hammer Drill",
+      "description": "Heavy-duty rotary hammer drill for remodeling",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_sds_hammer_drill"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Detail Sander",
+      "description": "Precision sander for finishing work",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_detail_sander"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Jointer",
+      "description": "Power tool for creating flat edges on boards",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_jointer"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Plumbing Tools",
+      "description": "165 plumbing tools and supplies",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_plumbing_tools"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Metalworking Tools",
+      "description": "241 metalworking items",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_metalworking_tools"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Painting Supplies",
+      "description": "149 painting tools and equipment",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_painting_supplies"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Auto/Vehicle",
+      "name": "Automotive Tools",
+      "description": "250 automotive repair and maintenance tools",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_automotive_tools"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Bicycle",
+      "name": "Bike Tools",
+      "description": "137 bicycle repair tools",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_bike_tools"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Gardening",
+      "name": "Yard and Garden Tools",
+      "description": "171 yard and garden tools",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse",
+      "network": "hi_libraries",
+      "id": "hi_libraries_hnl_tool_library_(re_use_hawaii)_yard_and_garden_tools"
+    },
+    {
+      "library": "North Kohala Tool Library",
+      "category": "Home Improvement",
+      "name": "Construction Tools",
+      "description": "Hand tools and power tools for construction projects",
+      "source_url": "https://nktl.org/",
+      "network": "hi_libraries",
+      "id": "hi_libraries_north_kohala_tool_library_construction_tools"
+    },
+    {
+      "library": "North Kohala Tool Library",
+      "category": "Crafts/Sewing",
+      "name": "Hobby and Crafting Tools",
+      "description": "Tools for craft and hobby projects",
+      "source_url": "https://nktl.org/",
+      "network": "hi_libraries",
+      "id": "hi_libraries_north_kohala_tool_library_hobby_and_crafting_tools"
+    },
+    {
+      "library": "North Kohala Tool Library",
+      "category": "Kitchen",
+      "name": "Catering Equipment",
+      "description": "Kitchen and catering supplies",
+      "source_url": "https://nktl.org/",
+      "network": "hi_libraries",
+      "id": "hi_libraries_north_kohala_tool_library_catering_equipment"
+    },
+    {
+      "library": "North Kohala Tool Library",
+      "category": "Gardening",
+      "name": "Gas-Powered Yard Tools",
+      "description": "Powered garden tools; maintenance fee applies",
+      "source_url": "https://nktl.org/",
+      "network": "hi_libraries",
+      "id": "hi_libraries_north_kohala_tool_library_gas_powered_yard_tools"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Outdoor/Camping",
+      "name": "Birdwatching Kit",
+      "description": "Vortex Crossfire HD 8x42 binoculars, Montana Audubon bird guide, field guide",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_birdwatching_kit"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Outdoor/Camping",
+      "name": "Walking Sticks",
+      "description": "Handmade wooden walking staffs",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_walking_sticks"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Paddles, balls, and carrying case",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_pickleball_set"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Bushnell, Orion, and ExploraScope models",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_telescope"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Science/Education",
+      "name": "Starry Sky Survey Kit",
+      "description": "Light pollution monitoring equipment",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_starry_sky_survey_kit"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspot",
+      "description": "T-Mobile and Verizon portable hotspots",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_wi_fi_hotspot"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Technology",
+      "name": "Epson Projector",
+      "description": "PowerLite Home Cinema projector",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_epson_projector"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Technology",
+      "name": "Power Station",
+      "description": "Rechargeable battery with multiple ports",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_power_station"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Technology",
+      "name": "C-PEN Secure Reader 2",
+      "description": "Text-to-speech device, multilingual",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_c_pen_secure_reader_2"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitoring Kit",
+      "description": "Cuff, pedometer, and measurement log",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_blood_pressure_monitoring_kit"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Wellness/Health",
+      "name": "LED Light Therapy Lamp",
+      "description": "Verilux HappyLight Luxe for seasonal affective disorder",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_led_light_therapy_lamp"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Music",
+      "name": "Ukulele Kit",
+      "description": "21\" and 23\" beginner kits with accessories",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_ukulele_kit"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Singer 1507WC with starter supplies",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_sewing_machine"
+    },
+    {
+      "library": "Lewis & Clark Library",
+      "category": "Home Inspection",
+      "name": "Thermal Leak Detector",
+      "description": "Identifies home insulation problems",
+      "source_url": "https://www.lclibrary.org/384/Library-of-Things",
+      "network": "mt_libraries",
+      "id": "mt_libraries_lewis_&_clark_library_thermal_leak_detector"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Kitchen",
+      "name": "Induction Cooktop Kit",
+      "description": "Induction stove top, pot with lid, informational folder",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/",
+      "network": "mt_libraries",
+      "id": "mt_libraries_missoula_public_library_induction_cooktop_kit"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars and Birding Backpack",
+      "description": "Binoculars with birdwatching supplies",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/",
+      "network": "mt_libraries",
+      "id": "mt_libraries_missoula_public_library_binoculars_and_birding_backpack"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Children's Life Jackets",
+      "description": "Life jackets for children up to 90 lbs, summer availability",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/",
+      "network": "mt_libraries",
+      "id": "mt_libraries_missoula_public_library_childrens_life_jackets"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Astronomical observation telescope",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/",
+      "network": "mt_libraries",
+      "id": "mt_libraries_missoula_public_library_telescope"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Measurement & Detection",
+      "name": "Kill-a-Watt Meter",
+      "description": "Energy usage monitor",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/",
+      "network": "mt_libraries",
+      "id": "mt_libraries_missoula_public_library_kill_a_watt_meter"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Technology",
+      "name": "Laptop",
+      "description": "Laptop computer for checkout",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/",
+      "network": "mt_libraries",
+      "id": "mt_libraries_missoula_public_library_laptop"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Auto/Vehicle",
+      "name": "Automotive Diagnostic Scanner",
+      "description": "OBD code reader for vehicle diagnostics",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/",
+      "network": "mt_libraries",
+      "id": "mt_libraries_missoula_public_library_automotive_diagnostic_scanner"
+    },
+    {
+      "library": "Missoula Public Library",
+      "category": "Games",
+      "name": "Board Games and Puzzles",
+      "description": "Collection of board games and puzzles",
+      "source_url": "https://www.missoulapubliclibrary.org/home/collections/library-of-things/",
+      "network": "mt_libraries",
+      "id": "mt_libraries_missoula_public_library_board_games_and_puzzles"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Carpentry and Woodworking Tools",
+      "description": "1,806 carpentry and woodworking items",
+      "source_url": "https://mud.myturn.com/library/inventory/browse",
+      "network": "mt_libraries",
+      "id": "mt_libraries_mud_tool_library_carpentry_and_woodworking_tools"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Home Maintenance Tools",
+      "description": "2,502 home maintenance items including hand scrapers",
+      "source_url": "https://mud.myturn.com/library/inventory/browse",
+      "network": "mt_libraries",
+      "id": "mt_libraries_mud_tool_library_home_maintenance_tools"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Remodeling Tools",
+      "description": "2,307 remodeling tools and equipment",
+      "source_url": "https://mud.myturn.com/library/inventory/browse",
+      "network": "mt_libraries",
+      "id": "mt_libraries_mud_tool_library_remodeling_tools"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Electrical and Soldering Tools",
+      "description": "550 electrical and soldering items",
+      "source_url": "https://mud.myturn.com/library/inventory/browse",
+      "network": "mt_libraries",
+      "id": "mt_libraries_mud_tool_library_electrical_and_soldering_tools"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Metalworking Tools",
+      "description": "675 metalworking items",
+      "source_url": "https://mud.myturn.com/library/inventory/browse",
+      "network": "mt_libraries",
+      "id": "mt_libraries_mud_tool_library_metalworking_tools"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Home Improvement",
+      "name": "Plumbing Tools",
+      "description": "812 plumbing tools",
+      "source_url": "https://mud.myturn.com/library/inventory/browse",
+      "network": "mt_libraries",
+      "id": "mt_libraries_mud_tool_library_plumbing_tools"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Automotive Tools",
+      "description": "633 automotive tools including socket sets",
+      "source_url": "https://mud.myturn.com/library/inventory/browse",
+      "network": "mt_libraries",
+      "id": "mt_libraries_mud_tool_library_automotive_tools"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Bicycle",
+      "name": "Bike Tools",
+      "description": "356 bicycle repair tools",
+      "source_url": "https://mud.myturn.com/library/inventory/browse",
+      "network": "mt_libraries",
+      "id": "mt_libraries_mud_tool_library_bike_tools"
+    },
+    {
+      "library": "MUD Tool Library",
+      "category": "Gardening",
+      "name": "Yard and Garden Tools",
+      "description": "1,354 yard and garden tools including cultivating tools",
+      "source_url": "https://mud.myturn.com/library/inventory/browse",
+      "network": "mt_libraries",
+      "id": "mt_libraries_mud_tool_library_yard_and_garden_tools"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Crafts/Sewing",
+      "name": "Book Binding Kit",
+      "description": "Kit for bookbinding projects",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_book_binding_kit"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Repair Kit",
+      "description": "Basic sewing repair supplies",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_sewing_repair_kit"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Crafts/Sewing",
+      "name": "Calligraphy Kit",
+      "description": "Calligraphy pen and supplies",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_calligraphy_kit"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Crafts/Sewing",
+      "name": "Crochet Hooks",
+      "description": "Hooks for crochet projects",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_crochet_hooks"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Home Improvement",
+      "name": "Basic Tool Kit",
+      "description": "General hand tools",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_basic_tool_kit"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Gardening",
+      "name": "Garden Tools",
+      "description": "Garden tool set",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_garden_tools"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "description": "Laser level for alignment",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_laser_level"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "description": "Electronic wall stud detector",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_stud_finder"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Technology",
+      "name": "Action Camera",
+      "description": "Action/adventure camera",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_action_camera"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Technology",
+      "name": "Presentation Projector",
+      "description": "Portable projector",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_presentation_projector"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Wellness/Health",
+      "name": "SAD Light",
+      "description": "Seasonal Affective Disorder therapy lamp",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_sad_light"
+    },
+    {
+      "library": "Teton County Library",
+      "category": "Technology",
+      "name": "Digital Film Scanner",
+      "description": "Scanner for film negatives",
+      "source_url": "https://tclib.org/1365/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_teton_county_library_digital_film_scanner"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Kitchen",
+      "name": "Baking Pans",
+      "description": "Assorted baking pans",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_campbell_county_public_library_baking_pans"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Kitchen",
+      "name": "Canning Kit",
+      "description": "Home food preservation equipment",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_campbell_county_public_library_canning_kit"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Maker & Heat Press",
+      "description": "Digital cutting machine and heat transfer press",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_campbell_county_public_library_cricut_maker_&_heat_press"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Sewing machine for fabric projects",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_campbell_county_public_library_sewing_machine"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector",
+      "description": "Digital radon gas monitor",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_campbell_county_public_library_radon_detector"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Kit",
+      "description": "Blood pressure monitoring device",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_campbell_county_public_library_blood_pressure_kit"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Technology",
+      "name": "Content Creator Kit",
+      "description": "Media production equipment including GoPro, camcorder, gimbal",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_campbell_county_public_library_content_creator_kit"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Outdoor/Camping",
+      "name": "State Parks Backpack",
+      "description": "Backpack with WY State Park pass, binoculars, compass, field guides",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_campbell_county_public_library_state_parks_backpack"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "description": "Astronomical observation telescope",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_campbell_county_public_library_telescope"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Set",
+      "description": "Disc golf discs and bag",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_campbell_county_public_library_disc_golf_set"
+    },
+    {
+      "library": "Campbell County Public Library",
+      "category": "Party/Event",
+      "name": "Portable PA System",
+      "description": "Amplification system for events",
+      "source_url": "https://www.campbellcountywy.gov/2175/Library-of-Things",
+      "network": "wy_libraries",
+      "id": "wy_libraries_campbell_county_public_library_portable_pa_system"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector",
+      "description": "Digital radon gas monitor, continuous tester",
+      "source_url": "https://www.natronacountylibrary.org/things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_natrona_county_library_radon_detector"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Technology",
+      "name": "Verizon Hotspot (WiFi2Go)",
+      "description": "Portable hotspot, connects up to 15 devices",
+      "source_url": "https://www.natronacountylibrary.org/things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_natrona_county_library_verizon_hotspot_(wifi2go)"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Technology/Gaming",
+      "name": "Video Games",
+      "description": "Titles for Xbox One, PS4/5, Switch, Wii, Wii U",
+      "source_url": "https://www.natronacountylibrary.org/things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_natrona_county_library_video_games"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Auto/Vehicle",
+      "name": "Jump Starter and Power Bank",
+      "description": "Battery starter for 12-volt engines",
+      "source_url": "https://www.natronacountylibrary.org/things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_natrona_county_library_jump_starter_and_power_bank"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "All-wood entry-level ukulele",
+      "source_url": "https://www.natronacountylibrary.org/things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_natrona_county_library_ukulele"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Music",
+      "name": "Record Player",
+      "description": "Dansette Bermuda turntable with Bluetooth",
+      "source_url": "https://www.natronacountylibrary.org/things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_natrona_county_library_record_player"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Technology",
+      "name": "Digital Camera",
+      "description": "48-megapixel camera with 4K video",
+      "source_url": "https://www.natronacountylibrary.org/things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_natrona_county_library_digital_camera"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Crafts/Sewing",
+      "name": "Baby Lock Sewing Machine",
+      "description": "Metal construction sewing machine",
+      "source_url": "https://www.natronacountylibrary.org/things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_natrona_county_library_baby_lock_sewing_machine"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Science/Education",
+      "name": "Makey Makey STEM Pack",
+      "description": "12-unit kit for invention projects",
+      "source_url": "https://www.natronacountylibrary.org/things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_natrona_county_library_makey_makey_stem_pack"
+    },
+    {
+      "library": "Natrona County Library",
+      "category": "Outdoor Games",
+      "name": "Tennis Kit",
+      "description": "Tennis rackets and balls (adult and children sizes)",
+      "source_url": "https://www.natronacountylibrary.org/things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_natrona_county_library_tennis_kit"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Home Improvement",
+      "name": "Air Compressor",
+      "description": "Pneumatic power tool with accessories",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_air_compressor"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Home Improvement",
+      "name": "Cordless Drill",
+      "description": "Battery-powered drill",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_cordless_drill"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Home Improvement",
+      "name": "100-Piece Toolkit",
+      "description": "Essential hand tools collection",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_100_piece_toolkit"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Outdoor/Camping",
+      "name": "Trail Camera",
+      "description": "Wildlife monitoring camera",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_trail_camera"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Outdoor/Camping",
+      "name": "Metal Detector",
+      "description": "Metal detection device with backpack",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_metal_detector"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Kitchen",
+      "name": "Ice Cream Maker",
+      "description": "Frozen dessert machine",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_ice_cream_maker"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Kitchen",
+      "name": "Pressure Canner",
+      "description": "Food preservation equipment",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_pressure_canner"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Wellness/Health",
+      "name": "Light Therapy Lamp",
+      "description": "Seasonal mood support device",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_light_therapy_lamp"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Cuff",
+      "description": "Health monitoring device",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_blood_pressure_cuff"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Electronic sewing machine",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_sewing_machine"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Crafts/Sewing",
+      "name": "Cricut EasyPress",
+      "description": "Heat transfer machine for custom fabric designs",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_cricut_easypress"
+    },
+    {
+      "library": "Sublette County Library",
+      "category": "Music",
+      "name": "Ukulele",
+      "description": "String instrument with carrying case",
+      "source_url": "https://sublettecountylibrary.org/library-of-things/",
+      "network": "wy_libraries",
+      "id": "wy_libraries_sublette_county_library_ukulele"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Adventure Backpacks",
+      "description": "Outdoor exploration kits",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_fargo_public_library_adventure_backpacks"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Tabletop games for checkout",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_fargo_public_library_board_games"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Science/Education",
+      "name": "Curiosity Kits",
+      "description": "Hands-on educational STEM kits",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_fargo_public_library_curiosity_kits"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Kit",
+      "description": "Disc golf equipment set",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_fargo_public_library_disc_golf_kit"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Home Inspection",
+      "name": "Draft Check Meter",
+      "description": "Device for measuring drafts in homes",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_fargo_public_library_draft_check_meter"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspots",
+      "description": "Portable wireless internet devices",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_fargo_public_library_mobile_hotspots"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Outdoor/Camping",
+      "name": "ND State Parks Pass",
+      "description": "Daily vehicle entry to all ND state parks",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_fargo_public_library_nd_state_parks_pass"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Home Inspection",
+      "name": "Power Check Meter",
+      "description": "Device for checking power usage",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_fargo_public_library_power_check_meter"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector Kit",
+      "description": "Home radon testing kit",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_fargo_public_library_radon_detector_kit"
+    },
+    {
+      "library": "Fargo Public Library",
+      "category": "Science/Education",
+      "name": "Sunspotter",
+      "description": "Solar observation tool",
+      "source_url": "https://fargond.gov/city-government/departments/library/collections/library-of-things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_fargo_public_library_sunspotter"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Outdoor/Camping",
+      "name": "ND State Parks Pass",
+      "description": "Daily vehicle entry to all ND state parks and recreation areas",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_bismarck_veterans_memorial_public_library_nd_state_parks_pass"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Collection for all ages",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_bismarck_veterans_memorial_public_library_board_games"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Technology/Gaming",
+      "name": "Video Games",
+      "description": "Games for Xbox Series X, PS5, Switch, and older systems",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_bismarck_veterans_memorial_public_library_video_games"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Set",
+      "description": "Three discs (driver, mid-range, putter) in carrying case",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_bismarck_veterans_memorial_public_library_disc_golf_set"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Set",
+      "description": "Four paddles and four balls per set",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_bismarck_veterans_memorial_public_library_pickleball_set"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Children's Life Jackets",
+      "description": "US Coast Guard-approved, various children's sizes",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_bismarck_veterans_memorial_public_library_childrens_life_jackets"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Poles",
+      "description": "Fishing rod with small tackle box",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_bismarck_veterans_memorial_public_library_fishing_poles"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Home Inspection",
+      "name": "Radon Detector Kit",
+      "description": "Reusable radon test kit for home use",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_bismarck_veterans_memorial_public_library_radon_detector_kit"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Home Inspection",
+      "name": "Power Use Monitor",
+      "description": "Device to measure home appliance energy consumption",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_bismarck_veterans_memorial_public_library_power_use_monitor"
+    },
+    {
+      "library": "Bismarck Veterans Memorial Public Library",
+      "category": "Science/Education",
+      "name": "Ghost Hunting Kit",
+      "description": "EMF meter, EVP recorder, motion sensor, ghost-hunting books",
+      "source_url": "https://www.bismarcknd.gov/2239/Library-of-Things",
+      "network": "nd_libraries",
+      "id": "nd_libraries_bismarck_veterans_memorial_public_library_ghost_hunting_kit"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Home Improvement",
+      "name": "Power Drills",
+      "description": "Power drills for checkout",
+      "source_url": "https://www.minotlibrary.org/resources/",
+      "network": "nd_libraries",
+      "id": "nd_libraries_minot_public_library_power_drills"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Home Improvement",
+      "name": "Mitre Saws",
+      "description": "Power mitre saws",
+      "source_url": "https://www.minotlibrary.org/resources/",
+      "network": "nd_libraries",
+      "id": "nd_libraries_minot_public_library_mitre_saws"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Home Improvement",
+      "name": "Air Compressor",
+      "description": "Pneumatic air compressor",
+      "source_url": "https://www.minotlibrary.org/resources/",
+      "network": "nd_libraries",
+      "id": "nd_libraries_minot_public_library_air_compressor"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Gardening",
+      "name": "Landscaping and Garden Tools",
+      "description": "Various landscaping and garden tools",
+      "source_url": "https://www.minotlibrary.org/resources/",
+      "network": "nd_libraries",
+      "id": "nd_libraries_minot_public_library_landscaping_and_garden_tools"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Technology",
+      "name": "Canon Cameras",
+      "description": "Two Canon cameras for checkout",
+      "source_url": "https://www.minotlibrary.org/resources/",
+      "network": "nd_libraries",
+      "id": "nd_libraries_minot_public_library_canon_cameras"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Technology",
+      "name": "GoPro 7",
+      "description": "Action camera with mounts and accessories",
+      "source_url": "https://www.minotlibrary.org/resources/",
+      "network": "nd_libraries",
+      "id": "nd_libraries_minot_public_library_gopro_7"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Science/Education",
+      "name": "LEGO Mindstorms",
+      "description": "3 programmable LEGO robotics kits",
+      "source_url": "https://www.minotlibrary.org/resources/",
+      "network": "nd_libraries",
+      "id": "nd_libraries_minot_public_library_lego_mindstorms"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Games",
+      "name": "Board Games (150+)",
+      "description": "Over 150 classic and modern board games",
+      "source_url": "https://www.minotlibrary.org/resources/",
+      "network": "nd_libraries",
+      "id": "nd_libraries_minot_public_library_board_games_(150+)"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Party/Event",
+      "name": "Murder Mystery Party Kits",
+      "description": "Party game kits for group events",
+      "source_url": "https://www.minotlibrary.org/resources/",
+      "network": "nd_libraries",
+      "id": "nd_libraries_minot_public_library_murder_mystery_party_kits"
+    },
+    {
+      "library": "Minot Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Adventure Packs",
+      "description": "Themed backpacks (Rock Collecting, Stargazing, Hiking) with books and ND State Park Passes",
+      "source_url": "https://www.minotlibrary.org/resources/",
+      "network": "nd_libraries",
+      "id": "nd_libraries_minot_public_library_adventure_packs"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Home Improvement",
+      "name": "Toolkit",
+      "description": "Hand tool kit; 1-week loan, 18+",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy",
+      "network": "sd_libraries",
+      "id": "sd_libraries_rapid_city_public_library_toolkit"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Outdoor Games",
+      "name": "Disc Golf Set",
+      "description": "Disc golf equipment; 1-week loan",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy",
+      "network": "sd_libraries",
+      "id": "sd_libraries_rapid_city_public_library_disc_golf_set"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Fishing Kit",
+      "description": "Fishing rod and tackle box",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy",
+      "network": "sd_libraries",
+      "id": "sd_libraries_rapid_city_public_library_fishing_kit"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspot",
+      "description": "Portable internet; 1-week, 1 per account/month",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy",
+      "network": "sd_libraries",
+      "id": "sd_libraries_rapid_city_public_library_mobile_hotspot"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Games",
+      "name": "Board Games & Puzzles",
+      "description": "Tabletop games and puzzles; 3-week loan",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy",
+      "network": "sd_libraries",
+      "id": "sd_libraries_rapid_city_public_library_board_games_&_puzzles"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Technology/Gaming",
+      "name": "Video Games",
+      "description": "Video game collection; 1-week loan",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy",
+      "network": "sd_libraries",
+      "id": "sd_libraries_rapid_city_public_library_video_games"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Park and Museum Passes",
+      "description": "SD state park and museum access; 3-day loan, 1/month",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy",
+      "network": "sd_libraries",
+      "id": "sd_libraries_rapid_city_public_library_park_and_museum_passes"
+    },
+    {
+      "library": "Rapid City Public Library",
+      "category": "Science/Education",
+      "name": "Robots",
+      "description": "Programmable robots; in-library use",
+      "source_url": "https://www.rapidcitylibrary.org/lending-and-fees-policy",
+      "network": "sd_libraries",
+      "id": "sd_libraries_rapid_city_public_library_robots"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspot",
+      "description": "Portable wireless internet device",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout",
+      "network": "sd_libraries",
+      "id": "sd_libraries_k.o._lee_aberdeen_public_library_wi_fi_hotspot"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Technology",
+      "name": "iPad",
+      "description": "Tablet with educational apps, Libby and Hoopla access",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout",
+      "network": "sd_libraries",
+      "id": "sd_libraries_k.o._lee_aberdeen_public_library_ipad"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Technology",
+      "name": "Laptop",
+      "description": "Computer for on-site or off-site checkout",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout",
+      "network": "sd_libraries",
+      "id": "sd_libraries_k.o._lee_aberdeen_public_library_laptop"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Science/Education",
+      "name": "Microscope",
+      "description": "Magnification instrument; patrons supply own slides",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout",
+      "network": "sd_libraries",
+      "id": "sd_libraries_k.o._lee_aberdeen_public_library_microscope"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Outdoor/Camping",
+      "name": "State Park Pass",
+      "description": "SD state park pass; up to 3 days, once per month",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout",
+      "network": "sd_libraries",
+      "id": "sd_libraries_k.o._lee_aberdeen_public_library_state_park_pass"
+    },
+    {
+      "library": "K.O. Lee Aberdeen Public Library",
+      "category": "Science/Education",
+      "name": "STEM Kits",
+      "description": "Hands-on science/tech/engineering/math activity kits, age 6+",
+      "source_url": "https://www.aberdeen.sd.us/1349/Non-traditional-Materials-for-Checkout",
+      "network": "sd_libraries",
+      "id": "sd_libraries_k.o._lee_aberdeen_public_library_stem_kits"
     }
   ],
   "metadata": {
     "last_updated": "2026-03-23",
-    "total_items": 1778,
-    "total_libraries": 129,
-    "total_networks": 46,
+    "total_items": 1927,
+    "total_libraries": 144,
+    "total_networks": 52,
     "generated_by": "consolidate.py"
   }
 }

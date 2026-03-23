@@ -117,6 +117,18 @@ NETWORK_FILES = {
     "wv_libraries": "wv_items.json",
     # Idaho
     "id_libraries": "id_items.json",
+    # Alaska
+    "ak_libraries": "ak_items.json",
+    # Hawaii
+    "hi_libraries": "hi_items.json",
+    # Montana
+    "mt_libraries": "mt_items.json",
+    # Wyoming
+    "wy_libraries": "wy_items.json",
+    # North Dakota
+    "nd_libraries": "nd_items.json",
+    # South Dakota
+    "sd_libraries": "sd_items.json",
 }
 
 # Organization type constants
@@ -840,6 +852,98 @@ NETWORK_METADATA = {
         "catalog_base_url": "https://communitylibrary.net",
         "website": "https://communitylibrary.net",
         "color": "#2E7D32",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Alaska
+    "ak_libraries": {
+        "name": "Alaska Libraries",
+        "short_name": "AK",
+        "region": "Pacific Northwest",
+        "state": "AK",
+        "catalog_system": "myturn",
+        "catalog_base_url": "https://chenatoollibrary.myturn.com",
+        "website": "https://chenatoollibrary.myturn.com",
+        "color": "#00695C",
+        "org_type": ORG_TYPE_TOOL_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_MEMBERSHIP,
+        "requires_membership": True,
+    },
+    # Hawaii
+    "hi_libraries": {
+        "name": "Hawaii Libraries",
+        "short_name": "HI",
+        "region": "Pacific",
+        "state": "HI",
+        "catalog_system": "myturn",
+        "catalog_base_url": "https://hnltoollibrary.myturn.com",
+        "website": "https://www.reusehawaii.org/toollibrary",
+        "color": "#E65100",
+        "org_type": ORG_TYPE_TOOL_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_MEMBERSHIP,
+        "membership_fee": 210.0,
+        "membership_fee_notes": "$45/month or $210/year",
+        "requires_membership": True,
+    },
+    # Montana
+    "mt_libraries": {
+        "name": "Montana Libraries",
+        "short_name": "MT",
+        "region": "Mountain West",
+        "state": "MT",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.lclibrary.org",
+        "website": "https://www.lclibrary.org",
+        "color": "#1565C0",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # Wyoming
+    "wy_libraries": {
+        "name": "Wyoming Libraries",
+        "short_name": "WY",
+        "region": "Mountain West",
+        "state": "WY",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.natronacountylibrary.org",
+        "website": "https://www.natronacountylibrary.org",
+        "color": "#BF360C",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # North Dakota
+    "nd_libraries": {
+        "name": "North Dakota Libraries",
+        "short_name": "ND",
+        "region": "Midwest",
+        "state": "ND",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://fargond.gov",
+        "website": "https://fargond.gov",
+        "color": "#C62828",
+        "org_type": ORG_TYPE_LIBRARY,
+        "access_type": ACCESS_CHECKOUT,
+        "fee_structure": FEE_FREE,
+        "requires_membership": False,
+    },
+    # South Dakota
+    "sd_libraries": {
+        "name": "South Dakota Libraries",
+        "short_name": "SD",
+        "region": "Midwest",
+        "state": "SD",
+        "catalog_system": "direct",
+        "catalog_base_url": "https://www.rapidcitylibrary.org",
+        "website": "https://www.rapidcitylibrary.org",
+        "color": "#6A1B9A",
         "org_type": ORG_TYPE_LIBRARY,
         "access_type": ACCESS_CHECKOUT,
         "fee_structure": FEE_FREE,

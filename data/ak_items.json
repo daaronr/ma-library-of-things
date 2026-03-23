@@ -1,0 +1,104 @@
+{
+  "network": {
+    "name": "Alaska Libraries",
+    "id": "ak_libraries",
+    "region": "Pacific Northwest"
+  },
+  "libraries": [
+    {
+      "name": "Chena Tool Library",
+      "location": "Fairbanks, AK",
+      "lot_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    }
+  ],
+  "items": [
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "Sliding Compound Miter Saw",
+      "description": "Power saw for precise angled cuts",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "Router (11 amp)",
+      "description": "Power router for woodworking",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "SDS-Max Combi Hammer Drill",
+      "description": "Heavy-duty rotary hammer drill",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "Impact Wrench",
+      "description": "Power impact wrench for automotive and construction",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Wood Splitter (6-ton)",
+      "description": "Electric log splitter for firewood preparation",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Home Improvement",
+      "name": "Socket Set",
+      "description": "Heavy-duty wrenches and socket sets",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Kitchen",
+      "name": "Knife Sharpener (Worksharp)",
+      "description": "Professional knife sharpening system",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Kitchen",
+      "name": "Kitchen & Dining Equipment",
+      "description": "30 kitchen and dining items available for checkout",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Technology",
+      "name": "Electronics Equipment",
+      "description": "8 electronics items available for checkout",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Outdoor/Camping",
+      "name": "Sports & Outdoors Gear",
+      "description": "24 sports and outdoor items available for checkout",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Party/Event",
+      "name": "Party & Event Supplies",
+      "description": "5 party and event items available for checkout",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "Chena Tool Library",
+      "category": "Crafts/Sewing",
+      "name": "Hobbies & Crafts Supplies",
+      "description": "7 hobby and craft items available for checkout",
+      "source_url": "https://chenatoollibrary.myturn.com/library/inventory/browse"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-23",
+    "data_source": "Manual research"
+  }
+}

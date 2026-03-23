@@ -1,0 +1,144 @@
+{
+  "network": {
+    "name": "Hawaii Libraries",
+    "id": "hi_libraries",
+    "region": "Pacific"
+  },
+  "libraries": [
+    {
+      "name": "HNL Tool Library (Re-use Hawaii)",
+      "location": "Honolulu, HI",
+      "lot_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "name": "North Kohala Tool Library",
+      "location": "Kapaau, HI",
+      "lot_url": "https://nktl.org/"
+    }
+  ],
+  "items": [
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Table Saw",
+      "description": "Craftsman and DeWalt table saws for woodworking",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Band Saw",
+      "description": "Vertical band saw for curved and straight cuts",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Miter Saw",
+      "description": "Power saw for precise angled cuts",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Thickness Planer",
+      "description": "Power planer for woodworking",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "SDS Hammer Drill",
+      "description": "Heavy-duty rotary hammer drill for remodeling",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Detail Sander",
+      "description": "Precision sander for finishing work",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Jointer",
+      "description": "Power tool for creating flat edges on boards",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Plumbing Tools",
+      "description": "165 plumbing tools and supplies",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Metalworking Tools",
+      "description": "241 metalworking items",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Home Improvement",
+      "name": "Painting Supplies",
+      "description": "149 painting tools and equipment",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Auto/Vehicle",
+      "name": "Automotive Tools",
+      "description": "250 automotive repair and maintenance tools",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Bicycle",
+      "name": "Bike Tools",
+      "description": "137 bicycle repair tools",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "HNL Tool Library (Re-use Hawaii)",
+      "category": "Gardening",
+      "name": "Yard and Garden Tools",
+      "description": "171 yard and garden tools",
+      "source_url": "https://hnltoollibrary.myturn.com/library/inventory/browse"
+    },
+    {
+      "library": "North Kohala Tool Library",
+      "category": "Home Improvement",
+      "name": "Construction Tools",
+      "description": "Hand tools and power tools for construction projects",
+      "source_url": "https://nktl.org/"
+    },
+    {
+      "library": "North Kohala Tool Library",
+      "category": "Crafts/Sewing",
+      "name": "Hobby and Crafting Tools",
+      "description": "Tools for craft and hobby projects",
+      "source_url": "https://nktl.org/"
+    },
+    {
+      "library": "North Kohala Tool Library",
+      "category": "Kitchen",
+      "name": "Catering Equipment",
+      "description": "Kitchen and catering supplies",
+      "source_url": "https://nktl.org/"
+    },
+    {
+      "library": "North Kohala Tool Library",
+      "category": "Gardening",
+      "name": "Gas-Powered Yard Tools",
+      "description": "Powered garden tools; maintenance fee applies",
+      "source_url": "https://nktl.org/"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-03-23",
+    "data_source": "Manual research"
+  }
+}
