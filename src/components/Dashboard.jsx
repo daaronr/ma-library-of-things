@@ -1,5 +1,26 @@
 import React, { useMemo } from 'react';
 
+const ALL_STATES = [
+  'AL','AK','AZ','AR','CA','CO','CT','DC','DE','FL',
+  'GA','HI','ID','IL','IN','IA','KS','KY','LA','ME',
+  'MD','MA','MI','MN','MS','MO','MT','NE','NV','NH',
+  'NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI',
+  'SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY'
+];
+
+const STATE_NAMES = {
+  AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',
+  CO:'Colorado',CT:'Connecticut',DC:'Washington DC',DE:'Delaware',FL:'Florida',
+  GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',
+  IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',
+  MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',
+  MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',
+  NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',
+  OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',
+  SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',
+  VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming'
+};
+
 export default function Dashboard({ data, networks, onBack }) {
   const stats = useMemo(() => {
     if (!data?.items) return null;
@@ -69,24 +90,21 @@ export default function Dashboard({ data, networks, onBack }) {
       if (network.state) statesCovered.add(network.state);
     });
 
-    // Networks by region
-    const byRegion = {};
-    Object.values(networks).forEach(network => {
-      const region = network.region || 'Other';
-      byRegion[region] = (byRegion[region] || 0) + 1;
-    });
+    // Missing states
+    const missingStates = ALL_STATES.filter(s => !statesCovered.has(s));
 
     return {
       totalItems: items.length,
       totalLibraries: Object.keys(byLibrary).length,
       totalNetworks: Object.keys(networks).length,
       statesCovered: statesCovered.size,
+      missingStates,
       byCategory: Object.entries(byCategory).sort((a, b) => b[1] - a[1]),
       byState: Object.entries(byState).sort((a, b) => b[1] - a[1]),
       byOrgType,
       topLibraries,
       byFee,
-      byRegion: Object.entries(byRegion).sort((a, b) => b[1] - a[1]),
+      lastUpdated: data.metadata?.last_updated,
     };
   }, [data, networks]);
 
@@ -123,6 +141,11 @@ export default function Dashboard({ data, networks, onBack }) {
         <p className="text-gray-600 max-w-2xl">
           An overview of all borrowable items in our nationwide catalog, organized by category, location, and access type.
         </p>
+        {stats.lastUpdated && (
+          <p className="text-xs text-gray-400 mt-2 font-mono">
+            Data last updated: {stats.lastUpdated}
+          </p>
+        )}
       </div>
 
       {/* Summary Stats */}
@@ -130,7 +153,7 @@ export default function Dashboard({ data, networks, onBack }) {
         <StatCard value={stats.totalItems.toLocaleString()} label="Total Items" icon="📦" />
         <StatCard value={stats.totalLibraries} label="Libraries" icon="🏛️" />
         <StatCard value={stats.totalNetworks} label="Networks" icon="🔗" />
-        <StatCard value={`${stats.statesCovered}/50`} label="States Covered" icon="🗺️" />
+        <StatCard value={`${stats.statesCovered}/51`} label="States + DC" icon="🗺️" />
       </div>
 
       {/* Charts Grid */}
@@ -276,24 +299,42 @@ export default function Dashboard({ data, networks, onBack }) {
         </div>
       </div>
 
-      {/* Coverage Summary */}
+      {/* Geographic Coverage */}
       <div className="catalog-card p-6">
         <h3 className="font-semibold text-lg mb-4 flex items-center gap-2">
           <span>📍</span> Geographic Coverage
         </h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
-          {stats.byState.map(([state, count]) => (
-            <div
-              key={state}
-              className="bg-gray-50 border border-gray-200 rounded px-3 py-2 text-center hover:bg-[#F5F1E6] transition-colors"
-            >
-              <div className="font-semibold text-[#8B4513]">{state}</div>
-              <div className="text-xs text-gray-500 font-mono">{count} items</div>
-            </div>
-          ))}
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2">
+          {ALL_STATES.map(state => {
+            const count = stats.byState.find(([s]) => s === state)?.[1];
+            const covered = !!count;
+            return (
+              <div
+                key={state}
+                className={`rounded px-2 py-1.5 text-center transition-colors ${
+                  covered
+                    ? 'bg-[#F5F1E6] border border-[#D4C5A9] hover:bg-[#EDE3CC]'
+                    : 'bg-gray-50 border border-gray-200 opacity-50'
+                }`}
+                title={`${STATE_NAMES[state]}${count ? `: ${count} items` : ': No programs found'}`}
+              >
+                <div className={`font-semibold text-sm ${covered ? 'text-[#8B4513]' : 'text-gray-400'}`}>
+                  {state}
+                </div>
+                {covered && (
+                  <div className="text-[10px] text-gray-500 font-mono">{count}</div>
+                )}
+              </div>
+            );
+          })}
         </div>
         <p className="mt-4 text-sm text-gray-500">
-          Coverage: {stats.statesCovered} of 50 states ({((stats.statesCovered / 50) * 100).toFixed(0)}%)
+          Coverage: {stats.statesCovered} of 51 (50 states + DC) &mdash; {((stats.statesCovered / 51) * 100).toFixed(0)}%
+          {stats.missingStates.length > 0 && (
+            <span className="ml-2 text-gray-400">
+              Missing: {stats.missingStates.map(s => STATE_NAMES[s] || s).join(', ')}
+            </span>
+          )}
         </p>
       </div>
 
@@ -304,6 +345,7 @@ export default function Dashboard({ data, networks, onBack }) {
         </h3>
         <p className="text-sm text-gray-600 mb-4">
           Download the complete dataset for research or analysis purposes.
+          All data is sourced from publicly accessible library websites.
         </p>
         <div className="flex flex-wrap gap-3">
           <a
@@ -333,7 +375,7 @@ function BarItem({ label, value, max, color }) {
   const percent = (value / max) * 100;
   return (
     <div className="flex items-center gap-2 text-sm">
-      <div className="w-28 truncate text-gray-700" title={label}>{label}</div>
+      <div className="w-32 truncate text-gray-700" title={label}>{label}</div>
       <div className="flex-1 h-5 bg-gray-100 rounded overflow-hidden">
         <div
           className="h-full rounded transition-all flex items-center justify-end pr-2"
