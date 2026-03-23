@@ -35,6 +35,24 @@ export default function Footer({ lastUpdated }) {
           For official information, please contact your local library directly.
         </p>
 
+        <div className="mb-4 p-3 bg-[#FFFDF5] border border-[#D4C5A9] max-w-md mx-auto rounded text-xs text-gray-600 leading-relaxed">
+          <strong className="text-[#2C2416]">Library staff?</strong>{' '}
+          If you'd like to update, correct, or remove your library's data, please{' '}
+          <a
+            href="https://github.com/daaronr/ma-library-of-things/issues/new"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#8B4513] underline hover:text-[#6B3410]"
+          >
+            open an issue
+          </a>{' '}
+          or email{' '}
+          <a href="mailto:david@davidreinstein.org" className="text-[#8B4513] underline hover:text-[#6B3410]">
+            david@davidreinstein.org
+          </a>.
+          We'll respond promptly.
+        </div>
+
         <details className="text-xs text-gray-500 mb-4">
           <summary className="cursor-pointer hover:text-[#8B4513] font-mono uppercase tracking-wider">
             Excluded Libraries
