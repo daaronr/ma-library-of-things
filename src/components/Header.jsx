@@ -1,7 +1,7 @@
 import React from 'react';
 import Disclaimer from './Disclaimer';
 
-export default function Header({ stats, onShowDashboard, showDashboardLink }) {
+export default function Header({ stats, onShowDashboard, onShowHighlights, showNavLinks }) {
   return (
     <header className="mb-6">
       <Disclaimer />
@@ -9,14 +9,23 @@ export default function Header({ stats, onShowDashboard, showDashboardLink }) {
       <div className="catalog-card p-8 md:p-10 mt-4">
         <div className="flex items-center justify-between mb-4">
           <div className="section-label">Subject Card Catalog — Main Collection</div>
-          {showDashboardLink && (
-            <button
-              onClick={onShowDashboard}
-              className="text-sm font-mono text-[#8B4513] hover:text-[#6B3410] transition-colors flex items-center gap-1.5 border border-[#D4C5A9] px-3 py-1.5 rounded hover:bg-[#F5F1E6]"
-            >
-              <span>📊</span>
-              <span>Statistics</span>
-            </button>
+          {showNavLinks && (
+            <div className="flex items-center gap-2">
+              <button
+                onClick={onShowHighlights}
+                className="text-sm font-mono text-[#8B4513] hover:text-[#6B3410] transition-colors flex items-center gap-1.5 border border-[#D4C5A9] px-3 py-1.5 rounded hover:bg-[#F5F1E6]"
+              >
+                <span>✨</span>
+                <span>Highlights</span>
+              </button>
+              <button
+                onClick={onShowDashboard}
+                className="text-sm font-mono text-[#8B4513] hover:text-[#6B3410] transition-colors flex items-center gap-1.5 border border-[#D4C5A9] px-3 py-1.5 rounded hover:bg-[#F5F1E6]"
+              >
+                <span>📊</span>
+                <span>Statistics</span>
+              </button>
+            </div>
           )}
         </div>
 
