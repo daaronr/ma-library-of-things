@@ -115,62 +115,57 @@ export default function Dashboard({ data, networks, onBack }) {
     // Unique item count
     const uniqueCount = Object.values(nameCounts).filter(v => v.count === 1).length;
 
-    // Estimated value of collection (rough retail estimates)
+    // Estimated retail value per item (for individual items only, not aggregates)
     const VALUE_ESTIMATES = {
-      'pressure washer': 300, 'miter saw': 250, 'telescope': 200, 'sewing machine': 180,
-      'kayak': 500, 'paddleboard': 400, 'e-bike': 1200, 'projector': 250,
-      'gopro': 350, 'laptop': 500, 'chromebook': 250, 'ipad': 400,
-      'metal detector': 200, 'thermal': 300, 'drill': 100, 'circular saw': 120,
-      'impact wrench': 150, 'rotary hammer': 200, 'air compressor': 180,
-      'record player': 100, 'turntable': 100, 'ukulele': 50, 'guitar': 150,
-      'karaoke': 80, 'binocular': 120, 'microscope': 150, 'cricut': 300,
+      'e-bike': 1200, 'tractor': 25000, 'wood splitter': 800,
+      'kayak': 500, 'paddleboard': 400, 'jointer': 500, 'table saw': 400,
+      'band saw': 350, 'planer': 350, 'gopro': 350, 'laptop': 500,
+      'ipad': 400, 'chromebook': 250, 'pressure washer': 300, 'cricut': 300,
+      'thermal': 300, 'miter saw': 250, 'projector': 250, 'telescope': 200,
+      'metal detector': 200, 'rotary hammer': 200, 'sewing machine': 180,
+      'air compressor': 180, 'impact wrench': 150, 'microscope': 150,
+      'radon detector': 150, 'tent': 150, 'guitar': 150,
+      'circular saw': 120, 'binocular': 120, 'snowshoe': 120,
+      'drill': 100, 'record player': 100, 'turntable': 100, 'camping': 100,
+      'karaoke': 80, 'fishing': 80, 'laser level': 60,
       'wifi hotspot': 60, 'mobile hotspot': 60, 'hotspot': 60,
-      'snowshoe': 120, 'fishing': 80, 'pickleball': 40, 'bocce': 35,
-      'blood pressure': 40, 'light therapy': 50, 'radon detector': 150,
-      'kill-a-watt': 25, 'stud finder': 25, 'laser level': 60,
-      'board game': 30, 'cake pan': 15, 'cookie cutter': 10,
-      'food dehydrator': 60, 'ice cream maker': 40, 'canning': 30,
-      'tent': 150, 'sleeping bag': 60, 'camping': 100,
-      'table saw': 400, 'band saw': 350, 'jointer': 500, 'planer': 350,
-      'tractor': 25000, 'wood splitter': 800,
+      'food dehydrator': 60, 'ukulele': 50, 'light therapy': 50,
+      'pickleball': 40, 'blood pressure': 40, 'ice cream maker': 40,
+      'bocce': 35, 'board game': 30, 'canning': 30,
+      'kill-a-watt': 25, 'stud finder': 25,
+      'cake pan': 15, 'cookie cutter': 10,
     };
 
-    const valuedItems = items.map(item => {
-      const t = `${item.name} ${item.description || ''}`.toLowerCase();
-      let value = 50; // default
-      let matchedKey = null;
-      Object.entries(VALUE_ESTIMATES).forEach(([key, val]) => {
-        if (t.includes(key) && val > value) {
-          value = val;
-          matchedKey = key;
-        }
-      });
-      return { ...item, estimatedValue: value, state: networks[item.network]?.state || '?' };
-    });
+    // Detect aggregate entries (descriptions mentioning large counts)
+    const isAggregate = (item) => {
+      const desc = (item.description || '').toLowerCase();
+      const countMatch = desc.match(/(\d[\d,]+)\s*(items?|tools?|pieces?)/);
+      return countMatch && parseInt(countMatch[1].replace(',', '')) > 10;
+    };
 
-    const totalEstimatedValue = valuedItems.reduce((sum, i) => sum + i.estimatedValue, 0);
+    const valuedItems = items
+      .filter(item => !isAggregate(item))
+      .map(item => {
+        const t = `${item.name} ${item.description || ''}`.toLowerCase();
+        let value = null;
+        Object.entries(VALUE_ESTIMATES).forEach(([key, val]) => {
+          if (t.includes(key) && (value === null || val > value)) {
+            value = val;
+          }
+        });
+        return value !== null
+          ? { ...item, estimatedValue: value, state: networks[item.network]?.state || '?' }
+          : null;
+      })
+      .filter(Boolean);
 
     const mostExpensive = [...valuedItems]
       .sort((a, b) => b.estimatedValue - a.estimatedValue)
       .slice(0, 12);
 
-    const leastExpensive = [...valuedItems]
-      .filter(i => i.estimatedValue <= 30)
-      .sort((a, b) => a.estimatedValue - b.estimatedValue);
-    const cheapSample = leastExpensive.slice(0, 8);
-
-    // Average value per state
-    const stateValues = {};
-    const stateCounts = {};
-    valuedItems.forEach(item => {
-      const st = item.state;
-      stateValues[st] = (stateValues[st] || 0) + item.estimatedValue;
-      stateCounts[st] = (stateCounts[st] || 0) + 1;
-    });
-    const stateAvgValue = Object.entries(stateValues)
-      .map(([st, total]) => ({ state: st, total, avg: Math.round(total / stateCounts[st]), count: stateCounts[st] }))
-      .sort((a, b) => b.total - a.total)
-      .slice(0, 10);
+    // "What you'd spend" — sum only matched individual items
+    const matchedTotal = valuedItems.reduce((sum, i) => sum + i.estimatedValue, 0);
+    const matchedCount = valuedItems.length;
 
     return {
       totalItems: items.length,
@@ -186,10 +181,9 @@ export default function Dashboard({ data, networks, onBack }) {
       lastUpdated: data.metadata?.last_updated,
       mostCommon,
       uniqueCount,
-      totalEstimatedValue,
       mostExpensive,
-      cheapSample,
-      stateAvgValue,
+      matchedTotal,
+      matchedCount,
     };
   }, [data, networks]);
 
@@ -234,12 +228,11 @@ export default function Dashboard({ data, networks, onBack }) {
       </div>
 
       {/* Summary Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <StatCard value={stats.totalItems.toLocaleString()} label="Total Items" icon="📦" />
         <StatCard value={stats.totalLibraries} label="Libraries" icon="🏛️" />
         <StatCard value={stats.totalNetworks} label="Networks" icon="🔗" />
         <StatCard value={`${stats.statesCovered}/51`} label="States + DC" icon="🗺️" />
-        <StatCard value={`$${Math.round(stats.totalEstimatedValue / 1000)}k`} label="Est. Retail Value" icon="💰" />
       </div>
 
       {/* Charts Grid */}
@@ -456,57 +449,35 @@ export default function Dashboard({ data, networks, onBack }) {
       </div>
 
       {/* Estimated Value */}
-      <div className="grid md:grid-cols-2 gap-6">
-        <div className="catalog-card p-6">
-          <h3 className="font-semibold text-lg mb-1 flex items-center gap-2">
-            <span>💎</span> Highest-Value Items
-          </h3>
-          <p className="text-xs text-gray-400 mb-4">Estimated retail replacement cost</p>
-          <div className="space-y-2">
-            {stats.mostExpensive.map((item, i) => (
-              <div key={`${item.id || i}`} className="flex items-center gap-2 text-sm">
-                <span className="font-mono text-gray-400 w-4 text-xs">{i + 1}.</span>
-                <div className="flex-1 min-w-0 flex items-center justify-between gap-2">
-                  <div className="truncate">
-                    <span className="text-gray-700">{item.name}</span>
-                    <span className="text-[10px] text-gray-400 ml-1.5">{item.state}</span>
-                  </div>
-                  <span className="font-mono text-sm text-[#2E7D32] flex-shrink-0 font-semibold">
-                    ~${item.estimatedValue.toLocaleString()}
-                  </span>
+      <div className="catalog-card p-6">
+        <h3 className="font-semibold text-lg mb-1 flex items-center gap-2">
+          <span>💎</span> What Would This Cost to Buy?
+        </h3>
+        <p className="text-xs text-gray-400 mb-4">
+          Estimated retail price if you bought these items new.
+          Only showing individually identifiable items — tool libraries with thousands of tools are not included in totals.
+        </p>
+        <div className="grid md:grid-cols-2 gap-x-8 gap-y-2">
+          {stats.mostExpensive.map((item, i) => (
+            <div key={`${item.id || i}`} className="flex items-center gap-2 text-sm">
+              <span className="font-mono text-gray-400 w-4 text-xs">{i + 1}.</span>
+              <div className="flex-1 min-w-0 flex items-center justify-between gap-2">
+                <div className="truncate">
+                  <span className="text-gray-700">{item.name}</span>
+                  <span className="text-[10px] text-gray-400 ml-1.5">{item.state} · {item.library}</span>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="catalog-card p-6">
-          <h3 className="font-semibold text-lg mb-1 flex items-center gap-2">
-            <span>🏦</span> Collection Value by State
-          </h3>
-          <p className="text-xs text-gray-400 mb-4">Total estimated retail value of listed items</p>
-          <div className="space-y-2">
-            {stats.stateAvgValue.map((sv) => (
-              <div key={sv.state} className="flex items-center gap-2 text-sm">
-                <span className="font-semibold text-[#8B4513] w-6">{sv.state}</span>
-                <div className="flex-1 h-5 bg-gray-100 rounded overflow-hidden">
-                  <div
-                    className="h-full rounded bg-[#2E7D32] transition-all flex items-center justify-end pr-2"
-                    style={{ width: `${Math.max((sv.total / stats.stateAvgValue[0].total) * 100, 12)}%` }}
-                  >
-                    <span className="text-xs text-white font-mono">${(sv.total / 1000).toFixed(1)}k</span>
-                  </div>
-                </div>
-                <span className="text-[10px] text-gray-400 w-20 text-right font-mono">
-                  avg ${sv.avg}/item
+                <span className="font-mono text-sm text-[#2E7D32] flex-shrink-0 font-semibold">
+                  ~${item.estimatedValue.toLocaleString()}
                 </span>
               </div>
-            ))}
-          </div>
-          <p className="text-xs text-gray-400 mt-3 italic">
-            Estimates based on typical retail prices. Actual library inventory value is much higher —
-            many collections have thousands of items we show only a sample of.
-          </p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-4 pt-4 border-t border-[#E8DCC8] text-sm text-gray-500">
+          <strong className="text-[#8B4513]">{stats.matchedCount}</strong> individually priced items
+          total ~<strong className="text-[#8B4513]">${(stats.matchedTotal / 1000).toFixed(0)}k</strong> in estimated retail value.
+          {' '}This is a lower bound — libraries like MUD Tool Library (3,754 tools), HNL Tool Library (1,364 tools),
+          and Minnesota Tool Library (8,219 tools) have collections worth hundreds of thousands of dollars each.
         </div>
       </div>
 
@@ -522,14 +493,14 @@ export default function Dashboard({ data, networks, onBack }) {
             detail={`Found in ${stats.mostCommon[0]?.states} states`}
           />
           <FactCard
-            label="Most unique collection"
-            value={`${stats.uniqueCount} one-of-a-kind items`}
-            detail={`${Math.round((stats.uniqueCount / stats.totalItems) * 100)}% of all items`}
+            label="One-of-a-kind items"
+            value={`${stats.uniqueCount}`}
+            detail={`${Math.round((stats.uniqueCount / stats.totalItems) * 100)}% of listings are unique to one library`}
           />
           <FactCard
-            label="If you bought it all"
-            value={`~$${Math.round(stats.totalEstimatedValue / 1000).toLocaleString()}k`}
-            detail="Estimated retail replacement cost"
+            label="Most expensive single item"
+            value={stats.mostExpensive[0] ? `~$${stats.mostExpensive[0].estimatedValue.toLocaleString()}` : 'N/A'}
+            detail={stats.mostExpensive[0]?.name || ''}
           />
         </div>
       </div>
