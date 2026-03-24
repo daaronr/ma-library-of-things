@@ -116,24 +116,41 @@ export default function Dashboard({ data, networks, onBack }) {
     const uniqueCount = Object.values(nameCounts).filter(v => v.count === 1).length;
 
     // Estimated retail value per item (for individual items only, not aggregates)
+    // Keys are matched as whole words to avoid substring false positives
     const VALUE_ESTIMATES = {
       'e-bike': 1200, 'tractor': 25000, 'wood splitter': 800,
       'kayak': 500, 'paddleboard': 400, 'jointer': 500, 'table saw': 400,
-      'band saw': 350, 'planer': 350, 'gopro': 350, 'laptop': 500,
-      'ipad': 400, 'chromebook': 250, 'pressure washer': 300, 'cricut': 300,
-      'thermal': 300, 'miter saw': 250, 'projector': 250, 'telescope': 200,
+      'band saw': 350, 'thickness planer': 350, 'gopro': 350,
+      'laptop': 500, 'ipad': 400, 'chromebook': 250,
+      'pressure washer': 300, 'cricut': 300,
+      'thermal camera': 300, 'thermal leak detector': 300,
+      'miter saw': 250, 'projector': 250, 'telescope': 200,
       'metal detector': 200, 'rotary hammer': 200, 'sewing machine': 180,
       'air compressor': 180, 'impact wrench': 150, 'microscope': 150,
       'radon detector': 150, 'tent': 150, 'guitar': 150,
-      'circular saw': 120, 'binocular': 120, 'snowshoe': 120,
-      'drill': 100, 'record player': 100, 'turntable': 100, 'camping': 100,
-      'karaoke': 80, 'fishing': 80, 'laser level': 60,
-      'wifi hotspot': 60, 'mobile hotspot': 60, 'hotspot': 60,
+      'circular saw': 120, 'binoculars': 120, 'snowshoes': 120,
+      'power drill': 100, 'cordless drill': 100, 'record player': 100,
+      'turntable': 100, 'karaoke': 80, 'fishing': 80, 'laser level': 60,
+      'wifi hotspot': 60, 'mobile hotspot': 60, 'wi-fi hotspot': 60,
       'food dehydrator': 60, 'ukulele': 50, 'light therapy': 50,
       'pickleball': 40, 'blood pressure': 40, 'ice cream maker': 40,
-      'bocce': 35, 'board game': 30, 'canning': 30,
+      'bocce': 35, 'board game': 30, 'canning kit': 30,
       'kill-a-watt': 25, 'stud finder': 25,
       'cake pan': 15, 'cookie cutter': 10,
+    };
+
+    // Match using word boundaries to avoid "extractor" matching "tractor"
+    const matchValue = (text) => {
+      let best = null;
+      let bestVal = 0;
+      Object.entries(VALUE_ESTIMATES).forEach(([key, val]) => {
+        const regex = new RegExp(`\\b${key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`, 'i');
+        if (regex.test(text) && val > bestVal) {
+          best = key;
+          bestVal = val;
+        }
+      });
+      return best ? bestVal : null;
     };
 
     // Detect aggregate entries (descriptions mentioning large counts)
@@ -146,13 +163,8 @@ export default function Dashboard({ data, networks, onBack }) {
     const valuedItems = items
       .filter(item => !isAggregate(item))
       .map(item => {
-        const t = `${item.name} ${item.description || ''}`.toLowerCase();
-        let value = null;
-        Object.entries(VALUE_ESTIMATES).forEach(([key, val]) => {
-          if (t.includes(key) && (value === null || val > value)) {
-            value = val;
-          }
-        });
+        const t = `${item.name} ${item.description || ''}`;
+        const value = matchValue(t);
         return value !== null
           ? { ...item, estimatedValue: value, state: networks[item.network]?.state || '?' }
           : null;
