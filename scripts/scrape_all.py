@@ -65,8 +65,14 @@ def merge_items(existing: list[dict], scraped: list[dict]) -> list[dict]:
         scraped_keys.add(key)
 
         if key in existing_index:
-            # Update existing item, preserving manual fields
-            updated = {**existing_index[key], **item}
+            # Update existing item with scraped data, but never let an empty
+            # scraped value clobber a non-empty existing one (protects curated
+            # descriptions and catalog URLs from being wiped by a thin re-scrape).
+            updated = {**existing_index[key]}
+            for k, v in item.items():
+                if v in (None, '', []) and updated.get(k) not in (None, '', []):
+                    continue
+                updated[k] = v
             merged.append(updated)
         else:
             # New item
