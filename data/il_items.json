@@ -116,6 +116,46 @@
       "name": "Mini Projector",
       "description": "Portable mini projector",
       "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Outdoor Games",
+      "name": "Tennis Rackets",
+      "description": "Tennis rackets for outdoor play",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Technology",
+      "name": "Laptops",
+      "description": "Laptops with Adobe Creative Suite",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspots",
+      "description": "Mobile internet hotspot devices",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Technology",
+      "name": "Projectors",
+      "description": "Portable video projectors",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Park Public Library",
+      "category": "Technology",
+      "name": "GoPro Action Cameras",
+      "description": "GoPro action cameras for video",
+      "source_url": "https://www.oppl.org/read-listen-watch/library-of-things/",
+      "last_verified": "2026-03-29"
     }
   ],
   "metadata": {

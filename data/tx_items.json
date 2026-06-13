@@ -114,6 +114,110 @@
       "name": "Gardening Tool Set",
       "description": "Basic gardening tools",
       "source_url": "https://hcpl.net/gardening/"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Cultivators",
+      "description": "Hand cultivator gardening tools",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Digging Forks",
+      "description": "Garden digging forks",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Edgers",
+      "description": "Garden edging tools",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Garden Hoses",
+      "description": "Garden hoses for watering",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Hoes",
+      "description": "Garden hoes",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Pruners",
+      "description": "Pruning shears and tools",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Rakes",
+      "description": "Garden rakes",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Shears",
+      "description": "Garden shears",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Shovels",
+      "description": "Gardening shovels",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Spades",
+      "description": "Garden spades",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Trowels",
+      "description": "Hand trowels for gardening",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Weeders",
+      "description": "Weeding tools",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Harris County Public Library - Baldwin Boettcher",
+      "category": "Gardening",
+      "name": "Wheelbarrows",
+      "description": "Wheelbarrows for garden transport",
+      "source_url": "https://hcpl.net/gardening/",
+      "last_verified": "2026-03-29"
     }
   ],
   "metadata": {

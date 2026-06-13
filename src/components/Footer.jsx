@@ -67,7 +67,7 @@ export default function Footer({ lastUpdated }) {
           </div>
         </details>
 
-        <p className="text-xs text-gray-400">
+        <p className="text-xs text-gray-400 mb-4">
           Created by{' '}
           <a
             href="https://davidreinstein.org"
@@ -79,6 +79,19 @@ export default function Footer({ lastUpdated }) {
           </a>
           {' '}with assistance from Claude AI
         </p>
+
+        <div className="text-xs text-gray-500 border-t border-[#D4C5A9] pt-4 max-w-md mx-auto">
+          <span className="font-mono uppercase tracking-wider text-gray-400 text-xs">See also: </span>
+          <a
+            href="https://impact-products-directory.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#8B4513] hover:underline"
+          >
+            Impact Products &amp; Services Directory
+          </a>
+          {' '}&mdash; a directory of organizations and products that donate profits or commit to charitable giving, with verified impact claims.
+        </div>
       </div>
     </footer>
   );

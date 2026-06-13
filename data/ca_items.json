@@ -72,102 +72,650 @@
     }
   ],
   "items": [
-    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Circular Saw", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Hammer", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Chisel Set", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Hand Plane", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Cement Mixer", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Electric Jackhammer", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Drain Snake", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Gardening", "name": "Electric Weed Wacker", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Rotary Impact Drill", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Kitchen", "name": "Food Processor", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Measurement & Detection", "name": "Thermal Imager", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Tile Cutter", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Gardening", "name": "Lawn Mower", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Extension Ladder", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-    {"library": "Berkeley Tool Lending Library", "category": "Home Improvement", "name": "Pressure Washer", "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools"},
-
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Electric Jackhammer", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Drain Snake", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Gardening", "name": "Electric Weed Wacker", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Rotary Impact Drill", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Circular Saw", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Table Saw", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Miter Saw", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Router", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Belt Sander", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Tile Cutter", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Gardening", "name": "Lawn Mower", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Gardening", "name": "Hedge Trimmer", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Pressure Washer", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Extension Ladder", "source_url": "https://oaklandlibrary.org/otll/"},
-    {"library": "Oakland Tool Lending Library", "category": "Home Improvement", "name": "Step Ladder", "source_url": "https://oaklandlibrary.org/otll/"},
-
-    {"library": "LA County Library - Compton", "category": "Home Improvement", "name": "Cordless Drill", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Compton", "category": "Home Improvement", "name": "Orbital Sander", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Compton", "category": "Home Improvement", "name": "Pressure Washer", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Compton", "category": "Crafts/Sewing", "name": "Sewing Machine", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Compton", "category": "Crafts/Sewing", "name": "Cricut Machine", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Compton", "category": "Music", "name": "Acoustic Guitar", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Compton", "category": "Music", "name": "Keyboard", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Compton", "category": "Music", "name": "Electronic Drum Kit", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Lancaster", "category": "Home Improvement", "name": "Cordless Drill", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Lancaster", "category": "Gardening", "name": "Pruning Shears", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Lancaster", "category": "Auto/Vehicle", "name": "OBD Code Reader", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Lancaster", "category": "Auto/Vehicle", "name": "Socket Set", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Malibu", "category": "Home Improvement", "name": "Cordless Drill", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Malibu", "category": "Measurement & Detection", "name": "Stud Finder", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Malibu", "category": "Measurement & Detection", "name": "Level", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Norwalk", "category": "Kitchen", "name": "Cake Pans", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Norwalk", "category": "Kitchen", "name": "Stand Mixer", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Norwalk", "category": "Crafts/Sewing", "name": "Hot Glue Gun", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Norwalk", "category": "Crafts/Sewing", "name": "Jewelry Making Kit", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Rosemead", "category": "Home Improvement", "name": "Hammer Set", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Rosemead", "category": "Home Improvement", "name": "Wrench Set", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - Rosemead", "category": "Home Improvement", "name": "Screwdriver Set", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - San Fernando", "category": "Home Improvement", "name": "Pliers Set", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - San Fernando", "category": "Home Improvement", "name": "Clamp Set", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - San Fernando", "category": "Gardening", "name": "Shovel", "source_url": "https://lacountylibrary.org/tools/"},
-    {"library": "LA County Library - San Fernando", "category": "Gardening", "name": "Hoe", "source_url": "https://lacountylibrary.org/tools/"},
-
-    {"library": "Santa Clara County Library - Milpitas", "category": "Wellness/Health", "name": "Blood Pressure Monitor", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Wellness/Health", "name": "Light Therapy Lamp", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Wellness/Health", "name": "White Noise Machine", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Outdoor/Camping", "name": "Bird Watching Kit", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Party/Event", "name": "Karaoke Machine", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Measurement & Detection", "name": "Metal Detector", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Music", "name": "MIDI Keyboard", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Crafts/Sewing", "name": "Sewing Machine", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Music", "name": "Vinyl Record Player", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Science/Education", "name": "Ozobot Coding Robot Kit", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Science/Education", "name": "Toniebox Audio Player Kit", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Kitchen", "name": "Cake Pans (Decorative)", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Kitchen", "name": "Food Dehydrator", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Kitchen", "name": "Hot Pot and Grill", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Kitchen", "name": "Ice Cream Maker", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Kitchen", "name": "Popcorn Maker", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Kitchen", "name": "Sous Vide", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Technology", "name": "Bluetooth Speaker", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Technology", "name": "GoPro Hero 11", "source_url": "https://sccld.org/things/"},
-    {"library": "Santa Clara County Library - Milpitas", "category": "Technology", "name": "Portable Projector", "source_url": "https://sccld.org/things/"},
-
-    {"library": "Alameda County Library - Irvington", "category": "Home Improvement", "name": "Extension Ladder", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Irvington", "category": "Home Improvement", "name": "Pipe Wrench", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Irvington", "category": "Home Improvement", "name": "Heat Gun", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Irvington", "category": "Home Improvement", "name": "Orbital Sander", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Irvington", "category": "Home Improvement", "name": "Multi-Bit Screwdriver", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Irvington", "category": "Home Improvement", "name": "Claw Hammer", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Irvington", "category": "Auto/Vehicle", "name": "Mechanics Tool Set", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Centerville", "category": "Gardening", "name": "Shovel", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Centerville", "category": "Gardening", "name": "Hoe", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Centerville", "category": "Gardening", "name": "Weed Popper", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Centerville", "category": "Gardening", "name": "Tree Pruner", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Centerville", "category": "Gardening", "name": "Fruit Picker", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Centerville", "category": "Gardening", "name": "Manual Lawn Edger", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Centerville", "category": "Gardening", "name": "Lawn Aerator", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Centerville", "category": "Gardening", "name": "Battery Leaf Blower", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"},
-    {"library": "Alameda County Library - Centerville", "category": "Gardening", "name": "Battery String Trimmer", "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/"}
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Circular Saw",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Portable circular saw for cutting wood"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Hammer",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Claw hammer for general use"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Chisel Set",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Wood chisel set for carving and joinery"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Hand Plane",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Hand plane for smoothing wood"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Cement Mixer",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Portable cement/concrete mixer"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Electric Jackhammer",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Electric demolition hammer/jackhammer"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Drain Snake",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Drain snake for clearing clogged pipes"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Gardening",
+      "name": "Electric Weed Wacker",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Electric string trimmer/weed whacker"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Rotary Impact Drill",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Kitchen",
+      "name": "Food Processor",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Electric food processor"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Measurement & Detection",
+      "name": "Thermal Imager",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Thermal imaging camera for heat detection"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Tile Cutter",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Tile cutting tool for ceramic and porcelain"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Gardening",
+      "name": "Lawn Mower",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Push lawn mower"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Extension Ladder",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Extension ladder"
+    },
+    {
+      "library": "Berkeley Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "source_url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library/tools",
+      "description": "Pressure washer for outdoor cleaning"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Electric Jackhammer",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Electric demolition hammer/jackhammer"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Drain Snake",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Drain snake for clearing clogged pipes"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Gardening",
+      "name": "Electric Weed Wacker",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Electric string trimmer/weed whacker"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Rotary Impact Drill",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Circular Saw",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Portable circular saw for cutting wood"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Table Saw",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Table saw for woodworking"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Miter Saw",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Miter saw for angled cuts"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Router",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Wood router for decorative edges and joinery"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Belt Sander",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Belt sander for heavy material removal"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Tile Cutter",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Tile cutting tool for ceramic and porcelain"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Gardening",
+      "name": "Lawn Mower",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Push lawn mower"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Gardening",
+      "name": "Hedge Trimmer",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Electric hedge trimmer"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Pressure washer for outdoor cleaning"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Extension Ladder",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Extension ladder"
+    },
+    {
+      "library": "Oakland Tool Lending Library",
+      "category": "Home Improvement",
+      "name": "Step Ladder",
+      "source_url": "https://oaklandlibrary.org/otll/",
+      "description": "Folding step ladder"
+    },
+    {
+      "library": "LA County Library - Compton",
+      "category": "Home Improvement",
+      "name": "Cordless Drill",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "LA County Library - Compton",
+      "category": "Home Improvement",
+      "name": "Orbital Sander",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Random orbital sander for finishing work"
+    },
+    {
+      "library": "LA County Library - Compton",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Pressure washer for outdoor cleaning"
+    },
+    {
+      "library": "LA County Library - Compton",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Portable sewing machine"
+    },
+    {
+      "library": "LA County Library - Compton",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Machine",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Cricut cutting machine for crafts"
+    },
+    {
+      "library": "LA County Library - Compton",
+      "category": "Music",
+      "name": "Acoustic Guitar",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Acoustic guitar for checkout"
+    },
+    {
+      "library": "LA County Library - Compton",
+      "category": "Music",
+      "name": "Keyboard",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Electronic keyboard/piano"
+    },
+    {
+      "library": "LA County Library - Compton",
+      "category": "Music",
+      "name": "Electronic Drum Kit",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Electronic drum pad kit"
+    },
+    {
+      "library": "LA County Library - Lancaster",
+      "category": "Home Improvement",
+      "name": "Cordless Drill",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "LA County Library - Lancaster",
+      "category": "Gardening",
+      "name": "Pruning Shears",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Garden pruning shears"
+    },
+    {
+      "library": "LA County Library - Lancaster",
+      "category": "Auto/Vehicle",
+      "name": "OBD Code Reader",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "OBD-II vehicle diagnostic code reader"
+    },
+    {
+      "library": "LA County Library - Lancaster",
+      "category": "Auto/Vehicle",
+      "name": "Socket Set",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Socket wrench set for mechanical work"
+    },
+    {
+      "library": "LA County Library - Malibu",
+      "category": "Home Improvement",
+      "name": "Cordless Drill",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "LA County Library - Malibu",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Electronic stud finder for locating wall studs"
+    },
+    {
+      "library": "LA County Library - Malibu",
+      "category": "Measurement & Detection",
+      "name": "Level",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Bubble level for alignment"
+    },
+    {
+      "library": "LA County Library - Norwalk",
+      "category": "Kitchen",
+      "name": "Cake Pans",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Specialty cake pan collection"
+    },
+    {
+      "library": "LA County Library - Norwalk",
+      "category": "Kitchen",
+      "name": "Stand Mixer",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Stand mixer for baking"
+    },
+    {
+      "library": "LA County Library - Norwalk",
+      "category": "Crafts/Sewing",
+      "name": "Hot Glue Gun",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Hot glue gun for crafts and repairs"
+    },
+    {
+      "library": "LA County Library - Norwalk",
+      "category": "Crafts/Sewing",
+      "name": "Jewelry Making Kit",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Jewelry making supplies and tools kit"
+    },
+    {
+      "library": "LA County Library - Rosemead",
+      "category": "Home Improvement",
+      "name": "Hammer Set",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Set of hammers in various sizes"
+    },
+    {
+      "library": "LA County Library - Rosemead",
+      "category": "Home Improvement",
+      "name": "Wrench Set",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Set of wrenches in various sizes"
+    },
+    {
+      "library": "LA County Library - Rosemead",
+      "category": "Home Improvement",
+      "name": "Screwdriver Set",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Set of screwdrivers (Phillips and flathead)"
+    },
+    {
+      "library": "LA County Library - San Fernando",
+      "category": "Home Improvement",
+      "name": "Pliers Set",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Set of pliers in various types"
+    },
+    {
+      "library": "LA County Library - San Fernando",
+      "category": "Home Improvement",
+      "name": "Clamp Set",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Set of clamps for woodworking"
+    },
+    {
+      "library": "LA County Library - San Fernando",
+      "category": "Gardening",
+      "name": "Shovel",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Garden or snow shovel"
+    },
+    {
+      "library": "LA County Library - San Fernando",
+      "category": "Gardening",
+      "name": "Hoe",
+      "source_url": "https://lacountylibrary.org/tools/",
+      "description": "Garden hoe for weeding and cultivating"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "source_url": "https://sccld.org/things/",
+      "description": "Digital blood pressure cuff"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Wellness/Health",
+      "name": "Light Therapy Lamp",
+      "source_url": "https://sccld.org/things/",
+      "description": "Light therapy lamp for seasonal affective disorder"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Wellness/Health",
+      "name": "White Noise Machine",
+      "source_url": "https://sccld.org/things/",
+      "description": "White noise sleep machine"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "source_url": "https://sccld.org/things/",
+      "description": "Birdwatching kit with binoculars and field guide"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Party/Event",
+      "name": "Karaoke Machine",
+      "source_url": "https://sccld.org/things/",
+      "description": "Portable karaoke system with microphone"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "source_url": "https://sccld.org/things/",
+      "description": "Metal detector for treasure hunting and utility location"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Music",
+      "name": "MIDI Keyboard",
+      "source_url": "https://sccld.org/things/",
+      "description": "Electronic keyboard/piano"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "source_url": "https://sccld.org/things/",
+      "description": "Portable sewing machine"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Music",
+      "name": "Vinyl Record Player",
+      "source_url": "https://sccld.org/things/",
+      "description": "Vinyl record turntable"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Science/Education",
+      "name": "Ozobot Coding Robot Kit",
+      "source_url": "https://sccld.org/things/",
+      "description": "Educational programmable robot"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Science/Education",
+      "name": "Toniebox Audio Player Kit",
+      "source_url": "https://sccld.org/things/",
+      "description": "Toniebox audio player system for kids"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Kitchen",
+      "name": "Cake Pans (Decorative)",
+      "source_url": "https://sccld.org/things/",
+      "description": "Specialty cake pan collection"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Kitchen",
+      "name": "Food Dehydrator",
+      "source_url": "https://sccld.org/things/",
+      "description": "Electric food dehydrator"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Kitchen",
+      "name": "Hot Pot and Grill",
+      "source_url": "https://sccld.org/things/",
+      "description": "Electric hot pot and grill combo"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Kitchen",
+      "name": "Ice Cream Maker",
+      "source_url": "https://sccld.org/things/",
+      "description": "Home ice cream maker"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Kitchen",
+      "name": "Popcorn Maker",
+      "source_url": "https://sccld.org/things/",
+      "description": "Popcorn making machine"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Kitchen",
+      "name": "Sous Vide",
+      "source_url": "https://sccld.org/things/",
+      "description": "Sous vide immersion circulator"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Technology",
+      "name": "Bluetooth Speaker",
+      "source_url": "https://sccld.org/things/",
+      "description": "Portable Bluetooth speaker"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Technology",
+      "name": "GoPro Hero 11",
+      "source_url": "https://sccld.org/things/",
+      "description": "GoPro action camera"
+    },
+    {
+      "library": "Santa Clara County Library - Milpitas",
+      "category": "Technology",
+      "name": "Portable Projector",
+      "source_url": "https://sccld.org/things/",
+      "description": "Portable video projector"
+    },
+    {
+      "library": "Alameda County Library - Irvington",
+      "category": "Home Improvement",
+      "name": "Extension Ladder",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Extension ladder"
+    },
+    {
+      "library": "Alameda County Library - Irvington",
+      "category": "Home Improvement",
+      "name": "Pipe Wrench",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Adjustable pipe wrench for plumbing"
+    },
+    {
+      "library": "Alameda County Library - Irvington",
+      "category": "Home Improvement",
+      "name": "Heat Gun",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Heat gun for paint stripping and shrink wrap"
+    },
+    {
+      "library": "Alameda County Library - Irvington",
+      "category": "Home Improvement",
+      "name": "Orbital Sander",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Random orbital sander for finishing work"
+    },
+    {
+      "library": "Alameda County Library - Irvington",
+      "category": "Home Improvement",
+      "name": "Multi-Bit Screwdriver",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Multi-bit screwdriver with interchangeable tips"
+    },
+    {
+      "library": "Alameda County Library - Irvington",
+      "category": "Home Improvement",
+      "name": "Claw Hammer",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Claw hammer for general use"
+    },
+    {
+      "library": "Alameda County Library - Irvington",
+      "category": "Auto/Vehicle",
+      "name": "Mechanics Tool Set",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Comprehensive mechanics tool set"
+    },
+    {
+      "library": "Alameda County Library - Centerville",
+      "category": "Gardening",
+      "name": "Shovel",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Garden or snow shovel"
+    },
+    {
+      "library": "Alameda County Library - Centerville",
+      "category": "Gardening",
+      "name": "Hoe",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Garden hoe for weeding and cultivating"
+    },
+    {
+      "library": "Alameda County Library - Centerville",
+      "category": "Gardening",
+      "name": "Weed Popper",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Stand-up weed removal tool"
+    },
+    {
+      "library": "Alameda County Library - Centerville",
+      "category": "Gardening",
+      "name": "Tree Pruner",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Long-reach tree pruner/pole saw"
+    },
+    {
+      "library": "Alameda County Library - Centerville",
+      "category": "Gardening",
+      "name": "Fruit Picker",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Long-reach fruit picking tool"
+    },
+    {
+      "library": "Alameda County Library - Centerville",
+      "category": "Gardening",
+      "name": "Manual Lawn Edger",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Lawn edger for clean borders"
+    },
+    {
+      "library": "Alameda County Library - Centerville",
+      "category": "Gardening",
+      "name": "Lawn Aerator",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Manual or powered lawn aerator"
+    },
+    {
+      "library": "Alameda County Library - Centerville",
+      "category": "Gardening",
+      "name": "Battery Leaf Blower",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "Electric or battery-powered leaf blower"
+    },
+    {
+      "library": "Alameda County Library - Centerville",
+      "category": "Gardening",
+      "name": "Battery String Trimmer",
+      "source_url": "https://aclibrary.org/news/two-new-tool-lending-collections/",
+      "description": "String trimmer/weed whacker"
+    }
   ],
   "metadata": {
     "last_updated": "2026-02-20",

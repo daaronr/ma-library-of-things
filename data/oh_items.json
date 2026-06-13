@@ -102,6 +102,46 @@
       "name": "WiFi Hotspot",
       "description": "Mobile internet hotspot device",
       "source_url": "https://www.starklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Wellness/Health",
+      "name": "Fitness Weights",
+      "description": "Ankle and wrist weights for exercise",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Science/Education",
+      "name": "Telescope (Tabletop)",
+      "description": "Tabletop telescope for viewing Saturn's rings and Jupiter",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Auto/Vehicle",
+      "name": "Student Driving Cones",
+      "description": "Practice cones for driver's license maneuverability test",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Technology",
+      "name": "Internet2Go Kit",
+      "description": "Chromebook and Wi-Fi hotspot combo kit",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Stark Library",
+      "category": "Technology",
+      "name": "WiFi Hotspots",
+      "description": "Pocket-sized high-speed internet hotspot devices",
+      "source_url": "https://www.starklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
     }
   ],
   "metadata": {

@@ -116,6 +116,94 @@
       "name": "Cricut Machine",
       "description": "Cricut cutting machine for crafts",
       "source_url": "https://library.nashville.gov/services/library-things"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Music",
+      "name": "Musical Instruments",
+      "description": "Guitars, keyboards, ukuleles, and other instruments",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Home Improvement",
+      "name": "Tools & Electronics",
+      "description": "Tool kits, radon detectors, and more",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Kitchen",
+      "name": "Kitchen Items",
+      "description": "Cake pans, ice cream makers, and other kitchen equipment",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Wellness/Health",
+      "name": "Health & Fitness Items",
+      "description": "Weights, pedometers, and other fitness items",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Outdoor Games",
+      "name": "Lawn Games",
+      "description": "Bocce, pickleball, and more outdoor games",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Crafts & Hobbies",
+      "description": "Binoculars, sewing machines, and craft items",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Entertainment",
+      "name": "Art Lending Library",
+      "description": "Framed artwork through Metro Arts Lending Library collection",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Bicycle",
+      "name": "BCycle Passes",
+      "description": "Nashville BCycle bicycle share passes",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Board game collection for checkout",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Entertainment",
+      "name": "Community Passports",
+      "description": "Museum passports for free/discounted admission to cultural institutions",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Nashville Public Library",
+      "category": "Gardening",
+      "name": "Seed Exchange",
+      "description": "Seeds available through the library seed exchange program",
+      "source_url": "https://library.nashville.gov/services/library-things",
+      "last_verified": "2026-03-29"
     }
   ],
   "metadata": {

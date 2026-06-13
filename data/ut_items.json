@@ -109,6 +109,102 @@
       "name": "Preserve the Memory Equipment",
       "description": "Devices for converting VHS, cassettes, film, and slides to digital",
       "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kits",
+      "description": "Binoculars, monocular, tripod, smartphone holder, and Birds of Utah Field Guide",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "Chromebooks",
+      "description": "Laptops running Google Chrome OS. 21-day checkout.",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Kitchen",
+      "name": "Pasta Maker Kits",
+      "description": "Pasta making kits in partnership with PBS Utah",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "GoPro Cameras",
+      "description": "GoPro 11 with selfie stick, tripod, floating grip, helmet straps, and case",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Wellness/Health",
+      "name": "HappyLight Therapy Lamps",
+      "description": "Light therapy lamps for seasonal affective disorder",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Wellness/Health",
+      "name": "Heart Health Kits",
+      "description": "Blood pressure monitors, pulse oximeters, and thermometers",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Science/Education",
+      "name": "Kids Nature Kits",
+      "description": "Everything kids need to explore the great outdoors",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "Launchpad Tablets",
+      "description": "Durable tablets with pre-installed early literacy apps, no internet needed",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Wellness/Health",
+      "name": "Memory Care Kits",
+      "description": "Sensory items to trigger memories for individuals with memory loss",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Science/Education",
+      "name": "Storytime To Go Kits",
+      "description": "Three books, activity sheets, and toys for family storytime",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Science/Education",
+      "name": "Telescopes",
+      "description": "Orion StarBlast telescopes via Salt Lake Astronomical Society",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Salt Lake County Library",
+      "category": "Technology",
+      "name": "WhaZoodles",
+      "description": "Speaker device for kids with stories, music, and exercises",
+      "source_url": "https://www.slcolibrary.org/what-we-have/library-of-things",
+      "last_verified": "2026-03-29"
     }
   ],
   "metadata": {

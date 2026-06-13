@@ -26,56 +26,356 @@
     }
   ],
   "items": [
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Auto/Vehicle", "name": "Air Compressor - 1.5 GAL - 150 PSI", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Anvil - 16\"", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Gardening", "name": "Battery Powered Lawn Mower", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Cement Mixer - 3.5 Cubic Feet", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Drywall Lift - 11'", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Extension Ladder - 25'", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Kreg R3 Pocket Hole Jig", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Measurement & Detection", "name": "Laser Level", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Measurement & Detection", "name": "Laser Tape, Laser Level, Stud Finder Kit", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Gardening", "name": "Log Splitter - 6.5 Ton", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Gardening", "name": "Log Splitter - Manual", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Crafts/Sewing", "name": "Metal Detector", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Crafts/Sewing", "name": "Plastic Scoring Tool", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Power Planer - 3\" (IN-SHOP ONLY)", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Ratcheting Pipe Threader", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "1/4\" Shelf Pin Jig", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Auto/Vehicle", "name": "1/4\" Socket Wrench Set", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "1\" Planer", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "1\" Spring Clamp", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "2.5\" Three-Way Clamp", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Auto/Vehicle", "name": "2\" Half Heel Dollie (Auto Body)", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "2\" Spring Clamp", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Auto/Vehicle", "name": "2 Ton Jack Stand Pair", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "3 1/4\" Spring Clamp", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "3/4\" Plastic Water Pressure Test Gauge", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "3/4\" Pipe Clamp - 67\"", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "3/8\" Cove Router Bit", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "4 Piece Center Punch Set", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "4\" Putty Knife", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "4\" Scraper", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "4\" Short Chisel Bit Set", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "4\" Trowel Wooden Handle", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "4-Way Water Key", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "5 1/2\" Scraper", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Measurement & Detection", "name": "5 1/2\" Metal File", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "5\" Crescent Wrench & Pocket Knife Combo", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "5 Flute Countersink - 3/4\"", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Measurement & Detection", "name": "5\" Metal File", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "6 1/2\" Trowel", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Measurement & Detection", "name": "6\"/150mm Caliper", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "6\" Cement Edger", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Table Saw", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Miter Saw", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Jointer", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Lathe", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Drill Press", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Router Table", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Planer", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Home Improvement", "name": "Bandsaw", "source_url": "https://mtl.myturn.com/library/inventory/browse"},
-    {"library": "Minnesota Tool Library - NE Minneapolis", "category": "Gardening", "name": "Rototiller", "source_url": "https://mtl.myturn.com/library/inventory/browse"}
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Auto/Vehicle",
+      "name": "Air Compressor - 1.5 GAL - 150 PSI",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Portable air compressor"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Anvil - 16\"",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Small anvil for metalwork"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Gardening",
+      "name": "Battery Powered Lawn Mower",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Push lawn mower"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Cement Mixer - 3.5 Cubic Feet",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Portable cement/concrete mixer"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Drywall Lift - 11'",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Drywall panel lift for ceiling installation"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Extension Ladder - 25'",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Extension ladder"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Kreg R3 Pocket Hole Jig",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Kreg r3 pocket hole jig — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Laser level for precise alignment"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Measurement & Detection",
+      "name": "Laser Tape, Laser Level, Stud Finder Kit",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Bubble level for alignment"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Gardening",
+      "name": "Log Splitter - 6.5 Ton",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Log splitter for firewood"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Gardening",
+      "name": "Log Splitter - Manual",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Log splitter for firewood"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Crafts/Sewing",
+      "name": "Metal Detector",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Metal detector for treasure hunting and utility location"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Crafts/Sewing",
+      "name": "Plastic Scoring Tool",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Plastic scoring tool — crafts tool available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Power Planer - 3\" (IN-SHOP ONLY)",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Electric planer for smoothing wood surfaces"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Ratcheting Pipe Threader",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Ratcheting pipe threader — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "1/4\" Shelf Pin Jig",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Shelf pin jig — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Auto/Vehicle",
+      "name": "1/4\" Socket Wrench Set",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Set of wrenches in various sizes"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "1\" Planer",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Electric planer for smoothing wood surfaces"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "1\" Spring Clamp",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Spring clamp — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "2.5\" Three-Way Clamp",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Three-way clamp — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Auto/Vehicle",
+      "name": "2\" Half Heel Dollie (Auto Body)",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Half heel dollie (auto body) — automotive tool available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "2\" Spring Clamp",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Spring clamp — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Auto/Vehicle",
+      "name": "2 Ton Jack Stand Pair",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Jack stand pair — automotive tool available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "3 1/4\" Spring Clamp",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Spring clamp — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "3/4\" Plastic Water Pressure Test Gauge",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Plastic water pressure test gauge — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "3/4\" Pipe Clamp - 67\"",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Pipe clamp - 67\" — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "3/8\" Cove Router Bit",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Wood router for decorative edges and joinery"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4 Piece Center Punch Set",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Center punch set — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4\" Putty Knife",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Putty knife for scraping and applying filler"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4\" Scraper",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Paint or wallpaper scraper"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4\" Short Chisel Bit Set",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Short chisel bit set — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4\" Trowel Wooden Handle",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Finishing trowel for masonry and plaster"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "4-Way Water Key",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Way water key — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "5 1/2\" Scraper",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Paint or wallpaper scraper"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Measurement & Detection",
+      "name": "5 1/2\" Metal File",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Metal file — measurement tool available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "5\" Crescent Wrench & Pocket Knife Combo",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Crescent wrench & pocket knife combo — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "5 Flute Countersink - 3/4\"",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Flute countersink - 3/4\" — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Measurement & Detection",
+      "name": "5\" Metal File",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Metal file — measurement tool available for borrowing"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "6 1/2\" Trowel",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Finishing trowel for masonry and plaster"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Measurement & Detection",
+      "name": "6\"/150mm Caliper",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Caliper for precision measurement"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "6\" Cement Edger",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Lawn edger for clean borders"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Table Saw",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Table saw for woodworking"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Miter Saw",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Miter saw for angled cuts"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Jointer",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Woodworking jointer for flattening boards"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Lathe",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Wood or metal lathe"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Drill Press",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Router Table",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Wood router for decorative edges and joinery"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Planer",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Electric planer for smoothing wood surfaces"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Home Improvement",
+      "name": "Bandsaw",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Bandsaw for curved and straight cuts"
+    },
+    {
+      "library": "Minnesota Tool Library - NE Minneapolis",
+      "category": "Gardening",
+      "name": "Rototiller",
+      "source_url": "https://mtl.myturn.com/library/inventory/browse",
+      "description": "Garden tiller/cultivator"
+    }
   ],
   "metadata": {
     "last_updated": "2026-02-20",

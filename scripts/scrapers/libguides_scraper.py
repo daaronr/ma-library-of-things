@@ -224,8 +224,12 @@ class LibGuidesScraper(BaseScraper):
         return text
 
     def _is_noise(self, text: str) -> bool:
-        """Check if text is noise (navigation, etc) rather than an item."""
+        """Check if text is noise (navigation, policy text, etc) rather than an item."""
         if not text or len(text) < 3:
+            return True
+
+        # Sentence-length text is almost never a real single item name
+        if len(text) > 90:
             return True
 
         noise_patterns = [
@@ -236,5 +240,13 @@ class LibGuidesScraper(BaseScraper):
             'facebook', 'twitter', 'instagram', 'youtube',
         ]
 
+        # Policy / lending-rule / nav phrasing (incl. common Spanish policy terms)
+        policy_patterns = [
+            'borrower', 'must have', 'must be', 'must pick', 'must return',
+            'valid card', 'good standing', 'years old', 'lending agreement',
+            'loan agreement', 'lending policy', 'overdue', 'replacement cost',
+            'late fee', 'library card', 'política', 'préstamo', 'acuerdo',
+        ]
+
         lower = text.lower()
-        return any(p in lower for p in noise_patterns)
+        return any(p in lower for p in noise_patterns + policy_patterns)

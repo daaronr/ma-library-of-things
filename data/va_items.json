@@ -16,95 +16,629 @@
     }
   ],
   "items": [
-    {"library": "Charlottesville Tool Library", "category": "Party/Event", "name": "10' x 10' EZ-Up Canopy with Sandbag Weights", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Battery Powered Lawn Mower", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Benchtop Drill Press", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Kitchen", "name": "Black Walnut Cracker", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Carpet Cleaner", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Carpet & Upholstery Cleaner", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Circular Saw, Corded 7 1/2\" Skilsaw", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Compact Circular Saw, Corded", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Dehumidifier", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "EGo String Trimmer, Battery", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Electric Garden Tiller, 16 inch", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Kitchen", "name": "Electric Hand-held Mixer", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Electric Leaf Mulcher", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Electric Planer", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Hammer Drill, Cordless 18v DeWalt", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Hedge Trimmer, Battery (Stihl)", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Large Nut Gatherer", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Masonry Chisel", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Milwaukee Band Saw", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Post Pounder", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Power Screw Gun", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Power Tool Set, Dewalt", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Pressure Washer, 2500 PSI", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Pruning Saw", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Ratchet Miter Shears", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Reciprocating Saw, 18V", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Reusable Moving Box Set", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Root Slayer Shovel", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "3\" C Clamp", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "3 Gallon Wet/Dry Vac", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "4\" C Clamp Set", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "5-Step Stepladder with Handrails", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "5 Tine Compost Pitchfork", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "6' Ladder", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Allen Wrench Set, Metric", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Allen Wrench Set, SAE", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Measurement & Detection", "name": "Anemometer, Portable", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Angle Grinder, 4 1/2\"", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Anvil Pruner", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Arbor Press", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Auger Drill Bit Set", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Auto/Vehicle", "name": "Auto Body Hammer", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Measurement & Detection", "name": "Auto Level Transit", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Auto/Vehicle", "name": "Automotive Ramps", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Broadfork", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Buffer", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Bulb Planter", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Bull Bar Wrecking Bar, 44\"", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Cable Cutter", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Cable Ripper", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Carpet Knee Kicker", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Carpet Tucker & Stair Tool", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Auto/Vehicle", "name": "Car Rooftop Soft Cargo Bag", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Caulk Gun", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Edger, Corded Electric", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Electrical Fish Tape", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Electric Brad Nailer", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Electric Chainsaw Loppers", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Electric Cutout Tool Rotozip", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Kitchen", "name": "Electric Food Dehydrator", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Electric Hedge Trimmer, 24\"", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Electric Staple & Nail Gun", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Technology", "name": "Electronics Tool Kit", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Miter Shears", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Mouse Detail Sander", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Multi-Function Garden Cart", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Multi-Ladder", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Measurement & Detection", "name": "Multimeter, 600V", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Multi-Tool Pliers", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Nail Puller, 12\"", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Kitchen", "name": "Pressure Canner", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Wallpaper Steamer", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Auto/Vehicle", "name": "Floor Jack, 3 Ton", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Auto/Vehicle", "name": "Jack Stands", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Auto/Vehicle", "name": "Tire Inflator", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Tile Saw", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Table Saw", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Jigsaw", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Router", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Belt Sander", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Orbital Sander", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Chainsaw, Electric", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Gardening", "name": "Pole Saw", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Stud Finder", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Measurement & Detection", "name": "Laser Level", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Pipe Wrench Set", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Plumbing Snake", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Shop Vacuum", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"},
-    {"library": "Charlottesville Tool Library", "category": "Home Improvement", "name": "Extension Ladder, 24'", "source_url": "https://cvilletools.myturn.com/library/inventory/browse"}
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Party/Event",
+      "name": "10' x 10' EZ-Up Canopy with Sandbag Weights",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Pop-up canopy tent for outdoor events"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Battery Powered Lawn Mower",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Push lawn mower"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Benchtop Drill Press",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Kitchen",
+      "name": "Black Walnut Cracker",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Black walnut cracker — kitchen item available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Carpet Cleaner",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Carpet cleaner — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Carpet & Upholstery Cleaner",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Carpet & upholstery cleaner — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Circular Saw, Corded 7 1/2\" Skilsaw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Portable circular saw for cutting wood"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Compact Circular Saw, Corded",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Portable circular saw for cutting wood"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Dehumidifier",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Dehumidifier — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "EGo String Trimmer, Battery",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "String trimmer/weed whacker"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Electric Garden Tiller, 16 inch",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Garden tiller/cultivator"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Kitchen",
+      "name": "Electric Hand-held Mixer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric hand-held mixer — kitchen item available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Electric Leaf Mulcher",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric leaf mulcher — gardening tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Planer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric planer for smoothing wood surfaces"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Hammer Drill, Cordless 18v DeWalt",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Hedge Trimmer, Battery (Stihl)",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric hedge trimmer"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Large Nut Gatherer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Large nut gatherer — gardening tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Masonry Chisel",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Masonry chisel — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Milwaukee Band Saw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Milwaukee band saw — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Post Pounder",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Post pounder — gardening tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Power Screw Gun",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Power screw gun — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Power Tool Set, Dewalt",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Power tool set, dewalt — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer, 2500 PSI",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Pressure washer for outdoor cleaning"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Pruning Saw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Pruning saw — gardening tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Ratchet Miter Shears",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Ratchet miter shears — gardening tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Reciprocating Saw, 18V",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Reciprocating saw for demolition and rough cuts"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Reusable Moving Box Set",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Reusable moving box set — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Root Slayer Shovel",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Garden or snow shovel"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "3\" C Clamp",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "C clamp — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "3 Gallon Wet/Dry Vac",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Wet/dry vac — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "4\" C Clamp Set",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Set of clamps for woodworking"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "5-Step Stepladder with Handrails",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Step stepladder with handrails — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "5 Tine Compost Pitchfork",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Tine compost pitchfork — gardening tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "6' Ladder",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Ladder — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Allen Wrench Set, Metric",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Set of wrenches in various sizes"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Allen Wrench Set, SAE",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Set of wrenches in various sizes"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Measurement & Detection",
+      "name": "Anemometer, Portable",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Anemometer, portable — measurement tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Angle Grinder, 4 1/2\"",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Angle grinder for cutting and grinding"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Anvil Pruner",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Small anvil for metalwork"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Arbor Press",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Arbor press — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Auger Drill Bit Set",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Auto Body Hammer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Claw hammer for general use"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Measurement & Detection",
+      "name": "Auto Level Transit",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Bubble level for alignment"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Automotive Ramps",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Automotive ramps — automotive tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Broadfork",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Broadfork — gardening tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Buffer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Buffer — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Bulb Planter",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Bulb planter — gardening tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Bull Bar Wrecking Bar, 44\"",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Bull bar wrecking bar, 44\" — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Cable Cutter",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Cable cutter — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Cable Ripper",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Cable ripper — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Carpet Knee Kicker",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Carpet knee kicker — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Carpet Tucker & Stair Tool",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Carpet tucker & stair tool — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Car Rooftop Soft Cargo Bag",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Car rooftop soft cargo bag — automotive tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Caulk Gun",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Caulk gun — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Edger, Corded Electric",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Lawn edger for clean borders"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electrical Fish Tape",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electrical fish tape — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Brad Nailer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric brad nailer — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Electric Chainsaw Loppers",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric chainsaw for tree trimming"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Cutout Tool Rotozip",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric cutout tool rotozip — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Kitchen",
+      "name": "Electric Food Dehydrator",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric food dehydrator"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Electric Hedge Trimmer, 24\"",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric hedge trimmer"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Electric Staple & Nail Gun",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Nail gun for fastening"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Technology",
+      "name": "Electronics Tool Kit",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "General-purpose home tool kit"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Miter Shears",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Miter shears — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Mouse Detail Sander",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric sander for smoothing surfaces"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Multi-Function Garden Cart",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Multi-function garden cart — gardening tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Multi-Ladder",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Multi-ladder — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Measurement & Detection",
+      "name": "Multimeter, 600V",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Digital multimeter for electrical testing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Multi-Tool Pliers",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Multi-tool pliers — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Nail Puller, 12\"",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Nail puller, 12\" — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Kitchen",
+      "name": "Pressure Canner",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Pressure canner — kitchen item available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Wallpaper Steamer",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Wallpaper steamer for removal"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Floor Jack, 3 Ton",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Hydraulic floor jack for vehicle lifting"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Jack Stands",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Automotive jack stands for safety"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "Tire Inflator",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Portable tire inflator/air compressor"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Tile Saw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Tile saw — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Table Saw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Table saw for woodworking"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Jigsaw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric jigsaw for curved and straight cuts"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Router",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Wood router for decorative edges and joinery"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Belt Sander",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Belt sander for heavy material removal"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Orbital Sander",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Random orbital sander for finishing work"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Chainsaw, Electric",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electric chainsaw for tree trimming"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Gardening",
+      "name": "Pole Saw",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Pole saw — gardening tool available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Stud Finder",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Electronic stud finder for locating wall studs"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Level",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Laser level for precise alignment"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Pipe Wrench Set",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Set of wrenches in various sizes"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Plumbing Snake",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Plumbing snake — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Shop Vacuum",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Shop vacuum for workshop cleanup"
+    },
+    {
+      "library": "Charlottesville Tool Library",
+      "category": "Home Improvement",
+      "name": "Extension Ladder, 24'",
+      "source_url": "https://cvilletools.myturn.com/library/inventory/browse",
+      "description": "Extension ladder"
+    }
   ],
   "metadata": {
     "last_updated": "2026-02-20",

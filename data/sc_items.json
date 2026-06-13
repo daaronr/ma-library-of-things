@@ -63,186 +63,1266 @@
     }
   ],
   "items": [
-    {"library": "Richland Library - Main", "category": "Assistive Technology", "name": "Braille Playing Cards", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Assistive Technology", "name": "Portable Hearing Loop", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Assistive Technology", "name": "Ruby XL HD Video Magnifier", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Assistive Technology", "name": "Braille Learning Device", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Science/Education", "name": "Compound Microscope Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - North Main", "category": "Home Improvement", "name": "Electric Pressure Washer", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Technology", "name": "Ghost Hunting Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Home Improvement", "name": "Moving Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Crafts/Sewing", "name": "Overlock Serger", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Technology", "name": "Podcasting Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Music", "name": "Portable Record Player", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Music", "name": "Portable Record Player", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor/Camping", "name": "Single-line Diamond Kite", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Outdoor/Camping", "name": "Single-line Diamond Kite", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor/Camping", "name": "Trekking Poles", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Crafts/Sewing", "name": "Yarn Swift and Baller", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Crafts/Sewing", "name": "Yarn Swift and Baller", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - North Main", "category": "Home Improvement", "name": "1/2\" Drive Torque Wrench Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Technology", "name": "3D Model Request Service", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Sandhills", "category": "Home Improvement", "name": "6 Foot Folding Table", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Home Improvement", "name": "6 Foot Folding Table", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "6 Foot Folding Table", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Home Improvement", "name": "6 Foot Folding Table", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Kitchen", "name": "9\" Cake Pan Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Technology", "name": "16mm EF-M Mount Canon Lens", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "50 Foot Outdoor Extension Cord", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Wheatley", "category": "Home Improvement", "name": "50 Foot Outdoor Extension Cord", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Kitchen", "name": "55-Piece Cake Decorating Tip Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Games", "name": "300 Piece Puzzle, Solar System", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Crafts/Sewing", "name": "Adjustable Easel", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Outdoor/Camping", "name": "Adult Birding Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Outdoor/Camping", "name": "Adult Birding Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Outdoor/Camping", "name": "Adult Bug & Wildflower Watching Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Outdoor/Camping", "name": "Adult Bug & Wildflower Watching Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor/Camping", "name": "Adult-Size XL Personal Flotation Device", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor/Camping", "name": "Adult-Size XS/S Personal Flotation Device", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Eastover", "category": "Home Improvement", "name": "Air Inflator", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Kitchen", "name": "Angel Food Cake Pan Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Technology", "name": "Backdrop Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Home Improvement", "name": "Backpack Baby Carrier", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor Games", "name": "Badminton Racket Set with Shuttlecocks", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Wellness/Health", "name": "Balance Board", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Wellness/Health", "name": "Balance Stepping Stones", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "Band Clamp", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Gardening", "name": "Basic Gardening Tool Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Gardening", "name": "Basic Gardening Tool Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Wheatley", "category": "Gardening", "name": "Basic Gardening Tool Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Outdoor Games", "name": "Bean Bag Bucketz", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Crafts/Sewing", "name": "Bias Tape Maker Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Bicycle", "name": "Bicycle Tool Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Wheatley", "category": "Bicycle", "name": "Bicycle Tool Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Crafts/Sewing", "name": "Binding Machine", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Eastover", "category": "Outdoor/Camping", "name": "Bird Watching Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Outdoor/Camping", "name": "Bird Watching Pack", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor/Camping", "name": "Bird Watching Pack, Adult", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor/Camping", "name": "Bird Watching Pack, Child", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Outdoor/Camping", "name": "Bird Watching Pack, Family", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Crafts/Sewing", "name": "Blocking Mats", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Games", "name": "Block Tower Game", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Wellness/Health", "name": "Blood Pressure Monitor", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Eastover", "category": "Wellness/Health", "name": "Blood Pressure Monitor", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Sandhills", "category": "Wellness/Health", "name": "Blood Pressure Monitor", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Edgewood", "category": "Technology", "name": "Blu-Ray Player", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Technology", "name": "Blu-Ray Player", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor Games", "name": "Bocce Ball Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Outdoor Games", "name": "Bocce Ball Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Outdoor Games", "name": "Bocce Ball Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Outdoor Games", "name": "Bocce Ball Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Outdoor Games", "name": "Bocce Ball Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Gardening", "name": "Bow Rake", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Eastover", "category": "Gardening", "name": "Bow Rake", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Gardening", "name": "Bow Rake", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Gardening", "name": "Bow Rake", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Kitchen", "name": "Bread & Scone Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Gardening", "name": "Broadcast Spreader", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Kitchen", "name": "Brownie Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Science/Education", "name": "Celestron Telescope", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Science/Education", "name": "Celestron Telescope", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Eastover", "category": "Party/Event", "name": "Check Out SC: State Park Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Edgewood", "category": "Party/Event", "name": "Check Out SC: State Park Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Party/Event", "name": "Check Out SC: State Park Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - North Main", "category": "Party/Event", "name": "Check Out SC: State Park Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Party/Event", "name": "Check Out SC: State Park Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Party/Event", "name": "Check Out SC: State Park Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Sandhills", "category": "Party/Event", "name": "Check Out SC: State Park Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Party/Event", "name": "Check Out SC: State Park Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Party/Event", "name": "Check Out SC: State Park Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Party/Event", "name": "Check Out SC: State Park Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Wheatley", "category": "Party/Event", "name": "Check Out SC: State Park Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "CNC Router", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Science/Education", "name": "Code Jumper", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Crafts/Sewing", "name": "Cricut Maker Machine", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Crafts/Sewing", "name": "Cricut Maker Machine", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Sandhills", "category": "Crafts/Sewing", "name": "Crochet Hook Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Crafts/Sewing", "name": "Crochet Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Outdoor Games", "name": "Croquet Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor Games", "name": "Croquet Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Kitchen", "name": "Cupcake/Muffin Pan Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Measurement & Detection", "name": "Digital Hanging Scale", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Inspection", "name": "Digital Radon Detector", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - North Main", "category": "Auto/Vehicle", "name": "Digital Timing Light", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Technology", "name": "Document Camera, Ladibug", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Technology", "name": "Document Camera, USB", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Technology", "name": "Document Camera with Extender Arm", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Home Improvement", "name": "Dremel Rotary Tool Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Gardening", "name": "Electric Earth Auger", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Gardening", "name": "Garden Tool and Tote Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Eastover", "category": "Gardening", "name": "Garden Tool and Tote Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Sandhills", "category": "Gardening", "name": "Garden Tool and Tote Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Gardening", "name": "Garden Tool and Tote Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Games", "name": "Giant Checkers", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Kitchen", "name": "Giant Cookie Pan", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Outdoor Games", "name": "Giant Tumbling Timber Toy", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Outdoor Games", "name": "Giant Tumbling Timber Toy", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Outdoor Games", "name": "Giant Tumbling Timber Toy", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Outdoor Games", "name": "Giant Tumbling Timber Toy", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Outdoor Games", "name": "Giant Wooden Four Connect Game", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Outdoor Games", "name": "Giant Wooden Four Connect Game", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Outdoor Games", "name": "Giant Wooden Four Connect Game", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Outdoor Games", "name": "Giant Wooden Four Connect Game", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor Games", "name": "Giant Wooden Four Connect Game", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "Hotknife, Cordless", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - North Main", "category": "Home Inspection", "name": "Household Inspection Camera", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Inspection", "name": "Household Inspection Camera", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "Impact Socket Sets", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "Impact Wrench Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor/Camping", "name": "Infant-Size Personal Flotation Device", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Auto/Vehicle", "name": "Inflator/Deflator Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Technology", "name": "Instax Camera Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "Ironing Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Sandhills", "category": "Music", "name": "Karaoke Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Games", "name": "Keva Planks", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Science/Education", "name": "Kids Add-on to Litter Collection Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Outdoor/Camping", "name": "Kids Birding Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Outdoor/Camping", "name": "Kids Birding Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Outdoor/Camping", "name": "Kids Bug & Wildflower Watching Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - North Main", "category": "Technology", "name": "Mini Video Projection Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Technology", "name": "Mini Video Projection Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Technology", "name": "Mini Video Projection Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Gardening", "name": "Moisture Meter", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Outdoor/Camping", "name": "Monocular", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "Moving Supplies", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "Multi-Function Work Table", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "Multi-Position Ladder", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Home Improvement", "name": "Multi-Position Ladder", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Home Improvement", "name": "Multi-Position Ladder", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Crafts/Sewing", "name": "Needle Felting Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - North Main", "category": "Auto/Vehicle", "name": "OBD2 & EOBD Code Reader", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Edgewood", "category": "Technology", "name": "Oral History Digital Camera Kits", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Outdoor Games", "name": "Outdoor Bowling Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Outdoor Games", "name": "Outdoor Bowling Set", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "Sander, Random Orbit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Eastover", "category": "Technology", "name": "Scanner", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Technology", "name": "Scanner", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Technology", "name": "Scanner", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Party/Event", "name": "SC State Museum Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Blythewood", "category": "Party/Event", "name": "SC State Museum Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Party/Event", "name": "SC State Museum Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Edgewood", "category": "Party/Event", "name": "SC State Museum Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Eastover", "category": "Party/Event", "name": "SC State Museum Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Lower Richland", "category": "Party/Event", "name": "SC State Museum Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Party/Event", "name": "SC State Museum Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - North Main", "category": "Party/Event", "name": "SC State Museum Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Sandhills", "category": "Party/Event", "name": "SC State Museum Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Wheatley", "category": "Party/Event", "name": "SC State Museum Pass", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - North Main", "category": "Measurement & Detection", "name": "Telescoping Magnetic Pick-Up", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Inspection", "name": "Thermal Imager", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Eastover", "category": "Home Inspection", "name": "Thermal Imaging Camera", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - North Main", "category": "Home Improvement", "name": "Tool Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Home Improvement", "name": "Tool Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Home Improvement", "name": "Tool Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Home Improvement", "name": "Tool Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Edgewood", "category": "Home Improvement", "name": "Torque Wrench", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Kitchen", "name": "Tortilla Press", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Cooper", "category": "Science/Education", "name": "Trace & Write Alphabet Center", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Science/Education", "name": "Trace & Write Alphabet Center", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Ballentine", "category": "Outdoor/Camping", "name": "Trail Cam Kit", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Southeast", "category": "Science/Education", "name": "Travel Telescope", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Music", "name": "Ukulele", "source_url": "https://richlandlibrary.myturn.com/library/"},
-    {"library": "Richland Library - Main", "category": "Gardening", "name": "Vegetables: Fall Bundle Seeds", "source_url": "https://richlandlibrary.myturn.com/library/"}
+    {
+      "library": "Richland Library - Main",
+      "category": "Assistive Technology",
+      "name": "Braille Playing Cards",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Playing cards with Braille markings"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Assistive Technology",
+      "name": "Portable Hearing Loop",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Portable hearing induction loop system"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Assistive Technology",
+      "name": "Ruby XL HD Video Magnifier",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Portable video magnifier for low vision"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Assistive Technology",
+      "name": "Braille Learning Device",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Braille learning device — assistive technology device available for borrowing"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Science/Education",
+      "name": "Compound Microscope Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Microscope for scientific observation"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Home Improvement",
+      "name": "Electric Pressure Washer",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Pressure washer for outdoor cleaning"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Technology",
+      "name": "Ghost Hunting Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Ghost hunting/paranormal investigation kit"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Home Improvement",
+      "name": "Moving Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Moving supplies kit (dolly, straps, blankets)"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Overlock Serger",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Overlock serger sewing machine for edges"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Podcasting Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Podcasting microphone and accessory kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Music",
+      "name": "Portable Record Player",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Vinyl record turntable"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Music",
+      "name": "Portable Record Player",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Vinyl record turntable"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Single-line Diamond Kite",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Single-line flying kite"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor/Camping",
+      "name": "Single-line Diamond Kite",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Single-line flying kite"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Trekking Poles",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Adjustable trekking/hiking poles"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Crafts/Sewing",
+      "name": "Yarn Swift and Baller",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Yarn swift and ball winder set"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Yarn Swift and Baller",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Yarn swift and ball winder set"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Home Improvement",
+      "name": "1/2\" Drive Torque Wrench Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Set of wrenches in various sizes"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "3D Model Request Service",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "D model request service — technology device available for borrowing"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Home Improvement",
+      "name": "6 Foot Folding Table",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Folding banquet table"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Home Improvement",
+      "name": "6 Foot Folding Table",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Folding banquet table"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "6 Foot Folding Table",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Folding banquet table"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Home Improvement",
+      "name": "6 Foot Folding Table",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Folding banquet table"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "9\" Cake Pan Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Cake pan kit — kitchen item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "16mm EF-M Mount Canon Lens",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Ef-m mount canon lens — technology device available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "50 Foot Outdoor Extension Cord",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Outdoor extension cord — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - Wheatley",
+      "category": "Home Improvement",
+      "name": "50 Foot Outdoor Extension Cord",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Outdoor extension cord — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "55-Piece Cake Decorating Tip Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Cake decorating tip set — kitchen item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Games",
+      "name": "300 Piece Puzzle, Solar System",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Puzzle, solar system — game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Adjustable Easel",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Adjustable easel — crafts tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor/Camping",
+      "name": "Adult Birding Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Birdwatching kit with binoculars and field guide"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor/Camping",
+      "name": "Adult Birding Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Birdwatching kit with binoculars and field guide"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor/Camping",
+      "name": "Adult Bug & Wildflower Watching Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Adult bug & wildflower watching kit — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor/Camping",
+      "name": "Adult Bug & Wildflower Watching Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Adult bug & wildflower watching kit — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Adult-Size XL Personal Flotation Device",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Adult-size xl personal flotation device — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Adult-Size XS/S Personal Flotation Device",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Adult-size xs/s personal flotation device — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Home Improvement",
+      "name": "Air Inflator",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Air inflator — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "Angel Food Cake Pan Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Angel food cake pan kit — kitchen item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Backdrop Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Backdrop kit — technology device available for borrowing"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Home Improvement",
+      "name": "Backpack Baby Carrier",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Outdoor hiking backpack"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor Games",
+      "name": "Badminton Racket Set with Shuttlecocks",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Badminton racket set with shuttlecocks — outdoor game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Wellness/Health",
+      "name": "Balance Board",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Balance board — wellness item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Wellness/Health",
+      "name": "Balance Stepping Stones",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Balance stepping stones — wellness item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Band Clamp",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Band clamp — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Gardening",
+      "name": "Basic Gardening Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "General-purpose home tool kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Basic Gardening Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "General-purpose home tool kit"
+    },
+    {
+      "library": "Richland Library - Wheatley",
+      "category": "Gardening",
+      "name": "Basic Gardening Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "General-purpose home tool kit"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Bean Bag Bucketz",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bean bag bucketz — outdoor game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Bias Tape Maker Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bias tape maker kit — crafts tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Bicycle",
+      "name": "Bicycle Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "General-purpose home tool kit"
+    },
+    {
+      "library": "Richland Library - Wheatley",
+      "category": "Bicycle",
+      "name": "Bicycle Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "General-purpose home tool kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Binding Machine",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Binding machine — crafts tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Birdwatching kit with binoculars and field guide"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Pack",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bird watching pack — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Pack, Adult",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bird watching pack, adult — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Pack, Child",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bird watching pack, child — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor/Camping",
+      "name": "Bird Watching Pack, Family",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bird watching pack, family — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Blocking Mats",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Blocking mats — crafts tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Games",
+      "name": "Block Tower Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Block tower game — game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital blood pressure cuff"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital blood pressure cuff"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Wellness/Health",
+      "name": "Blood Pressure Monitor",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital blood pressure cuff"
+    },
+    {
+      "library": "Richland Library - Edgewood",
+      "category": "Technology",
+      "name": "Blu-Ray Player",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Blu-ray player — technology device available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Blu-Ray Player",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Blu-ray player — technology device available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bocce ball set"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bocce ball set"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bocce ball set"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bocce ball set"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Bocce Ball Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bocce ball set"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Gardening",
+      "name": "Bow Rake",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Garden or leaf rake"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Gardening",
+      "name": "Bow Rake",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Garden or leaf rake"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Bow Rake",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Garden or leaf rake"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Gardening",
+      "name": "Bow Rake",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Garden or leaf rake"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "Bread & Scone Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Bread & scone kit — kitchen item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Broadcast Spreader",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Broadcast spreader — gardening tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "Brownie Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Brownie kit — kitchen item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Science/Education",
+      "name": "Celestron Telescope",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Telescope for stargazing"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Science/Education",
+      "name": "Celestron Telescope",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Telescope for stargazing"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "State parks pass for free admission"
+    },
+    {
+      "library": "Richland Library - Edgewood",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "State parks pass for free admission"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "State parks pass for free admission"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "State parks pass for free admission"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "State parks pass for free admission"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "State parks pass for free admission"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "State parks pass for free admission"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "State parks pass for free admission"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "State parks pass for free admission"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "State parks pass for free admission"
+    },
+    {
+      "library": "Richland Library - Wheatley",
+      "category": "Party/Event",
+      "name": "Check Out SC: State Park Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "State parks pass for free admission"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "CNC Router",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Wood router for decorative edges and joinery"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Science/Education",
+      "name": "Code Jumper",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Code jumper — educational item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Maker Machine",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Cricut cutting machine for crafts"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Crafts/Sewing",
+      "name": "Cricut Maker Machine",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Cricut cutting machine for crafts"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Crafts/Sewing",
+      "name": "Crochet Hook Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Crochet hook set — crafts tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Crochet Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Crochet set — crafts tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Croquet Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Croquet game set for outdoor play"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor Games",
+      "name": "Croquet Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Croquet game set for outdoor play"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "Cupcake/Muffin Pan Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Cupcake/muffin pan kit — kitchen item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Measurement & Detection",
+      "name": "Digital Hanging Scale",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital hanging scale — measurement tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Inspection",
+      "name": "Digital Radon Detector",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Radon gas detector for home safety"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Auto/Vehicle",
+      "name": "Digital Timing Light",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital timing light — automotive tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Document Camera, Ladibug",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital camera for checkout"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Document Camera, USB",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital camera for checkout"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Document Camera with Extender Arm",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital camera for checkout"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Home Improvement",
+      "name": "Dremel Rotary Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "General-purpose home tool kit"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Gardening",
+      "name": "Electric Earth Auger",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Electric earth auger — gardening tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Garden Tool and Tote Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Garden tool and tote kit — gardening tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Gardening",
+      "name": "Garden Tool and Tote Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Garden tool and tote kit — gardening tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Gardening",
+      "name": "Garden Tool and Tote Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Garden tool and tote kit — gardening tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Gardening",
+      "name": "Garden Tool and Tote Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Garden tool and tote kit — gardening tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Games",
+      "name": "Giant Checkers",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Giant checkers — game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Kitchen",
+      "name": "Giant Cookie Pan",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Giant cookie pan — kitchen item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Outdoor Games",
+      "name": "Giant Tumbling Timber Toy",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Giant wooden block stacking game"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor Games",
+      "name": "Giant Tumbling Timber Toy",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Giant wooden block stacking game"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Giant Tumbling Timber Toy",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Giant wooden block stacking game"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Outdoor Games",
+      "name": "Giant Tumbling Timber Toy",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Giant wooden block stacking game"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor Games",
+      "name": "Giant Wooden Four Connect Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Giant wooden four connect game — outdoor game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor Games",
+      "name": "Giant Wooden Four Connect Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Giant wooden four connect game — outdoor game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Outdoor Games",
+      "name": "Giant Wooden Four Connect Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Giant wooden four connect game — outdoor game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Giant Wooden Four Connect Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Giant wooden four connect game — outdoor game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor Games",
+      "name": "Giant Wooden Four Connect Game",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Giant wooden four connect game — outdoor game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Hotknife, Cordless",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Hotknife, cordless — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Home Inspection",
+      "name": "Household Inspection Camera",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital camera for checkout"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Inspection",
+      "name": "Household Inspection Camera",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital camera for checkout"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Impact Socket Sets",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Socket wrench set for mechanical work"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Impact Wrench Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Impact wrench kit — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor/Camping",
+      "name": "Infant-Size Personal Flotation Device",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Infant-size personal flotation device — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Auto/Vehicle",
+      "name": "Inflator/Deflator Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Inflator/deflator kit — automotive tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Instax Camera Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital camera for checkout"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Ironing Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Ironing kit — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Music",
+      "name": "Karaoke Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Karaoke kit — musical instrument available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Games",
+      "name": "Keva Planks",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Keva planks — game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Science/Education",
+      "name": "Kids Add-on to Litter Collection Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Kids add-on to litter collection kit — educational item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor/Camping",
+      "name": "Kids Birding Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Birdwatching kit with binoculars and field guide"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Outdoor/Camping",
+      "name": "Kids Birding Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Birdwatching kit with binoculars and field guide"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Outdoor/Camping",
+      "name": "Kids Bug & Wildflower Watching Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Kids bug & wildflower watching kit — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Technology",
+      "name": "Mini Video Projection Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Mini video projection kit — technology device available for borrowing"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Technology",
+      "name": "Mini Video Projection Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Mini video projection kit — technology device available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Mini Video Projection Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Mini video projection kit — technology device available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Moisture Meter",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital moisture meter for wood and building materials"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor/Camping",
+      "name": "Monocular",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Monocular — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Moving Supplies",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Moving supplies — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Multi-Function Work Table",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Multi-function work table — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Multi-Position Ladder",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Multi-position ladder — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Home Improvement",
+      "name": "Multi-Position Ladder",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Multi-position ladder — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Home Improvement",
+      "name": "Multi-Position Ladder",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Multi-position ladder — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Crafts/Sewing",
+      "name": "Needle Felting Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Needle felting kit — crafts tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Auto/Vehicle",
+      "name": "OBD2 & EOBD Code Reader",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "OBD-II vehicle diagnostic code reader"
+    },
+    {
+      "library": "Richland Library - Edgewood",
+      "category": "Technology",
+      "name": "Oral History Digital Camera Kits",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital camera for checkout"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor Games",
+      "name": "Outdoor Bowling Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Outdoor bowling set — outdoor game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Outdoor Games",
+      "name": "Outdoor Bowling Set",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Outdoor bowling set — outdoor game available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Sander, Random Orbit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Electric sander for smoothing surfaces"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Technology",
+      "name": "Scanner",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Document or photo scanner"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Technology",
+      "name": "Scanner",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Document or photo scanner"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Technology",
+      "name": "Scanner",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Document or photo scanner"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Museum admission pass"
+    },
+    {
+      "library": "Richland Library - Blythewood",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Museum admission pass"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Museum admission pass"
+    },
+    {
+      "library": "Richland Library - Edgewood",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Museum admission pass"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Museum admission pass"
+    },
+    {
+      "library": "Richland Library - Lower Richland",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Museum admission pass"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Museum admission pass"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Museum admission pass"
+    },
+    {
+      "library": "Richland Library - Sandhills",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Museum admission pass"
+    },
+    {
+      "library": "Richland Library - Wheatley",
+      "category": "Party/Event",
+      "name": "SC State Museum Pass",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Museum admission pass"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Measurement & Detection",
+      "name": "Telescoping Magnetic Pick-Up",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Telescoping magnetic pick-up — measurement tool available for borrowing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Inspection",
+      "name": "Thermal Imager",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Thermal imaging camera for heat detection"
+    },
+    {
+      "library": "Richland Library - Eastover",
+      "category": "Home Inspection",
+      "name": "Thermal Imaging Camera",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Digital camera for checkout"
+    },
+    {
+      "library": "Richland Library - North Main",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "General-purpose home tool kit"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "General-purpose home tool kit"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "General-purpose home tool kit"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Home Improvement",
+      "name": "Tool Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "General-purpose home tool kit"
+    },
+    {
+      "library": "Richland Library - Edgewood",
+      "category": "Home Improvement",
+      "name": "Torque Wrench",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Torque wrench for automotive work"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Kitchen",
+      "name": "Tortilla Press",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Tortilla press — kitchen item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Cooper",
+      "category": "Science/Education",
+      "name": "Trace & Write Alphabet Center",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Trace & write alphabet center — educational item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Science/Education",
+      "name": "Trace & Write Alphabet Center",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Trace & write alphabet center — educational item available for borrowing"
+    },
+    {
+      "library": "Richland Library - Ballentine",
+      "category": "Outdoor/Camping",
+      "name": "Trail Cam Kit",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Trail cam kit — outdoor gear available for borrowing"
+    },
+    {
+      "library": "Richland Library - Southeast",
+      "category": "Science/Education",
+      "name": "Travel Telescope",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Telescope for stargazing"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Music",
+      "name": "Ukulele",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Beginner ukulele with case"
+    },
+    {
+      "library": "Richland Library - Main",
+      "category": "Gardening",
+      "name": "Vegetables: Fall Bundle Seeds",
+      "source_url": "https://richlandlibrary.myturn.com/library/",
+      "description": "Vegetables: fall bundle seeds — gardening tool available for borrowing"
+    }
   ],
   "metadata": {
     "last_updated": "2026-02-19",

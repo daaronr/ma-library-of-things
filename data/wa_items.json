@@ -17,56 +17,356 @@
     }
   ],
   "items": [
-    {"library": "West Seattle Tool Library", "category": "Gardening", "name": "13\" Cordless Electric String Trimmer", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "1-1/2\" Combination Wrench 18\"", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "1 1/2\" Combination Wrench 20\"", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1 1/2\" Joist Nailer", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1-1/2\" Ram Bit", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "1 1/4\" Combination Wrench", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "1/2\"-2-1/2\" Brake Cylinder Hone", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/2-2\" Knockout Punch Set", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/2\" (13mm) Cement Shear", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/2\" Bandfile Belt Sander", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/2\" Craftsman Drill", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "1/2\" Drive Pneumatic Impact Wrench", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "1/2\" Drive SAE Socket Set", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "1/2\" Drive Torque Wrench", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "1/2\" Electric Impact Wrench", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "1/4\" Coiled Air Hose 200 PSI max", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/4 HP Submersible Utility Pump", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/4\" x 1/4\" Square Notch Trowel", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/4 Sheet Finishing Sander", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/4 Sheet Pad Sander", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/4\"x15' Drain Snake", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/6 HP Utility Pump", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/8\" Rotary Tool", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "1/16\" Notched Trowel", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "2-3/8\" Axle Nut Socket", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Gardening", "name": "2.5lb Pick Mattock", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "2 Bag Concrete Mixer", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "2' Bar Clamp", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "2\" Cold Chisel", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Gardening", "name": "2-in-1 8\" Pole Saw", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "2' Level", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "2\" Serrated Cold Chisel", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "2 Ton Floor Jack", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Auto/Vehicle", "name": "2 Ton Jack Stand", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "2x Folding Plastic Sawhorses", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Table Saw", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Miter Saw", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Circular Saw", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Jigsaw", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Reciprocating Saw", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Router", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Belt Sander", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Random Orbital Sander", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Gardening", "name": "Lawn Mower", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Gardening", "name": "Hedge Trimmer", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Gardening", "name": "Chainsaw", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Pressure Washer", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Extension Ladder", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Step Ladder", "source_url": "https://wstl.myturn.com/library/inventory/browse"},
-    {"library": "West Seattle Tool Library", "category": "Home Improvement", "name": "Hand Truck", "source_url": "https://wstl.myturn.com/library/inventory/browse"}
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "13\" Cordless Electric String Trimmer",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "String trimmer/weed whacker"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1-1/2\" Combination Wrench 18\"",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Combination wrench 18\" — automotive tool available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1 1/2\" Combination Wrench 20\"",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Combination wrench 20\" — automotive tool available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1 1/2\" Joist Nailer",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Joist nailer — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1-1/2\" Ram Bit",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Ram bit — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1 1/4\" Combination Wrench",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Combination wrench — automotive tool available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/2\"-2-1/2\" Brake Cylinder Hone",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Garden or leaf rake"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/2-2\" Knockout Punch Set",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Knockout punch set — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/2\" (13mm) Cement Shear",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "(13mm) cement shear — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/2\" Bandfile Belt Sander",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Electric sander for smoothing surfaces"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/2\" Craftsman Drill",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/2\" Drive Pneumatic Impact Wrench",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Drive pneumatic impact wrench — automotive tool available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/2\" Drive SAE Socket Set",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Socket wrench set for mechanical work"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/2\" Drive Torque Wrench",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Torque wrench for automotive work"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/2\" Electric Impact Wrench",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Electric impact wrench — automotive tool available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "1/4\" Coiled Air Hose 200 PSI max",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Coiled air hose 200 psi max — automotive tool available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/4 HP Submersible Utility Pump",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Submersible utility pump — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/4\" x 1/4\" Square Notch Trowel",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Finishing trowel for masonry and plaster"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/4 Sheet Finishing Sander",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Electric sander for smoothing surfaces"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/4 Sheet Pad Sander",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Electric sander for smoothing surfaces"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/4\"x15' Drain Snake",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Drain snake for clearing clogged pipes"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/6 HP Utility Pump",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Utility pump — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/8\" Rotary Tool",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Rotary tool (Dremel-type) for detail work"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "1/16\" Notched Trowel",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Finishing trowel for masonry and plaster"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "2-3/8\" Axle Nut Socket",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Axle nut socket — automotive tool available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "2.5lb Pick Mattock",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Pick mattock — gardening tool available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2 Bag Concrete Mixer",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Concrete mixer — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2' Bar Clamp",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Bar clamp — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2\" Cold Chisel",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Cold chisel — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "2-in-1 8\" Pole Saw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "In-1 8\" pole saw — gardening tool available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2' Level",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Bubble level for alignment"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2\" Serrated Cold Chisel",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Serrated cold chisel — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "2 Ton Floor Jack",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Hydraulic floor jack for vehicle lifting"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Auto/Vehicle",
+      "name": "2 Ton Jack Stand",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Jack stand — automotive tool available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "2x Folding Plastic Sawhorses",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "X folding plastic sawhorses — tool for home improvement available for borrowing"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Table Saw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Table saw for woodworking"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Miter Saw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Miter saw for angled cuts"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Circular Saw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Portable circular saw for cutting wood"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Jigsaw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Electric jigsaw for curved and straight cuts"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Reciprocating Saw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Reciprocating saw for demolition and rough cuts"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Router",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Wood router for decorative edges and joinery"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Belt Sander",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Belt sander for heavy material removal"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Random Orbital Sander",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Electric sander for smoothing surfaces"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "Lawn Mower",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Push lawn mower"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "Hedge Trimmer",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Electric hedge trimmer"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Gardening",
+      "name": "Chainsaw",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Electric chainsaw for tree trimming"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Pressure washer for outdoor cleaning"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Extension Ladder",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Extension ladder"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Step Ladder",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Folding step ladder"
+    },
+    {
+      "library": "West Seattle Tool Library",
+      "category": "Home Improvement",
+      "name": "Hand Truck",
+      "source_url": "https://wstl.myturn.com/library/inventory/browse",
+      "description": "Hand truck — tool for home improvement available for borrowing"
+    }
   ],
   "metadata": {
     "last_updated": "2026-02-20",

@@ -8,6 +8,7 @@ Usage:
 """
 
 import json
+import re
 import argparse
 import hashlib
 from pathlib import Path
@@ -985,6 +986,46 @@ def load_network_data(network_id: str, filename: str):
         return None
 
 
+# Section-header / non-item categories that LibGuides scraping sometimes captures
+# as if they were borrowable items (policy pages, nav links, lending rules).
+_NOISE_CATEGORY_KEYWORDS = (
+    "borrowing", "quick link", "related page", "policies", "policy",
+    "requesting", "picking up", "returning", "how to", "faq",
+    "hours", "directions", "lending agreement", "loan agreement",
+)
+
+# Policy / rule / nav phrasing that shows up as a scraped "name" but is not an item.
+_NOISE_NAME_RE = re.compile(
+    r"\b(borrowers?|must have|must be|must pick|must return|valid card|"
+    r"good standing|years old|lending agreement|loan agreement|lending policy|"
+    r"overdue|replacement cost|late fee|library card|"
+    r"pol[ií]tica|pr[eé]stamo|acuerdo)\b",
+    re.IGNORECASE,
+)
+
+
+def is_noise_item(item: dict) -> bool:
+    """True if an item looks like scraped page-furniture (policy text, nav links,
+    section headers) rather than a real borrowable thing.
+
+    Conservative on purpose: real item names are short noun phrases
+    ("20V Drill Driver Kit"), so we only reject sentence-like names, known
+    non-item categories, and policy/rule phrasing."""
+    name = (item.get("name") or "").strip()
+    category = (item.get("category") or "").strip().lower()
+
+    if len(name) < 3:
+        return True
+    # Sentence-length names are almost never a real single item
+    if len(name) > 90:
+        return True
+    if any(kw in category for kw in _NOISE_CATEGORY_KEYWORDS):
+        return True
+    if _NOISE_NAME_RE.search(name):
+        return True
+    return False
+
+
 def consolidate_data() -> dict:
     """Consolidate all network data into a single structure."""
     consolidated = {
@@ -1000,6 +1041,7 @@ def consolidate_data() -> dict:
     }
 
     all_libraries = set()
+    noise_dropped = 0
 
     print("Loading network data files...")
 
@@ -1019,6 +1061,11 @@ def consolidate_data() -> dict:
 
         # Process items
         for item in data.get("items", []):
+            # Drop scraper noise (policy text, nav links, section headers)
+            if is_noise_item(item):
+                noise_dropped += 1
+                continue
+
             # Add network field
             item["network"] = network_id
 
@@ -1035,6 +1082,9 @@ def consolidate_data() -> dict:
                 all_libraries.add(item["library"])
 
             consolidated["items"].append(item)
+
+    if noise_dropped:
+        print(f"Dropped {noise_dropped} noise item(s) (policy/nav/section-header text)")
 
     # Update metadata
     consolidated["metadata"]["total_items"] = len(consolidated["items"])

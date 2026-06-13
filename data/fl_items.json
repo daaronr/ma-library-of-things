@@ -142,6 +142,102 @@
       "name": "Adaptive Toys",
       "description": "Toys designed for children with disabilities",
       "source_url": "https://pascolibraries.org/borrow/library-of-things/"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Science/Education",
+      "name": "Telescopes",
+      "description": "Telescopes for stargazing",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Technology",
+      "name": "WiFi Hotspots",
+      "description": "Mobile internet hotspot devices",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Science/Education",
+      "name": "Developmental Toys",
+      "description": "Children's developmental toys",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Manatee County Public Library",
+      "category": "Entertainment",
+      "name": "Museum Passes",
+      "description": "Museum and attraction passes",
+      "source_url": "https://www.mymanatee.org/departments/manatee_county_public_library_system/borrow___explore_collections/library_of_things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Games",
+      "name": "Uno Braille",
+      "description": "Braille version of Uno card game",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Science/Education",
+      "name": "Children's Educational Toys",
+      "description": "Bee matching, busy board, and screw block toys",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Technology",
+      "name": "Graphing Calculator",
+      "description": "TI graphing calculator",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Technology",
+      "name": "Playaway Launchpads",
+      "description": "Preloaded learning tablets",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Technology",
+      "name": "Wi-Fi Hotspot",
+      "description": "Mobile WiFi hotspot device",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Entertainment",
+      "name": "Discovery Pass",
+      "description": "Free museum admission with library card",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Crafts/Sewing",
+      "name": "Knitting Loom",
+      "description": "Knitting loom with metal hook and plastic needle in S/M/L sizes",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Pasco County Libraries",
+      "category": "Wellness/Health",
+      "name": "Memory Kit",
+      "description": "Kit to support individuals with dementia recalling memories",
+      "source_url": "https://pascolibraries.org/borrow/library-of-things/",
+      "last_verified": "2026-03-29"
     }
   ],
   "metadata": {

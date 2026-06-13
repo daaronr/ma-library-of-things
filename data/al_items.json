@@ -15,48 +15,300 @@
     }
   ],
   "items": [
-    {"library": "Dothan Houston County Library System", "category": "Music", "name": "Acoustic Guitar", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Camera (Point-and-Shoot)", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Camera (Video)", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Digital Film Scanner", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Drawing Tablet", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "DVD Player", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Science/Education", "name": "Graphing Calculator", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Laptops", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Laptop & Hotspot", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Microphone", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology/Gaming", "name": "Nintendo Classic", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology/Gaming", "name": "PlayStation 4", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Portable Speaker System", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Projector", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Projector Screen", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Roku Streaming Stick", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology/Gaming", "name": "SEGA Genesis Mini", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology/Gaming", "name": "Super Nintendo Classic Mini", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Science/Education", "name": "Telescope", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Music", "name": "Turntable", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Webcam", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Home Improvement", "name": "Air Compressor", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Outdoor/Camping", "name": "Binoculars", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Home Improvement", "name": "Drill (Power)", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Home Improvement", "name": "Drill (Impact Driver)", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Measurement & Detection", "name": "Electrical Test Kit", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Home Improvement", "name": "Fabric Steamer", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Home Improvement", "name": "Hack Saw", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Crafts/Sewing", "name": "Heat Press", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Home Improvement", "name": "Laminator", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Gardening", "name": "Leaf Blower", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Measurement & Detection", "name": "Metal Detector", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Home Improvement", "name": "Pressure Washer", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Home Improvement", "name": "Shop Vacuum", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Measurement & Detection", "name": "Stud Finder & Level", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Home Improvement", "name": "Tool Box", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Technology", "name": "Tripods", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Kitchen", "name": "Cake Pan Set", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Kitchen", "name": "Cake Pop Maker", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Party/Event", "name": "Megaphone", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Crafts/Sewing", "name": "Silhouette Cutter", "source_url": "https://www.dhcls.org/special-services/library-of-things/"},
-    {"library": "Dothan Houston County Library System", "category": "Crafts/Sewing", "name": "Sewing Machine", "source_url": "https://www.dhcls.org/special-services/library-of-things/"}
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Music",
+      "name": "Acoustic Guitar",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Acoustic guitar for checkout"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Camera (Point-and-Shoot)",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Digital camera for checkout"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Camera (Video)",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Digital camera for checkout"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Digital Film Scanner",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Film-to-digital scanning device"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Drawing Tablet",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Digital drawing tablet"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "DVD Player",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Portable DVD player"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Science/Education",
+      "name": "Graphing Calculator",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "TI graphing calculator"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Laptops",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Laptop computer for checkout"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Laptop & Hotspot",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Mobile internet hotspot device"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Microphone",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "USB or wireless microphone"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology/Gaming",
+      "name": "Nintendo Classic",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Nintendo Classic Mini retro console"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology/Gaming",
+      "name": "PlayStation 4",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "PlayStation gaming console for checkout"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Portable Speaker System",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Portable wireless speaker"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Projector",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Portable video projector"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Projector Screen",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Portable video projector"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Roku Streaming Stick",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Roku streaming media player"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology/Gaming",
+      "name": "SEGA Genesis Mini",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "SEGA Genesis Mini retro console"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology/Gaming",
+      "name": "Super Nintendo Classic Mini",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Nintendo gaming console for checkout"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Science/Education",
+      "name": "Telescope",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Telescope for stargazing"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Music",
+      "name": "Turntable",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Vinyl record turntable"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Webcam",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "USB webcam for video calls"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Air Compressor",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Portable air compressor"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Binoculars for birdwatching and nature observation"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Drill (Power)",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Drill (Impact Driver)",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Power drill for home improvement projects"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Measurement & Detection",
+      "name": "Electrical Test Kit",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Electrical testing and measurement kit"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Fabric Steamer",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Portable fabric steamer for removing wrinkles"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Hack Saw",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Hand-held hack saw for cutting metal and PVC"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Crafts/Sewing",
+      "name": "Heat Press",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Heat press for transfers and crafts"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Laminator",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Document laminating machine"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Gardening",
+      "name": "Leaf Blower",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Electric or battery-powered leaf blower"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Measurement & Detection",
+      "name": "Metal Detector",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Metal detector for treasure hunting and utility location"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Pressure Washer",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Pressure washer for outdoor cleaning"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Shop Vacuum",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Shop vacuum for workshop cleanup"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Measurement & Detection",
+      "name": "Stud Finder & Level",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Bubble level for alignment"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Home Improvement",
+      "name": "Tool Box",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Portable tool box with basic tools"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Technology",
+      "name": "Tripods",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Camera/phone tripod set"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Kitchen",
+      "name": "Cake Pan Set",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Set of specialty cake pans"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Kitchen",
+      "name": "Cake Pop Maker",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Electric cake pop maker"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Party/Event",
+      "name": "Megaphone",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Battery-powered megaphone/bullhorn"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Crafts/Sewing",
+      "name": "Silhouette Cutter",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Silhouette electronic cutting machine for crafts"
+    },
+    {
+      "library": "Dothan Houston County Library System",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "source_url": "https://www.dhcls.org/special-services/library-of-things/",
+      "description": "Portable sewing machine"
+    }
   ],
   "metadata": {
     "last_updated": "2026-03-22",

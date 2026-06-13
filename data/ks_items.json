@@ -81,6 +81,78 @@
       "name": "Memory Kit",
       "description": "Games, puzzles, and books for dementia support",
       "source_url": "https://www.wichitalibrary.org/things"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Outdoor/Camping",
+      "name": "Binoculars Kit",
+      "description": "Vortex Crossfire 8x42 binoculars with neck strap, padded case, and bird/nature pamphlets",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Technology",
+      "name": "Chromebooks",
+      "description": "Laptops for checkout; require external Wi-Fi connection",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Entertainment",
+      "name": "Experience Passes",
+      "description": "Family pack of passes to local museums and attractions at no cost",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Science/Education",
+      "name": "Finch Robots",
+      "description": "Programmable robots for learning coding",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Wellness/Health",
+      "name": "Memory Kits",
+      "description": "Memory care kits with sensory items for people with dementia/memory loss",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Science/Education",
+      "name": "Microscope Kit",
+      "description": "Amscope 40X-1000X microscope with power adapter and 12-piece slide kit",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Home Inspection",
+      "name": "Radon Detectors",
+      "description": "Digital radon detector for testing home radon levels",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Science/Education",
+      "name": "Telescopes",
+      "description": "Orion StarBlast astronomical telescope on wooden base",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Wichita Public Library",
+      "category": "Technology",
+      "name": "Tonieboxes",
+      "description": "Audio storytelling device with figurines for pre-readers",
+      "source_url": "https://www.wichitalibrary.org/things",
+      "last_verified": "2026-03-29"
     }
   ],
   "metadata": {

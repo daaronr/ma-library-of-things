@@ -268,6 +268,222 @@
       "name": "Thermal Leak Detector",
       "description": "Detect heat leaks in your home",
       "source_url": "https://www.tadl.org/things"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Gardening",
+      "name": "Seed Library",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Collection of seeds for planting"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Portable DVD Player",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Portable DVD player"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Record Player",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Vinyl record turntable"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Outdoor/Camping",
+      "name": "Birding Backpacks",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Outdoor hiking backpack"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Guitars",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Acoustic guitar for checkout"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Ukuleles",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Beginner ukulele with case"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Keyboards",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Electronic keyboard/piano"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Synthesizers",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Synthesizers — musical instrument available for borrowing"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Amplifiers",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Amplifiers — musical instrument available for borrowing"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Music",
+      "name": "Microphones",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "USB or wireless microphone"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Games",
+      "name": "Puzzles",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Puzzles — game available for borrowing"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Entertainment",
+      "name": "Puppets",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Puppets — item available for borrowing"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Video Projectors",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Portable video projector"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Screens",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Screens — technology device available for borrowing"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Science/Education",
+      "name": "Microscopes",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Microscope for scientific observation"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Science/Education",
+      "name": "Telescopes",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Telescope for stargazing"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Metal Detectors",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Metal detector for treasure hunting and utility location"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Laptops",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Laptop computer for checkout"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Hotspots",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Mobile internet hotspot device"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Webcams",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "USB webcam for video calls"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Photo Scanners",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Document or photo scanner"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "DVD Drive",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Dvd drive — technology device available for borrowing"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Blu-Ray Player",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Blu-ray player — technology device available for borrowing"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Technology",
+      "name": "Launch Pads",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Launch pads — technology device available for borrowing"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Energy Meters",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Energy meters — measurement tool available for borrowing"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Home Improvement",
+      "name": "Stud Finders",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Electronic stud finder for locating wall studs"
+    },
+    {
+      "library": "Traverse Area District Library",
+      "category": "Measurement & Detection",
+      "name": "Laser Measure",
+      "source_url": "https://www.tadl.org/things",
+      "last_verified": "2026-03-29",
+      "description": "Laser measure — measurement tool available for borrowing"
     }
   ],
   "metadata": {

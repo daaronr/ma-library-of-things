@@ -156,6 +156,126 @@
       "name": "Board Game Collection",
       "description": "Various board games for checkout",
       "source_url": "https://mcpl.info/stacks/library-things"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Crafts/Sewing",
+      "name": "Sewing Machine",
+      "description": "Portable sewing machine",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Science/Education",
+      "name": "Science Experiment Toolbox",
+      "description": "Science experiment kit for learning",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Home Improvement",
+      "name": "Tool Set",
+      "description": "General-purpose tool set",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Indianapolis Public Library",
+      "category": "Games",
+      "name": "Call to Mind Game",
+      "description": "Memory and conversation game",
+      "source_url": "https://www.indypl.org/books-movies-music/special-collections/library-of-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Kitchen",
+      "name": "Baking Kits",
+      "description": "Baking supplies and equipment kits",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Games",
+      "name": "Board Games",
+      "description": "Board games for checkout",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Measurement & Detection",
+      "name": "Energy Monitors",
+      "description": "Electricity usage monitors",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Technology",
+      "name": "iPads",
+      "description": "iPad tablets for checkout",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Technology",
+      "name": "Launchpad Tablets",
+      "description": "Preloaded learning tablets for children",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Technology",
+      "name": "Mobile Hotspots",
+      "description": "Mobile internet hotspot devices",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Wellness/Health",
+      "name": "Mobility Devices",
+      "description": "Cane, crutch, walker, rollator",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Outdoor Games",
+      "name": "Pickleball Game Sets",
+      "description": "Pickleball paddles and balls sets",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Games",
+      "name": "Puzzles",
+      "description": "Puzzles for checkout",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Gardening",
+      "name": "Seed Library",
+      "description": "Seeds for checkout",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Monroe County Public Library",
+      "category": "Music",
+      "name": "Ukulele Kits",
+      "description": "Beginner ukulele kits with learning materials",
+      "source_url": "https://mcpl.info/stacks/library-things",
+      "last_verified": "2026-03-29"
     }
   ],
   "metadata": {

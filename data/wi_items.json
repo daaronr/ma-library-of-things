@@ -109,6 +109,86 @@
       "name": "Microphone",
       "description": "Recording microphone",
       "source_url": "https://oakcreeklibrary.org/library-of-things/"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Measurement & Detection",
+      "name": "Watt's Up? Electricity Meters",
+      "description": "Displays electricity usage for any appliance in dollars and cents",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Mobile WiFi Hotspots",
+      "description": "Portable routers for internet connectivity anywhere",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "SmartQ USB Card Reader",
+      "description": "Supports CF/SD/SDHC/SDXC/MMC and more memory cards",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "USB C Hub",
+      "description": "Transfer data from flash drive, SD card to computer",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Blue Yeti Recording Microphone",
+      "description": "High-quality audio recording microphone for podcasts and voiceovers",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Cassette to MP3 Converter",
+      "description": "Convert compact audio cassettes to digital MP3 files",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Elgato Video Capture",
+      "description": "Convert VHS and VHS-C tapes to digital files",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Technology",
+      "name": "Kodak Film/Slide Scanner",
+      "description": "Scan 35mm, 126, 110, Super 8, and 8mm film negatives and slides",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Other",
+      "name": "Community Journals",
+      "description": "Shared journals: Book Recommendations, Dreams, Memories, Recipes, and Travel",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
+    },
+    {
+      "library": "Oak Creek Public Library",
+      "category": "Entertainment",
+      "name": "Explore Passes",
+      "description": "Passes granting free access to popular area attractions",
+      "source_url": "https://oakcreeklibrary.org/library-of-things/",
+      "last_verified": "2026-03-29"
     }
   ],
   "metadata": {
