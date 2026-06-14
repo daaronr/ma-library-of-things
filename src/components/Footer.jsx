@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+const LINKBACK_SNIPPET = '<a href="https://masslibraryofthings.netlify.app">Find our Library of Things on Library of Things USA</a>';
 
 export default function Footer({ lastUpdated }) {
+  const [copied, setCopied] = useState(false);
+
+  const copyLinkback = () => {
+    navigator.clipboard?.writeText(LINKBACK_SNIPPET);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1500);
+  };
+
   return (
     <footer className="mt-12 py-8 border-t-2 border-dashed border-[#D4C5A9]">
       <div className="max-w-4xl mx-auto px-4 text-center">
@@ -35,22 +45,41 @@ export default function Footer({ lastUpdated }) {
           For official information, please contact your local library directly.
         </p>
 
-        <div className="mb-4 p-3 bg-[#FFFDF5] border border-[#D4C5A9] max-w-md mx-auto rounded text-xs text-gray-600 leading-relaxed">
-          <strong className="text-[#2C2416]">Library staff?</strong>{' '}
-          If you'd like to update, correct, or remove your library's data, please{' '}
-          <a
-            href="https://github.com/daaronr/ma-library-of-things/issues/new"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#8B4513] underline hover:text-[#6B3410]"
-          >
-            open an issue
-          </a>{' '}
-          or email{' '}
-          <a href="mailto:david@davidreinstein.org" className="text-[#8B4513] underline hover:text-[#6B3410]">
-            david@davidreinstein.org
-          </a>.
-          We'll respond promptly.
+        {/* For libraries: get listed, get in touch, and link back to us */}
+        <div className="mb-4 p-4 bg-[#FFFDF5] border border-[#D4C5A9] max-w-lg mx-auto rounded text-xs text-gray-600 leading-relaxed text-left">
+          <p className="font-mono uppercase tracking-wider text-[#8B4513] mb-2 text-center">For Libraries</p>
+          <p className="mb-3">
+            <strong className="text-[#2C2416]">Have a Library of Things?</strong>{' '}
+            We'd love to list it so more patrons can discover what you lend — free of charge.
+            To get listed, or to update, correct, or remove your data, email{' '}
+            <a href="mailto:david@davidreinstein.org" className="text-[#8B4513] underline hover:text-[#6B3410]">
+              david@davidreinstein.org
+            </a>{' '}
+            or{' '}
+            <a
+              href="https://github.com/daaronr/ma-library-of-things/issues/new"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#8B4513] underline hover:text-[#6B3410]"
+            >
+              open a GitHub issue
+            </a>. We respond promptly.
+          </p>
+          <p className="mb-1">
+            <strong className="text-[#2C2416]">Already listed?</strong>{' '}
+            Help your patrons find this resource — add a link from your Library of Things page:
+          </p>
+          <div className="flex items-stretch gap-2 mt-1">
+            <code className="flex-1 bg-[#F5F1E6] border border-[#D4C5A9] p-2 text-[11px] break-all select-all">
+              {LINKBACK_SNIPPET}
+            </code>
+            <button
+              onClick={copyLinkback}
+              className="shrink-0 border border-[#2C2416] px-2 font-mono uppercase tracking-wider text-[10px] hover:bg-[#2C2416] hover:text-[#FFFDF5] transition-colors"
+            >
+              {copied ? 'Copied' : 'Copy'}
+            </button>
+          </div>
         </div>
 
         <details className="text-xs text-gray-500 mb-4">
