@@ -38,6 +38,195 @@
   "items": [
     {
       "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "About",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Community Room A/V Instructions",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Contact Robert MacLean, Library Director",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Events",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Genealogy and Local History Room",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Just for Adults",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Kids & Teens",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Library of Things",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Library Renovations",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Services",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Strategic Plan",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Trustees of the Needham Free Public Library",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Trustees’ Commitment To Equity And Inclusion",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Policies",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
+      "category": "Related Pages",
+      "name": "Latest News",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://needhamlibrary.org/lot/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Main Library",
+      "name": "508-532-5570",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Search Catalog",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Museum Passes",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Ask a Librarian",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Monthly Newsletter",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "New Arrivals",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-06-14"
+    },
+    {
+      "library": "Needham Free Public Library",
       "category": "Borrowing",
       "name": "Borrowers must have a valid Minuteman Library Network card in good standing",
       "description": "",
@@ -67,141 +256,6 @@
       "library": "Needham Free Public Library",
       "category": "Borrowing",
       "name": "Borrowers must pick up and return the Library of Things item at the Needham Free Public Library Circulation Desk",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "About",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Community Room A/V Instructions",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Contact Robert MacLean, Library Director",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Events",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Genealogy and Local History Room",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Just for Adults",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Kids & Teens",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Library of Things",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Library Renovations",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Services",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Strategic Plan",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Trustees of the Needham Free Public Library",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Trustees’ Commitment To Equity And Inclusion",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Policies",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Needham Free Public Library",
-      "category": "Related Pages",
-      "name": "Latest News",
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
@@ -272,62 +326,8 @@
     },
     {
       "library": "Framingham Public Library",
-      "category": "Main Library",
-      "name": "508-532-5570",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Framingham Public Library",
-      "category": "Quick Links",
-      "name": "Search Catalog",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Framingham Public Library",
-      "category": "Quick Links",
-      "name": "Museum Passes",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Framingham Public Library",
-      "category": "Quick Links",
-      "name": "Ask a Librarian",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Framingham Public Library",
-      "category": "Quick Links",
-      "name": "Monthly Newsletter",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Framingham Public Library",
       "category": "Quick Links",
       "name": "Get A Library Card",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-06-07"
-    },
-    {
-      "library": "Framingham Public Library",
-      "category": "Quick Links",
-      "name": "New Arrivals",
       "description": "",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
@@ -1021,7 +1021,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-06-07",
+    "last_updated": "2026-06-14",
     "verified_items_count": 131,
     "data_source": "Automated scraping + manual verification"
   }
