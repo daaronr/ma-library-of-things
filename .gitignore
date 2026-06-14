@@ -27,6 +27,7 @@ Thumbs.db
 # Project specific
 *.log
 .cache/
+PROMOTION.md
 
 # Don't ignore outputs - we want to share them
 # !outputs/*.xlsx
