@@ -812,7 +812,7 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-08-23",
+      "last_verified": "2026-08-30",
       "network": "minuteman",
       "id": "minuteman_framingham_public_library_508_532_5570"
     },
@@ -19176,7 +19176,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23",
+    "last_updated": "2026-08-30",
     "total_items": 2015,
     "total_libraries": 144,
     "total_networks": 52,

@@ -37,6 +37,60 @@
   ],
   "items": [
     {
+      "library": "Framingham Public Library",
+      "category": "Main Library",
+      "name": "508-532-5570",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-08-30"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Search Catalog",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-08-30"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Museum Passes",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-08-30"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Ask a Librarian",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-08-30"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "Monthly Newsletter",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-08-30"
+    },
+    {
+      "library": "Framingham Public Library",
+      "category": "Quick Links",
+      "name": "New Arrivals",
+      "description": "",
+      "catalog_url": null,
+      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
+      "last_verified": "2026-08-30"
+    },
+    {
       "library": "Needham Free Public Library",
       "category": "Related Pages",
       "name": "About",
@@ -169,60 +223,6 @@
       "description": "",
       "catalog_url": null,
       "source_url": "https://needhamlibrary.org/lot/",
-      "last_verified": "2026-08-23"
-    },
-    {
-      "library": "Framingham Public Library",
-      "category": "Main Library",
-      "name": "508-532-5570",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-08-23"
-    },
-    {
-      "library": "Framingham Public Library",
-      "category": "Quick Links",
-      "name": "Search Catalog",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-08-23"
-    },
-    {
-      "library": "Framingham Public Library",
-      "category": "Quick Links",
-      "name": "Museum Passes",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-08-23"
-    },
-    {
-      "library": "Framingham Public Library",
-      "category": "Quick Links",
-      "name": "Ask a Librarian",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-08-23"
-    },
-    {
-      "library": "Framingham Public Library",
-      "category": "Quick Links",
-      "name": "Monthly Newsletter",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
-      "last_verified": "2026-08-23"
-    },
-    {
-      "library": "Framingham Public Library",
-      "category": "Quick Links",
-      "name": "New Arrivals",
-      "description": "",
-      "catalog_url": null,
-      "source_url": "https://framinghamlibrary.org/browse/libraryofthings/",
       "last_verified": "2026-08-23"
     },
     {
@@ -1021,7 +1021,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23",
+    "last_updated": "2026-08-30",
     "verified_items_count": 131,
     "data_source": "Automated scraping + manual verification"
   }
