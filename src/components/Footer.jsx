@@ -107,6 +107,15 @@ export default function Footer({ lastUpdated }) {
             David Reinstein
           </a>
           {' '}with assistance from Claude AI
+          {' '}&middot;{' '}
+          <a
+            href="https://projects.davidreinstein.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#8B4513] hover:underline"
+          >
+            More projects by David Reinstein
+          </a>
         </p>
 
         <div className="text-xs text-gray-500 border-t border-[#D4C5A9] pt-4 max-w-md mx-auto">
