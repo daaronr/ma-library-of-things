@@ -19,6 +19,14 @@ body {
   color: var(--fg);
 }
 
+/* Hypothes.is (embed.js in index.html) pins a 33px toolbar to the top right of the window.
+   Once it has loaded, keep the page's buttons out from under it. */
+@media (max-width: 1320px) {
+  body:has(> hypothesis-sidebar) #root {
+    padding-right: 22px;
+  }
+}
+
 @layer components {
   .btn-primary {
     @apply px-6 py-3 font-mono text-xs tracking-widest uppercase;

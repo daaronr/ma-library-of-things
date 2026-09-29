@@ -40,6 +40,22 @@ export default function Footer({ lastUpdated }) {
         </div>
 
         <p className="text-xs text-gray-500 mb-4 max-w-lg mx-auto leading-relaxed">
+          Comments or suggestions? Annotate with{' '}
+          <a
+            href="https://web.hypothes.is/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#8B4513] hover:underline"
+          >
+            Hypothes.is
+          </a>{' '}
+          (panel at the right edge) or email{' '}
+          <a href="mailto:david@davidreinstein.org" className="text-[#8B4513] hover:underline">
+            david@davidreinstein.org
+          </a>.
+        </p>
+
+        <p className="text-xs text-gray-500 mb-4 max-w-lg mx-auto leading-relaxed">
           This site is an independent community project. It is not affiliated with,
           endorsed by, or officially connected to any library network or individual library.
           For official information, please contact your local library directly.

@@ -8,7 +8,7 @@ export default function SearchBar({ value, onChange, placeholder }) {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder || "Search the catalog..."}
-        className="flex-1 p-4 text-lg bg-transparent border-none outline-none"
+        className="flex-1 min-w-0 p-4 text-lg bg-transparent border-none outline-none"
         style={{ fontFamily: "'Source Serif 4', Georgia, serif" }}
       />
       {value ? (

@@ -7,7 +7,7 @@ export default function Header({ stats, onShowDashboard, onShowHighlights, showN
       <Disclaimer />
 
       <div className="catalog-card p-8 md:p-10 mt-4">
-        <div className="flex items-center justify-between mb-4">
+        <div className="flex flex-wrap items-center justify-between gap-y-2 mb-4">
           <div className="section-label">Subject Card Catalog — Main Collection</div>
           {showNavLinks && (
             <div className="flex items-center gap-2">
